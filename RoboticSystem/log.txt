@@ -1,0 +1,352 @@
+Starting: 05-01-2017 02:01:55
+
+Starting: 05-01-2017 02:02:18
+
+Starting: 05-01-2017 02:04:10
+
+Starting: 05-01-2017 02:04:25
+
+Starting: 05-01-2017 02:09:06
+
+Starting: 05-01-2017 02:09:11
+
+Starting: 05-01-2017 02:10:02
+
+Starting: 05-01-2017 02:10:07
+
+Starting: 05-01-2017 02:12:47
+
+Starting: 05-01-2017 02:12:54
+
+Starting: 05-01-2017 02:19:05
+
+Starting: 05-01-2017 02:19:56
+
+Starting: 05-01-2017 02:21:22
+
+Starting: 05-01-2017 02:22:42
+
+Starting: 05-01-2017 02:24:17
+
+Starting: 05-01-2017 02:27:39
+
+Starting: 05-01-2017 02:28:26
+
+	Moving from 0,0 to 2,10
+Starting: 05-01-2017 02:29:09
+
+Starting: 05-01-2017 02:31:47
+
+Starting: 05-01-2017 02:32:14
+
+Starting: 05-01-2017 02:38:36
+
+Starting: 05-01-2017 02:39:22
+
+Starting: 05-01-2017 02:39:58
+
+Starting: 05-01-2017 03:39:22
+
+Starting: 05-01-2017 03:41:39
+
+Starting: 05-01-2017 03:44:29
+
+Starting: 05-01-2017 03:45:02
+
+Starting: 05-01-2017 03:51:53
+
+Starting: 05-01-2017 04:00:49
+
+Starting: 05-01-2017 04:05:52
+
+Starting: 05-01-2017 04:05:58
+
+Starting: 05-01-2017 04:07:20
+
+Starting: 05-01-2017 04:07:25
+
+Starting: 05-01-2017 04:09:53
+
+Starting: 05-01-2017 04:09:58
+
+Starting: 05-01-2017 04:13:40
+
+Starting: 05-01-2017 04:13:48
+
+Starting: 05-01-2017 04:19:39
+
+Starting: 05-01-2017 04:20:28
+
+Starting: 05-01-2017 04:24:19
+
+Starting: 05-01-2017 04:25:24
+
+Starting: 05-01-2017 04:28:31
+
+Starting: 05-01-2017 04:32:29
+
+Starting: 05-01-2017 04:32:43
+
+Starting: 05-01-2017 04:38:17
+
+Starting: 05-01-2017 04:45:35
+
+	Moving from 1,1 to 2,10
+	Moving from 1,1 to 10,1
+Ending: 05-01-2017 04:46:14
+
+Starting: 05-01-2017 04:46:29
+
+	Moving from 1,1 to 2,10
+	Moving from 1,1 to 10,1
+Ending: 05-01-2017 04:47:08
+
+Starting: 05-01-2017 04:47:48
+
+Starting: 05-01-2017 04:47:59
+
+	Moving from 1,1 to 2,10
+	Moving from 1,1 to 5,5
+Ending: 05-01-2017 04:48:36
+
+Starting: 05-01-2017 04:51:19
+
+	Moving from 1,1 to 2,10
+	Moving from 1,10 to 5,5
+Ending: 05-01-2017 04:51:57
+
+Starting: 05-01-2017 04:54:50
+
+	Moving from 1,1 to 2,10
+	Moving from 1,10 to 5,5
+Ending: 05-01-2017 04:55:28
+
+Starting: 05-01-2017 04:56:33
+
+	Moving from 1,1 to 2,10
+Starting: 05-01-2017 04:57:55
+
+	Moving from 1,1 to 2,10
+Starting: 05-01-2017 05:00:50
+
+Starting: 05-01-2017 05:05:06
+
+	Moving from 1,1 to 2,10
+	Moving from 1,10 to 5,5
+Ending: 05-01-2017 05:05:06
+
+Starting: 05-01-2017 05:05:23
+
+	Moving from 1,1 to 2,10
+	Moving from 1,10 to 5,5
+Ending: 05-01-2017 05:05:23
+
+Starting: 05-01-2017 05:09:34
+
+	Moving from 1,1 to 2,10
+Starting: 05-01-2017 05:11:01
+
+	Moving from 1,1 to 2,10
+	Moving from 1,10 to 5,5
+Ending: 05-01-2017 05:11:42
+
+Starting: 05-01-2017 05:11:55
+
+	Moving from 1,1 to 2,10
+	Moving from 1,10 to 5,5
+Ending: 05-01-2017 05:12:36
+
+Starting: 05-01-2017 05:22:40
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 10:06:32
+
+Starting: 06-01-2017 10:07:05
+
+Starting: 06-01-2017 10:13:01
+
+Starting: 06-01-2017 10:26:39
+
+Starting: 06-01-2017 10:26:49
+
+Starting: 06-01-2017 10:38:55
+
+	Moving from 1,1 to 2,10
+	Moving from 1,10 to 5,5
+Ending: 06-01-2017 10:39:36
+
+Starting: 06-01-2017 10:40:10
+
+	Moving from 1,1 to 2,10
+	Moving from 2,10 to 5,5
+Ending: 06-01-2017 10:40:49
+
+Starting: 06-01-2017 10:43:27
+
+Starting: 06-01-2017 10:43:36
+
+Starting: 06-01-2017 10:43:48
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 10:54:10
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 11:06:12
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 11:08:27
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 11:11:08
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 11:13:21
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 11:28:40
+
+Starting: 06-01-2017 11:29:02
+
+Starting: 06-01-2017 11:31:23
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 11:43:55
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 11:45:44
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 11:55:17
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 11:57:52
+
+	Moving from 1,1 to 2,10
+	Moving from 1,10 to 6,6
+Ending: 06-01-2017 11:58:33
+
+Starting: 06-01-2017 11:58:46
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 11:59:29
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 12:01:39
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 12:02:22
+
+	Moving from 1,1 to 2,10
+Starting: 06-01-2017 12:04:46
+
+	Moving from 1,1 to 2,10
+	Moving from 2,1 to 6,6
+Ending: 06-01-2017 12:05:35
+
+Starting: 06-01-2017 12:07:08
+
+	Moving from 1,1 to 2,10
+	Moving from 2,10 to 6,6
+Ending: 06-01-2017 12:07:55
+
+Starting: 06-01-2017 12:09:17
+
+Starting: 06-01-2017 12:09:41
+
+Starting: 06-01-2017 12:09:54
+
+	Moving from 1,1 to 5,4
+	Moving from 5,16 to 4,8
+Ending: 06-01-2017 12:10:37
+
+Starting: 06-01-2017 12:13:23
+
+	Moving from 1,1 to 5,4
+	Moving from 5,4 to 4,8
+Ending: 06-01-2017 12:13:58
+
+Starting: 06-01-2017 12:15:18
+
+	Moving from 1,1 to 5,4
+Starting: 06-01-2017 12:15:58
+
+	Moving from 1,1 to 5,4
+	Moving from 5,4 to 4,8
+Ending: 06-01-2017 12:16:32
+
+Starting: 06-01-2017 12:20:29
+
+Starting: 06-01-2017 12:21:09
+
+Starting: 06-01-2017 12:21:29
+
+Starting: 06-01-2017 12:22:02
+
+Starting: 06-01-2017 12:22:27
+
+	Moving from 1,1 to 5,4
+	Moving from 5,4 to 4,8
+Ending: 06-01-2017 12:23:01
+
+Starting: 06-01-2017 12:24:21
+
+	Moving from 1,1 to 5,4
+	Moving from 5,4 to 9,7
+Ending: 06-01-2017 12:24:59
+
+Starting: 06-01-2017 12:30:09
+
+Starting: 06-01-2017 12:45:01
+
+Starting: 06-01-2017 03:54:11
+
+Starting: 06-01-2017 03:56:09
+
+	Moving from 1,1 to 5,4
+	Moving from 5,4 to 9,7
+Ending: 06-01-2017 03:56:48
+
+Starting: 06-01-2017 04:06:04
+
+	Moving from 1,1 to 5,4
+	Moving from 5,4 to 9,7
+Ending: 06-01-2017 04:06:43
+
+Starting: 06-01-2017 04:38:02
+
+	Moving from 1,1 to 5,4
+	Moving from 5,4 to 9,7
+Ending: 06-01-2017 04:38:40
+
+Starting: 06-01-2017 04:43:34
+
+	Moving from 1,1 to 5,4
+	Moving from 5,4 to 9,7
+Ending: 06-01-2017 04:44:12
+
+Starting: 06-01-2017 04:44:48
+
+	Moving from 1,1 to 2,1
+	Moving from 2,1 to 3,8
+Ending: 06-01-2017 04:45:17
+
+Starting: 06-01-2017 04:45:26
+
+	Moving from 1,1 to 8,7
+	Moving from 8,7 to 3,8
+Ending: 06-01-2017 04:46:15
+
+Starting: 06-01-2017 04:47:40
+
+	Moving from 1,1 to 8,7
+	Moving from 8,7 to 3,8
+Ending: 06-01-2017 04:48:28
+
+Starting: 06-01-2017 04:49:02
+
+Starting: 06-01-2017 04:49:21
+
+	Moving from 1,1 to 8,7
+	Moving from 8,7 to 3,8
+Ending: 06-01-2017 04:50:10
+

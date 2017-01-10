@@ -3,7 +3,7 @@
 
 Mapper::Mapper()
 {
-	currentPosition = new Point(0, 0);
+	currentPosition = new Point(1, 1);
 	itemIsPicked = new bool(false);
 
 }
@@ -40,7 +40,7 @@ void Mapper::setCompartmentPosition(Point compartmentPt)
 	this->compartmentPosition = compartmentPt;
 }
 
-void Mapper::printWarehoueMap()
+void Mapper::printWarehouseMap()
 {
 	int rows = warehouse.getRows();
 	int cols = warehouse.getCols();
@@ -101,6 +101,11 @@ void Mapper::printWarehoueMap()
 void Mapper::updateWarehouseMap(char command)
 {
 	this->command = command;
+}
+
+void Mapper::resetMap()
+{
+	*itemIsPicked = false;
 }
 
 Point Mapper::getCurrentPosition()

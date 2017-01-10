@@ -2,6 +2,7 @@
 
 PickerRobot::PickerRobot(int basketSize) : basketSize(basketSize)
 {
+	itemsInBasket = 0;
 }
 
 PickerRobot::~PickerRobot()
@@ -21,7 +22,7 @@ void PickerRobot::moveTo(Point start, Point dest)
 		else
 			sendCommand(LEFT);
 
-		mapper->printWarehoueMap();
+		mapper->printWarehouseMap();
 	}
 	for (int i = 0; i < abs(y); i++) {
 		cout << "Moving to => " << dest << endl;
@@ -30,7 +31,7 @@ void PickerRobot::moveTo(Point start, Point dest)
 		else
 			sendCommand(DOWN);
 
-		mapper->printWarehoueMap();
+		mapper->printWarehouseMap();
 		
 	}
 
@@ -64,28 +65,40 @@ void PickerRobot::pick()
 {
 	cout << "Picking up an item" << endl;
 	sendCommand(PICK);
-	mapper->printWarehoueMap();
+	mapper->printWarehouseMap();
 }
 
 void PickerRobot::validate()
 {
 	cout << "Validating an item" << endl;
 	sendCommand(VALIDATE);
-	mapper->printWarehoueMap();
+	mapper->printWarehouseMap();
 }
 
 void PickerRobot::store()
 {
 	cout << "Storing an item" << endl;
 	sendCommand(STORE);
-	mapper->printWarehoueMap();
+	mapper->printWarehouseMap();
+	itemsInBasket++;
 }
 
 void PickerRobot::unload()
 {
-	cout << "Unloading an item" << endl;
+	cout << "Unloading items" << endl;
 	sendCommand(UNLOAD);
-	mapper->printWarehoueMap();
+	mapper->printWarehouseMap();
+	itemsInBasket = 0;
+}
+
+int PickerRobot::getBasketSize()
+{
+	return basketSize;
+}
+
+int PickerRobot::getNrItemsInBasket()
+{
+	return itemsInBasket;
 }
 
 void PickerRobot::sendCommand(const char c)
@@ -93,6 +106,7 @@ void PickerRobot::sendCommand(const char c)
 	if (serial.IsOpened()) {
 		char message[5] = "F";
 		cout << "Send command => " << c << endl;
+		cout << "Number of items in the basket: " << itemsInBasket << endl;
 
 		assert(serial.SendData(c));
 		mapper->updateWarehouseMap(c);

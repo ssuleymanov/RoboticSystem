@@ -14,8 +14,9 @@ public:
 	Mapper(Mapper &map);	//copy constructor
 	~Mapper();
 	void setCompartmentPosition(Point compartmentPt);
-	void printWarehoueMap();
+	void printWarehouseMap();
 	void updateWarehouseMap(char command);
+	void resetMap();
 	Point getCurrentPosition();
 
 private:

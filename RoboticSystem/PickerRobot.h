@@ -39,6 +39,8 @@ public:
 	void validate();
 	void store();
 	void unload();
+	int getBasketSize();
+	int getNrItemsInBasket();
 
 private:
 	int basketSize;
@@ -47,5 +49,6 @@ private:
 	CSerial serial;
 	Mapper* mapper;
 	void sendCommand(const char c);
+	int itemsInBasket;
 
 };

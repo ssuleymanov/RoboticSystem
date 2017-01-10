@@ -67,10 +67,18 @@ void PickerRobot::pick()
 	mapper->printWarehouseMap();
 }
 
-void PickerRobot::validate()
+bool PickerRobot::validate(Order order)
 {
 	cout << "Validating an item" << endl;
 	sendCommand(VALIDATE);
+
+	string line;
+	std::ifstream file("validate.txt");
+	while (std::getline(file, line)) {
+		std::istringstream iss(line);
+	
+	
+	}
 	mapper->printWarehouseMap();
 }
 

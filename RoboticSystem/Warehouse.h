@@ -16,7 +16,7 @@ class Warehouse
 {
 public:
 
-	Warehouse(string warehouseID = "A", int rows = 5, int cols = 5);
+	Warehouse(string warehouseID = "A", int rows = 20, int cols = 5);
 	Warehouse(const Warehouse& Warehouse);
 	~Warehouse();
 	string getWarehouseID() const;

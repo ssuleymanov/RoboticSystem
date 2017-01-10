@@ -43,11 +43,9 @@ bool RobotController::processOrder(Order order)
 			robot.unload();
 			robot.moveTo(unloadingPoint, *currentPoint);
 		}
-
 		robot.pick();
 		robot.validate();
 		robot.store();
-
 	}
 
 	return true;

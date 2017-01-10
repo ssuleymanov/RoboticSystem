@@ -3,9 +3,6 @@
 
 Mapper::Mapper()
 {
-	currentPosition = Point(1, 1);
-	itemIsPicked = false;
-
 }
 
 Mapper::Mapper(Warehouse wrhouse, Point start, Point unload) : warehouse(wrhouse),startingPoint(start),unloadingPoint(unload)
@@ -13,10 +10,8 @@ Mapper::Mapper(Warehouse wrhouse, Point start, Point unload) : warehouse(wrhouse
 	int start_X = startingPoint.getX();
 	int start_Y = warehouse.getRows() + 1 - startingPoint.getY();
 	currentPosition = Point(start_X, start_Y);
-
-	command = 'A';
-
 	itemIsPicked = false;
+	command = 'A';		// initialize to 'A', can be any character 
 }
 
 Mapper::Mapper(Mapper & map) : warehouse(map.warehouse)
@@ -31,8 +26,6 @@ Mapper::Mapper(Mapper & map) : warehouse(map.warehouse)
 
 Mapper::~Mapper()
 {
-	//delete currentPosition;
-	//delete itemIsPicked;
 }
 
 void Mapper::setCompartmentPosition(Point compartmentPt)

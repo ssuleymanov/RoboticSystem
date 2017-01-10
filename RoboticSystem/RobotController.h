@@ -33,7 +33,7 @@ private:
 	Point startingPoint;
 	Point unloadingPoint;
 	std::vector<Order> sortedOrders;
-	Point currentPoint;
+	Point* currentPoint;
 
 };
 

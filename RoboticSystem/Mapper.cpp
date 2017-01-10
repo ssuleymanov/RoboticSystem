@@ -106,8 +106,8 @@ void Mapper::resetMap()
 	itemIsPicked = false;
 }
 
-Point Mapper::getCurrentPosition()
+Point* Mapper::getCurrentPosition()
 {
 	//Point temp(currentPosition.getX(), warehouse->getRows() + 1 - currentPosition.getY());
-	return currentPosition;
+	return &currentPosition;
 }

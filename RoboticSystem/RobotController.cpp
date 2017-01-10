@@ -3,7 +3,7 @@
 RobotController::RobotController(PickerRobot robot, Warehouse &warehouseaddr) : robot(robot)
 {
 	warehouse = &warehouseaddr;
-	currentPoint = Point(1, 1);
+	currentPoint = new Point(1,1);
 }
 
 RobotController::~RobotController()
@@ -32,8 +32,7 @@ void RobotController::executeOrders(std::vector<Order> orders)
 	for(auto &order : orders){
 		processOrder(order);
 		if (robot.getNrItemsInBasket() == robot.getBasketSize()) {
-			currentPoint = mapper.getCurrentPosition();
-			robot.moveTo(currentPoint, unloadingPoint);
+			robot.moveTo(*currentPoint, unloadingPoint);
 			robot.unload();
 		}
 	}
@@ -44,14 +43,11 @@ bool RobotController::processOrder(Order order)
 	mapper.resetMap();
 	Point orderPosition = warehouse->getCompartmentPosition(order);
 	mapper.setCompartmentPosition(orderPosition);
-	currentPoint = mapper.getCurrentPosition();
-
-	robot.moveTo(currentPoint, orderPosition);
+	robot.moveTo(*currentPoint, orderPosition);
 	for (int i = 0; i < order.quantity; i++) {		// if the basket if full, first move to the unloading area to unload the items, then return back
 		if (robot.getNrItemsInBasket() == robot.getBasketSize()) {
 			mapper.resetMap();							// make P appear on the map if there are still items left that need to be picked
-			currentPoint = mapper.getCurrentPosition();
-			robot.moveTo(currentPoint, unloadingPoint);
+			robot.moveTo(*currentPoint, unloadingPoint);
 			robot.unload();
 			robot.moveTo(unloadingPoint, orderPosition);
 		}
@@ -109,6 +105,7 @@ Point RobotController::getUnloadingPoint()
 void RobotController::startRobot()
 {
 	mapper = Mapper(warehouse, startingPoint, unloadingPoint);
+	currentPoint = mapper.getCurrentPosition();
 	robot.setMapper(&mapper);
 	robot.startSerial();
 	executeOrders(warehouse->getOrders());
@@ -121,8 +118,7 @@ bool RobotController::getOrder(Order ordr)
 	cout << "Order number: " << ordr.productID << endl;
 	mapper.printWarehouseMap();
 	processOrder(ordr);
-	currentPoint = mapper.getCurrentPosition();
-	robot.moveTo(currentPoint, unloadingPoint);
+	robot.moveTo(*currentPoint, unloadingPoint);
 	robot.unload();
 
 	cout << "Completed Warehouse: " << warehouse->getWarehouseID() << endl;

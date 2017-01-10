@@ -137,8 +137,6 @@ vector<Order> Manager::readOPL(string oplFile, string articleFile)
 		{
 			Article article = ArticleList[productID];
 			Order order = { article.compartment, customerID, orderID, priority, productID, quantity, truckNr, article.warehouseID };
-			//order.compartment = article.compartment;
-			//order.warehouseID = article.warehouseID;
 			cout << "Added Order: " << orderID << endl;
 			orderList.push_back(order);
 			priority++;

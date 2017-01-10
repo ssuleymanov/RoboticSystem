@@ -17,7 +17,7 @@ public:
 	void printWarehouseMap();
 	void updateWarehouseMap(char command);
 	void resetMap();
-	Point getCurrentPosition();
+	Point* getCurrentPosition();
 
 private:
 	Point currentPosition;

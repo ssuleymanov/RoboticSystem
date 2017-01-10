@@ -485,3 +485,58 @@ Starting: 10-01-2017 09:58:21
 
 Starting: 10-01-2017 09:58:57
 
+Starting: 10-01-2017 11:09:45
+
+	Moving from 1,1 to 4,4
+	Moving from 4,4 to 6,1
+	Moving from 6,1 to 4,4
+	Moving from 4,4 to 6,1
+	Moving from 6,1 to 4,4
+	Moving from 4,4 to 5,2
+	Moving from 5,2 to 6,1
+	Moving from 6,1 to 5,2
+	Moving from 5,2 to 5,5
+	Moving from 5,5 to 6,1
+	Moving from 1,1 to 2,3
+	Moving from 2,3 to 4,1
+	Moving from 4,1 to 1,4
+	Moving from 1,4 to 2,4
+	Moving from 2,4 to 4,1
+	Moving from 4,1 to 2,4
+	Moving from 2,4 to 4,1
+	Moving from 4,1 to 2,4
+	Moving from 2,4 to 2,6
+	Moving from 1,1 to 1,10
+	Moving from 1,10 to 2,5
+	Moving from 2,5 to 1,1
+	Moving from 1,1 to 1,12
+	Moving from 1,12 to 2,5
+	Moving from 2,5 to 5,1
+	Moving from 5,1 to 2,5
+	Moving from 2,5 to 2,15
+	Moving from 2,15 to 1,17
+	Moving from 1,17 to 1,2
+	Moving from 1,2 to 2,12
+	Moving from 2,12 to 5,1
+	Moving from 5,1 to 2,12
+Ending: 10-01-2017 11:16:37
+
+Starting: 10-01-2017 11:19:43
+
+	Moving from 1,1 to 4,4
+	Moving from 4,4 to 6,1
+	Moving from 6,1 to 4,4
+	Moving from 4,4 to 6,1
+	Moving from 6,1 to 4,4
+	Moving from 4,4 to 5,2
+	Moving from 5,2 to 6,1
+	Moving from 6,1 to 5,2
+	Moving from 5,2 to 5,5
+	Moving from 5,5 to 6,1
+	Moving from 1,1 to 2,3
+	Moving from 2,3 to 4,1
+	Moving from 4,1 to 1,4
+	Moving from 1,4 to 2,4
+	Moving from 2,4 to 4,1
+	Moving from 4,1 to 2,4
+	Moving from 2,4 to 4,1

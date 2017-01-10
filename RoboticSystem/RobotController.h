@@ -26,7 +26,7 @@ public:
 private:
 	PickerRobot robot;
 	Warehouse warehouse;
-	Mapper mapper;
+	Mapper* mapper;
 	Point startingPoint;
 	Point unloadingPoint;
 	std::vector<Order> sortedOrders;

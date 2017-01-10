@@ -7,7 +7,6 @@ PickerRobot::PickerRobot(int basketSize) : basketSize(basketSize)
 
 PickerRobot::~PickerRobot()
 {
-	//delete mapper;
 }
 
 void PickerRobot::moveTo(Point start, Point dest)

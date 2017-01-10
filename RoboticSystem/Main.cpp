@@ -111,7 +111,7 @@ int main(void) {
 	orders.push_back(order5);
 
 
-	//r_controller.executeOrders(orders);
+	r_controller.executeOrders(orders);
 	r_controller.getOrder(order6);
 	
 #else

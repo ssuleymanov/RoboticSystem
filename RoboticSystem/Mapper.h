@@ -20,12 +20,12 @@ public:
 	Point getCurrentPosition();
 
 private:
-	Point* currentPosition;
+	Point currentPosition;
 	Point startingPoint;
 	Point unloadingPoint;
 	Point compartmentPosition;
 	char command;
-	bool* itemIsPicked;
+	bool itemIsPicked;
 	Warehouse warehouse;
 
 };

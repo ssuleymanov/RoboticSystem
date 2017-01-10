@@ -45,7 +45,7 @@ void Mapper::printWarehouseMap()
 	int cols = warehouse->getCols();
 
 	int unload_X = unloadingPoint.getX();
-	int unload_Y = rows + 1 - unloadingPoint.getY();
+	int unload_Y = unloadingPoint.getY();
 
 
 	if (command == 'U') {
@@ -92,7 +92,7 @@ void Mapper::printWarehouseMap()
 	}
 	cout << endl;
 
-	Sleep(2000);
+	Sleep(1000);
 	system("cls");
 }
 

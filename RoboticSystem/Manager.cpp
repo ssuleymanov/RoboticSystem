@@ -49,8 +49,8 @@ void Manager::execute(string oplFile, string aticleFile)
 	}
 	int i = 0;
 	for (RobotController rController : rControllers) {
-		threads.push_back(thread(&RobotController::startRobot, &rController));
-		//rController.startRobot();
+		//threads.push_back(thread(&RobotController::startRobot, &rController));
+		rController.startRobot();
 	}
 
 	for (int j = 0; j < threads.size(); j++) {

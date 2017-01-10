@@ -2,8 +2,9 @@
 
 Mapper::Mapper()
 {
-	currentPosition = Point(0,0);
+	currentPosition = Point(1, 1);
 	itemIsPicked = false;
+
 }
 
 Mapper::Mapper(Warehouse* wrhouse, Point start, Point unload) : warehouse(wrhouse),startingPoint(start),unloadingPoint(unload)
@@ -15,7 +16,6 @@ Mapper::Mapper(Warehouse* wrhouse, Point start, Point unload) : warehouse(wrhous
 	command = 'A';
 
 	itemIsPicked = false;
-	AllocConsole();
 }
 
 Mapper::Mapper(const Mapper& map) : warehouse(map.warehouse)
@@ -39,7 +39,7 @@ void Mapper::setCompartmentPosition(Point compartmentPt)
 	compartmentPosition = compartmentPt;
 }
 
-void Mapper::printWarehoueMap()
+void Mapper::printWarehouseMap()
 {
 	int rows = warehouse->getRows();
 	int cols = warehouse->getCols();
@@ -99,6 +99,11 @@ void Mapper::printWarehoueMap()
 void Mapper::updateWarehouseMap(char command)
 {
 	this->command = command;
+}
+
+void Mapper::resetMap()
+{
+	itemIsPicked = false;
 }
 
 Point Mapper::getCurrentPosition()

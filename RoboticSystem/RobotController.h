@@ -16,14 +16,15 @@ public:
 	~RobotController();
 	RobotController(const RobotController& rController);
 	void calculateOptimalPath(std::vector<Order> orders);
-	void executeOrders(std::vector<Order> orders);
-	bool processOrder(Order order);
+	void executeOrders(std::vector<Order> orders);		// execute orders in the warehouse
+	bool processOrder(Order order);						// processes single order, the robot moves to the order location, picks and stores it	
 	void setStartingPoint(Point startingPoint);
 	Point getStartingPoint();
 	void setUnloadingPoint(Point unloadingPoint);
 	Point getUnloadingPoint();
 	void startRobot();
 	string getWarehouseID();
+	bool getOrder(Order ordr);							// manual control of robot, gets a specified order and unloads it in the unloading area
 
 private:
 	PickerRobot robot;

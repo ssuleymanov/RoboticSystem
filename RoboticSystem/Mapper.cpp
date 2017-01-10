@@ -1,32 +1,31 @@
 #include "Mapper.h"
-#include "Warehouse.h"
 
 Mapper::Mapper()
 {
-	currentPosition = new Point(0, 0);
-	itemIsPicked = new bool(false);
-
+	currentPosition = Point(0,0);
+	itemIsPicked = false;
 }
 
-Mapper::Mapper(Warehouse wrhouse, Point start, Point unload) : warehouse(wrhouse),startingPoint(start),unloadingPoint(unload)
+Mapper::Mapper(Warehouse* wrhouse, Point start, Point unload) : warehouse(wrhouse),startingPoint(start),unloadingPoint(unload)
 {
 	int start_X = startingPoint.getX();
-	int start_Y = warehouse.getRows() + 1 - startingPoint.getY();
-	currentPosition = new Point(start_X, start_Y);
+	int start_Y = warehouse->getRows() + 1 - startingPoint.getY();
+	currentPosition = startingPoint;
 
 	command = 'A';
 
-	itemIsPicked = new bool(false);
+	itemIsPicked = false;
+	AllocConsole();
 }
 
-Mapper::Mapper(Mapper & map) : warehouse(map.warehouse)
+Mapper::Mapper(const Mapper& map) : warehouse(map.warehouse)
 {
 	startingPoint = map.startingPoint;
 	unloadingPoint = map.unloadingPoint;
 	command = map.command;
 	compartmentPosition = map.compartmentPosition;
-	currentPosition = new Point(map.currentPosition->getX(), map.currentPosition->getY());
-	itemIsPicked = new bool(*map.itemIsPicked);
+	currentPosition = map.currentPosition;
+	itemIsPicked = map.itemIsPicked;
 }
 
 Mapper::~Mapper()
@@ -37,50 +36,50 @@ Mapper::~Mapper()
 
 void Mapper::setCompartmentPosition(Point compartmentPt)
 {
-	this->compartmentPosition = compartmentPt;
+	compartmentPosition = compartmentPt;
 }
 
 void Mapper::printWarehoueMap()
 {
-	int rows = warehouse.getRows();
-	int cols = warehouse.getCols();
+	int rows = warehouse->getRows();
+	int cols = warehouse->getCols();
 
 	int unload_X = unloadingPoint.getX();
 	int unload_Y = rows + 1 - unloadingPoint.getY();
 
 
 	if (command == 'U') {
-		currentPosition->setY(currentPosition->getY() - 1);
+		currentPosition.setY(currentPosition.getY() + 1);
 	}
 	else if (command == 'D') {
-		currentPosition->setY(currentPosition->getY() + 1);
+		currentPosition.setY(currentPosition.getY() - 1);
 	}
 	else if (command == 'R') {
-		currentPosition->setX(currentPosition->getX() + 1);
+		currentPosition.setX(currentPosition.getX() + 1);
 	}
 	else if (command == 'L') {
-		currentPosition->setX(currentPosition->getX() - 1);
+		currentPosition.setX(currentPosition.getX() - 1);
 	}
 
-	if (currentPosition->getX() == compartmentPosition.getX() && currentPosition->getY() == rows + 1 - compartmentPosition.getY()) {
-		*itemIsPicked = true;
+	if (currentPosition.getX() == compartmentPosition.getX() && currentPosition.getY() == compartmentPosition.getY()) {
+		itemIsPicked = true;
 	}
 
-	for (int j = 1; j <= rows; j++) {
+	for (int j = rows; j >= 1; j--) {
 		for (int i = 0; i < cols; i++) {
 			cout << " __";
 		}
 		cout << endl;
 		for (int i = 1; i <= cols + 1; i++) {
 
-			if (i == currentPosition->getX() && j == currentPosition->getY()) {
+			if (i == currentPosition.getX() && j == currentPosition.getY()) {
 				cout << "|" << "R" << setw(2);
 			}
 			else if (i == unload_X && j == unload_Y) {
 				cout << "|" << "U" << setw(2);
 			}
-			else if (i == compartmentPosition.getX() && j == rows + 1 - compartmentPosition.getY()) {
-				if (*itemIsPicked == false)
+			else if (i == compartmentPosition.getX() && j == compartmentPosition.getY()) {
+				if (itemIsPicked == false)
 					cout << "|" << "P" << setw(2);
 				else
 					cout << "|" << setw(3);
@@ -91,7 +90,6 @@ void Mapper::printWarehoueMap()
 		}
 		cout << endl;
 	}
-
 	cout << endl;
 
 	Sleep(2000);
@@ -105,6 +103,6 @@ void Mapper::updateWarehouseMap(char command)
 
 Point Mapper::getCurrentPosition()
 {
-	Point temp(currentPosition->getX(), warehouse.getRows() + 1 - currentPosition->getY());
-	return temp;
+	//Point temp(currentPosition.getX(), warehouse->getRows() + 1 - currentPosition.getY());
+	return currentPosition;
 }

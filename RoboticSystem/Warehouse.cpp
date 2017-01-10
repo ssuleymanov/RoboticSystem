@@ -37,13 +37,13 @@ int Warehouse::getCols() const
 
 Point Warehouse::getCompartmentPosition(Order order)
 {
-	return Point((order.compartmentPosition - 1) / rows + 1, (order.compartmentPosition - 1) % rows + 1);
+	return Point((order.compartment - 1) / rows + 1, (order.compartment - 1) % rows + 1);
 }
 
 
-void Warehouse::setOrders(vector<Order> orders)
+void Warehouse::addOrder(Order order)
 {
-	this->orders = orders;
+	orders.push_back(order);
 }
 
 vector<Order> Warehouse::getOrders()

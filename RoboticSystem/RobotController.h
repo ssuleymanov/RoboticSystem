@@ -2,17 +2,19 @@
 #ifndef ROBOTCONTROLLER_H
 #define ROBOTCONTROLLER_H
 #include <vector>
+#include <string>
 
 #include "Point.h"
-#include "Order.h"
+//#include "Order.h"
 #include "PickerRobot.h"
 #include "Warehouse.h"
 #include "Mapper.h"
 
 class RobotController {
 public:
-	RobotController(PickerRobot robot, Warehouse warehouse);
+	RobotController(PickerRobot robot, Warehouse &warehouse);
 	~RobotController();
+	RobotController(const RobotController& rController);
 	void calculateOptimalPath(std::vector<Order> orders);
 	void executeOrders(std::vector<Order> orders);
 	bool processOrder(Order order);
@@ -21,15 +23,16 @@ public:
 	void setUnloadingPoint(Point unloadingPoint);
 	Point getUnloadingPoint();
 	void startRobot();
+	string getWarehouseID();
 
 private:
 	PickerRobot robot;
-	Warehouse warehouse;
+	Warehouse* warehouse;
 	Mapper mapper;
 	Point startingPoint;
 	Point unloadingPoint;
 	std::vector<Order> sortedOrders;
-	Point* currentPoint;
+	Point currentPoint;
 
 };
 

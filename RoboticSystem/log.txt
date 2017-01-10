@@ -350,3 +350,138 @@ Starting: 06-01-2017 04:49:21
 	Moving from 8,7 to 3,8
 Ending: 06-01-2017 04:50:10
 
+Starting: 09-01-2017 11:42:39
+
+Starting: 09-01-2017 11:42:56
+
+Starting: 09-01-2017 11:43:06
+
+Starting: 09-01-2017 11:43:32
+
+Starting: 09-01-2017 11:44:37
+
+Starting: 09-01-2017 11:45:25
+
+Starting: 09-01-2017 11:46:03
+
+Starting: 09-01-2017 11:59:46
+
+Starting: 09-01-2017 12:00:08
+
+Starting: 09-01-2017 12:00:17
+
+Starting: 09-01-2017 12:00:44
+
+Starting: 09-01-2017 12:09:21
+
+Starting: 09-01-2017 12:09:36
+
+Starting: 09-01-2017 12:17:33
+
+Starting: 09-01-2017 12:18:18
+
+Starting: 09-01-2017 12:19:50
+
+Starting: 09-01-2017 12:20:12
+
+Starting: 09-01-2017 12:20:39
+
+Starting: 09-01-2017 12:22:41
+
+Starting: 09-01-2017 12:27:28
+
+Starting: 09-01-2017 12:27:45
+
+	Moving from 0,0 to 6,1
+	Moving from 6,-1 to 0,0
+Starting: 09-01-2017 12:29:02
+
+Starting: 09-01-2017 12:30:49
+
+Starting: 09-01-2017 12:32:30
+
+	Moving from 0,0 to 6,1
+	Moving from 6,-1 to 0,0
+	Moving from 0,0 to 2,3
+Starting: 09-01-2017 12:34:21
+
+Starting: 09-01-2017 12:40:03
+
+	Moving from 1,1 to 6,1
+	Moving from 6,1 to 6,1
+	Moving from 1,1 to 2,3
+	Moving from 2,-1 to 4,1
+	Moving from 2,-1 to 1,4
+	Moving from 3,-8 to 4,1
+	Moving from 3,-8 to 2,4
+Starting: 09-01-2017 12:46:11
+
+	Moving from 1,1 to 6,1
+	Moving from 6,1 to 6,1
+Starting: 09-01-2017 12:47:45
+
+	Moving from 1,1 to 6,1
+	Moving from 6,5 to 6,1
+	Moving from 1,1 to 2,3
+Starting: 09-01-2017 12:48:45
+
+	Moving from 1,1 to 6,1
+Starting: 09-01-2017 12:49:54
+
+	Moving from 1,1 to 5,5
+	Moving from 5,1 to 6,1
+	Moving from 1,1 to 2,3
+	Moving from 2,8 to 4,1
+	Moving from 2,8 to 1,4
+	Moving from 3,19 to 4,1
+Starting: 09-01-2017 12:53:50
+
+	Moving from 1,1 to 5,5
+	Moving from 5,1 to 6,1
+	Moving from 1,1 to 2,3
+Starting: 09-01-2017 12:57:47
+
+Starting: 09-01-2017 12:58:13
+
+Starting: 09-01-2017 12:58:26
+
+Starting: 09-01-2017 12:59:54
+
+Starting: 09-01-2017 02:25:47
+
+	Moving from 1,1 to 5,5
+Starting: 09-01-2017 02:26:44
+
+	Moving from 1,1 to 5,5
+	Moving from 5,5 to 6,1
+	Moving from 1,1 to 2,3
+	Moving from 2,3 to 4,1
+	Moving from 2,3 to 1,4
+	Moving from 3,2 to 4,1
+	Moving from 3,2 to 2,4
+	Moving from 3,3 to 4,1
+	Moving from 3,3 to 2,6
+	Moving from 3,4 to 4,1
+	Moving from 1,1 to 1,10
+	Moving from 1,10 to 5,1
+	Moving from 1,10 to 2,5
+Starting: 09-01-2017 02:31:30
+
+Starting: 09-01-2017 05:18:26
+
+Starting: 09-01-2017 05:19:38
+
+Starting: 10-01-2017 09:32:17
+
+Starting: 10-01-2017 09:33:05
+
+Starting: 10-01-2017 09:44:36
+
+Starting: 10-01-2017 09:47:24
+
+Starting: 10-01-2017 09:57:53
+
+Starting: 10-01-2017 09:58:21
+
+Starting: 10-01-2017 09:58:57
+

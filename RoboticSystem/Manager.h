@@ -6,13 +6,16 @@
 #include <fstream>
 #include <vector>
 #include <iterator>
+#include <map>
+#include <thread>
 
-#include "Order.h"
 #include "Warehouse.h"
 #include "Point.h"
 #include "PickerRobot.h"
+#include "RobotController.h"
 
 using namespace std;
+
 
 //! A class to manage the robots. 
 /*!
@@ -38,13 +41,13 @@ public:
 	/*!
 	\param[in] fileName path to the order picking list
 	*/
-	void execute(string fileName);
+	void execute(string oplFile, string articleFile);
 private:
-	list<PickerRobot> PickerRobots;
+	list<RobotController> rControllers;
 	list<Warehouse> warehouses;
-	void addWarehouse(Warehouse& wh);
-	void addPickerRobot(PickerRobot& robot);
+	void addWarehouse(Warehouse wh);
+	void addRobotController(RobotController rController);
 	Warehouse& getWarehouse(string WarehouseID);
-	PickerRobot& getPickerRobot(string WarehouseID);
-	Order readOPL(string fileName);
+	RobotController& getRobotController(string WarehouseID);
+	vector<Order> readOPL(string oplFile, string articleFile);
 };

@@ -10,8 +10,8 @@ class Mapper{
 
 public:
 	Mapper();
-	Mapper(Warehouse warehouse, Point startingPoint, Point unloadingPoint);
-	Mapper(Mapper &map);	//copy constructor
+	Mapper(Warehouse* warehouse, Point startingPoint, Point unloadingPoint);
+	Mapper(const Mapper& map);	//copy constructor
 	~Mapper();
 	void setCompartmentPosition(Point compartmentPt);
 	void printWarehoueMap();
@@ -19,14 +19,13 @@ public:
 	Point getCurrentPosition();
 
 private:
-	Point* currentPosition;
+	Point currentPosition;
 	Point startingPoint;
 	Point unloadingPoint;
 	Point compartmentPosition;
 	char command;
-	bool* itemIsPicked;
-	Warehouse warehouse;
-
+	bool itemIsPicked;
+	Warehouse* warehouse;
 };
 
 #endif // !MAPPER_H

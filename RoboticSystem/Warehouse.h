@@ -3,6 +3,7 @@
 #include <iomanip>
 #include <windows.h>
 #include <vector>
+#include <mutex>
 
 #include "Point.h"
 //#include "Order.h"
@@ -48,5 +49,6 @@ private:
 	int rows;
 	int cols;
 	vector<Order> orders;
+	mutable mutex wh_mutex;
 
 };

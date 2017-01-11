@@ -29,11 +29,12 @@ Allows to create instructions (robot commands) for a robot and send them through
 class PickerRobot 
 {
 public:
-	PickerRobot(int basketSize = 1);
+	PickerRobot(int basketSize);
 	~PickerRobot();
+	PickerRobot(const PickerRobot& robot);
 	void moveTo(Point start, Point dest);			
 	void setSerialParameters(int portNumber, int baudRate);
-	void setMapper(Mapper* map);
+	void setMapper(Mapper *map);
 	void startSerial();
 	void pick();
 	void validate();

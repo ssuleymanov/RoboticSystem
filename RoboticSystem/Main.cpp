@@ -11,6 +11,7 @@
 #include "PickerRobot.h"
 #include "RobotController.h"
 #include "Manager.h"
+#include <pdcwin.h>
 
 #define TEST false
 
@@ -45,6 +46,12 @@ int main(void) {
 	streambuf* oldbuf = clog.rdbuf(&os);
 
 	write_header();
+
+	initscr();
+	resize_term(120,200);
+	cbreak();
+	noecho();
+	curs_set(0);
 
 #if TEST
 	// moveTo Unit Test
@@ -125,6 +132,7 @@ int main(void) {
 
 	write_footer();
 	clog.rdbuf(oldbuf);
+
 
 	return 0;
 

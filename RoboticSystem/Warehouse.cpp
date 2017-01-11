@@ -21,22 +21,26 @@ Warehouse::~Warehouse()
 
 string Warehouse::getWarehouseID() const
 {
+	lock_guard<mutex> guard(wh_mutex);
 	return warehouseID;
 }
 
 int Warehouse::getRows() const
 {
+	lock_guard<mutex> guard(wh_mutex);
 	return rows;
 }
 
 int Warehouse::getCols() const
 {
+	lock_guard<mutex> guard(wh_mutex);
 	return cols;
 }
 
 
 Point Warehouse::getCompartmentPosition(Order order)
 {
+	lock_guard<mutex> guard(wh_mutex);
 	return Point((order.compartment - 1) / rows + 1, (order.compartment - 1) % rows + 1);
 }
 
@@ -48,5 +52,6 @@ void Warehouse::addOrder(Order order)
 
 vector<Order> Warehouse::getOrders()
 {
+	lock_guard<mutex> guard(wh_mutex);
 	return this->orders;
 }

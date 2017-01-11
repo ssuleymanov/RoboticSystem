@@ -13,6 +13,7 @@
 #include "Point.h"
 #include "PickerRobot.h"
 #include "RobotController.h"
+#include "Printer.h"
 
 using namespace std;
 
@@ -43,7 +44,8 @@ public:
 	*/
 	void execute(string oplFile, string articleFile);
 private:
-	list<RobotController> rControllers;
+	Printer* printer;
+	vector<RobotController> rControllers;
 	list<Warehouse> warehouses;
 	void addWarehouse(Warehouse wh);
 	void addRobotController(RobotController rController);

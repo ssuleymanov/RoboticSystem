@@ -22,13 +22,14 @@ public:
 	Point getStartingPoint();
 	void setUnloadingPoint(Point unloadingPoint);
 	Point getUnloadingPoint();
-	void startRobot();
+	void startRobot(Printer* printer);
 	string getWarehouseID();
 	bool getOrder(Order ordr);							// manual control of robot, gets a specified order and unloads it in the unloading area
 
 private:
 	PickerRobot robot;
 	Warehouse* warehouse;
+	Printer* printer;
 	Mapper mapper;
 	Point startingPoint;
 	Point unloadingPoint;

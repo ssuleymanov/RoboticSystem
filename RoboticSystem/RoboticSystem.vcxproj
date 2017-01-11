@@ -74,8 +74,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>C:\Program Files %28x86%29\Common Files\Microsoft Shared\OFFICE16;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Program Files %28x86%29\Common Files\Microsoft Shared\OFFICE16;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\m.agterberg\Source\Repos\RoboticSystem\pdcurses\win32;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\m.agterberg\Downloads\boost_1_60_0\boost;C:\Users\m.agterberg\Source\Repos\RoboticSystem\pdcurses\win32;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -99,16 +99,17 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\m.agterberg\Downloads\boost_1_60_0\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>pdcurses.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -153,6 +154,7 @@
     <ClInclude Include="Order.h" />
     <ClInclude Include="PickerRobot.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="Printer.h" />
     <ClInclude Include="RobotController.h" />
     <ClInclude Include="Serial.h" />
     <ClInclude Include="Warehouse.h" />
@@ -163,11 +165,19 @@
     <ClCompile Include="Mapper.cpp" />
     <ClCompile Include="PickerRobot.cpp" />
     <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Printer.cpp" />
     <ClCompile Include="RobotController.cpp" />
     <ClCompile Include="Serial.cpp" />
     <ClCompile Include="Warehouse.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\pdcurses_vc120.3.4.0.3\build\native\pdcurses_vc120.targets" Condition="Exists('..\packages\pdcurses_vc120.3.4.0.3\build\native\pdcurses_vc120.targets')" />
   </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\pdcurses_vc120.3.4.0.3\build\native\pdcurses_vc120.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\pdcurses_vc120.3.4.0.3\build\native\pdcurses_vc120.targets'))" />
+  </Target>
 </Project>

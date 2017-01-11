@@ -1,9 +1,10 @@
 #include "RobotController.h"
 
-RobotController::RobotController(PickerRobot robot, Warehouse &warehouseaddr) : robot(robot)
+RobotController::RobotController(PickerRobot robot, Warehouse &warehouseaddr) : robot(robot), mapper(&warehouseaddr)
 {
 	warehouse = &warehouseaddr;
 	currentPoint = new Point(1,1);
+	printer = Printer::getInstance();
 }
 
 RobotController::~RobotController()
@@ -13,13 +14,19 @@ RobotController::~RobotController()
 RobotController::RobotController(const RobotController& rController) :
 	robot(rController.robot),
 	warehouse(rController.warehouse),
-	mapper(rController.mapper),
 	startingPoint(rController.startingPoint),
 	unloadingPoint(rController.unloadingPoint),
 	sortedOrders(rController.sortedOrders),
-	currentPoint(rController.currentPoint)
+	currentPoint(rController.currentPoint),
+	printer(rController.printer),
+	mapper(rController.mapper)
 {
-
+	//if (&rController.mapper == NULL) {
+	//	mapper = Mapper();
+	//}
+	//else {
+	//	mapper = rController.mapper;
+	//}
 }
 
 void RobotController::calculateOptimalPath(std::vector<Order> orders)
@@ -102,12 +109,15 @@ Point RobotController::getUnloadingPoint()
 	return unloadingPoint;
 }
 
-void RobotController::startRobot()
+void RobotController::startRobot(Printer* print)
 {
-	mapper = Mapper(warehouse, startingPoint, unloadingPoint);
-	currentPoint = mapper.getCurrentPosition();
+	printer = print;
+	mapper.Initialize(startingPoint, unloadingPoint, print);
 	robot.setMapper(&mapper);
 	robot.startSerial();
+	currentPoint = mapper.getCurrentPosition();
+	
+	
 	executeOrders(warehouse->getOrders());
 
 	//*currentPoint = startingPoint;		// already set in the Mapper constructor

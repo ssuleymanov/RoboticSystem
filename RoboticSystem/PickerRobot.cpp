@@ -9,13 +9,29 @@ PickerRobot::~PickerRobot()
 {
 }
 
+PickerRobot::PickerRobot(const PickerRobot & robot) :
+basketSize(robot.basketSize),
+portNumber(robot.portNumber),
+baudRate(robot.baudRate),
+serial(robot.serial),
+mapper(robot.mapper),
+itemsInBasket(robot.itemsInBasket)
+{
+}
+
 void PickerRobot::moveTo(Point start, Point dest)
 {
 	int x = 0, y = 0;
 	x = dest.getX() - start.getX();
 	y = dest.getY() - start.getY();
+
+	string message = "\tMoving from " + to_string(start.getX()) + "," + to_string(start.getY());
+	mapper->printLog(message);
+	message = " to " + to_string(dest.getX()) + "," + to_string(dest.getY()) + "        ";
+	mapper->printLog(message);
+
 	for (int i = 0; i < abs(x); i++) {
-		cout << "Moving to => " << dest << endl;
+		//cout << "Moving to => " << dest << endl;
 		if (x > 0)
 			sendCommand(RIGHT);
 		else
@@ -24,7 +40,7 @@ void PickerRobot::moveTo(Point start, Point dest)
 		mapper->printWarehouseMap();
 	}
 	for (int i = 0; i < abs(y); i++) {
-		cout << "Moving to => " << dest << endl;
+		//cout << "Moving to => " << dest << endl;
 		if (y > 0)
 			sendCommand(UP);
 		else
@@ -33,19 +49,19 @@ void PickerRobot::moveTo(Point start, Point dest)
 		mapper->printWarehouseMap();
 		
 	}
-
-	clog << "\tMoving from " << start.getX() << "," << start.getY();
-	clog << " to " << dest.getX() << "," << dest.getY() << endl;
+	
+	//clog << "\tMoving from " << start.getX() << "," << start.getY();
+	//clog << " to " << dest.getX() << "," << dest.getY() << endl;
 }
 
 
-void PickerRobot::setSerialParameters(int portNumber, int baudRate)
+void PickerRobot::setSerialParameters(int portNr, int baud)
 {
-	this->portNumber = portNumber;
-	this->baudRate = baudRate;
+	portNumber = portNr;
+	baudRate = baud;
 }
 
-void PickerRobot::setMapper(Mapper* map)
+void PickerRobot::setMapper(Mapper *map)
 {
 	mapper = map;
 }
@@ -53,30 +69,33 @@ void PickerRobot::setMapper(Mapper* map)
 void PickerRobot::startSerial()
 {
 	if (serial.Open(portNumber, baudRate)) {
-		cout << "Port opened succesfully.." << endl;
+		clog << "Port opened succesfully.." << endl;
 	}
 	else {
-		cout << "Failed to open port..!" << endl;
+		clog << "Failed to open port..!" << endl;
 	}
 }
 
 void PickerRobot::pick()
 {
-	cout << "Picking up an item" << endl;
+	mapper->printLog("Picking up an item       ");
+	//cout << "Picking up an item" << endl;
 	sendCommand(PICK);
 	mapper->printWarehouseMap();
 }
 
 void PickerRobot::validate()
 {
-	cout << "Validating an item" << endl;
+	mapper->printLog("Validating an item        ");
+	//cout << "Validating an item" << endl;
 	sendCommand(VALIDATE);
 	mapper->printWarehouseMap();
 }
 
 void PickerRobot::store()
 {
-	cout << "Storing an item" << endl;
+	mapper->printLog("Storing an item         ");
+	//cout << "Storing an item" << endl;
 	sendCommand(STORE);
 	mapper->printWarehouseMap();
 	itemsInBasket++;
@@ -84,7 +103,8 @@ void PickerRobot::store()
 
 void PickerRobot::unload()
 {
-	cout << "Unloading items" << endl;
+	mapper->printLog("Unloading items         ");
+	// << "Unloading items" << endl;
 	sendCommand(UNLOAD);
 	mapper->printWarehouseMap();
 	itemsInBasket = 0;

@@ -1,0 +1,183 @@
+11-01-2017 04:03:11 - 	Moving from 1,1 to 1,10
+11-01-2017 04:03:11 - Moving Up
+11-01-2017 04:03:12 - Moving Up
+11-01-2017 04:03:13 - Moving Up
+11-01-2017 04:03:14 - Moving Up
+11-01-2017 04:03:15 - Moving Up
+11-01-2017 04:03:16 - Moving Up
+11-01-2017 04:03:17 - Moving Up
+11-01-2017 04:03:18 - Moving Up
+11-01-2017 04:03:19 - Moving Up
+11-01-2017 04:03:20 - Picking up an item
+11-01-2017 04:03:21 - Validating an item
+11-01-2017 04:03:22 - Storing an item
+11-01-2017 04:03:23 - Picking up an item
+11-01-2017 04:03:24 - Validating an item
+11-01-2017 04:03:25 - Storing an item
+11-01-2017 04:03:26 - 	Moving from 1,10 to 2,5
+11-01-2017 04:03:26 - Moving Right
+11-01-2017 04:03:27 - Moving Down
+11-01-2017 04:03:28 - Moving Down
+11-01-2017 04:03:29 - Moving Down
+11-01-2017 04:03:30 - Moving Down
+11-01-2017 04:03:31 - Moving Down
+11-01-2017 04:03:32 - Picking up an item
+11-01-2017 04:03:33 - Validating an item
+11-01-2017 04:03:34 - Storing an item
+11-01-2017 04:03:35 - Picking up an item
+11-01-2017 04:03:36 - Validating an item
+11-01-2017 04:03:37 - Storing an item
+11-01-2017 04:03:38 - 	Moving from 2,5 to 1,1
+11-01-2017 04:03:38 - Moving Left
+11-01-2017 04:03:39 - Moving Down
+11-01-2017 04:03:40 - Moving Down
+11-01-2017 04:03:41 - Moving Down
+11-01-2017 04:03:42 - Moving Down
+11-01-2017 04:03:43 - Picking up an item
+11-01-2017 04:03:44 - Validating an item
+11-01-2017 04:03:45 - Storing an item
+11-01-2017 04:03:46 - 	Moving from 1,1 to 1,12
+11-01-2017 04:03:46 - Moving Up
+11-01-2017 04:03:47 - Moving Up
+11-01-2017 04:03:48 - Moving Up
+11-01-2017 04:03:49 - Moving Up
+11-01-2017 04:03:50 - Moving Up
+11-01-2017 04:03:51 - Moving Up
+11-01-2017 04:03:52 - Moving Up
+11-01-2017 04:03:53 - Moving Up
+11-01-2017 04:03:54 - Moving Up
+11-01-2017 04:03:55 - Moving Up
+11-01-2017 04:03:56 - Moving Up
+11-01-2017 04:03:57 - Picking up an item
+11-01-2017 04:03:58 - Validating an item
+11-01-2017 04:03:59 - Storing an item
+11-01-2017 04:04:00 - Picking up an item
+11-01-2017 04:04:01 - Validating an item
+11-01-2017 04:04:02 - Storing an item
+11-01-2017 04:04:03 - Picking up an item
+11-01-2017 04:04:04 - Validating an item
+11-01-2017 04:04:05 - Storing an item
+11-01-2017 04:04:06 - 	Moving from 1,12 to 2,5
+11-01-2017 04:04:06 - Moving Right
+11-01-2017 04:04:07 - Moving Down
+11-01-2017 04:04:08 - Moving Down
+11-01-2017 04:04:09 - Moving Down
+11-01-2017 04:04:10 - Moving Down
+11-01-2017 04:04:11 - Moving Down
+11-01-2017 04:04:12 - Moving Down
+11-01-2017 04:04:13 - Moving Down
+11-01-2017 04:04:14 - Picking up an item
+11-01-2017 04:04:15 - Validating an item
+11-01-2017 04:04:16 - Storing an item
+11-01-2017 04:04:17 - Picking up an item
+11-01-2017 04:04:18 - Validating an item
+11-01-2017 04:04:19 - Storing an item
+11-01-2017 04:04:20 - Picking up an item
+11-01-2017 04:04:21 - Validating an item
+11-01-2017 04:04:22 - Storing an item
+11-01-2017 04:04:23 - Picking up an item
+11-01-2017 04:04:24 - Validating an item
+11-01-2017 04:04:25 - Storing an item
+11-01-2017 04:04:26 - 	Moving from 2,5 to 5,1
+11-01-2017 04:04:26 - Moving Right
+11-01-2017 04:04:27 - Moving Right
+11-01-2017 04:04:28 - Moving Right
+11-01-2017 04:04:29 - Moving Down
+11-01-2017 04:04:30 - Moving Down
+11-01-2017 04:04:31 - Moving Down
+11-01-2017 04:04:32 - Moving Down
+11-01-2017 04:04:33 - Unloading items
+11-01-2017 04:04:34 - 	Moving from 5,1 to 2,5
+11-01-2017 04:04:34 - Moving Left
+11-01-2017 04:04:35 - Moving Left
+11-01-2017 04:08:10 - 	Moving from 1,1 to 1,10
+11-01-2017 04:08:10 - Moving Up
+11-01-2017 04:08:11 - Moving Up
+11-01-2017 04:08:12 - Moving Up
+11-01-2017 04:08:13 - Moving Up
+11-01-2017 04:08:14 - Moving Up
+11-01-2017 04:08:53 - 	Moving from 1,1 to 1,10
+11-01-2017 04:08:53 - Moving Up
+11-01-2017 04:08:54 - Moving Up
+11-01-2017 04:08:55 - Moving Up
+11-01-2017 04:08:56 - Moving Up
+11-01-2017 04:08:57 - Moving Up
+11-01-2017 04:08:58 - Moving Up
+11-01-2017 04:09:09 - 	Moving from 1,1 to 1,10
+11-01-2017 04:09:09 - Moving Up
+11-01-2017 04:09:10 - Moving Up
+11-01-2017 04:09:11 - Moving Up
+11-01-2017 04:09:12 - Moving Up
+11-01-2017 04:09:13 - Moving Up
+11-01-2017 04:09:26 - 	Moving from 1,1 to 1,10
+11-01-2017 04:09:26 - Moving Up
+11-01-2017 04:09:27 - Moving Up
+11-01-2017 04:09:28 - Moving Up
+11-01-2017 04:09:29 - Moving Up
+11-01-2017 04:09:30 - Moving Up
+11-01-2017 04:09:31 - Moving Up
+11-01-2017 04:09:32 - Moving Up
+11-01-2017 04:12:39 - 	Moving from 1,1 to 1,10
+11-01-2017 04:12:39 - Moving Up
+11-01-2017 04:12:40 - Moving Up
+11-01-2017 04:12:41 - Moving Up
+11-01-2017 04:12:42 - Moving Up
+11-01-2017 04:12:43 - Moving Up
+11-01-2017 04:13:23 - 	Moving from 1,1 to 1,10
+11-01-2017 04:13:23 - Moving Up
+11-01-2017 04:13:24 - Moving Up
+11-01-2017 04:13:25 - Moving Up
+11-01-2017 04:13:26 - Moving Up
+11-01-2017 04:13:27 - Moving Up
+11-01-2017 04:13:57 - 	Moving from 1,1 to 1,10
+11-01-2017 04:13:57 - Moving Up
+11-01-2017 04:13:58 - Moving Up
+11-01-2017 04:13:59 - Moving Up
+11-01-2017 04:14:22 - 	Moving from 1,1 to 1,10
+11-01-2017 04:14:22 - Moving Up
+11-01-2017 04:14:23 - Moving Up
+11-01-2017 04:14:24 - Moving Up
+11-01-2017 04:14:25 - Moving Up
+11-01-2017 04:14:26 - Moving Up
+11-01-2017 04:14:27 - Moving Up
+11-01-2017 04:14:28 - Moving Up
+11-01-2017 04:14:29 - Moving Up
+11-01-2017 04:14:30 - Moving Up
+11-01-2017 04:14:31 - Picking up an item
+11-01-2017 04:14:32 - Validating an item
+11-01-2017 04:14:33 - Storing an item
+11-01-2017 04:14:34 - Picking up an item
+11-01-2017 04:14:35 - Validating an item
+11-01-2017 04:14:36 - Storing an item
+11-01-2017 04:14:37 - 	Moving from 1,10 to 2,5
+11-01-2017 04:14:37 - Moving Right
+11-01-2017 04:14:38 - Moving Down
+11-01-2017 04:14:39 - Moving Down
+11-01-2017 04:14:40 - Moving Down
+11-01-2017 04:14:41 - Moving Down
+11-01-2017 04:14:42 - Moving Down
+11-01-2017 04:14:43 - Picking up an item
+11-01-2017 04:14:44 - Validating an item
+11-01-2017 04:14:45 - Storing an item
+11-01-2017 04:14:58 - 	Moving from 1,1 to 1,10
+11-01-2017 04:14:58 - Moving Up
+11-01-2017 04:14:59 - Moving Up
+11-01-2017 04:15:45 - 	Moving from 1,1 to 1,10
+11-01-2017 04:15:45 - Moving Up
+11-01-2017 04:15:46 - Moving Up
+11-01-2017 04:15:47 - Moving Up
+11-01-2017 04:15:48 - Moving Up
+11-01-2017 04:16:32 - 	Moving from 1,1 to 1,10
+11-01-2017 04:16:32 - Moving Up
+11-01-2017 04:16:33 - Moving Up
+11-01-2017 04:16:34 - Moving Up
+11-01-2017 04:16:35 - Moving Up
+11-01-2017 04:16:36 - Moving Up
+11-01-2017 04:16:37 - Moving Up
+11-01-2017 04:16:44 - 	Moving from 1,1 to 1,10
+11-01-2017 04:16:44 - Moving Up
+11-01-2017 04:16:45 - Moving Up
+11-01-2017 04:16:46 - Moving Up
+11-01-2017 04:16:47 - Moving Up
+11-01-2017 04:16:48 - Moving Up
+11-01-2017 04:16:49 - Moving Up

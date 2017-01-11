@@ -3,6 +3,7 @@
 Manager::Manager()
 {
 	warehouses.empty();
+	printer = Printer::getInstance();
 }
 
 Manager::~Manager()
@@ -47,26 +48,34 @@ void Manager::execute(string oplFile, string aticleFile)
 	for (Order order : orderList) {
 		getWarehouse(order.warehouseID).addOrder(order);
 	}
-	int i = 0;
+	int mapOffset = 0;
+	system("cls");
 	for (RobotController rController : rControllers) {
-		//threads.push_back(thread(&RobotController::startRobot, &rController));
-		rController.startRobot();
+		Warehouse wh = getWarehouse(rController.getWarehouseID());
+		mapOffset += printer->addWindow(wh,mapOffset);
 	}
 
-	for (int j = 0; j < threads.size(); j++) {
-		threads[j].join();
+	for (int i = 0; i < rControllers.size(); i++) {
+		threads.push_back(thread(&RobotController::startRobot, &rControllers[i], printer));
+	}
+
+
+	for (int j = 0; j < rControllers.size(); j++) {
+		if (threads[j].joinable()) {
+			threads[j].join();
+		}
 	}
 
 }
 
 void Manager::addWarehouse(Warehouse wh)
 {
-	warehouses.push_front(wh);
+	warehouses.push_back(wh);
 }
 
 void Manager::addRobotController(RobotController rController)
 {
-	rControllers.push_front(rController);
+	rControllers.push_back(rController);
 }
 
 Warehouse & Manager::getWarehouse(string WarehouseID)
@@ -86,7 +95,7 @@ Warehouse & Manager::getWarehouse(string WarehouseID)
 
 RobotController& Manager::getRobotController(string WarehouseID)
 {
-	for (list<RobotController>::iterator i = this->rControllers.begin(), end = rControllers.end(); i != end; i++) {
+	for (vector<RobotController>::iterator i = this->rControllers.begin(), end = rControllers.end(); i != end; i++) {
 		if (i->getWarehouseID() == WarehouseID) {
 			return *i;
 		}

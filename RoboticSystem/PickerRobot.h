@@ -2,8 +2,10 @@
 #include <list>
 #include <vector>
 #include <assert.h>
+#include <fstream>
+#include <string>
+#include <sstream>
 
-#include "Warehouse.h"
 #include "Order.h"
 #include "Serial.h"
 #include "Point.h"
@@ -37,8 +39,8 @@ public:
 	void setMapper(Mapper *map);
 	void startSerial();
 	void pick();
-	void validate();
-	void store();
+	bool validate(Order order);
+	void store(Order order);
 	void unload();
 	int getBasketSize();
 	int getNrItemsInBasket();
@@ -51,5 +53,6 @@ private:
 	Mapper* mapper;
 	void sendCommand(const char c);
 	int itemsInBasket;
+	vector<Order> ordersInBasket;
 
 };

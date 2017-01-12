@@ -84,19 +84,35 @@ void PickerRobot::pick()
 	mapper->printWarehouseMap();
 }
 
-void PickerRobot::validate()
+bool PickerRobot::validate(Order order)
 {
 	mapper->printString("Validating an item        ", ACTION_NLINE, ACTION_NCOL);
 	//cout << "Validating an item" << endl;
 	sendCommand(VALIDATE);
+
+	string productID;
+	std::ifstream file("validate.txt");
+	while (std::getline(file, productID)) {
+		if (order.productID == productID) {
+			cout << "Fetched product ID: " << productID << endl;
+			cout << "Actual product ID: " << order.productID << endl;
+			mapper->printWarehouseMap();
+			return true;
+		}
+	}
+
+	mapper->printString("Wrong product ID:        ", ACTION_NLINE, ACTION_NCOL);
+	//cout << "Wrong product ID: " << order.productID << endl;
 	mapper->printWarehouseMap();
+	return false;
 }
 
-void PickerRobot::store()
+void PickerRobot::store(Order order)
 {
 	mapper->printString("Storing an item         ", ACTION_NLINE, ACTION_NCOL);
 	//cout << "Storing an item" << endl;
 	sendCommand(STORE);
+	ordersInBasket.push_back(order);		// add item to the basket
 	mapper->printWarehouseMap();
 	itemsInBasket++;
 }
@@ -104,9 +120,18 @@ void PickerRobot::store()
 void PickerRobot::unload()
 {
 	mapper->printString("Unloading items         ", ACTION_NLINE, ACTION_NCOL);
-	// << "Unloading items" << endl;
-	sendCommand(UNLOAD);
-	mapper->printWarehouseMap();
+	Order tempOrder;
+	for (vector<Order>::iterator it = ordersInBasket.begin(); it != ordersInBasket.end(); it++) {
+		for (int i = 0; i < it->quantity; i++) {
+			sendCommand(UNLOAD);
+			mapper->printWarehouseMap();
+			//TODO add time for each unload
+		}
+		
+		mapper->getWarehouse()->getUnloadedOrders().push_back(*it);
+		ordersInBasket.erase(it);		
+	}
+
 	itemsInBasket = 0;
 }
 

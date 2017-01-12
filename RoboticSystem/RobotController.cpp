@@ -65,9 +65,15 @@ bool RobotController::processOrder(Order order)
 			robot.moveTo(unloadingPoint, orderPosition);
 		}
 
-		robot.pick();
-		robot.validate();
-		robot.store();
+		if (robot.validate(order)) {
+			robot.pick();
+			robot.store(order);
+		}
+		else {
+			//TODO logging should be added here
+			cerr << "Invalid Product ID: " << order.productID << endl;
+			break;
+		}
 
 	}
 

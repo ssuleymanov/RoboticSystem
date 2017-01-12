@@ -39,6 +39,12 @@
     <ClInclude Include="Manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CollectorRobot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingDock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Printer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -74,5 +80,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <ClCompile Include="CollectorRobot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingDock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

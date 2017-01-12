@@ -23,7 +23,8 @@ public:
 	void updateWarehouseMap(char command);
 	void resetMap();
 	Point* getCurrentPosition();
-	//void setWindow(Printer* printer, int offset);
+	Warehouse* getWarehouse();
+
 private:
 	//WINDOW* win;
 	Printer* printer;

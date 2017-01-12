@@ -35,8 +35,6 @@ Mapper::Mapper(const Mapper& map)
 
 Mapper::~Mapper()
 {
-	//delete currentPosition;
-	//delete itemIsPicked;
 }
 
 void Mapper::Initialize(Point startPt, Point unloadPt, Printer * printr)
@@ -171,4 +169,9 @@ Point* Mapper::getCurrentPosition()
 {
 	//Point temp(currentPosition.getX(), warehouse->getRows() + 1 - currentPosition.getY());
 	return &currentPosition;
+}
+
+Warehouse * Mapper::getWarehouse()
+{
+	return warehouse;
 }

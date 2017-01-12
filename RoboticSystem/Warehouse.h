@@ -17,7 +17,7 @@ class Warehouse
 {
 public:
 
-	Warehouse(string warehouseID = "A", int rows = 5, int cols = 5);
+	Warehouse(string warehouseID = "A", int rows = 20, int cols = 5);
 	Warehouse(const Warehouse& Warehouse);
 	~Warehouse();
 	string getWarehouseID() const;
@@ -26,6 +26,10 @@ public:
 	Point getCompartmentPosition(Order order);
 	void addOrder(Order order);
 	vector<Order> getOrders();
+	vector<Order>& getUnloadedOrders();		// get orders from unloading area
+	void updateUnloadedOrders(vector<Order> orders);
+
+	void setUnloadedOrders(vector<Order> orders);	//just for testing	
 
 private:
 	string warehouseID;
@@ -33,5 +37,6 @@ private:
 	int cols;
 	vector<Order> orders;
 	mutable mutex wh_mutex;
+	vector<Order> unloadedOrders;			// orders in the unloading area of the warehouse
 
 };

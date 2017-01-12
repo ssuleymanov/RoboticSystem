@@ -350,408 +350,176 @@ Starting: 06-01-2017 04:49:21
 	Moving from 8,7 to 3,8
 Ending: 06-01-2017 04:50:10
 
-Starting: 09-01-2017 10:12:01
-
-	Moving from 1,1 to 8,7
-Starting: 09-01-2017 10:49:42
-
-	Moving from 1,1 to 8,7
-	Moving from 8,7 to 7,6
-Starting: 09-01-2017 10:58:17
-
-	Moving from 1,1 to 8,7
-	Moving from 8,7 to 7,6
-	Moving from 7,6 to 4,3
-Starting: 09-01-2017 11:01:23
-
-	Moving from 1,1 to 8,7
-Starting: 09-01-2017 11:02:06
-
-	Moving from 1,1 to 8,7
-	Moving from 8,7 to 2,7
-	Moving from 2,7 to 4,3
-	Moving from 4,3 to 5,9
-	Moving from 5,9 to 7,6
-Ending: 09-01-2017 11:04:01
-
-Starting: 09-01-2017 11:05:49
-
-	Moving from 1,1 to 8,7
-	Moving from 8,7 to 2,7
-	Moving from 2,7 to 4,3
-	Moving from 4,3 to 3,8
-	Moving from 4,3 to 5,9
-Starting: 09-01-2017 11:07:59
-
-	Moving from 1,1 to 8,7
-	Moving from 8,7 to 2,7
-	Moving from 2,7 to 4,3
-	Moving from 4,3 to 3,8
-Starting: 09-01-2017 11:12:01
-
-	Moving from 1,1 to 8,7
-	Moving from 8,7 to 2,7
-	Moving from 2,7 to 4,3
-	Moving from 4,3 to 3,8
-	Moving from 4,3 to 5,9
-	Moving from 4,14 to 7,6
-Ending: 09-01-2017 11:14:23
-
-Starting: 09-01-2017 11:15:15
-
-	Moving from 1,1 to 8,7
-	Moving from 8,7 to 2,7
-	Moving from 2,7 to 4,3
-	Moving from 4,3 to 3,8
-Starting: 09-01-2017 11:17:09
-
-	Moving from 1,1 to 8,7
-	Moving from 8,7 to 2,7
-	Moving from 2,7 to 4,3
-	Moving from 4,3 to 5,9
-	Moving from 5,9 to 7,6
-	Moving from 7,6 to 3,8
-Ending: 09-01-2017 11:19:19
-
-Starting: 09-01-2017 11:24:50
-
-	Moving from 1,1 to 8,7
-	Moving from 8,7 to 2,7
-	Moving from 2,7 to 4,3
-	Moving from 4,3 to 5,9
-	Moving from 5,9 to 7,6
-	Moving from 7,6 to 3,8
-Ending: 09-01-2017 11:27:00
-
-Starting: 09-01-2017 11:40:06
-
-	Moving from 1,1 to 8,7
-	Moving from 8,7 to 2,7
-	Moving from 2,7 to 4,3
-	Moving from 4,3 to 5,9
-	Moving from 5,9 to 7,6
-	Moving from 7,6 to 3,8
-Ending: 09-01-2017 11:42:16
-
-Starting: 09-01-2017 11:46:40
-
-Starting: 09-01-2017 11:46:59
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-	Moving from 4,5 to 6,5
-Ending: 09-01-2017 11:48:24
-
-Starting: 09-01-2017 11:57:55
-
-	Moving from 1,1 to 3,1
-Starting: 09-01-2017 11:58:54
-
-	Moving from 1,1 to 3,1
-Starting: 09-01-2017 11:59:18
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-Starting: 09-01-2017 12:00:39
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-Starting: 09-01-2017 12:06:23
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-	Moving from 4,5 to 6,5
-Ending: 09-01-2017 12:07:48
-
-Starting: 09-01-2017 12:08:26
-
-Starting: 09-01-2017 12:09:03
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-	Moving from 4,5 to 6,5
-Ending: 09-01-2017 12:10:28
-
-Starting: 09-01-2017 12:22:39
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-Starting: 09-01-2017 12:24:06
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 6,5
-	Moving from 1,3 to 4,5
-Ending: 09-01-2017 12:25:47
-
-Starting: 09-01-2017 12:28:45
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 6,4 to 6,5
-Starting: 09-01-2017 12:31:59
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 6,5
-	Moving from 6,5 to 1,3
-	Moving from 1,3 to 4,5
-Ending: 09-01-2017 12:33:54
-
-Starting: 09-01-2017 12:35:02
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 6,5
-	Moving from 6,5 to 1,3
-	Moving from 1,3 to 4,5
-Ending: 09-01-2017 12:36:57
-
-Starting: 09-01-2017 12:37:27
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 6,5
-	Moving from 6,5 to 1,3
-	Moving from 1,3 to 4,5
-Ending: 09-01-2017 12:39:23
-
-Starting: 09-01-2017 12:40:28
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 6,5
-	Moving from 6,5 to 1,3
-	Moving from 1,3 to 4,5
-Ending: 09-01-2017 12:42:23
-
-Starting: 09-01-2017 12:43:38
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 6,5
-Starting: 09-01-2017 12:45:35
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 6,5
-	Moving from 6,5 to 1,3
-	Moving from 1,3 to 4,5
-Ending: 09-01-2017 12:47:36
-
-Starting: 09-01-2017 12:48:34
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 6,5
-	Moving from 6,5 to 6,4
-Starting: 09-01-2017 12:50:04
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 6,5
-	Moving from 6,5 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-Ending: 09-01-2017 12:51:53
-
-Starting: 09-01-2017 12:57:44
-
-Starting: 09-01-2017 12:57:51
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 6,5
-	Moving from 6,5 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-Ending: 09-01-2017 12:59:32
-
-Starting: 09-01-2017 12:59:45
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 6,5
-	Moving from 6,5 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-Ending: 09-01-2017 01:01:26
-
-Starting: 09-01-2017 03:48:09
-
-	Moving from 1,1 to 1,5
-	Moving from 1,1 to 6,5
-Starting: 09-01-2017 03:50:54
-
-	Moving from 1,1 to 1,5
-	Moving from 1,1 to 6,5
-	Moving from 6,9 to 6,4
-Starting: 09-01-2017 03:58:39
-
-	Moving from 1,1 to 1,5
-	Moving from 1,1 to 6,5
-	Moving from 6,9 to 4,5
-Starting: 09-01-2017 04:00:32
-
-	Moving from 1,1 to 1,5
-	Moving from 1,5 to 6,5
-	Moving from 6,5 to 4,5
-	Moving from 4,5 to 6,5
-Ending: 09-01-2017 04:01:31
-
-Starting: 09-01-2017 04:02:30
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 6,5
-	Moving from 6,5 to 6,4
-Starting: 09-01-2017 04:03:41
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 6,5
-	Moving from 6,5 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-	Moving from 4,5 to 1,5
-	Moving from 1,5 to 6,5
-	Moving from 6,5 to 1,5
-	Moving from 1,5 to 6,5
-Ending: 09-01-2017 04:06:22
-
-Starting: 09-01-2017 04:17:36
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 6,5
-	Moving from 6,5 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-	Moving from 4,5 to 1,5
-	Moving from 1,5 to 6,5
-	Moving from 6,5 to 1,5
-Starting: 09-01-2017 04:21:04
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 6,5
-	Moving from 6,5 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-	Moving from 4,5 to 1,5
-	Moving from 1,5 to 6,5
-	Moving from 6,5 to 1,5
-	Moving from 1,5 to 6,5
-Ending: 09-01-2017 04:23:46
-
-Starting: 09-01-2017 04:23:51
-
-	Moving from 1,1 to 1,5
-	Moving from 1,5 to 6,5
-	Moving from 6,5 to 1,5
-	Moving from 1,5 to 6,5
-Ending: 09-01-2017 04:25:17
-
-Starting: 10-01-2017 09:04:12
-
-Starting: 10-01-2017 09:04:27
-
-Starting: 10-01-2017 09:04:48
-
-	Moving from 1,1 to 1,5
-Starting: 10-01-2017 09:06:29
-
-	Moving from 1,1 to 1,5
-Starting: 10-01-2017 09:24:07
-
-	Moving from 1,1 to 1,5
-	Moving from 1,5 to 5,5
-	Moving from 5,5 to 1,5
-	Moving from 1,5 to 5,5
-Ending: 10-01-2017 09:25:29
-
-Starting: 10-01-2017 09:28:05
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 5,5
-	Moving from 5,5 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-	Moving from 4,5 to 1,5
-	Moving from 1,5 to 5,5
-	Moving from 5,5 to 1,5
-	Moving from 1,5 to 5,5
-	Moving from 5,5 to 1,5
-	Moving from 1,5 to 5,5
-Ending: 10-01-2017 09:31:30
-
-Starting: 10-01-2017 09:36:28
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 5,5
-	Moving from 5,5 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-	Moving from 4,5 to 1,5
-	Moving from 1,5 to 5,5
-	Moving from 5,5 to 1,5
-	Moving from 1,5 to 5,5
-	Moving from 5,5 to 1,5
-	Moving from 1,5 to 5,5
-Ending: 10-01-2017 09:39:52
-
-Starting: 10-01-2017 09:44:24
-
-	Moving from 1,1 to 3,1
-	Moving from 3,1 to 4,2
-	Moving from 4,2 to 6,4
-	Moving from 6,4 to 5,5
-	Moving from 5,5 to 6,4
-	Moving from 6,4 to 1,3
-	Moving from 1,3 to 4,5
-	Moving from 4,5 to 1,5
-	Moving from 1,5 to 5,5
-	Moving from 5,5 to 1,5
-	Moving from 1,5 to 5,5
-	Moving from 5,5 to 1,5
-	Moving from 1,5 to 5,5
-Ending: 10-01-2017 09:47:48
+Starting: 09-01-2017 11:42:39
+
+Starting: 09-01-2017 11:42:56
+
+Starting: 09-01-2017 11:43:06
+
+Starting: 09-01-2017 11:43:32
+
+Starting: 09-01-2017 11:44:37
+
+Starting: 09-01-2017 11:45:25
+
+Starting: 09-01-2017 11:46:03
+
+Starting: 09-01-2017 11:59:46
+
+Starting: 09-01-2017 12:00:08
+
+Starting: 09-01-2017 12:00:17
+
+Starting: 09-01-2017 12:00:44
+
+Starting: 09-01-2017 12:09:21
+
+Starting: 09-01-2017 12:09:36
+
+Starting: 09-01-2017 12:17:33
+
+Starting: 09-01-2017 12:18:18
+
+Starting: 09-01-2017 12:19:50
+
+Starting: 09-01-2017 12:20:12
+
+Starting: 09-01-2017 12:20:39
+
+Starting: 09-01-2017 12:22:41
+
+Starting: 09-01-2017 12:27:28
+
+Starting: 09-01-2017 12:27:45
+
+	Moving from 0,0 to 6,1
+	Moving from 6,-1 to 0,0
+Starting: 09-01-2017 12:29:02
+
+Starting: 09-01-2017 12:30:49
+
+Starting: 09-01-2017 12:32:30
+
+	Moving from 0,0 to 6,1
+	Moving from 6,-1 to 0,0
+	Moving from 0,0 to 2,3
+Starting: 09-01-2017 12:34:21
+
+Starting: 09-01-2017 12:40:03
+
+	Moving from 1,1 to 6,1
+	Moving from 6,1 to 6,1
+	Moving from 1,1 to 2,3
+	Moving from 2,-1 to 4,1
+	Moving from 2,-1 to 1,4
+	Moving from 3,-8 to 4,1
+	Moving from 3,-8 to 2,4
+Starting: 09-01-2017 12:46:11
+
+	Moving from 1,1 to 6,1
+	Moving from 6,1 to 6,1
+Starting: 09-01-2017 12:47:45
+
+	Moving from 1,1 to 6,1
+	Moving from 6,5 to 6,1
+	Moving from 1,1 to 2,3
+Starting: 09-01-2017 12:48:45
+
+	Moving from 1,1 to 6,1
+Starting: 09-01-2017 12:49:54
+
+	Moving from 1,1 to 5,5
+	Moving from 5,1 to 6,1
+	Moving from 1,1 to 2,3
+	Moving from 2,8 to 4,1
+	Moving from 2,8 to 1,4
+	Moving from 3,19 to 4,1
+Starting: 09-01-2017 12:53:50
+
+	Moving from 1,1 to 5,5
+	Moving from 5,1 to 6,1
+	Moving from 1,1 to 2,3
+Starting: 09-01-2017 12:57:47
+
+Starting: 09-01-2017 12:58:13
+
+Starting: 09-01-2017 12:58:26
+
+Starting: 09-01-2017 12:59:54
+
+Starting: 09-01-2017 02:25:47
+
+	Moving from 1,1 to 5,5
+Starting: 09-01-2017 02:26:44
+
+	Moving from 1,1 to 5,5
+	Moving from 5,5 to 6,1
+	Moving from 1,1 to 2,3
+	Moving from 2,3 to 4,1
+	Moving from 2,3 to 1,4
+	Moving from 3,2 to 4,1
+	Moving from 3,2 to 2,4
+	Moving from 3,3 to 4,1
+	Moving from 3,3 to 2,6
+	Moving from 3,4 to 4,1
+	Moving from 1,1 to 1,10
+	Moving from 1,10 to 5,1
+	Moving from 1,10 to 2,5
+Starting: 09-01-2017 02:31:30
+
+Starting: 09-01-2017 05:18:26
+
+Starting: 09-01-2017 05:19:38
+
+Starting: 10-01-2017 09:32:17
+
+Starting: 10-01-2017 09:33:05
+
+Starting: 10-01-2017 09:44:36
+
+Starting: 10-01-2017 09:47:24
+
+Starting: 10-01-2017 09:57:53
+
+Starting: 10-01-2017 09:58:21
+
+Starting: 10-01-2017 09:58:57
+
+Starting: 10-01-2017 11:09:45
+
+	Moving from 1,1 to 4,4
+	Moving from 4,4 to 6,1
+	Moving from 6,1 to 4,4
+	Moving from 4,4 to 6,1
+	Moving from 6,1 to 4,4
+	Moving from 4,4 to 5,2
+	Moving from 5,2 to 6,1
+	Moving from 6,1 to 5,2
+	Moving from 5,2 to 5,5
+	Moving from 5,5 to 6,1
+	Moving from 1,1 to 2,3
+	Moving from 2,3 to 4,1
+	Moving from 4,1 to 1,4
+	Moving from 1,4 to 2,4
+	Moving from 2,4 to 4,1
+	Moving from 4,1 to 2,4
+	Moving from 2,4 to 4,1
+	Moving from 4,1 to 2,4
+	Moving from 2,4 to 2,6
+	Moving from 1,1 to 1,10
+	Moving from 1,10 to 2,5
+	Moving from 2,5 to 1,1
+	Moving from 1,1 to 1,12
+	Moving from 1,12 to 2,5
+	Moving from 2,5 to 5,1
+	Moving from 5,1 to 2,5
+	Moving from 2,5 to 2,15
+	Moving from 2,15 to 1,17
+	Moving from 1,17 to 1,2
+	Moving from 1,2 to 2,12
+	Moving from 2,12 to 5,1
+	Moving from 5,1 to 2,12
+Ending: 10-01-2017 11:16:37
+
+Starting: 10-01-2017 11:19:43
 

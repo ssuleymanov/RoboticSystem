@@ -1,14 +1,25 @@
 #include "RobotController.h"
 
-RobotController::RobotController(PickerRobot robot, Warehouse warehouse) : robot(robot), warehouse(warehouse)
+RobotController::RobotController(PickerRobot robot, Warehouse &warehouseaddr) : robot(robot)
 {
-	currentPoint = new Point(1, 1);
+	warehouse = &warehouseaddr;
+	currentPoint = new Point(1,1);
 }
 
 RobotController::~RobotController()
 {
-	delete currentPoint;
-	delete mapper;
+}
+
+RobotController::RobotController(const RobotController& rController) :
+	robot(rController.robot),
+	warehouse(rController.warehouse),
+	mapper(rController.mapper),
+	startingPoint(rController.startingPoint),
+	unloadingPoint(rController.unloadingPoint),
+	sortedOrders(rController.sortedOrders),
+	currentPoint(rController.currentPoint)
+{
+
 }
 
 void RobotController::calculateOptimalPath(std::vector<Order> orders)
@@ -17,7 +28,7 @@ void RobotController::calculateOptimalPath(std::vector<Order> orders)
 
 void RobotController::executeOrders(std::vector<Order> orders)
 {
-	mapper->printWarehouseMap();
+	mapper.printWarehouseMap();
 	for(auto &order : orders){
 		processOrder(order);
 		if (robot.getNrItemsInBasket() == robot.getBasketSize()) {
@@ -29,19 +40,16 @@ void RobotController::executeOrders(std::vector<Order> orders)
 
 bool RobotController::processOrder(Order order)
 {
-	mapper->resetMap();
-	Point orderPosition = warehouse.getCompartmentPosition(order);
-	mapper->setCompartmentPosition(orderPosition);
-	*currentPoint = mapper->getCurrentPosition();
-
+	mapper.resetMap();
+	Point orderPosition = warehouse->getCompartmentPosition(order);
+	mapper.setCompartmentPosition(orderPosition);
 	robot.moveTo(*currentPoint, orderPosition);
-	for (int i = 0; i < order.amountOfItems; i++) {		// if the basket if full, first move to the unloading area to unload the items, then return back
+	for (int i = 0; i < order.quantity; i++) {		// if the basket if full, first move to the unloading area to unload the items, then return back
 		if (robot.getNrItemsInBasket() == robot.getBasketSize()) {
-			mapper->resetMap();							// make P appear on the map if there are still items left that need to be picked
-			*currentPoint = mapper->getCurrentPosition();
+			mapper.resetMap();							// make P appear on the map if there are still items left that need to be picked
 			robot.moveTo(*currentPoint, unloadingPoint);
 			robot.unload();
-			robot.moveTo(unloadingPoint, *currentPoint);
+			robot.moveTo(unloadingPoint, orderPosition);
 		}
 		robot.pick();
 		robot.validate();
@@ -53,11 +61,11 @@ bool RobotController::processOrder(Order order)
 
 void RobotController::setStartingPoint(Point startPoint)
 {
-	if (startPoint.getX() < 1 || startPoint.getX() > warehouse.getCols()) {
+	if (startPoint.getX() < 1 || startPoint.getX() > warehouse->getCols()) {
 		cerr << "X coordinate of starting point is out of range!!! " << endl;
 		exit(1);
 	}
-	else if (startPoint.getY() < 1 || startPoint.getY() > warehouse.getRows()) {
+	else if (startPoint.getY() < 1 || startPoint.getY() > warehouse->getRows()) {
 		cerr << "Y coordinate of starting point is out of range!!! " << endl;
 		exit(1);
 	}
@@ -73,11 +81,11 @@ Point RobotController::getStartingPoint()
 
 void RobotController::setUnloadingPoint(Point unloadPoint)
 {
-	if (unloadPoint.getX() < 1 || unloadPoint.getX() > warehouse.getCols()) {
+	if (unloadPoint.getX() < 1 || unloadPoint.getX() > warehouse->getCols()) {
 		cerr << "X coordinate of unloading point is out of range!!! " << endl;
 		exit(1);
 	}
-	else if (unloadPoint.getY() < 1 || unloadPoint.getY() > warehouse.getRows()) {
+	else if (unloadPoint.getY() < 1 || unloadPoint.getY() > warehouse->getRows()) {
 		cerr << "Y coordinate of unloading point is out of range!!! " << endl;
 		exit(1);
 	}
@@ -94,9 +102,11 @@ Point RobotController::getUnloadingPoint()
 
 void RobotController::startRobot()
 {
-	mapper =  new Mapper(warehouse, startingPoint, unloadingPoint);
-	robot.setMapper(mapper);
+	mapper = Mapper(warehouse, startingPoint, unloadingPoint);
+	currentPoint = mapper.getCurrentPosition();
+	robot.setMapper(&mapper);
 	robot.startSerial();
+	executeOrders(warehouse->getOrders());
 
 	//*currentPoint = startingPoint;		// already set in the Mapper constructor
 }
@@ -104,12 +114,17 @@ void RobotController::startRobot()
 bool RobotController::getOrder(Order ordr)
 {
 	cout << "Order number: " << ordr.productID << endl;
-	mapper->printWarehouseMap();
+	mapper.printWarehouseMap();
 	processOrder(ordr);
-	*currentPoint = mapper->getCurrentPosition();
 	robot.moveTo(*currentPoint, unloadingPoint);
 	robot.unload();
 
+	cout << "Completed Warehouse: " << warehouse->getWarehouseID() << endl;
 	return true;
+}
+
+string RobotController::getWarehouseID()
+{
+	return warehouse->getWarehouseID();
 }
 

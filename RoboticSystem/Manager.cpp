@@ -1,15 +1,15 @@
-#include "Controller.h"
+#include "Manager.h"
 
-Controller::Controller()
+Manager::Manager()
 {
 	warehouses.empty();
 }
 
-Controller::~Controller()
+Manager::~Manager()
 {
 }
 
-void Controller::setup(string fileName)
+void Manager::setup(string fileName)
 {
 
 	//Read Warehouse settings
@@ -19,40 +19,57 @@ void Controller::setup(string fileName)
 	while (getline(file, value)) {
 		char whID[50];
 		int rows, cols, unload_x, unload_y, start_x, start_y, size;
-		size = sscanf_s(value.c_str(), "%s\t%d\t%d\t%d\t%d\t%d\t%d", &whID, 50, &rows, &cols, &unload_x, &unload_y, &start_x, &start_y);
-		if (size == 7)
+		int basket, port, baud;
+		size = sscanf_s(value.c_str(), "%s\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d", &whID, 50, &rows, &cols, &start_x, &start_y, &unload_x, &unload_y, &basket, &port, &baud);
+		if (size == 10)
 		{
-			Warehouse Warehouse(whID, rows, cols, Point(unload_x, unload_y), Point(start_x, start_y));
-			PickerRobot robot(Warehouse, 10);
-			robot.setSerialParameters(3, 9600);
-			addPickerRobot(robot);
+			addWarehouse(Warehouse(whID, rows, cols));
+			PickerRobot pRobot(basket);
+			pRobot.setSerialParameters(port, baud);
+			RobotController rController(pRobot, getWarehouse(whID));
+			rController.setStartingPoint(Point(start_x,start_y));
+			rController.setUnloadingPoint(Point(unload_x,unload_y));
+			addRobotController(rController);
 		}
 		else {
-			cout << "[Error] expecting 7 arguments in the warehouse configuration, recieved " << size << endl;
+			cout << "[Error] expecting 10 arguments in the warehouse configuration, recieved " << size << endl;
 		}
 	}
 
 }
 
-void Controller::execute(string fileName)
+void Manager::execute(string oplFile, string aticleFile)
 {
-	Order Order = this->readOPL(fileName);
-	getPickerRobot(Order.getWarehouseID()).startSerial();
+	vector<Order> orderList;
+	vector<thread> threads;
+	orderList = readOPL(oplFile, aticleFile);
+	
+	for (Order order : orderList) {
+		getWarehouse(order.warehouseID).addOrder(order);
+	}
+	int i = 0;
+	for (RobotController rController : rControllers) {
+		//threads.push_back(thread(&RobotController::startRobot, &rController));
+		rController.startRobot();
+	}
 
-	getPickerRobot(Order.getWarehouseID()).createInstructions(Order);
-	getPickerRobot(Order.getWarehouseID()).executeInstructions(Order);
+	for (int j = 0; j < threads.size(); j++) {
+		threads[j].join();
+	}
+
 }
 
-void Controller::addWarehouse(Warehouse & wh)
+void Manager::addWarehouse(Warehouse wh)
 {
 	warehouses.push_front(wh);
 }
 
-void Controller::addPickerRobot(PickerRobot& robot) {
-	PickerRobots.push_front(robot);
+void Manager::addRobotController(RobotController rController)
+{
+	rControllers.push_front(rController);
 }
 
-Warehouse & Controller::getWarehouse(string WarehouseID)
+Warehouse & Manager::getWarehouse(string WarehouseID)
 {
 	for (list<Warehouse>::iterator i = this->warehouses.begin(), end = warehouses.end(); i != end; i++) {
 		if (i->getWarehouseID() == WarehouseID) {
@@ -66,9 +83,10 @@ Warehouse & Controller::getWarehouse(string WarehouseID)
 	throw std::runtime_error(err_msg);
 }
 
-PickerRobot & Controller::getPickerRobot(string WarehouseID)
+
+RobotController& Manager::getRobotController(string WarehouseID)
 {
-	for (list<PickerRobot>::iterator i = this->PickerRobots.begin(), end = PickerRobots.end(); i != end; i++) {
+	for (list<RobotController>::iterator i = this->rControllers.begin(), end = rControllers.end(); i != end; i++) {
 		if (i->getWarehouseID() == WarehouseID) {
 			return *i;
 		}
@@ -80,14 +98,52 @@ PickerRobot & Controller::getPickerRobot(string WarehouseID)
 	throw std::runtime_error(err_msg);
 }
 
-Order Controller::readOPL(string fileName)
+vector<Order> Manager::readOPL(string oplFile, string articleFile)
 {
-	ifstream file(fileName);
+	ifstream articleStream(articleFile);
 	string value;
-	getline(file, value); //Skip Header
+	map<string, Article> ArticleList;
 
-	getline(file, value);
-	Order currentOrder(value, 1);
+	getline(articleStream, value); //Skip Header
+	while (getline(articleStream, value)) {
 
-	return currentOrder;
+		char productID[20], warehouseID[20];
+		int compartment, size;
+		size = sscanf_s(value.c_str(), " %[^;];%[^;];%d", &productID, 20, &warehouseID, 20, &compartment);
+		if (size == 3)
+		{
+			Article article = { productID, warehouseID, compartment };
+			ArticleList.insert(pair<string, Article>(productID, article));
+			cout << "Added article: " << article.productID << endl;
+		}
+		else {
+			cout << "[Error] Article should contain 3 arguments, recieved " << size << endl;
+		}
+
+	}
+
+
+	ifstream oplStream(oplFile);
+	vector<Order> orderList;
+	int priority = 1;
+
+	getline(oplStream, value); //Skip Header
+
+	while (getline(oplStream, value)) {
+		char customerID[20], productID[20];
+		int orderID, truckNr, quantity, size;
+		size = sscanf_s(value.c_str(), " %d;%[^;];%d;%[^;];%d", &orderID, &customerID, 20, &truckNr, &productID, 20, &quantity);
+		if (size == 5)
+		{
+			Article article = ArticleList[productID];
+			Order order = { article.compartment, customerID, orderID, priority, productID, quantity, truckNr, article.warehouseID };
+			cout << "Added Order: " << orderID << endl;
+			orderList.push_back(order);
+			priority++;
+		}
+		else {
+			cout << "[Error] Order should contain 5 arguments, recieved " << size << endl;
+		}
+	}
+	return orderList;
 }

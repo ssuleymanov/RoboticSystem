@@ -10,9 +10,9 @@
 #include "Warehouse.h"
 #include "PickerRobot.h"
 #include "RobotController.h"
-#include "Order.h"
+#include "Manager.h"
 
-#define TEST true
+#define TEST false
 
 using namespace std;
 
@@ -116,9 +116,9 @@ int main(void) {
 	
 #else
 
-	Controller manager;
+	Manager manager;
 	manager.setup("wh_config.txt");
-	manager.execute("test.csv");
+	manager.execute("Order_Picking_List.csv","Article_List.csv");
 
 #endif
 

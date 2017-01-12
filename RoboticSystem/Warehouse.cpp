@@ -50,3 +50,18 @@ vector<Order> Warehouse::getOrders()
 {
 	return this->orders;
 }
+
+vector<Order>& Warehouse::getUnloadedOrders()
+{
+	return unloadedOrders;
+}
+
+void Warehouse::updateUnloadedOrders(vector<Order> orders)
+{
+	unloadedOrders = orders;
+}
+
+void Warehouse::setUnloadedOrders(vector<Order> orders)
+{
+	unloadedOrders = orders;
+}

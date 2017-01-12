@@ -1,0 +1,14 @@
+Path	Time
+AtoB	20
+AtoC	15
+AtoLD	8	
+BtoA	20
+BtoC	10
+BtoLD	16
+CtoA	15
+CtoB	10
+CtoLD	12
+LDtoA	8
+LDtoB	16
+LDtoC	12
+

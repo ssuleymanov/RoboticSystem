@@ -39,7 +39,7 @@ public:
 	void startSerial();
 	void pick();
 	bool validate(Order order);
-	void store();
+	void store(Order order);
 	void unload();
 	int getBasketSize();
 	int getNrItemsInBasket();
@@ -52,5 +52,6 @@ private:
 	Mapper* mapper;
 	void sendCommand(const char c);
 	int itemsInBasket;
+	vector<Order> ordersInBasket;
 
 };

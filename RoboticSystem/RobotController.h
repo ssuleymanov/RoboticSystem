@@ -5,7 +5,7 @@
 #include <string>
 
 #include "Point.h"
-//#include "Order.h"
+#include "Order.h"
 #include "PickerRobot.h"
 #include "Warehouse.h"
 #include "Mapper.h"

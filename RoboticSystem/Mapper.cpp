@@ -7,10 +7,8 @@ Mapper::Mapper()
 Mapper::Mapper(Warehouse* wrhouse, Point start, Point unload) : warehouse(wrhouse),startingPoint(start),unloadingPoint(unload)
 {
 	int start_X = startingPoint.getX();
-	int start_Y = warehouse.getRows() + 1 - startingPoint.getY();
+	int start_Y = startingPoint.getY();
 	currentPosition = Point(start_X, start_Y);
-
-	command = 'A';
 
 	itemIsPicked = false;
 	command = 'A';		// initialize to 'A', can be any character 
@@ -88,7 +86,7 @@ void Mapper::printWarehouseMap()
 	}
 	cout << endl;
 
-	Sleep(1000);
+	Sleep(2500);
 	system("cls");
 }
 
@@ -106,4 +104,9 @@ Point* Mapper::getCurrentPosition()
 {
 	//Point temp(currentPosition.getX(), warehouse->getRows() + 1 - currentPosition.getY());
 	return &currentPosition;
+}
+
+Warehouse * Mapper::getWarehouse()
+{
+	return warehouse;
 }

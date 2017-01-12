@@ -25,10 +25,10 @@ void PickerRobot::moveTo(Point start, Point dest)
 	x = dest.getX() - start.getX();
 	y = dest.getY() - start.getY();
 
-	string message = "\tMoving from " + to_string(start.getX()) + "," + to_string(start.getY());
-	mapper->printLog(message);
-	message = " to " + to_string(dest.getX()) + "," + to_string(dest.getY()) + "        ";
-	mapper->printLog(message);
+	string message = "Moving from " + to_string(start.getX()) + "," + to_string(start.getY());
+	//mapper->printString(message, ACTION_NLINE, ACTION_NCOL);
+	message += " to " + to_string(dest.getX()) + "," + to_string(dest.getY()) + "  ";
+	mapper->printString(message, ACTION_NLINE, ACTION_NCOL);
 
 	for (int i = 0; i < abs(x); i++) {
 		//cout << "Moving to => " << dest << endl;
@@ -78,7 +78,7 @@ void PickerRobot::startSerial()
 
 void PickerRobot::pick()
 {
-	mapper->printLog("Picking up an item       ");
+	mapper->printString("Picking up an item       ",ACTION_NLINE, ACTION_NCOL);
 	//cout << "Picking up an item" << endl;
 	sendCommand(PICK);
 	mapper->printWarehouseMap();
@@ -86,7 +86,7 @@ void PickerRobot::pick()
 
 void PickerRobot::validate()
 {
-	mapper->printLog("Validating an item        ");
+	mapper->printString("Validating an item        ", ACTION_NLINE, ACTION_NCOL);
 	//cout << "Validating an item" << endl;
 	sendCommand(VALIDATE);
 	mapper->printWarehouseMap();
@@ -94,7 +94,7 @@ void PickerRobot::validate()
 
 void PickerRobot::store()
 {
-	mapper->printLog("Storing an item         ");
+	mapper->printString("Storing an item         ", ACTION_NLINE, ACTION_NCOL);
 	//cout << "Storing an item" << endl;
 	sendCommand(STORE);
 	mapper->printWarehouseMap();
@@ -103,7 +103,7 @@ void PickerRobot::store()
 
 void PickerRobot::unload()
 {
-	mapper->printLog("Unloading items         ");
+	mapper->printString("Unloading items         ", ACTION_NLINE, ACTION_NCOL);
 	// << "Unloading items" << endl;
 	sendCommand(UNLOAD);
 	mapper->printWarehouseMap();

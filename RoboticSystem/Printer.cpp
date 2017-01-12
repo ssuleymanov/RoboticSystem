@@ -48,7 +48,7 @@ int Printer::addWindow(Warehouse warehouse, int offset)
 	int height = warehouse.getRows() * 3 + 4;
 	if (height > 50)
 		height = 50;
-	int width = warehouse.getCols() * 5;
+	int width = warehouse.getCols() * 6;
 	if (width < 30) {
 		width = 30;
 		
@@ -71,12 +71,26 @@ void Printer::refreshw(string warehouseID)
 void Printer::printString(string warehouseID, int y, int x, const char* message)
 {
 	lock_guard<mutex> guard(printer_mutex);
-	mvwaddstr(windows[warehouseID],y,x,message);
+	if (message == " R ") {
+		wattron(windows[warehouseID],A_STANDOUT);
+		mvwaddstr(windows[warehouseID], y, x, message);
+		wattroff(windows[warehouseID], A_STANDOUT);
+	}
+	else {
+		mvwaddstr(windows[warehouseID], y, x, message);
+	}
 
 }
 
-void Printer::makeBox(string warehouseID)
+void Printer::drawHorLine(string warehouseID, int y, int x, chtype c, int n)
 {
 	lock_guard<mutex> guard(printer_mutex);
-	box(windows[warehouseID], 0, 0);
+	mvwhline(windows[warehouseID],y,x,c,n);
 }
+
+void Printer::drawVertLine(string warehouseID, int y, int x, chtype c, int n)
+{
+	lock_guard<mutex> guard(printer_mutex);
+	mvwvline(windows[warehouseID],y,x,c,n);
+}
+

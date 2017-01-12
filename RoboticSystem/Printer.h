@@ -2,7 +2,8 @@
 #include <iostream>
 #include <fstream>
 #include <map>
-#include <pdcwin.h>
+#include "../pdcurses/win32/pdcwin.h"
+//#include <pdcwin.h>
 #include <thread>
 #include <string>
 #include <iterator>
@@ -10,6 +11,13 @@
 #include <ctime>
 
 #include "Warehouse.h"
+
+#define ACTION_NLINE 3
+#define ACTION_NCOL 3
+#define MOVE_NLINE 5
+#define MOVE_NCOL 3
+#define HOR_LINE 1
+#define VERT_LINE 2
 
 using namespace std; 
 
@@ -24,7 +32,8 @@ public:
 	int addWindow(Warehouse warehouse, int offset);
 	void refreshw(string warehouseID);
 	void printString(string warehouseID, int y, int x, const char* message);
-	void makeBox(string warehouseID);
+	void drawHorLine(string warehouseID, int y, int x, chtype c, int n);
+	void drawVertLine(string warehouseID, int y, int x, chtype c, int n);
 private:
 	static Printer* instance;
 	Printer();

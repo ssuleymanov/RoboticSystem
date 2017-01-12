@@ -48,6 +48,7 @@ int main(void) {
 	write_header();
 
 	initscr();
+	init_pair(1, COLOR_BLACK, COLOR_RED);
 	resize_term(120,200);
 	cbreak();
 	noecho();

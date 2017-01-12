@@ -1,16 +1,25 @@
-//#pragma once
-//#ifndef ORDER_H
-//#define ORDER_H
-//
-//#include <string>
-//
-//struct Order {
-//	std::string productID;
-//	std::string customerID;
-//	int priority;
-//	int compartmentPosition;
-//	int truckNumber;
-//	int amountOfItems;
-//};
-//
-//#endif // !ORDER_H
+#pragma once
+#ifndef ORDER_H
+#define ORDER_H
+
+#include <string>
+
+typedef struct {
+	string	productID;
+	string	warehouseID;
+	int		compartment;
+}Article;
+
+typedef struct {
+	int		compartment;
+	string	customerID;
+	int		orderID;
+	int		priority;
+	string	productID;
+	int		quantity;
+	int		truckNr;
+	string	warehouseID;
+}Order;
+
+#endif // !ORDER_H
+

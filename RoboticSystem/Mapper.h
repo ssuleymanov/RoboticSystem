@@ -17,6 +17,7 @@ public:
 	~Mapper();
 	void Initialize(Point startPt, Point unloadPt, Printer* printr);
 	void printLog(string message);
+	void printString(string message, int y, int x);
 	void setCompartmentPosition(Point compartmentPt);
 	void printWarehouseMap();
 	void updateWarehouseMap(char command);

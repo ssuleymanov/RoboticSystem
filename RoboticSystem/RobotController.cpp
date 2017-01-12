@@ -43,6 +43,12 @@ void RobotController::executeOrders(std::vector<Order> orders)
 			robot.unload();
 		}
 	}
+	if (robot.getNrItemsInBasket() != 0) {
+		robot.moveTo(*currentPoint, unloadingPoint);
+		robot.unload();
+	}
+	mapper.printString("Warehouse Done!       ",ACTION_NLINE, ACTION_NCOL);
+	mapper.printString("                      ", MOVE_NLINE, MOVE_NCOL);
 }
 
 bool RobotController::processOrder(Order order)

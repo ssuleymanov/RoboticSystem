@@ -14,8 +14,11 @@
 
 #define ACTION_NLINE 3
 #define ACTION_NCOL 3
-#define MOVE_NLINE 5
+#define MOVE_NLINE 4
 #define MOVE_NCOL 3
+#define BASKET_NLINE 5
+#define BASKET_NCOL 3
+
 #define HOR_LINE 1
 #define VERT_LINE 2
 

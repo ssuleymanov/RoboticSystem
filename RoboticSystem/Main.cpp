@@ -15,7 +15,7 @@
 #include "LoadingDock.h"
 #include <pdcwin.h>
 
-#define TEST 1
+#define TEST false
 
 using namespace std;
 
@@ -70,11 +70,12 @@ int main(void) {
 	Warehouse whouse("C", 5, 6);
 	PickerRobot robot(5);
 	robot.setSerialParameters(3, 9600);
+	Printer* printer = Printer::getInstance();
 
 	RobotController r_controller(robot, whouse);
 	r_controller.setStartingPoint(start_point);
 	r_controller.setUnloadingPoint(unload_point);
-	r_controller.startRobot();
+	r_controller.startRobot(printer);
 
 	Order order, order2, order3, order4, order5, order6;
 	order.quantity = 1;
@@ -143,15 +144,15 @@ int main(void) {
 	
 #else
 
-//	Manager manager;
-//	manager.setup("wh_config.txt");
-//	manager.execute("Order_Picking_List.csv","Article_List.csv");
+	Manager manager;
+	manager.setup("wh_config.txt");
+	manager.execute("Order_Picking_List.csv","Article_List.csv");
 
-	CollectorRobot cr(16, 3, "path_times.txt");
+	/*CollectorRobot cr(16, 3, "path_times.txt");
 	cout << "Moving time is: " << cr.moveTo("A") << endl;
 	cout << "Moving time is: " << cr.moveTo("B") << endl;
 	cout << "Moving time is: " << cr.moveTo("C") << endl;
-	cout << "Moving time is: " << cr.moveTo("LD") << endl;
+	cout << "Moving time is: " << cr.moveTo("LD") << endl;*/
 
 #endif
 

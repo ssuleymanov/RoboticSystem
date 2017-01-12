@@ -45,10 +45,10 @@ void Printer::printlog(string warehouseID, string message)
 
 int Printer::addWindow(Warehouse warehouse, int offset)
 {
-	int height = warehouse.getRows() * 3 + 4;
+	int height = warehouse.getRows() * 2 + 10;
 	if (height > 50)
 		height = 50;
-	int width = warehouse.getCols() * 6;
+	int width = warehouse.getCols() * 4 + 12;
 	if (width < 30) {
 		width = 30;
 		
@@ -71,15 +71,15 @@ void Printer::refreshw(string warehouseID)
 void Printer::printString(string warehouseID, int y, int x, const char* message)
 {
 	lock_guard<mutex> guard(printer_mutex);
-	if (message == " R ") {
+	/*if (message == " R ") {
 		wattron(windows[warehouseID],A_STANDOUT);
 		mvwaddstr(windows[warehouseID], y, x, message);
 		wattroff(windows[warehouseID], A_STANDOUT);
 	}
 	else {
 		mvwaddstr(windows[warehouseID], y, x, message);
-	}
-
+	}*/
+	mvwaddstr(windows[warehouseID], y, x, message);
 }
 
 void Printer::drawHorLine(string warehouseID, int y, int x, chtype c, int n)

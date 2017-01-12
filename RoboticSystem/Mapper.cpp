@@ -122,9 +122,9 @@ void Mapper::printWarehouseMap()
 					}
 				}
 				else {
-					string comp = to_string((rows-j) + 1 + (i-1)*rows)+ "  ";
-					printer->printString(warehouse->getWarehouseID(), nlines, ncols + 1, comp.c_str());
-					//printer->printString(warehouse->getWarehouseID(), nlines, ncols+1, "   ");
+					//string comp = to_string((rows-j) + 1 + (i-1)*rows)+ "  ";
+					//printer->printString(warehouse->getWarehouseID(), nlines, ncols + 1, comp.c_str());
+					printer->printString(warehouse->getWarehouseID(), nlines, ncols+1, "   ");
 				}
 			}
 			printer->printString(warehouse->getWarehouseID(), nlines, (cols*4)+4, string(1, 186).c_str());

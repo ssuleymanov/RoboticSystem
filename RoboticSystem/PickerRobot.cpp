@@ -79,6 +79,7 @@ void PickerRobot::startSerial()
 void PickerRobot::pick()
 {
 	mapper->printString("Picking up an item       ",ACTION_NLINE, ACTION_NCOL);
+	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
 	//cout << "Picking up an item" << endl;
 	sendCommand(PICK);
 	mapper->printWarehouseMap();
@@ -87,6 +88,7 @@ void PickerRobot::pick()
 bool PickerRobot::validate(Order order)
 {
 	mapper->printString("Validating an item        ", ACTION_NLINE, ACTION_NCOL);
+	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
 	//cout << "Validating an item" << endl;
 	sendCommand(VALIDATE);
 
@@ -94,25 +96,45 @@ bool PickerRobot::validate(Order order)
 	std::ifstream file("validate.txt");
 	while (std::getline(file, productID)) {
 		if (order.productID == productID) {
-			cout << "Fetched product ID: " << productID << endl;
-			cout << "Actual product ID: " << order.productID << endl;
+			mapper->printLog("Fetched product ID: " + productID);
+			mapper->printLog("Actual product ID: "  + order.productID);
+			//cout << "Fetched product ID: " << productID << endl;
+			//cout << "Actual product ID: " << order.productID << endl;
 			mapper->printWarehouseMap();
 			return true;
 		}
 	}
 
 	mapper->printString("Wrong product ID:        ", ACTION_NLINE, ACTION_NCOL);
+	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
 	//cout << "Wrong product ID: " << order.productID << endl;
 	mapper->printWarehouseMap();
 	return false;
 }
 
+bool OrderExist(Order order) {
+	return true;
+}
+
 void PickerRobot::store(Order order)
 {
 	mapper->printString("Storing an item         ", ACTION_NLINE, ACTION_NCOL);
+	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
 	//cout << "Storing an item" << endl;
 	sendCommand(STORE);
-	ordersInBasket.push_back(order);		// add item to the basket
+	bool newOrder = true;
+	for (auto& bOrder : ordersInBasket) {
+		if (bOrder.orderID == order.orderID) {
+			bOrder.quantity++;
+			newOrder = false;
+		}
+	}
+	if (newOrder) {
+		//Order ord = order;
+		order.quantity = 1;
+		ordersInBasket.push_back(order);
+	}
+	//ordersInBasket.push_back(order);		// add item to the basket
 	mapper->printWarehouseMap();
 	itemsInBasket++;
 }
@@ -121,16 +143,16 @@ void PickerRobot::unload()
 {
 	mapper->printString("Unloading items         ", ACTION_NLINE, ACTION_NCOL);
 	Order tempOrder;
-	for (vector<Order>::iterator it = ordersInBasket.begin(); it != ordersInBasket.end(); it++) {
+	for (vector<Order>::iterator it = ordersInBasket.begin(); it != ordersInBasket.end(); ++it) {
 		for (int i = 0; i < it->quantity; i++) {
 			sendCommand(UNLOAD);
+			itemsInBasket--;
 			mapper->printWarehouseMap();
 			//TODO add time for each unload
 		}
-		
-		mapper->getWarehouse()->getUnloadedOrders().push_back(*it);
-		ordersInBasket.erase(it);		
+		mapper->getWarehouse()->getUnloadedOrders().push_back(*it);	
 	}
+	ordersInBasket.clear();
 
 	itemsInBasket = 0;
 }
@@ -151,6 +173,7 @@ void PickerRobot::sendCommand(const char c)
 		char message[5] = "F";
 		cout << "Send command => " << c << endl;
 		cout << "Number of items in the basket: " << itemsInBasket << endl;
+		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize) + "    ", BASKET_NLINE, BASKET_NCOL);
 
 		assert(serial.SendData(c));
 		mapper->updateWarehouseMap(c);
@@ -161,6 +184,7 @@ void PickerRobot::sendCommand(const char c)
 		}
 	}
 	else {
+		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize) + "    ", BASKET_NLINE, BASKET_NCOL);
 		mapper->updateWarehouseMap(c);
 	}
 }

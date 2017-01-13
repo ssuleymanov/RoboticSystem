@@ -145,8 +145,8 @@ void PickerRobot::unload()
 	Order tempOrder;
 	for (vector<Order>::iterator it = ordersInBasket.begin(); it != ordersInBasket.end(); ++it) {
 		for (int i = 0; i < it->quantity; i++) {
-			sendCommand(UNLOAD);
 			itemsInBasket--;
+			sendCommand(UNLOAD);
 			mapper->printWarehouseMap();
 			//TODO add time for each unload
 		}
@@ -154,7 +154,7 @@ void PickerRobot::unload()
 	}
 	ordersInBasket.clear();
 
-	itemsInBasket = 0;
+	//itemsInBasket = 0;
 }
 
 int PickerRobot::getBasketSize()
@@ -171,8 +171,8 @@ void PickerRobot::sendCommand(const char c)
 {
 	if (serial.IsOpened()) {
 		char message[5] = "F";
-		cout << "Send command => " << c << endl;
-		cout << "Number of items in the basket: " << itemsInBasket << endl;
+		clog << "Send command => " << c << endl;
+		clog << "Number of items in the basket: " << itemsInBasket << endl;
 		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize) + "    ", BASKET_NLINE, BASKET_NCOL);
 
 		assert(serial.SendData(c));

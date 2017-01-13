@@ -36,7 +36,6 @@ void Manager::setup(string fileName)
 			cout << "[Error] expecting 10 arguments in the warehouse configuration, recieved " << size << endl;
 		}
 	}
-
 }
 
 void Manager::execute(string oplFile, string aticleFile)
@@ -65,7 +64,32 @@ void Manager::execute(string oplFile, string aticleFile)
 			threads[j].join();
 		}
 	}
+}
 
+void Manager::manualControl(string fileName)
+{
+	string productID, WarehouseID;
+	int compartment, quantity;
+	ifstream file(fileName);
+	string value;
+	Order order;
+
+	getline(file, value); //Skip Header
+	while (getline(file, value)) {
+		stringstream ss(value);
+		ss >> productID >> WarehouseID >> compartment >> quantity;
+
+		order.productID = productID;
+		order.warehouseID = WarehouseID;
+		order.compartment = compartment;
+		order.quantity = quantity;
+
+		for (vector<RobotController>::iterator i = this->rControllers.begin(), end = rControllers.end(); i != end; i++) {
+			if (i->getWarehouseID() == order.warehouseID) {
+				i->getOrder(order);
+			}
+		}
+	}
 }
 
 void Manager::addWarehouse(Warehouse wh)

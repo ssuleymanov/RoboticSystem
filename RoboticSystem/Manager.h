@@ -43,6 +43,9 @@ public:
 	\param[in] fileName path to the order picking list
 	*/
 	void execute(string oplFile, string articleFile);
+
+	void manualControl(string fileName);
+
 private:
 	Printer* printer;
 	vector<RobotController> rControllers;

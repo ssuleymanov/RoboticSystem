@@ -194,3 +194,69 @@ Starting: 12-01-2017 02:21:39
 
 Ending: 12-01-2017 02:21:41
 
+Starting: 13-01-2017 09:31:47
+
+Invalid Product ID: 3455
+Starting: 13-01-2017 09:32:43
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 09:34:47
+
+Starting: 13-01-2017 09:39:52
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 09:41:54
+
+Starting: 13-01-2017 10:09:56
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 10:11:58
+
+Starting: 13-01-2017 10:15:03
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 10:17:06
+
+Starting: 13-01-2017 10:19:07
+
+Invalid Product ID: 3455
+Starting: 13-01-2017 10:20:50
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 10:22:53
+
+Starting: 13-01-2017 10:23:30
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 10:25:33
+
+Starting: 13-01-2017 10:26:05
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 10:28:08
+
+Starting: 13-01-2017 10:50:55
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 10:53:12
+
+Starting: 13-01-2017 10:54:13
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 10:56:36
+
+Starting: 13-01-2017 11:41:39
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 11:44:22
+
+Starting: 13-01-2017 11:46:51
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 11:49:16
+
+Starting: 13-01-2017 11:50:29
+
+Invalid Product ID: 3455
+Ending: 13-01-2017 11:53:06
+

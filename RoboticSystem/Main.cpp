@@ -148,6 +148,9 @@ int main(void) {
 	manager.setup("wh_config.txt");
 	manager.execute("Order_Picking_List.csv","Article_List.csv");
 
+	Order orderK = {50,"11",5,3,"9435",4,1,"A"};
+	manager.manualControl("manual_orders.txt");
+
 	/*CollectorRobot cr(16, 3, "path_times.txt");
 	cout << "Moving time is: " << cr.moveTo("A") << endl;
 	cout << "Moving time is: " << cr.moveTo("B") << endl;

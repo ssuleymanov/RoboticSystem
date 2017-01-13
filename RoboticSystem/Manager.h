@@ -46,6 +46,9 @@ public:
 	*/
 	void execute(string oplFile);
 	void readArticles(string articleFile);
+
+	void manualControl(string fileName);
+
 private:
 	Printer* printer;
 	vector<RobotController> rControllers;

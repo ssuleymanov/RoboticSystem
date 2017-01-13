@@ -137,13 +137,13 @@ void RobotController::startRobot(Printer* print)
 
 bool RobotController::getOrder(Order ordr)
 {
-	cout << "Order number: " << ordr.productID << endl;
+	//cout << "Order number: " << ordr.productID << endl;
 	mapper.printWarehouseMap();
 	processOrder(ordr);
 	robot.moveTo(*currentPoint, unloadingPoint);
 	robot.unload();
 
-	cout << "Completed Warehouse: " << warehouse->getWarehouseID() << endl;
+	//cout << "Completed Warehouse: " << warehouse->getWarehouseID() << endl;
 	return true;
 }
 

@@ -1,0 +1,3 @@
+ProductID	WarehouseID		CompartmentNumber	Quantity
+2468			C				15					3	
+9435			A				50					4	

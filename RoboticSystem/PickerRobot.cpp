@@ -3,6 +3,7 @@
 PickerRobot::PickerRobot(int basketSize) : basketSize(basketSize)
 {
 	itemsInBasket = 0;
+	timer = 0;
 }
 
 PickerRobot::~PickerRobot()
@@ -15,7 +16,8 @@ portNumber(robot.portNumber),
 baudRate(robot.baudRate),
 serial(robot.serial),
 mapper(robot.mapper),
-itemsInBasket(robot.itemsInBasket)
+itemsInBasket(robot.itemsInBasket),
+timer(robot.timer)
 {
 }
 
@@ -167,12 +169,17 @@ int PickerRobot::getNrItemsInBasket()
 	return itemsInBasket;
 }
 
+int PickerRobot::getTime()
+{
+	return timer;
+}
+
 void PickerRobot::sendCommand(const char c)
 {
 	if (serial.IsOpened()) {
 		char message[5] = "F";
-		cout << "Send command => " << c << endl;
-		cout << "Number of items in the basket: " << itemsInBasket << endl;
+		//cout << "Send command => " << c << endl;
+		//cout << "Number of items in the basket: " << itemsInBasket << endl;
 		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize) + "    ", BASKET_NLINE, BASKET_NCOL);
 
 		assert(serial.SendData(c));
@@ -180,11 +187,12 @@ void PickerRobot::sendCommand(const char c)
 
 		if (serial.ReadDataWaiting() > 0) {
 			serial.ReadData(message, 1);
-			cout << "ERROR ON: " << message << endl;
+			cerr << "ERROR ON: " << message << endl;
 		}
 	}
 	else {
 		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize) + "    ", BASKET_NLINE, BASKET_NCOL);
 		mapper->updateWarehouseMap(c);
 	}
+	timer += MOVE_TIME;
 }

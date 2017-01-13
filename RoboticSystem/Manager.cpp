@@ -39,11 +39,11 @@ void Manager::setup(string fileName)
 
 }
 
-void Manager::execute(string oplFile, string aticleFile)
+void Manager::execute(string oplFile)
 {
 	vector<Order> orderList;
 	vector<thread> threads;
-	orderList = readOPL(oplFile, aticleFile);
+	orderList = readOPL(oplFile);
 	
 	for (Order order : orderList) {
 		getWarehouse(order.warehouseID).addOrder(order);
@@ -107,31 +107,9 @@ RobotController& Manager::getRobotController(string WarehouseID)
 	throw std::runtime_error(err_msg);
 }
 
-vector<Order> Manager::readOPL(string oplFile, string articleFile)
+vector<Order> Manager::readOPL(string oplFile)
 {
-	ifstream articleStream(articleFile);
 	string value;
-	map<string, Article> ArticleList;
-
-	getline(articleStream, value); //Skip Header
-	while (getline(articleStream, value)) {
-
-		char productID[20], warehouseID[20];
-		int compartment, size;
-		size = sscanf_s(value.c_str(), " %[^;];%[^;];%d", &productID, 20, &warehouseID, 20, &compartment);
-		if (size == 3)
-		{
-			Article article = { productID, warehouseID, compartment };
-			ArticleList.insert(pair<string, Article>(productID, article));
-			cout << "Added article: " << article.productID << endl;
-		}
-		else {
-			cout << "[Error] Article should contain 3 arguments, recieved " << size << endl;
-		}
-
-	}
-
-
 	ifstream oplStream(oplFile);
 	vector<Order> orderList;
 	int priority = 1;
@@ -144,15 +122,113 @@ vector<Order> Manager::readOPL(string oplFile, string articleFile)
 		size = sscanf_s(value.c_str(), " %d;%[^;];%d;%[^;];%d", &orderID, &customerID, 20, &truckNr, &productID, 20, &quantity);
 		if (size == 5)
 		{
-			Article article = ArticleList[productID];
-			Order order = { article.compartment, customerID, orderID, priority, productID, quantity, truckNr, article.warehouseID };
-			cout << "Added Order: " << orderID << endl;
-			orderList.push_back(order);
-			priority++;
+			Article article = articles[productID];
+			if (article.warehouseID != "") {
+				Order order = { article.compartment, customerID, orderID, priority, productID, quantity, truckNr, article.warehouseID };
+				clog << "Added Order: " << orderID << endl;
+				orderList.push_back(order);
+				priority++;
+			}
+			else {
+				cerr << "Product with ID: " << productID << " does not exist";
+			}
 		}
 		else {
-			cout << "[Error] Order should contain 5 arguments, recieved " << size << endl;
+			cerr << "[Error] Order should contain 5 arguments, recieved " << size << endl;
 		}
 	}
 	return orderList;
+}
+
+void Manager::readArticles(string articleFile) {
+
+	file<> f(articleFile.c_str());
+
+	xml_document<> doc;
+	doc.parse<0>(f.data());
+
+	xml_node<> *pRoot = doc.first_node("Workbook");
+	for (xml_node<> *node = pRoot->first_node("Worksheet");
+		node; node = node->next_sibling())
+	{
+		xml_attribute<> *wname = node->first_attribute();
+		char warehouseID[20], temp[30];
+		vector<string> data;
+		string attribute = wname->value();
+		sscanf_s(attribute.c_str(), " %[^(](%[^)])", &temp, 30, &warehouseID, 20);
+		cout << "Node Worksheet has value " << warehouseID << "\n";
+
+		xml_node<> *node2 = node->first_node("Table");
+		int i = 0;
+		Article product;
+		for (xml_node<> *node3 = node2->first_node("Row");
+			node3; node3 = node3->next_sibling())
+		{
+			xml_attribute<> *attr2 = node3->first_attribute();
+			xml_node<> *snode = node3->next_sibling();
+			if (attr2 != NULL || snode == NULL) {
+				if (i < 3) {
+					product.compartment = 0;
+				}
+				i = 0;
+				product.warehouseID = warehouseID[2];
+				articles.insert(pair<string, Article>(product.productID, product));
+			}
+
+			for (xml_node<> *node4 = node3->first_node("Cell");
+				node4; node4 = node4->next_sibling())
+			{
+				xml_node<> *node5 = node4->first_node("Data");
+				xml_node<> *node6 = node5->first_node();
+				if (i == 1) {
+					product.productID = node6->value();
+				}
+				else if (i == 3) {
+					string comp = node6->value();
+					product.compartment = stoi(comp);
+					
+				}
+				i++;
+				//data.push_back(node6->value());
+				//cout << "Node Data has value: " << node6->value() << "\n";
+			}
+			//i++;
+		}
+		/*int i = 0;
+		Article product;
+		for (auto& cell : data) {
+			if (i == 1) {
+				product.productID = cell;
+				i++;
+			}
+			else if (i == 3) {
+				product.compartment = stoi(cell);
+				product.warehouseID = warehouseID;
+				articles.insert(pair<string, Article>(product.productID, product));
+				i = 0;
+			}
+			else {
+				i++;
+			}
+		}*/
+	}
+	//string value;
+	//cout << "Article List made.\n";
+
+	//getline(articleStream, value); //Skip Header
+	//while (getline(articleStream, value)) {
+
+	//	char productID[20], warehouseID[20];
+	//	int compartment, size;
+	//	size = sscanf_s(value.c_str(), " %[^;];%[^;];%d", &productID, 20, &warehouseID, 20, &compartment);
+	//	if (size == 3)
+	//	{
+	//		Article article = { productID, warehouseID, compartment };
+	//		articles.insert(pair<string, Article>(productID, article));
+	//		cout << "Added article: " << article.productID << endl;
+	//	}
+	//	else {
+	//		cout << "[Error] Article should contain 3 arguments, recieved " << size << endl;
+	//	}
+	//}
 }

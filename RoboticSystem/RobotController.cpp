@@ -48,7 +48,7 @@ void RobotController::executeOrders(std::vector<Order> orders)
 		robot.unload();
 	}
 	mapper.printString("Warehouse Done!       ",ACTION_NLINE, ACTION_NCOL);
-	mapper.printString("                      ", MOVE_NLINE, MOVE_NCOL);
+	mapper.printString("Time = " + to_string(robot.getTime()) + " seconds    ", MOVE_NLINE, MOVE_NCOL);
 }
 
 bool RobotController::processOrder(Order order)

@@ -24,6 +24,8 @@
 #define STOP 'X'
 #define UNLOAD 'T'
 
+#define MOVE_TIME 1;
+
 //! An abstract robot class representing a picker robot. 
 /*!
 Allows to create instructions (robot commands) for a robot and send them through RS232. Also allows to set the parameters of serial port . 
@@ -45,6 +47,7 @@ public:
 	void unload();
 	int getBasketSize();
 	int getNrItemsInBasket();
+	int getTime();
 
 private:
 	int basketSize;
@@ -55,5 +58,6 @@ private:
 	void sendCommand(const char c);
 	int itemsInBasket;
 	vector<Order> ordersInBasket;
+	int timer;
 
 };

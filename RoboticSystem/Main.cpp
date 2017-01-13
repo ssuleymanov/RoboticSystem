@@ -146,7 +146,8 @@ int main(void) {
 
 	Manager manager;
 	manager.setup("wh_config.txt");
-	manager.execute("Order_Picking_List.csv","Article_List.csv");
+	manager.readArticles("Article_List_XML.xml");
+	manager.execute("Order_Picking_List.csv");
 
 	/*CollectorRobot cr(16, 3, "path_times.txt");
 	cout << "Moving time is: " << cr.moveTo("A") << endl;

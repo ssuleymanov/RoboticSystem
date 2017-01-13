@@ -75,7 +75,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <LibraryPath>C:\Users\m.agterberg\Source\Repos\RoboticSystem\pdcurses\win32;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Users\m.agterberg\Downloads\boost_1_60_0\boost;C:\Users\m.agterberg\Source\Repos\RoboticSystem\pdcurses\win32;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\m.agterberg\Source\Repos\RoboticSystem\rapidxml-1.13;C:\Users\m.agterberg\Source\Repos\RoboticSystem\pdcurses\win32;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>

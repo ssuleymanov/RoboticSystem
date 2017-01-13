@@ -8,6 +8,8 @@
 #include <iterator>
 #include <map>
 #include <thread>
+#include <rapidxml.hpp>
+#include <rapidxml_utils.hpp>
 
 #include "Warehouse.h"
 #include "Point.h"
@@ -16,7 +18,7 @@
 #include "Printer.h"
 
 using namespace std;
-
+using namespace rapidxml;
 
 //! A class to manage the robots. 
 /*!
@@ -42,14 +44,16 @@ public:
 	/*!
 	\param[in] fileName path to the order picking list
 	*/
-	void execute(string oplFile, string articleFile);
+	void execute(string oplFile);
+	void readArticles(string articleFile);
 private:
 	Printer* printer;
 	vector<RobotController> rControllers;
 	list<Warehouse> warehouses;
+	map<string, Article> articles;
 	void addWarehouse(Warehouse wh);
 	void addRobotController(RobotController rController);
 	Warehouse& getWarehouse(string WarehouseID);
 	RobotController& getRobotController(string WarehouseID);
-	vector<Order> readOPL(string oplFile, string articleFile);
+	vector<Order> readOPL(string oplFile);
 };

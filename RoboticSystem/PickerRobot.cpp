@@ -114,6 +114,7 @@ bool PickerRobot::validate(Order order)
 	mapper->printLog("Validation ERROR");
 	mapper->printString("Wrong product ID:        ", ACTION_NLINE, ACTION_NCOL);
 	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
+	cerr << "Order " << order.orderID << " with productID " << order.productID << " is incorrect.\n";
 	//cout << "Wrong product ID: " << order.productID << endl;
 	mapper->printWarehouseMap();
 	return false;

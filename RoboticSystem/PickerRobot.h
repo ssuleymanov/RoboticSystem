@@ -30,11 +30,12 @@
 /*!
 Allows to create instructions (robot commands) for a robot and send them through RS232. Also allows to set the parameters of serial port . 
 */
+class Manager;
 
 class PickerRobot 
 {
 public:
-	PickerRobot(int basketSize);
+	PickerRobot(int basketSize, Manager &manager);
 	~PickerRobot();
 	PickerRobot(const PickerRobot& robot);
 	void moveTo(Point start, Point dest);			
@@ -55,6 +56,7 @@ private:
 	int baudRate;
 	CSerial serial;
 	Mapper* mapper;
+	Manager* manager;
 	void sendCommand(const char c);
 	int itemsInBasket;
 	vector<Order> ordersInBasket;

@@ -15,31 +15,38 @@
 #include "Serial.h"
 #include "Point.h"
 #include "LoadingDock.h"
+#include "Printer.h"
 
 class CollectorRobot {
 public:
+	CollectorRobot();
 	CollectorRobot(int basketsize, LoadingDock& ld, string filename);
 	void setupSerial(int baudrate, int portnumber);
-	void startRobot();
+	void startRobot(Printer* printer);
+	void addOrder(Order order);
 	void loadOrders(Warehouse& warehouse);			// returns the time spent on operation
 	int unload();									// unload items, 
 	int getNrItemsInBasket();
+	void isReady();
 	string getCurrentPoint();
 
 private:
 	int baudRate;
 	int portNumber;
 	int basketSize;
-	int nrTrucks;
 	int nrItemsInBasket;
 	int totalTime;
-	std::string startingPoint;
+	bool ready;
+	//std::string startingPoint;
 	std::string currentPoint;
+	std::vector<Order> ordersReady;
 	std::vector<Order> ordersInBasket;				// orders stored in the basket of the collector robot
+	map<string, int> path_times;
 	CSerial serial;
-	string fileName;
 	LoadingDock* loadingDock;
+	Printer* printer;
 	int moveTo(string dest);						// returns the time travelled
+	void collectOrder();
 };
 
 

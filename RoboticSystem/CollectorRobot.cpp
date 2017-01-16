@@ -1,35 +1,21 @@
 #include "CollectorRobot.h"
 
+CollectorRobot::CollectorRobot()
+{
+}
+
 CollectorRobot::CollectorRobot(int basketsize, LoadingDock& ld, string filename)
 {
 	this->basketSize = basketsize;
 	this->loadingDock = &ld;
-	this->fileName = filename;
 	this->currentPoint = "LD";
-}
+	ready = false;
+	nrItemsInBasket = 0;
+	totalTime = 0;
 
-void CollectorRobot::setupSerial(int baudrate, int portnumber)
-{
-	this->baudRate = baudrate;
-	this->portNumber = portnumber;
-}
-
-void CollectorRobot::startRobot()
-{
-	if (serial.Open(portNumber, baudRate)) {
-		cout << "Port opened succesfully.." << endl;
-	}
-	else {
-		cout << "Failed to open port..!" << portNumber << endl;
-	}
-}
-
-int CollectorRobot::moveTo(string dest)
-{
-	ifstream file(fileName);
-	map<string, int> path_times;
+	ifstream file(filename);
 	string path;
-	int time, temp;
+	int time;
 	string value;
 
 	getline(file, value); //Skip Header
@@ -38,11 +24,65 @@ int CollectorRobot::moveTo(string dest)
 		ss >> path >> time;
 		path_times[path] = time;
 	}
+}
 
-	temp = path_times.find(currentPoint + "to" + dest)->second;
+void CollectorRobot::setupSerial(int baudrate, int portnumber)
+{
+	this->baudRate = baudrate;
+	this->portNumber = portnumber;
+}
+
+void CollectorRobot::startRobot(Printer* printr)
+{
+	printer = printr;
+	if (serial.Open(portNumber, baudRate)) {
+		cout << "Port opened succesfully.." << endl;
+	}
+	else {
+		cout << "Failed to open port..!" << portNumber << endl;
+	}
+	while (!ready) {
+		if (ordersReady.size() > 0) {
+			while (nrItemsInBasket < basketSize && ordersReady.size() > 0) {
+				Order o = ordersReady.back();
+				if (currentPoint != o.warehouseID) { totalTime += moveTo(o.warehouseID);}
+				bool newOrder = true;
+				for (vector<Order>::iterator it = this->ordersInBasket.begin(), end = ordersInBasket.end(); it != end; it++) {
+					if (it->orderID == o.orderID) {
+						it->quantity += 1;
+						if (o.quantity == 1) { ordersReady.pop_back(); }
+						else { ordersReady[ordersReady.size()-1].quantity -= 1; }					
+						newOrder = false;
+					}
+				}
+				if (newOrder) { 
+					o.quantity = 1;
+					ordersInBasket.push_back(o); 
+				}
+				nrItemsInBasket++;
+			}
+			totalTime += moveTo("LD");
+			unload();
+		}
+
+	}
+}
+
+void CollectorRobot::addOrder(Order order)
+{
+	ordersReady.push_back(order);
+}
+
+int CollectorRobot::moveTo(string dest)
+{
 	currentPoint = dest;
-	return temp;
+	int time = path_times[currentPoint + "to" + dest];
+	return time;
 
+}
+
+void CollectorRobot::collectOrder()
+{
 }
 
 void CollectorRobot::loadOrders(Warehouse& warehouse)
@@ -94,18 +134,23 @@ void CollectorRobot::loadOrders(Warehouse& warehouse)
 
 int CollectorRobot::unload()
 {
-	moveTo("LD");
-	for (vector<Order>::iterator it = ordersInBasket.begin(); it != ordersInBasket.end(); it++) {
-		loadingDock->addOrderforTruck(it->truckNr,*it);
+	while (nrItemsInBasket > 0) {
+		Order o = ordersInBasket.back();
+		loadingDock->addOrderforTruck(o);
+		nrItemsInBasket -= o.quantity;
+		ordersInBasket.pop_back();
 	}
-	ordersInBasket.clear();
-
 	return 0;
 }
 
 int CollectorRobot::getNrItemsInBasket()
 {
 	return nrItemsInBasket;
+}
+
+void CollectorRobot::isReady()
+{
+	ready = true;
 }
 
 string CollectorRobot::getCurrentPoint()

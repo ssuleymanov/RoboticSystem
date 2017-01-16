@@ -8,6 +8,7 @@
 #include <iterator>
 #include <map>
 #include <thread>
+#include <mutex>
 #include <rapidxml.hpp>
 #include <rapidxml_utils.hpp>
 
@@ -16,6 +17,7 @@
 #include "PickerRobot.h"
 #include "RobotController.h"
 #include "Printer.h"
+#include "CollectorRobot.h"
 
 using namespace std;
 using namespace rapidxml;
@@ -48,15 +50,19 @@ public:
 	void readArticles(string articleFile);
 
 	void manualControl(string fileName);
+	void orderIsDone(Order order);
 
 private:
 	Printer* printer;
 	vector<RobotController> rControllers;
 	list<Warehouse> warehouses;
 	map<string, Article> articles;
+	CollectorRobot collector;
+	LoadingDock loadingDock;
 	void addWarehouse(Warehouse wh);
 	void addRobotController(RobotController rController);
 	Warehouse& getWarehouse(string WarehouseID);
 	RobotController& getRobotController(string WarehouseID);
 	vector<Order> readOPL(string oplFile);
+	mutex collect_mutex;
 };

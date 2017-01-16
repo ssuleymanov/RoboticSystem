@@ -6923,3 +6923,171 @@ Send command => T
 Number of items in the basket: 0
 Ending: 13-01-2017 11:53:06
 
+Starting: 13-01-2017 03:03:48
+
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port opened succesfully..
+Port opened succesfully..
+Port opened succesfully..
+Ending: 13-01-2017 03:04:28
+
+Starting: 13-01-2017 03:19:17
+
+Starting: 13-01-2017 03:20:23
+
+Ending: 13-01-2017 03:20:23
+
+Starting: 13-01-2017 03:21:07
+
+Starting: 13-01-2017 03:22:09
+
+Ending: 13-01-2017 03:22:11
+
+Starting: 13-01-2017 03:22:17
+
+Starting: 13-01-2017 03:22:58
+
+Starting: 13-01-2017 03:23:44
+
+Starting: 13-01-2017 03:24:54
+
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port opened succesfully..
+Port opened succesfully..
+Port opened succesfully..
+Ending: 13-01-2017 03:25:34
+
+Starting: 13-01-2017 03:38:11
+
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port opened succesfully..
+Port opened succesfully..
+Port opened succesfully..
+Starting: 13-01-2017 03:38:35
+
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port opened succesfully..
+Port opened succesfully..
+Port opened succesfully..
+Starting: 16-01-2017 09:23:30
+
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port opened succesfully..
+Port opened succesfully..
+Port opened succesfully..
+Starting: 16-01-2017 09:23:40
+
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port opened succesfully..
+Port opened succesfully..
+Port opened succesfully..
+Ending: 16-01-2017 09:24:14
+

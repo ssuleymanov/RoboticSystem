@@ -4,6 +4,7 @@
 
 #include <map>
 #include <vector>
+#include <iostream>
 
 #include "Order.h"
 
@@ -11,7 +12,8 @@ class LoadingDock {
 public:
 	LoadingDock();
 	std::vector<Order> getOrdersperTruck(int truckNr);
-	void addOrderforTruck(int truckNr, Order order);
+	void addOrderforTruck(Order order);
+	void printOrders();
 
 private:
 	std::map <int, std::vector<Order>> unloadedOrdersPerTruck;				// unloaded orders per truck

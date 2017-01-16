@@ -25,7 +25,7 @@ void Manager::setup(string fileName)
 		if (size == 10)
 		{
 			addWarehouse(Warehouse(whID, rows, cols));
-			PickerRobot pRobot(basket);
+			PickerRobot pRobot(basket, *this);
 			pRobot.setSerialParameters(port, baud);
 			RobotController rController(pRobot, getWarehouse(whID));
 			rController.setStartingPoint(Point(start_x,start_y));
@@ -36,12 +36,16 @@ void Manager::setup(string fileName)
 			cout << "[Error] expecting 10 arguments in the warehouse configuration, recieved " << size << endl;
 		}
 	}
+	loadingDock = LoadingDock();
+	collector = CollectorRobot(16,loadingDock,"path_times.txt");
+	collector.setupSerial(9600,4);
 }
 
 void Manager::execute(string oplFile)
 {
 	vector<Order> orderList;
 	vector<thread> threads;
+	thread collectThread;
 	orderList = readOPL(oplFile);
 	
 	for (Order order : orderList) {
@@ -58,12 +62,20 @@ void Manager::execute(string oplFile)
 		threads.push_back(thread(&RobotController::startRobot, &rControllers[i], printer));
 	}
 
+	collectThread = thread(&CollectorRobot::startRobot, &collector, printer);
 
-	for (int j = 0; j < rControllers.size(); j++) {
+	for (int j = 0; j < threads.size(); j++) {
 		if (threads[j].joinable()) {
 			threads[j].join();
 		}
 	}
+	
+	collector.isReady();
+	if (collectThread.joinable()) {
+		collectThread.join();
+	}
+	system("cls");
+	loadingDock.printOrders();
 }
 
 void Manager::manualControl(string fileName)
@@ -90,6 +102,12 @@ void Manager::manualControl(string fileName)
 			}
 		}
 	}
+}
+
+void Manager::orderIsDone(Order order)
+{
+	lock_guard<mutex> guard(collect_mutex);
+	collector.addOrder(order);
 }
 
 void Manager::addWarehouse(Warehouse wh)

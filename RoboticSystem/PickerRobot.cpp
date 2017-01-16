@@ -1,6 +1,7 @@
 #include "PickerRobot.h"
+#include "Manager.h"
 
-PickerRobot::PickerRobot(int basketSize) : basketSize(basketSize)
+PickerRobot::PickerRobot(int basketSize, Manager &manager) : basketSize(basketSize), manager(&manager)
 {
 	itemsInBasket = 0;
 	timer = 0;
@@ -17,7 +18,8 @@ baudRate(robot.baudRate),
 serial(robot.serial),
 mapper(robot.mapper),
 itemsInBasket(robot.itemsInBasket),
-timer(robot.timer)
+timer(robot.timer),
+manager(robot.manager)
 {
 }
 
@@ -152,6 +154,7 @@ void PickerRobot::unload()
 			mapper->printWarehouseMap();
 			//TODO add time for each unload
 		}
+		manager->orderIsDone(*it);
 		mapper->getWarehouse()->getUnloadedOrders().push_back(*it);	
 	}
 	ordersInBasket.clear();

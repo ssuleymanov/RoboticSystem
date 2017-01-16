@@ -43,7 +43,7 @@ void write_footer() {
 	cerr << "Ending: " << current_time() << endl << endl;
 }
 
-int main(void) {
+int main(int argc, char*argv[]) {
 	
 	filebuf os;
 	os.open("log.txt", fstream::app);
@@ -145,12 +145,23 @@ int main(void) {
 #else
 
 	Manager manager;
-	manager.setup("wh_config.txt");
-	manager.readArticles("Article_List_XML.xml");
-	manager.execute("Order_Picking_List.csv");
-
-	Order orderK = {50,"11",5,3,"9435",4,1,"A"};
-	manager.manualControl("manual_orders.txt");
+	cout << argv[1] << "\n" << argv[2] << "\n" << argv[3] << endl;
+	string arg1 = argv[1];
+	if (arg1 == "A" && argc == 5) {
+		manager.setup(argv[4]); //"wh_config.txt"
+		manager.readArticles(argv[2]);//"Article_List_XML.xml"
+		manager.execute(argv[3]);//"Order_Picking_List.csv"
+	}
+	else if (arg1 == "M" && argc == 3) {
+		//Order orderK = { 50,"11",5,3,"9435",4,1,"A" };
+		manager.setup("wh_config.txt"); //
+		manager.manualControl(argv[2]);//"manual_orders.txt"
+	}
+	else {
+		cout << "Usage: \n";
+		cout << "A <Article List> <OPL> <Config>\n";
+		cout << "M <Text File>\n";
+	}
 
 	/*CollectorRobot cr(16, 3, "path_times.txt");
 	cout << "Moving time is: " << cr.moveTo("A") << endl;

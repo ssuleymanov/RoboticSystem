@@ -10,6 +10,8 @@
 #include "Warehouse.h"
 #include "Mapper.h"
 
+class Manager;
+
 class RobotController {
 public:
 	RobotController(PickerRobot robot, Warehouse &warehouse);

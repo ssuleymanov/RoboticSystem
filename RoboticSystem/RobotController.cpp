@@ -147,6 +147,15 @@ bool RobotController::getOrder(Order ordr)
 	return true;
 }
 
+void RobotController::starManualRobot(Printer* print)
+{
+	printer = print;
+	mapper.Initialize(startingPoint, unloadingPoint, print);
+	robot.setMapper(&mapper);
+	robot.startSerial();
+	currentPoint = mapper.getCurrentPosition();
+}
+
 string RobotController::getWarehouseID()
 {
 	return warehouse->getWarehouseID();

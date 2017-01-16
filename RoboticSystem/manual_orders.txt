@@ -1,3 +1,4 @@
-ProductID	WarehouseID		CompartmentNumber	Quantity
-2468			C				15					3	
-9435			A				50					4	
+ProductID		WarehouseID		CompartmentNumber	    Quantity
+90YH00Q1-BAUA00			C			15			3	
+MB112ZM/C			A			50			4	
+T1531SAW-B1			B			5			2

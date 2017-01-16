@@ -27,6 +27,7 @@ public:
 	void startRobot(Printer* printer);
 	string getWarehouseID();
 	bool getOrder(Order ordr);							// manual control of robot, gets a specified order and unloads it in the unloading area
+	void starManualRobot(Printer* print);
 
 private:
 	PickerRobot robot;

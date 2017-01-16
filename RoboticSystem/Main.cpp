@@ -4,6 +4,7 @@
 #include <assert.h>
 #include <ctime>
 #include <vector>
+#include <sstream>
 
 #include "Serial.h"
 #include "Point.h"
@@ -43,7 +44,7 @@ void write_footer() {
 	cerr << "Ending: " << current_time() << endl << endl;
 }
 
-int main(int argc, char*argv[]) {
+int main() {
 	
 	filebuf os;
 	os.open("Logs\\log.txt", fstream::app);
@@ -55,12 +56,7 @@ int main(int argc, char*argv[]) {
 
 	write_header();
 
-	initscr();
-	init_pair(1, COLOR_BLACK, COLOR_RED);
-	resize_term(120,200);
-	cbreak();
-	noecho();
-	curs_set(0);
+
 
 #if TEST
 	// moveTo Unit Test
@@ -145,17 +141,41 @@ int main(int argc, char*argv[]) {
 #else
 
 	Manager manager;
-	cout << argv[1] << "\n" << argv[2] << "\n" << argv[3] << endl;
-	string arg1 = argv[1];
-	if (arg1 == "A" && argc == 5) {
-		manager.setup(argv[4]); //"wh_config.txt"
-		manager.readArticles(argv[2]);//"Article_List_XML.xml"
-		manager.execute(argv[3]);//"Order_Picking_List.csv"
+	string fileName;
+	string parameter;
+	int i = 1;
+
+	cout << "Provide the input file name: ";
+	cin >> fileName;
+	ifstream input_file(fileName);
+	string fileParams[4];
+
+	for (int i = 0; i < 4; i++) {
+		getline(input_file, parameter);
+		fileParams[i] = parameter;
 	}
-	else if (arg1 == "M" && argc == 3) {
+
+	for (int i = 0; i < 4; i++) {
+		cout << "File parameters: " << fileParams[i] << ", ";
+	}
+	cout << endl;
+
+	initscr();
+	init_pair(1, COLOR_BLACK, COLOR_RED);
+	resize_term(120, 200);
+	cbreak();
+	noecho();
+	curs_set(0);
+
+	if (fileParams[0] == "A") {
+		manager.setup(fileParams[1]); //"wh_config.txt"
+		manager.readArticles(fileParams[2]);//"Article_List_XML.xml"
+		manager.execute(fileParams[3]);//"Order_Picking_List.csv"
+	}
+	else if (fileParams[0] == "M") {
 		//Order orderK = { 50,"11",5,3,"9435",4,1,"A" };
 		manager.setup("wh_config.txt"); //
-		manager.manualControl(argv[2]);//"manual_orders.txt"
+		manager.manualControl("manual_orders.txt");//"manual_orders.txt"
 	}
 	else {
 		cout << "Usage: \n";

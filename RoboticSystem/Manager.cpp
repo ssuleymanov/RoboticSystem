@@ -98,6 +98,9 @@ void Manager::manualControl(string fileName)
 
 		for (vector<RobotController>::iterator i = this->rControllers.begin(), end = rControllers.end(); i != end; i++) {
 			if (i->getWarehouseID() == order.warehouseID) {
+				Warehouse wh = i->getWarehouseID();
+				printer->addWindow(wh, 0);
+				i->starManualRobot(printer);
 				i->getOrder(order);
 			}
 		}

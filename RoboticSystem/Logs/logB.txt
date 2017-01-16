@@ -1,0 +1,23 @@
+16-01-2017 10:18:31 - Moving from 1,1 to 2,2  
+16-01-2017 10:18:31 - Validation OK, product is: 90YH00Q1-BAUA00
+16-01-2017 10:18:31 - Picking up an item
+16-01-2017 10:18:31 - Storing item
+16-01-2017 10:18:32 - Validation OK, product is: 90YH00Q1-BAUA00
+16-01-2017 10:18:32 - Picking up an item
+16-01-2017 10:18:32 - Storing item
+16-01-2017 10:18:32 - Moving from 2,2 to 1,8  
+16-01-2017 10:18:33 - Validation OK, product is: 90YH0051-BBUA00
+16-01-2017 10:18:33 - Picking up an item
+16-01-2017 10:18:33 - Storing item
+16-01-2017 10:18:33 - Validation OK, product is: 90YH0051-BBUA00
+16-01-2017 10:18:33 - Picking up an item
+16-01-2017 10:18:33 - Storing item
+16-01-2017 10:18:33 - Moving from 1,8 to 2,6  
+16-01-2017 10:18:34 - Validation OK, product is: MB112ZM/C
+16-01-2017 10:18:34 - Picking up an item
+16-01-2017 10:18:34 - Storing item
+16-01-2017 10:18:34 - Validation OK, product is: MB112ZM/C
+16-01-2017 10:18:34 - Picking up an item
+16-01-2017 10:18:34 - Storing item
+16-01-2017 10:18:34 - Moving from 2,6 to 4,1  
+16-01-2017 10:18:35 - Unloading items

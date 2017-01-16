@@ -240,6 +240,6 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
-/GoogleMock
-/GoogleTest
-/UnitTests
+#/GoogleMock
+#/GoogleTest
+#/UnitTests

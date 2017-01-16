@@ -36,10 +36,10 @@ void CollectorRobot::startRobot(Printer* printr)
 {
 	printer = printr;
 	if (serial.Open(portNumber, baudRate)) {
-		cout << "Port opened succesfully.." << endl;
+		clog << "Port " << portNumber << " opened succesfully.." << endl;
 	}
 	else {
-		cout << "Failed to open port..!" << portNumber << endl;
+		clog << "Failed to open port " << portNumber << "..!" << portNumber << endl;
 	}
 	while (!ready) {
 		if (ordersReady.size() > 0) {
@@ -51,11 +51,13 @@ void CollectorRobot::startRobot(Printer* printr)
 					if (it->orderID == o.orderID) {
 						it->quantity += 1;
 						if (o.quantity == 1) { ordersReady.pop_back(); }
-						else { ordersReady[ordersReady.size()-1].quantity -= 1; }					
+						else { ordersReady[ordersReady.size() - 1].quantity -= 1; }
 						newOrder = false;
 					}
 				}
 				if (newOrder) { 
+					if (o.quantity == 1) { ordersReady.pop_back(); }
+					else { ordersReady[ordersReady.size() - 1].quantity -= 1; }
 					o.quantity = 1;
 					ordersInBasket.push_back(o); 
 				}

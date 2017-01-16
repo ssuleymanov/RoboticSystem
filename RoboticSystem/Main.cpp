@@ -46,11 +46,11 @@ void write_footer() {
 int main(int argc, char*argv[]) {
 	
 	filebuf os;
-	os.open("log.txt", fstream::app);
+	os.open("Logs\\log.txt", fstream::app);
 	streambuf* oldbuf = clog.rdbuf(&os);
 
 	filebuf oss;
-	oss.open("err.txt", fstream::app);
+	oss.open("Logs\\err.txt", fstream::app);
 	streambuf* oldbuff = cerr.rdbuf(&oss);
 
 	write_header();

@@ -33,6 +33,7 @@ void PickerRobot::moveTo(Point start, Point dest)
 	//mapper->printString(message, ACTION_NLINE, ACTION_NCOL);
 	message += " to " + to_string(dest.getX()) + "," + to_string(dest.getY()) + "  ";
 	mapper->printString(message, ACTION_NLINE, ACTION_NCOL);
+	mapper->printLog(message);
 
 	for (int i = 0; i < abs(x); i++) {
 		//cout << "Moving to => " << dest << endl;
@@ -73,10 +74,10 @@ void PickerRobot::setMapper(Mapper *map)
 void PickerRobot::startSerial()
 {
 	if (serial.Open(portNumber, baudRate)) {
-		clog << "Port opened succesfully.." << endl;
+		clog << "Port " << portNumber << " opened succesfully.." << endl;
 	}
 	else {
-		clog << "Failed to open port..!" << endl;
+		clog << "Failed to open port " << portNumber << "..!" << endl;
 	}
 }
 
@@ -84,6 +85,7 @@ void PickerRobot::pick()
 {
 	mapper->printString("Picking up an item       ",ACTION_NLINE, ACTION_NCOL);
 	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
+	mapper->printLog("Picking up an item");
 	//cout << "Picking up an item" << endl;
 	sendCommand(PICK);
 	mapper->printWarehouseMap();
@@ -100,15 +102,16 @@ bool PickerRobot::validate(Order order)
 	std::ifstream file("validate.txt");
 	while (std::getline(file, productID)) {
 		if (order.productID == productID) {
-			mapper->printLog("Fetched product ID: " + productID);
-			mapper->printLog("Actual product ID: "  + order.productID);
+			mapper->printLog("Validation OK, product is: " + order.productID);
+			//mapper->printLog("Fetched product ID: " + productID);
+			//mapper->printLog("Actual product ID: "  + order.productID);
 			//cout << "Fetched product ID: " << productID << endl;
 			//cout << "Actual product ID: " << order.productID << endl;
 			mapper->printWarehouseMap();
 			return true;
 		}
 	}
-
+	mapper->printLog("Validation ERROR");
 	mapper->printString("Wrong product ID:        ", ACTION_NLINE, ACTION_NCOL);
 	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
 	//cout << "Wrong product ID: " << order.productID << endl;
@@ -124,7 +127,7 @@ void PickerRobot::store(Order order)
 {
 	mapper->printString("Storing an item         ", ACTION_NLINE, ACTION_NCOL);
 	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
-	//cout << "Storing an item" << endl;
+	mapper->printLog("Storing item");
 	sendCommand(STORE);
 	bool newOrder = true;
 	for (auto& bOrder : ordersInBasket) {
@@ -134,11 +137,9 @@ void PickerRobot::store(Order order)
 		}
 	}
 	if (newOrder) {
-		//Order ord = order;
 		order.quantity = 1;
 		ordersInBasket.push_back(order);
 	}
-	//ordersInBasket.push_back(order);		// add item to the basket
 	mapper->printWarehouseMap();
 	itemsInBasket++;
 }
@@ -146,6 +147,7 @@ void PickerRobot::store(Order order)
 void PickerRobot::unload()
 {
 	mapper->printString("Unloading items         ", ACTION_NLINE, ACTION_NCOL);
+	mapper->printLog("Unloading items");
 	Order tempOrder;
 	for (vector<Order>::iterator it = ordersInBasket.begin(); it != ordersInBasket.end(); ++it) {
 		for (int i = 0; i < it->quantity; i++) {

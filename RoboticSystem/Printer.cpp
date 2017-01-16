@@ -36,7 +36,7 @@ Printer * Printer::getInstance()
 void Printer::printlog(string warehouseID, string message)
 {
 	lock_guard<mutex> guard(printer_mutex);
-	string filename = "log" + warehouseID + ".txt";
+	string filename = "Logs\\log" + warehouseID + ".txt";
 	ofstream myfile;
 	myfile.open(filename,ios_base::app);
 	myfile << current_time() << " - " << message << "\n";

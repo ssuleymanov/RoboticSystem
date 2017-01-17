@@ -62,6 +62,8 @@ int Printer::addWindow(Warehouse warehouse, int offset)
 	return width;
 }
 
+
+
 void Printer::refreshw(string warehouseID)
 {
 	lock_guard<mutex> guard(printer_mutex);
@@ -71,26 +73,33 @@ void Printer::refreshw(string warehouseID)
 void Printer::printString(string warehouseID, int y, int x, const char* message)
 {
 	lock_guard<mutex> guard(printer_mutex);
-	/*if (message == " R ") {
-		wattron(windows[warehouseID],A_STANDOUT);
+	if (message == " R ") {
+		wattron(windows[warehouseID],COLOR_PAIR(2));
 		mvwaddstr(windows[warehouseID], y, x, message);
-		wattroff(windows[warehouseID], A_STANDOUT);
+		wattroff(windows[warehouseID], COLOR_PAIR(2));
 	}
 	else {
 		mvwaddstr(windows[warehouseID], y, x, message);
-	}*/
-	mvwaddstr(windows[warehouseID], y, x, message);
+	}
+	//mvwaddstr(windows[warehouseID], y, x, message);
 }
 
-void Printer::drawHorLine(string warehouseID, int y, int x, chtype c, int n)
+void Printer::drawBoxes()
 {
-	lock_guard<mutex> guard(printer_mutex);
-	mvwhline(windows[warehouseID],y,x,c,n);
+	for (auto& window : windows) {
+		box(window.second, 0, 0);
+	}
 }
 
-void Printer::drawVertLine(string warehouseID, int y, int x, chtype c, int n)
-{
-	lock_guard<mutex> guard(printer_mutex);
-	mvwvline(windows[warehouseID],y,x,c,n);
-}
+//void Printer::drawHorLine(string warehouseID, int y, int x, chtype c, int n)
+//{
+//	lock_guard<mutex> guard(printer_mutex);
+//	mvwhline(windows[warehouseID],y,x,c,n);
+//}
+//
+//void Printer::drawVertLine(string warehouseID, int y, int x, chtype c, int n)
+//{
+//	lock_guard<mutex> guard(printer_mutex);
+//	mvwvline(windows[warehouseID],y,x,c,n);
+//}
 

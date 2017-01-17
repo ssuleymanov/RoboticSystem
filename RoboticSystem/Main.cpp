@@ -143,44 +143,58 @@ int main() {
 	Manager manager;
 	string fileName;
 	string parameter;
+	char param1;
 	int i = 1;
+	
 
-	cout << "Provide the input file name: ";
-	cin >> fileName;
-	ifstream input_file(fileName);
-	string fileParams[4];
+	cout << "(A)utomatic or (M)anual?";
+	param1 = getchar();
 
-	for (int i = 0; i < 4; i++) {
+	ifstream input_file("input.txt");
+	string fileParams[3];
+
+	for (int i = 0; i < 3; i++) {
 		getline(input_file, parameter);
 		fileParams[i] = parameter;
 	}
 
-	for (int i = 0; i < 4; i++) {
+	/*for (int i = 0; i < 4; i++) {
 		cout << "File parameters: " << fileParams[i] << ", ";
 	}
-	cout << endl;
+	cout << endl;*/
 
 	initscr();
-	init_pair(1, COLOR_BLACK, COLOR_RED);
+	start_color();
+	//init_color(COLOR_BLUE,400,400,400);
+	init_pair(3,COLOR_WHITE,COLOR_CYAN);
+	init_pair(2, COLOR_WHITE, COLOR_BLACK);
 	resize_term(120, 200);
 	cbreak();
-	noecho();
+	//noecho();
 	curs_set(0);
 
-	if (fileParams[0] == "A") {
-		manager.setup(fileParams[1]); //"wh_config.txt"
-		manager.readArticles(fileParams[2]);//"Article_List_XML.xml"
-		manager.execute(fileParams[3]);//"Order_Picking_List.csv"
+	if (param1 == 'A' || param1 == 'a') {
+		manager.setup(fileParams[0]); //"wh_config.txt"
+		manager.readArticles(fileParams[1]);//"Article_List_XML.xml"
+		manager.execute(fileParams[2]);//"Order_Picking_List.csv"
 	}
-	else if (fileParams[0] == "M") {
+	else if (param1 == 'M' || param1 == 'm') {
 		//Order orderK = { 50,"11",5,3,"9435",4,1,"A" };
-		manager.setup("wh_config.txt"); //
-		manager.manualControl("manual_orders.txt");//"manual_orders.txt"
+		char productID[20], quantity[5];
+		printw("ProductID: ") ;
+		getstr(productID);
+		//cin >> productID;
+		printw("\nQuantity: ");
+		getstr(quantity);
+		//cin >> quantity;
+		manager.setup(fileParams[0]); //
+		manager.readArticles(fileParams[1]);
+		manager.manualControl(productID,stoi(quantity));//"manual_orders.txt"
+		getchar();
 	}
 	else {
-		cout << "Usage: \n";
-		cout << "A <Article List> <OPL> <Config>\n";
-		cout << "M <Text File>\n";
+		cout << "Incorrect \n";
+		getchar();
 	}
 
 	/*CollectorRobot cr(16, 3, "path_times.txt");

@@ -56,8 +56,10 @@ void Manager::execute(string oplFile)
 	for (RobotController rController : rControllers) {
 		Warehouse wh = getWarehouse(rController.getWarehouseID());
 		mapOffset += printer->addWindow(wh,mapOffset);
+		resize_term(50, mapOffset+50);
 	}
-
+	resize_term(50, mapOffset);
+	printer->drawBoxes();
 	for (int i = 0; i < rControllers.size(); i++) {
 		threads.push_back(thread(&RobotController::startRobot, &rControllers[i], printer));
 	}
@@ -74,37 +76,31 @@ void Manager::execute(string oplFile)
 	if (collectThread.joinable()) {
 		collectThread.join();
 	}
+	getchar();
+	getchar();
 	system("cls");
 	loadingDock.printOrders();
+	getchar();
 }
 
-void Manager::manualControl(string fileName)
+bool Manager::manualControl(string productID, int quantity)
 {
-	string productID, WarehouseID;
-	int compartment, quantity;
-	ifstream file(fileName);
-	string value;
-	Order order;
+	Article article = articles[productID];
+	Order order = { article.compartment, "", 0, 0, productID, quantity, 0, article.warehouseID };
+	if (article.warehouseID == "") {
+		cout << "Product with ID: " << productID << " does not exist";
+		return false;
+	}
 
-	getline(file, value); //Skip Header
-	while (getline(file, value)) {
-		stringstream ss(value);
-		ss >> productID >> WarehouseID >> compartment >> quantity;
-
-		order.productID = productID;
-		order.warehouseID = WarehouseID;
-		order.compartment = compartment;
-		order.quantity = quantity;
-
-		for (vector<RobotController>::iterator i = this->rControllers.begin(), end = rControllers.end(); i != end; i++) {
-			if (i->getWarehouseID() == order.warehouseID) {
-				Warehouse wh = i->getWarehouseID();
-				printer->addWindow(wh, 0);
-				i->starManualRobot(printer);
-				i->getOrder(order);
-			}
+	for (vector<RobotController>::iterator i = this->rControllers.begin(), end = rControllers.end(); i != end; i++) {
+		if (i->getWarehouseID() == order.warehouseID) {
+			Warehouse wh = i->getWarehouseID();
+			printer->addWindow(wh, 0);
+			i->starManualRobot(printer);
+			i->getOrder(order);
 		}
 	}
+	return true;
 }
 
 void Manager::orderIsDone(Order order)
@@ -201,7 +197,7 @@ void Manager::readArticles(string articleFile) {
 		vector<string> data;
 		string attribute = wname->value();
 		sscanf_s(attribute.c_str(), " %[^(](%[^)])", &temp, 30, &warehouseID, 20);
-		cout << "Node Worksheet has value " << warehouseID << "\n";
+		clog << "Node Worksheet has value " << warehouseID << "\n";
 
 		xml_node<> *node2 = node->first_node("Table");
 		int i = 0;

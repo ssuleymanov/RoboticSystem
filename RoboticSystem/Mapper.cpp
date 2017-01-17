@@ -143,7 +143,7 @@ void Mapper::printWarehouseMap()
 	}
 	printer->refreshw(warehouse->getWarehouseID());
 
-	Sleep(100);
+	Sleep(1000);
 }
 
 void Mapper::updateWarehouseMap(char command)

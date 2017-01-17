@@ -49,7 +49,7 @@ public:
 	void execute(string oplFile);
 	void readArticles(string articleFile);
 
-	void manualControl(string fileName);
+	bool manualControl(string productID, int quantity);
 	void orderIsDone(Order order);
 
 private:

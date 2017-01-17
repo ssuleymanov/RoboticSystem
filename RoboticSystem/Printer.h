@@ -35,8 +35,9 @@ public:
 	int addWindow(Warehouse warehouse, int offset);
 	void refreshw(string warehouseID);
 	void printString(string warehouseID, int y, int x, const char* message);
-	void drawHorLine(string warehouseID, int y, int x, chtype c, int n);
-	void drawVertLine(string warehouseID, int y, int x, chtype c, int n);
+	//void drawHorLine(string warehouseID, int y, int x, chtype c, int n);
+	//void drawVertLine(string warehouseID, int y, int x, chtype c, int n);
+	void drawBoxes();
 private:
 	static Printer* instance;
 	Printer();

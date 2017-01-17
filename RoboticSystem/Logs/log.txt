@@ -25,3 +25,985 @@ Port
 Port 4 opened succesfully..
 Ending: 16-01-2017 10:19:03
 
+Starting: 16-01-2017 12:22:43
+
+Port 7 opened succesfully..
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Ending: 16-01-2017 12:22:57
+
+Starting: 16-01-2017 12:40:10
+
+Starting: 16-01-2017 12:40:53
+
+Port 5Port  opened succesfully..6
+ opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Ending: 16-01-2017 12:41:04
+
+Starting: 16-01-2017 12:41:55
+
+Port 5Port  opened succesfully..6
+ opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 16-01-2017 12:42:14
+
+Starting: 16-01-2017 02:23:09
+
+Port 7 opened succesfully..
+Starting: 16-01-2017 02:23:54
+
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Failed to open port 3..!
+Port 4 opened succesfully..
+Ending: 16-01-2017 02:31:04
+
+Starting: 16-01-2017 02:59:29
+
+Ending: 16-01-2017 02:59:35
+
+Starting: 16-01-2017 03:00:53
+
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 16-01-2017 03:01:17
+
+Starting: 16-01-2017 03:02:42
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Starting: 16-01-2017 04:28:40
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Ending: 16-01-2017 04:28:48
+
+Starting: 16-01-2017 04:30:59
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Starting: 16-01-2017 04:31:36
+
+Starting: 16-01-2017 04:33:19
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Starting: 16-01-2017 04:35:32
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Starting: 16-01-2017 04:37:06
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Port 5 opened succesfully..
+Ending: 16-01-2017 04:37:38
+
+Starting: 17-01-2017 09:30:43
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6Port  opened succesfully..7
+ opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:32:53
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5Port  opened succesfully..6
+ opened succesfully..Port 
+7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:33:21
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:35:00
+
+Starting: 17-01-2017 09:36:36
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:37:32
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:41:23
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5Port  opened succesfully..6
+ opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:41:41
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5Port Port  opened succesfully..76
+ opened succesfully..
+ opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:42:15
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:49:46
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:50:09
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5Port  opened succesfully..6
+ opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:52:00
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:53:05
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5Port  opened succesfully..6
+ opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:53:19
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:53:35
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:53:55
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:55:56
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:57:49
+
+Ending: 17-01-2017 09:57:51
+
+Starting: 17-01-2017 09:57:56
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 09:59:36
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port Port 65 opened succesfully.. opened succesfully..
+
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 10:00:06
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 10:00:42
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 10:01:11
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 10:01:31
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port Port 56 opened succesfully.. opened succesfully..
+
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 10:01:48
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..
+Starting: 17-01-2017 10:05:48
+
+Node Worksheet has value WHB
+Node Worksheet has value WHB
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHC
+Node Worksheet has value WHC
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Node Worksheet has value WHA
+Added Order: 1
+Added Order: 2
+Added Order: 3
+Added Order: 4
+Added Order: 5
+Added Order: 6
+Added Order: 7
+Added Order: 8
+Added Order: 9
+Added Order: 10
+Added Order: 11
+Added Order: 12
+Added Order: 13
+Added Order: 14
+Added Order: 15
+Added Order: 16
+Added Order: 17
+Added Order: 18
+Added Order: 19
+Port 5 opened succesfully..
+Port 6 opened succesfully..
+Port 7 opened succesfully..
+Port 4 opened succesfully..

@@ -1,0 +1,4 @@
+A
+wh_config.txt
+Article_List.xml
+Order_Picking_List_ERR.csv

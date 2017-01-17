@@ -1,0 +1,792 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <TotalTime>0</TotalTime>
+  <Created>2006-09-26T08:55:29Z</Created>
+  <LastSaved>2016-11-04T09:54:45Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <WorkbookGuid dt:dt="string">695ffd23-e650-4e34-9fc9-13836fdf9ac3</WorkbookGuid>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12300</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <NumberFormat ss:Format="Currency"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Keyboards (WHB)">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="23" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Asus U2000 Keyboard + Mouse Set</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90-XB1000KM00020</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">16.45</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">Asus W3000 Desktop - Draadloos - Wit - Qwerty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90-XB2400KM00130-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">24.1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell><Data ss:Type="String">Asus W3000 Desktop - Draadloos - Zwart - Qwerty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90-XB2400KM00030-</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">24.1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="String">Cherry Compact Keyboard - G84-4420 - USB/Black/Trackball - QWERTY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">G84-4420LUBEU-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">100.25</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell><Data ss:Type="String">Cherry Compact Keyboard - G84-4420 - USB/White/Trackball - QWERTY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">G84-4420LUBEU-0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">100.25</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row ss:Index="21">
+    <Cell><Data ss:Type="String">Cherry Keyboard - DC 2000 Corded Desktop Zwart - QWERTY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JD-0800EU-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">18.05</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>22</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Mouse (WHB)">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="27" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Apple Mouse - USB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MB112ZM/C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">56.3</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">Asus Mouse Cerberus Gaming - USB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90YH00Q1-BAUA00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">34.35</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell><Data ss:Type="String">Asus Mouse Echelon Laser Gaming - USB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90YH0051-BBUA00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">49.55</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="String">Asus Mouse GX860 Gaming - USB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90XB02C0-BMU000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">59.25</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell><Data ss:Type="String">Asus Mouse ROG Gladius Gaming - USB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90MP0081-B0UA00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">72.150000000000006</Data></Cell>
+   </Row>
+   <Row ss:Index="21">
+    <Cell><Data ss:Type="String">Asus Mouse ROG Sica Gaming - USB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90MP00B1-B0UA00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">48.85</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Index="25">
+    <Cell><Data ss:Type="String">Asus Mouse Strix Claw Dark Edition Gaming - USB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90YH00C2-BAUA00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">63.1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>R3C3:R27C3</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Displays (WHA)">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Asus 15.6 inch IPS LED Monitor MB169B+</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90LM0183-B01170</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">217.95</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">38</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">Asus 15.6 inch IPS LED Monitor MB169C+</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90LM0180-B01170</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">258.95</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell><Data ss:Type="String">IIyama 15 inch Touchscreen Monitor ProLite T1521MSC-B1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T1521MSC-B1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">377.55</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">29</Data></Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="String">IIyama 15 inch Touchscreen Monitor ProLite T1531SAW-B1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">T1531SAW-B1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">441.65</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>15</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Board (WHA)">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="19" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">ASRock mATX MB - AMD - QC5000M</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90-MXGYU0-A0UAYZ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">57.9</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">35</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">ASRock mATX MB - Intel N3050M</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90-MXGZ20-A0UAYZ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">63.35</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">36</Data></Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell><Data ss:Type="String">ASRock mATX MB - Intel N3150M</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90-MXGZD0-A0UAYZ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">78.5</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">37</Data></Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="String">ASRock mATX MB - Intel N3700M</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90-MXGXX0-A0UAYZ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">101.45</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell><Data ss:Type="String">ASRock mini-ITX MB - AMD - QC5000M-ITX/PH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90-MXGYS0-A0UAYZ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">65.349999999999994</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Network (WHC)">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="23" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Delock PCI Card 1 x LAN 10/100 Mb/s</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">88316</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">7.65</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">Edimax Gigabit Ethernet Netwerkadapter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EN-9235TX-32 V2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">12.05</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell><Data ss:Type="String">Intel PRO/1000 GT Gigabit Network Adapter (PCI) Bulk</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PWLA8391GTBLK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">27.25</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="String">Asus USB-N14 Wireless N300 Adapter (USB)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">90IG0120-BM0000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">25.75</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell><Data ss:Type="String">Asus USB-N53 Wireless-N600 Dual Band Adapter Ver A1 (USB)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">USB-N53</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">30.2</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Index="21">
+    <Cell><Data ss:Type="String">D-Link DWA-121 Wireless N150 Adapter (USB)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DWA-121</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">13.5</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>22</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Storage (WHC)">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="59" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">D-Link NAS - DNS-327L - ShareCenter+ 2-Bay Cloud Network Storage Enclosure</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DNS-327L</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">109.55</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">Fantec NAS - CL-35B2 RAID Cloud NAS Server</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1558</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">108.65</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell><Data ss:Type="String">Fantec NAS - MWiD25 Mobile WiFi Disk</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1636</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">52.15</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="String">Kingston NAS - MobileLite Wireless Flash Reader</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MLW221</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">27.75</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell><Data ss:Type="String">Delock SDHC Card - 32 GB - Class 10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55745</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">14.95</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row ss:Index="21">
+    <Cell><Data ss:Type="String">Kingston SDHC Card - 16 GB - Class 10 UHS-I</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SDA10/16GB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">9.5500000000000007</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Index="25">
+    <Cell><Data ss:Type="String">Kingston SDHC Card - 16 GB - Class 10 UHS-I V2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SD10VG2/16GB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">7.25</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Index="29">
+    <Cell><Data ss:Type="String">Kingston SDHC Card - 16 GB - Class 4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SD4/16GB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">6.35</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Index="33">
+    <Cell><Data ss:Type="String">Kingston SDHC Card - 16 GB - UHS-I Speed Class 3 (U3)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SDA3/16GB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">19.95</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Index="37">
+    <Cell><Data ss:Type="String">Kingston SDHC Card - 32 GB - Class 10 UHS-I</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SDA10/32GB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">16.95</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row ss:Index="41">
+    <Cell><Data ss:Type="String">Kingston SDHC Card - 32 GB - Class 10 UHS-I V2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SD10VG2/32GB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10.95</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:Index="45">
+    <Cell><Data ss:Type="String">Kingston SDHC Card - 32 GB - Class 4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SD4/32GB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">16.55</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row ss:Index="49">
+    <Cell><Data ss:Type="String">Kingston SDHC Card - 32 GB - UHS-I Speed Class 3 (U3)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SDA3/32GB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">16.850000000000001</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row ss:Index="53">
+    <Cell><Data ss:Type="String">Kingston SDHC Card - 8 GB - Class 4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SD4/8GB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">4.8499999999999996</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row ss:Index="57">
+    <Cell><Data ss:Type="String">Lexar Platinum II 300x SDHC Card - 16 GB - Class 10 UHS-I</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LSD16GBBEU300</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">10.25</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <TopRowVisible>24</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>51</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Tablets (WHA)">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="31" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Apple iPad Air 2 Wi-Fi - 16 GB - Silver</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MGLW2FD/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">424.95</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">Samsung Galaxy Tab E - Wi-Fi - 9.6 inch - 8 GB - Zwart</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SM-T560NZKAPHN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">170.05</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell><Data ss:Type="String">Hannspree Tab HANNSPAD W72B - 10.1i - Wi-Fi - 3G - 8 GB - Zwart</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SN1AW72B2E</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">189.1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="String">Samsung Galaxy Tab A - Wi-Fi - 9.7i - 16 GB Zwart</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SM-T550NZKADBT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">221.7</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">21</Data></Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell><Data ss:Type="String">Samsung Galaxy Tab A - Wi-Fi - 9.7i - 16 GB Wit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SM-T550NZWADBT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">221.7</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">22</Data></Cell>
+   </Row>
+   <Row ss:Index="21">
+    <Cell><Data ss:Type="String">Samsung Galaxy Tab A - Wi-Fi + 4G - 9.7i - 16 GB - Zwart</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SM-T555NZKADBT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">277.75</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">23</Data></Cell>
+   </Row>
+   <Row ss:Index="25">
+    <Cell><Data ss:Type="String">Apple iPad mini Retina WiFi 16GB Space Gray</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ME276FD/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">294.60000000000002</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">31</Data></Cell>
+   </Row>
+   <Row ss:Index="29">
+    <Cell><Data ss:Type="String">Apple iPad mini 3 Wi-Fi + 4G - 16 GB - Silver</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MGHW2FD/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">353.8</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>26</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Laptops (WHA)">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="50.25"/>
+   <Row>
+    <Cell><Data ss:Type="String">Apple 13.3-inch MacBook Pro [Intel Core-i5 - 4GB - 500GB - HD4000 - MAC/US Layout - 13.3inch]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MD101US/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">1123.5</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">Apple MacBook Pro Retina 39cm (15.4 inch) [Core-i7 2.5GHz - 16GB - 512SSD - R9M370X - US]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MJLT2LL/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">2642.05</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Computers (WHA)">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="50.25"/>
+   <Row>
+    <Cell><Data ss:Type="String">Apple 27-inch iMac met Retina 5K-display [Intel Core i5-3.2 GHz - 8 GB - 1 TB - AMD Radeon R9 M380 2GB - US Layout]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MK462LL/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">2049.9499999999998</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">Apple 27-inch iMac met Retina 5K-Display [Intel Core i5-3.3 GHz - 8 GB - 2 TB Fusion Drive - AMD Radeon R9 M395 2GB - US Layout]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MK482LL/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">2441.35</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

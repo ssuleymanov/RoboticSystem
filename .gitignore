@@ -240,6 +240,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/RoboticSystem/Logs
 #/GoogleMock
 #/GoogleTest
 #/UnitTests

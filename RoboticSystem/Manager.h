@@ -61,6 +61,8 @@ private:
 	LoadingDock loadingDock;
 	void addWarehouse(Warehouse wh);
 	void addRobotController(RobotController rController);
+	void ControlPanel(int offset);
+	bool menuOn;
 	Warehouse& getWarehouse(string WarehouseID);
 	RobotController& getRobotController(string WarehouseID);
 	vector<Order> readOPL(string oplFile);

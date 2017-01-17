@@ -53,13 +53,22 @@ int Printer::addWindow(Warehouse warehouse, int offset)
 		width = 30;
 		
 	}
-	WINDOW* win = newwin(height, width, 0, offset);
+	WINDOW* win = newwin(height, width, VMAP_OFFSET, offset);
 	box(win, 0, 0);
 	string m = "Warehouse " + warehouse.getWarehouseID();
 	mvwaddstr(win, 1, 3, m.c_str());
 	wrefresh(win);
 	windows.insert(pair<string,WINDOW*>(warehouse.getWarehouseID(),win));
 	return width;
+}
+
+int Printer::addWindow(string name, int offset)
+{
+	WINDOW* win = newwin(3, offset, 0, 0);
+	box(win, 0, 0);
+	wrefresh(win);
+	windows.insert(pair<string, WINDOW*>(name, win));
+	return offset;
 }
 
 

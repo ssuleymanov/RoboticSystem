@@ -457,3 +457,1800 @@
 17-01-2017 10:06:23 - Validation OK, product is: MGLW2FD/A
 17-01-2017 10:06:24 - Picking up an item
 17-01-2017 10:06:25 - Storing item
+17-01-2017 11:54:08 - Moving from 1,1 to 1,2  
+17-01-2017 11:54:09 - Validation OK, product is: MK462LL/A
+17-01-2017 11:54:10 - Picking up an item
+17-01-2017 11:54:11 - Storing item
+17-01-2017 11:54:12 - Validation OK, product is: MK462LL/A
+17-01-2017 12:47:42 - Moving from 1,1 to 1,2  
+17-01-2017 12:47:43 - Validation OK, product is: MK462LL/A
+17-01-2017 12:47:44 - Picking up an item
+17-01-2017 12:47:45 - Storing item
+17-01-2017 12:47:46 - Validation OK, product is: MK462LL/A
+17-01-2017 12:47:47 - Picking up an item
+17-01-2017 12:47:48 - Storing item
+17-01-2017 12:47:49 - Moving from 1,0 to 1,5  
+17-01-2017 12:47:54 - Validation OK, product is: MGLW2FD/A
+17-01-2017 12:47:55 - Picking up an item
+17-01-2017 12:47:56 - Storing item
+17-01-2017 12:47:57 - Moving from 1,-5 to 5,1  
+17-01-2017 12:48:07 - Unloading items
+17-01-2017 12:56:30 - Moving from 1,1 to 1,2  
+17-01-2017 12:56:31 - Validation OK, product is: MK462LL/A
+17-01-2017 12:56:32 - Picking up an item
+17-01-2017 12:56:33 - Storing item
+17-01-2017 12:56:34 - Validation OK, product is: MK462LL/A
+17-01-2017 12:56:35 - Picking up an item
+17-01-2017 12:56:36 - Storing item
+17-01-2017 12:56:37 - Moving from 1,0 to 1,5  
+17-01-2017 12:56:42 - Validation OK, product is: MGLW2FD/A
+17-01-2017 12:56:43 - Picking up an item
+17-01-2017 12:56:44 - Storing item
+17-01-2017 12:56:45 - Moving from 1,-5 to 5,1  
+17-01-2017 12:56:55 - Unloading items
+17-01-2017 12:56:58 - Moving from 5,1 to 1,5  
+17-01-2017 12:57:06 - Validation OK, product is: MGLW2FD/A
+17-01-2017 12:57:07 - Picking up an item
+17-01-2017 12:57:08 - Storing item
+17-01-2017 12:57:09 - Validation OK, product is: MGLW2FD/A
+17-01-2017 12:57:10 - Picking up an item
+17-01-2017 12:57:11 - Storing item
+17-01-2017 12:57:12 - Validation OK, product is: MGLW2FD/A
+17-01-2017 12:57:13 - Picking up an item
+17-01-2017 12:57:14 - Storing item
+17-01-2017 12:57:15 - Moving from -3,-15 to 5,1  
+17-01-2017 12:57:39 - Unloading items
+17-01-2017 12:57:42 - Moving from 5,1 to 1,5  
+17-01-2017 12:57:50 - Validation OK, product is: MGLW2FD/A
+17-01-2017 12:57:51 - Picking up an item
+17-01-2017 12:57:52 - Storing item
+17-01-2017 12:57:54 - Validation OK, product is: MGLW2FD/A
+17-01-2017 12:57:55 - Picking up an item
+17-01-2017 12:57:56 - Storing item
+17-01-2017 12:57:57 - Validation OK, product is: MGLW2FD/A
+17-01-2017 12:57:58 - Picking up an item
+17-01-2017 12:57:59 - Storing item
+17-01-2017 12:58:00 - Moving from -11,-35 to 5,1  
+17-01-2017 12:58:11 - Moving from 1,1 to 1,2  
+17-01-2017 12:58:12 - Validation OK, product is: MK462LL/A
+17-01-2017 12:58:13 - Picking up an item
+17-01-2017 12:58:14 - Storing item
+17-01-2017 12:58:15 - Validation OK, product is: MK462LL/A
+17-01-2017 12:58:16 - Picking up an item
+17-01-2017 12:58:17 - Storing item
+17-01-2017 12:58:18 - Moving from 1,0 to 1,5  
+17-01-2017 12:58:23 - Validation OK, product is: MGLW2FD/A
+17-01-2017 12:58:24 - Picking up an item
+17-01-2017 12:58:25 - Storing item
+17-01-2017 12:58:26 - Moving from 1,-5 to 5,1  
+17-01-2017 01:07:36 - Moving from 1,1 to 1,2  
+17-01-2017 01:07:37 - Validation OK, product is: MK462LL/A
+17-01-2017 01:07:38 - Picking up an item
+17-01-2017 01:07:39 - Storing item
+17-01-2017 01:07:40 - Validation OK, product is: MK462LL/A
+17-01-2017 01:07:41 - Picking up an item
+17-01-2017 01:07:42 - Storing item
+17-01-2017 01:07:43 - Moving from 1,0 to 1,5  
+17-01-2017 01:07:48 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:07:49 - Picking up an item
+17-01-2017 01:07:50 - Storing item
+17-01-2017 01:07:51 - Moving from 1,-5 to 5,1  
+17-01-2017 01:08:01 - Unloading items
+17-01-2017 01:08:04 - Moving from 5,1 to 1,5  
+17-01-2017 01:08:12 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:08:13 - Picking up an item
+17-01-2017 01:08:14 - Storing item
+17-01-2017 01:08:15 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:08:16 - Picking up an item
+17-01-2017 01:08:17 - Storing item
+17-01-2017 01:08:18 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:08:19 - Picking up an item
+17-01-2017 01:08:20 - Storing item
+17-01-2017 01:12:07 - Moving from 1,1 to 1,2  
+17-01-2017 01:12:08 - Validation OK, product is: MK462LL/A
+17-01-2017 01:12:09 - Picking up an item
+17-01-2017 01:12:10 - Storing item
+17-01-2017 01:12:11 - Validation OK, product is: MK462LL/A
+17-01-2017 01:12:12 - Picking up an item
+17-01-2017 01:12:13 - Storing item
+17-01-2017 01:12:14 - Moving from 1,0 to 1,5  
+17-01-2017 01:12:19 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:12:20 - Picking up an item
+17-01-2017 01:12:21 - Storing item
+17-01-2017 01:12:22 - Moving from 1,-5 to 5,1  
+17-01-2017 01:12:32 - Unloading items
+17-01-2017 01:12:35 - Moving from 5,1 to 1,5  
+17-01-2017 01:12:43 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:12:44 - Picking up an item
+17-01-2017 01:12:45 - Storing item
+17-01-2017 01:12:46 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:12:47 - Picking up an item
+17-01-2017 01:12:48 - Storing item
+17-01-2017 01:12:49 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:12:50 - Picking up an item
+17-01-2017 01:12:51 - Storing item
+17-01-2017 01:12:52 - Moving from -3,-15 to 5,1  
+17-01-2017 01:13:16 - Unloading items
+17-01-2017 01:13:19 - Moving from 5,1 to 1,5  
+17-01-2017 01:16:23 - Moving from 1,1 to 1,2  
+17-01-2017 01:16:24 - Validation OK, product is: MK462LL/A
+17-01-2017 01:16:25 - Picking up an item
+17-01-2017 01:16:26 - Storing item
+17-01-2017 01:16:27 - Validation OK, product is: MK462LL/A
+17-01-2017 01:16:28 - Picking up an item
+17-01-2017 01:16:29 - Storing item
+17-01-2017 01:16:30 - Moving from 1,0 to 1,5  
+17-01-2017 01:16:35 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:16:36 - Picking up an item
+17-01-2017 01:16:37 - Storing item
+17-01-2017 01:16:38 - Moving from 1,-5 to 5,1  
+17-01-2017 01:16:48 - Unloading items
+17-01-2017 01:16:51 - Moving from 5,1 to 1,5  
+17-01-2017 01:16:59 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:17:00 - Picking up an item
+17-01-2017 01:17:01 - Storing item
+17-01-2017 01:17:02 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:17:03 - Picking up an item
+17-01-2017 01:17:04 - Storing item
+17-01-2017 01:17:05 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:17:06 - Picking up an item
+17-01-2017 01:17:07 - Storing item
+17-01-2017 01:17:08 - Moving from -3,-15 to 5,1  
+17-01-2017 01:17:32 - Unloading items
+17-01-2017 01:17:35 - Moving from 5,1 to 1,5  
+17-01-2017 01:17:43 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:17:44 - Picking up an item
+17-01-2017 01:17:45 - Storing item
+17-01-2017 01:17:46 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:17:47 - Picking up an item
+17-01-2017 01:17:48 - Storing item
+17-01-2017 01:17:49 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:17:50 - Picking up an item
+17-01-2017 01:17:51 - Storing item
+17-01-2017 01:17:52 - Moving from -11,-35 to 5,1  
+17-01-2017 01:18:44 - Unloading items
+17-01-2017 01:18:47 - Moving from 5,1 to 1,5  
+17-01-2017 01:18:55 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:18:56 - Picking up an item
+17-01-2017 01:18:57 - Storing item
+17-01-2017 01:23:20 - Moving from 1,1 to 1,2  
+17-01-2017 01:23:21 - Validation OK, product is: MK462LL/A
+17-01-2017 01:23:21 - Picking up an item
+17-01-2017 01:23:22 - Storing item
+17-01-2017 01:23:22 - Validation OK, product is: MK462LL/A
+17-01-2017 01:23:23 - Picking up an item
+17-01-2017 01:23:23 - Storing item
+17-01-2017 01:23:24 - Moving from 1,0 to 1,5  
+17-01-2017 01:23:26 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:23:27 - Picking up an item
+17-01-2017 01:23:27 - Storing item
+17-01-2017 01:23:28 - Moving from 1,-5 to 5,1  
+17-01-2017 01:23:33 - Unloading items
+17-01-2017 01:23:34 - Moving from 5,1 to 1,5  
+17-01-2017 01:23:38 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:23:39 - Picking up an item
+17-01-2017 01:23:39 - Storing item
+17-01-2017 01:23:40 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:23:40 - Picking up an item
+17-01-2017 01:23:41 - Storing item
+17-01-2017 01:23:41 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:23:42 - Picking up an item
+17-01-2017 01:23:42 - Storing item
+17-01-2017 01:23:43 - Moving from -3,-15 to 5,1  
+17-01-2017 01:23:55 - Unloading items
+17-01-2017 01:23:57 - Moving from 5,1 to 1,5  
+17-01-2017 01:24:01 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:24:01 - Picking up an item
+17-01-2017 01:24:07 - Moving from 1,1 to 1,2  
+17-01-2017 01:24:08 - Validation OK, product is: MK462LL/A
+17-01-2017 01:24:08 - Picking up an item
+17-01-2017 01:24:09 - Storing item
+17-01-2017 01:24:09 - Validation OK, product is: MK462LL/A
+17-01-2017 01:24:10 - Picking up an item
+17-01-2017 01:24:10 - Storing item
+17-01-2017 01:24:11 - Moving from 1,0 to 1,5  
+17-01-2017 01:24:14 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:24:14 - Picking up an item
+17-01-2017 01:24:15 - Storing item
+17-01-2017 01:24:15 - Moving from 1,-5 to 5,1  
+17-01-2017 01:24:20 - Unloading items
+17-01-2017 01:24:22 - Moving from 5,1 to 1,5  
+17-01-2017 01:24:26 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:24:26 - Picking up an item
+17-01-2017 01:24:27 - Storing item
+17-01-2017 01:24:27 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:24:28 - Picking up an item
+17-01-2017 01:24:28 - Storing item
+17-01-2017 01:24:29 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:24:29 - Picking up an item
+17-01-2017 01:24:30 - Storing item
+17-01-2017 01:24:30 - Moving from -3,-15 to 5,1  
+17-01-2017 01:24:42 - Unloading items
+17-01-2017 01:24:44 - Moving from 5,1 to 1,5  
+17-01-2017 01:25:28 - Moving from 1,1 to 1,2  
+17-01-2017 01:25:29 - Validation OK, product is: MK462LL/A
+17-01-2017 01:25:29 - Picking up an item
+17-01-2017 01:25:29 - Storing item
+17-01-2017 01:25:29 - Validation OK, product is: MK462LL/A
+17-01-2017 01:25:29 - Picking up an item
+17-01-2017 01:25:29 - Storing item
+17-01-2017 01:25:29 - Moving from 1,0 to 1,5  
+17-01-2017 01:25:30 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:25:30 - Picking up an item
+17-01-2017 01:25:30 - Storing item
+17-01-2017 01:25:30 - Moving from 1,-5 to 5,1  
+17-01-2017 01:25:31 - Unloading items
+17-01-2017 01:25:31 - Moving from 5,1 to 1,5  
+17-01-2017 01:25:32 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:25:32 - Picking up an item
+17-01-2017 01:25:32 - Storing item
+17-01-2017 01:25:32 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:25:33 - Picking up an item
+17-01-2017 01:25:33 - Storing item
+17-01-2017 01:25:33 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:25:33 - Picking up an item
+17-01-2017 01:25:33 - Storing item
+17-01-2017 01:25:33 - Moving from -3,-15 to 5,1  
+17-01-2017 01:25:36 - Unloading items
+17-01-2017 01:25:36 - Moving from 5,1 to 1,5  
+17-01-2017 01:25:37 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:25:37 - Picking up an item
+17-01-2017 01:25:37 - Storing item
+17-01-2017 01:25:37 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:25:37 - Picking up an item
+17-01-2017 01:25:37 - Storing item
+17-01-2017 01:25:37 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:25:38 - Picking up an item
+17-01-2017 01:25:38 - Storing item
+17-01-2017 01:25:38 - Moving from -11,-35 to 5,1  
+17-01-2017 01:25:43 - Unloading items
+17-01-2017 01:25:43 - Moving from 5,1 to 1,5  
+17-01-2017 01:25:44 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:25:44 - Picking up an item
+17-01-2017 01:25:45 - Storing item
+17-01-2017 01:25:45 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:25:45 - Picking up an item
+17-01-2017 01:25:45 - Storing item
+17-01-2017 01:25:45 - Moving from -27,-75 to 1,0  
+17-01-2017 01:30:42 - Moving from 1,1 to 1,2  
+17-01-2017 01:30:43 - Validation OK, product is: MK462LL/A
+17-01-2017 01:30:43 - Picking up an item
+17-01-2017 01:30:43 - Storing item
+17-01-2017 01:30:43 - Validation OK, product is: MK462LL/A
+17-01-2017 01:30:43 - Picking up an item
+17-01-2017 01:30:43 - Storing item
+17-01-2017 01:30:43 - Moving from 1,0 to 1,5  
+17-01-2017 01:30:44 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:30:44 - Picking up an item
+17-01-2017 01:30:44 - Storing item
+17-01-2017 01:30:44 - Moving from 1,-5 to 5,1  
+17-01-2017 01:30:45 - Unloading items
+17-01-2017 01:30:45 - Moving from 5,1 to 1,5  
+17-01-2017 01:30:46 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:30:46 - Picking up an item
+17-01-2017 01:30:46 - Storing item
+17-01-2017 01:30:47 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:30:47 - Picking up an item
+17-01-2017 01:30:47 - Storing item
+17-01-2017 01:30:47 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:30:47 - Picking up an item
+17-01-2017 01:30:47 - Storing item
+17-01-2017 01:30:47 - Moving from -3,-15 to 5,1  
+17-01-2017 01:31:42 - Moving from 1,1 to 1,2  
+17-01-2017 01:31:42 - Validation OK, product is: MK462LL/A
+17-01-2017 01:31:42 - Picking up an item
+17-01-2017 01:31:42 - Storing item
+17-01-2017 01:31:43 - Validation OK, product is: MK462LL/A
+17-01-2017 01:31:43 - Picking up an item
+17-01-2017 01:31:43 - Storing item
+17-01-2017 01:31:43 - Moving from 1,2 to 1,5  
+17-01-2017 01:31:43 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:31:43 - Picking up an item
+17-01-2017 01:31:43 - Storing item
+17-01-2017 01:31:43 - Moving from 1,5 to 5,1  
+17-01-2017 01:31:44 - Unloading items
+17-01-2017 01:31:45 - Moving from 5,1 to 1,5  
+17-01-2017 01:31:45 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:31:46 - Picking up an item
+17-01-2017 01:31:46 - Storing item
+17-01-2017 01:31:46 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:31:46 - Picking up an item
+17-01-2017 01:31:46 - Storing item
+17-01-2017 01:31:46 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:31:46 - Picking up an item
+17-01-2017 01:31:46 - Storing item
+17-01-2017 01:31:46 - Moving from 1,5 to 5,1  
+17-01-2017 01:31:47 - Unloading items
+17-01-2017 01:31:48 - Moving from 5,1 to 1,5  
+17-01-2017 01:31:48 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:31:48 - Picking up an item
+17-01-2017 01:31:49 - Storing item
+17-01-2017 01:31:49 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:31:49 - Picking up an item
+17-01-2017 01:31:49 - Storing item
+17-01-2017 01:31:49 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:31:49 - Picking up an item
+17-01-2017 01:31:49 - Storing item
+17-01-2017 01:31:49 - Moving from 1,5 to 5,1  
+17-01-2017 01:31:50 - Unloading items
+17-01-2017 01:31:50 - Moving from 5,1 to 1,5  
+17-01-2017 01:31:51 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:31:51 - Picking up an item
+17-01-2017 01:31:52 - Storing item
+17-01-2017 01:31:52 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:31:52 - Picking up an item
+17-01-2017 01:31:52 - Storing item
+17-01-2017 01:31:52 - Moving from 1,5 to 1,0  
+17-01-2017 01:31:52 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:31:53 - Picking up an item
+17-01-2017 01:31:53 - Storing item
+17-01-2017 01:31:53 - Moving from 1,0 to 5,1  
+17-01-2017 01:31:53 - Unloading items
+17-01-2017 01:31:54 - Moving from 5,1 to 1,0  
+17-01-2017 01:31:54 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:31:54 - Picking up an item
+17-01-2017 01:31:54 - Storing item
+17-01-2017 01:31:54 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:31:55 - Picking up an item
+17-01-2017 01:31:55 - Storing item
+17-01-2017 01:31:55 - Moving from 1,0 to 1,6  
+17-01-2017 01:31:55 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:31:56 - Picking up an item
+17-01-2017 01:31:56 - Storing item
+17-01-2017 01:31:56 - Moving from 1,6 to 5,1  
+17-01-2017 01:31:57 - Unloading items
+17-01-2017 01:31:57 - Moving from 5,1 to 1,6  
+17-01-2017 01:31:58 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:31:58 - Picking up an item
+17-01-2017 01:31:58 - Storing item
+17-01-2017 01:31:58 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:31:58 - Picking up an item
+17-01-2017 01:31:58 - Storing item
+17-01-2017 01:31:59 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:31:59 - Picking up an item
+17-01-2017 01:31:59 - Storing item
+17-01-2017 01:31:59 - Moving from 1,6 to 5,1  
+17-01-2017 01:32:00 - Unloading items
+17-01-2017 01:32:00 - Moving from 5,1 to 1,6  
+17-01-2017 01:32:01 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:32:01 - Picking up an item
+17-01-2017 01:32:01 - Storing item
+17-01-2017 01:32:01 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:32:01 - Picking up an item
+17-01-2017 01:32:02 - Storing item
+17-01-2017 01:32:02 - Moving from 1,6 to 2,3  
+17-01-2017 01:32:02 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:32:02 - Picking up an item
+17-01-2017 01:32:02 - Storing item
+17-01-2017 01:32:02 - Moving from 2,3 to 5,1  
+17-01-2017 01:32:03 - Unloading items
+17-01-2017 01:32:03 - Moving from 5,1 to 2,3  
+17-01-2017 01:32:04 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:32:04 - Picking up an item
+17-01-2017 01:32:04 - Storing item
+17-01-2017 01:32:04 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:32:04 - Picking up an item
+17-01-2017 01:32:04 - Storing item
+17-01-2017 01:32:04 - Moving from 2,3 to 2,11  
+17-01-2017 01:32:05 - Validation OK, product is: ME276FD/A
+17-01-2017 01:32:05 - Picking up an item
+17-01-2017 01:32:05 - Storing item
+17-01-2017 01:32:06 - Moving from 2,11 to 5,1  
+17-01-2017 01:32:07 - Unloading items
+17-01-2017 01:32:07 - Moving from 5,1 to 2,1  
+17-01-2017 01:32:08 - Validation OK, product is: SM-T550NZKADBT
+17-01-2017 01:32:08 - Picking up an item
+17-01-2017 01:32:08 - Storing item
+17-01-2017 01:32:08 - Moving from 2,1 to 2,11  
+17-01-2017 01:32:09 - Validation OK, product is: ME276FD/A
+17-01-2017 01:32:09 - Picking up an item
+17-01-2017 01:32:09 - Storing item
+17-01-2017 01:32:09 - Validation OK, product is: ME276FD/A
+17-01-2017 01:32:09 - Picking up an item
+17-01-2017 01:32:09 - Storing item
+17-01-2017 01:32:10 - Moving from 2,11 to 5,1  
+17-01-2017 01:32:11 - Unloading items
+17-01-2017 01:32:11 - Moving from 5,1 to 2,11  
+17-01-2017 01:32:13 - Validation OK, product is: ME276FD/A
+17-01-2017 01:32:13 - Picking up an item
+17-01-2017 01:32:13 - Storing item
+17-01-2017 01:32:13 - Moving from 2,11 to 5,1  
+17-01-2017 01:32:14 - Unloading items
+17-01-2017 01:35:32 - Moving from 1,1 to 1,2  
+17-01-2017 01:35:32 - Validation OK, product is: MK462LL/A
+17-01-2017 01:35:32 - Picking up an item
+17-01-2017 01:35:32 - Storing item
+17-01-2017 01:35:32 - Validation OK, product is: MK462LL/A
+17-01-2017 01:35:32 - Picking up an item
+17-01-2017 01:35:32 - Storing item
+17-01-2017 01:35:32 - Moving from 1,2 to 1,5  
+17-01-2017 01:35:33 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:35:33 - Picking up an item
+17-01-2017 01:35:33 - Storing item
+17-01-2017 01:35:33 - Moving from 1,5 to 5,1  
+17-01-2017 01:35:34 - Unloading items
+17-01-2017 01:35:34 - Moving from 5,1 to 1,5  
+17-01-2017 01:35:35 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:35:35 - Picking up an item
+17-01-2017 01:35:35 - Storing item
+17-01-2017 01:35:35 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:35:35 - Picking up an item
+17-01-2017 01:35:35 - Storing item
+17-01-2017 01:35:36 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:35:36 - Picking up an item
+17-01-2017 01:35:36 - Storing item
+17-01-2017 01:35:36 - Moving from 1,5 to 5,1  
+17-01-2017 01:36:42 - Moving from 1,1 to 1,2  
+17-01-2017 01:36:42 - Validation OK, product is: MK462LL/A
+17-01-2017 01:36:42 - Picking up an item
+17-01-2017 01:36:42 - Storing item
+17-01-2017 01:36:43 - Validation OK, product is: MK462LL/A
+17-01-2017 01:36:43 - Picking up an item
+17-01-2017 01:36:43 - Storing item
+17-01-2017 01:37:18 - Moving from 1,1 to 1,2  
+17-01-2017 01:37:18 - Validation OK, product is: MK462LL/A
+17-01-2017 01:37:19 - Picking up an item
+17-01-2017 01:37:19 - Storing item
+17-01-2017 01:37:19 - Validation OK, product is: MK462LL/A
+17-01-2017 01:37:19 - Picking up an item
+17-01-2017 01:37:19 - Storing item
+17-01-2017 01:37:46 - Moving from 1,1 to 1,2  
+17-01-2017 01:37:47 - Validation OK, product is: MK462LL/A
+17-01-2017 01:37:48 - Picking up an item
+17-01-2017 01:37:49 - Storing item
+17-01-2017 01:37:50 - Validation OK, product is: MK462LL/A
+17-01-2017 01:37:51 - Picking up an item
+17-01-2017 01:37:52 - Storing item
+17-01-2017 01:39:30 - Moving from 1,1 to 1,2  
+17-01-2017 01:39:31 - Validation OK, product is: MK462LL/A
+17-01-2017 01:39:32 - Picking up an item
+17-01-2017 01:39:33 - Storing item
+17-01-2017 01:39:34 - Validation OK, product is: MK462LL/A
+17-01-2017 01:39:35 - Picking up an item
+17-01-2017 01:39:36 - Storing item
+17-01-2017 01:39:37 - Moving from 1,2 to 1,5  
+17-01-2017 01:39:40 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:39:41 - Picking up an item
+17-01-2017 01:39:42 - Storing item
+17-01-2017 01:39:43 - Moving from 1,5 to 5,1  
+17-01-2017 01:39:51 - Unloading items
+17-01-2017 01:39:54 - Moving from 5,1 to 1,5  
+17-01-2017 01:40:02 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:03 - Picking up an item
+17-01-2017 01:40:04 - Storing item
+17-01-2017 01:40:05 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:06 - Picking up an item
+17-01-2017 01:40:07 - Storing item
+17-01-2017 01:40:08 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:09 - Picking up an item
+17-01-2017 01:40:10 - Storing item
+17-01-2017 01:40:11 - Moving from 1,5 to 5,1  
+17-01-2017 01:40:19 - Unloading items
+17-01-2017 01:40:22 - Moving from 5,1 to 1,5  
+17-01-2017 01:40:30 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:31 - Picking up an item
+17-01-2017 01:40:32 - Storing item
+17-01-2017 01:40:33 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:34 - Picking up an item
+17-01-2017 01:40:35 - Storing item
+17-01-2017 01:40:36 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:37 - Picking up an item
+17-01-2017 01:40:38 - Storing item
+17-01-2017 01:40:39 - Moving from 1,5 to 5,1  
+17-01-2017 01:40:52 - Moving from 1,1 to 1,2  
+17-01-2017 01:40:52 - Validation OK, product is: MK462LL/A
+17-01-2017 01:40:52 - Picking up an item
+17-01-2017 01:40:53 - Storing item
+17-01-2017 01:40:53 - Validation OK, product is: MK462LL/A
+17-01-2017 01:40:53 - Picking up an item
+17-01-2017 01:40:53 - Storing item
+17-01-2017 01:40:53 - Moving from 1,2 to 1,5  
+17-01-2017 01:40:53 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:53 - Picking up an item
+17-01-2017 01:40:54 - Storing item
+17-01-2017 01:40:54 - Moving from 1,5 to 5,1  
+17-01-2017 01:40:54 - Unloading items
+17-01-2017 01:40:55 - Moving from 5,1 to 1,5  
+17-01-2017 01:40:56 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:56 - Picking up an item
+17-01-2017 01:40:56 - Storing item
+17-01-2017 01:40:56 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:56 - Picking up an item
+17-01-2017 01:40:56 - Storing item
+17-01-2017 01:40:56 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:56 - Picking up an item
+17-01-2017 01:40:56 - Storing item
+17-01-2017 01:40:57 - Moving from 1,5 to 5,1  
+17-01-2017 01:40:57 - Unloading items
+17-01-2017 01:40:58 - Moving from 5,1 to 1,5  
+17-01-2017 01:40:59 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:59 - Picking up an item
+17-01-2017 01:40:59 - Storing item
+17-01-2017 01:40:59 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:59 - Picking up an item
+17-01-2017 01:40:59 - Storing item
+17-01-2017 01:40:59 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:40:59 - Picking up an item
+17-01-2017 01:40:59 - Storing item
+17-01-2017 01:41:00 - Moving from 1,5 to 5,1  
+17-01-2017 01:41:00 - Unloading items
+17-01-2017 01:41:01 - Moving from 5,1 to 1,5  
+17-01-2017 01:41:02 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:41:02 - Picking up an item
+17-01-2017 01:41:02 - Storing item
+17-01-2017 01:41:02 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:41:02 - Picking up an item
+17-01-2017 01:41:02 - Storing item
+17-01-2017 01:41:02 - Moving from 1,5 to 1,0  
+17-01-2017 01:41:03 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:41:03 - Picking up an item
+17-01-2017 01:41:03 - Storing item
+17-01-2017 01:41:03 - Moving from 1,0 to 5,1  
+17-01-2017 01:41:03 - Unloading items
+17-01-2017 01:41:04 - Moving from 5,1 to 1,0  
+17-01-2017 01:41:04 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:41:04 - Picking up an item
+17-01-2017 01:41:05 - Storing item
+17-01-2017 01:41:05 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:41:05 - Picking up an item
+17-01-2017 01:41:05 - Storing item
+17-01-2017 01:41:05 - Moving from 1,0 to 1,6  
+17-01-2017 01:41:06 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:41:06 - Picking up an item
+17-01-2017 01:41:06 - Storing item
+17-01-2017 01:41:06 - Moving from 1,6 to 5,1  
+17-01-2017 01:41:07 - Unloading items
+17-01-2017 01:41:07 - Moving from 5,1 to 1,6  
+17-01-2017 01:41:08 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:41:08 - Picking up an item
+17-01-2017 01:41:08 - Storing item
+17-01-2017 01:41:08 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:41:09 - Picking up an item
+17-01-2017 01:41:09 - Storing item
+17-01-2017 01:41:09 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:41:09 - Picking up an item
+17-01-2017 01:41:09 - Storing item
+17-01-2017 01:41:09 - Moving from 1,6 to 5,1  
+17-01-2017 01:41:10 - Unloading items
+17-01-2017 01:41:10 - Moving from 5,1 to 1,6  
+17-01-2017 01:41:11 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:41:11 - Picking up an item
+17-01-2017 01:41:11 - Storing item
+17-01-2017 01:41:12 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:41:12 - Picking up an item
+17-01-2017 01:41:12 - Storing item
+17-01-2017 01:41:12 - Moving from 1,6 to 2,3  
+17-01-2017 01:41:12 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:41:12 - Picking up an item
+17-01-2017 01:41:13 - Storing item
+17-01-2017 01:41:13 - Moving from 2,3 to 5,1  
+17-01-2017 01:41:13 - Unloading items
+17-01-2017 01:41:13 - Moving from 5,1 to 2,3  
+17-01-2017 01:41:14 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:41:14 - Picking up an item
+17-01-2017 01:41:14 - Storing item
+17-01-2017 01:41:14 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:41:14 - Picking up an item
+17-01-2017 01:41:15 - Storing item
+17-01-2017 01:41:15 - Moving from 2,3 to 2,11  
+17-01-2017 01:41:15 - Validation OK, product is: ME276FD/A
+17-01-2017 01:41:16 - Picking up an item
+17-01-2017 01:41:16 - Storing item
+17-01-2017 01:41:16 - Moving from 2,11 to 5,1  
+17-01-2017 01:41:17 - Unloading items
+17-01-2017 01:41:17 - Moving from 5,1 to 2,1  
+17-01-2017 01:41:18 - Validation OK, product is: SM-T550NZKADBT
+17-01-2017 01:41:18 - Picking up an item
+17-01-2017 01:41:18 - Storing item
+17-01-2017 01:41:18 - Moving from 2,1 to 2,11  
+17-01-2017 01:41:19 - Validation OK, product is: ME276FD/A
+17-01-2017 01:41:19 - Picking up an item
+17-01-2017 01:41:19 - Storing item
+17-01-2017 01:41:19 - Validation OK, product is: ME276FD/A
+17-01-2017 01:41:20 - Picking up an item
+17-01-2017 01:41:20 - Storing item
+17-01-2017 01:41:20 - Moving from 2,11 to 5,1  
+17-01-2017 01:41:21 - Unloading items
+17-01-2017 01:41:21 - Moving from 5,1 to 2,11  
+17-01-2017 01:41:23 - Validation OK, product is: ME276FD/A
+17-01-2017 01:41:23 - Picking up an item
+17-01-2017 01:41:23 - Storing item
+17-01-2017 01:41:23 - Moving from 2,11 to 5,1  
+17-01-2017 01:41:24 - Unloading items
+17-01-2017 01:42:54 - Moving from 1,1 to 1,2  
+17-01-2017 01:42:54 - Validation OK, product is: MK462LL/A
+17-01-2017 01:42:55 - Picking up an item
+17-01-2017 01:42:55 - Storing item
+17-01-2017 01:42:55 - Validation OK, product is: MK462LL/A
+17-01-2017 01:42:55 - Picking up an item
+17-01-2017 01:42:55 - Storing item
+17-01-2017 01:42:55 - Moving from 1,2 to 1,5  
+17-01-2017 01:42:55 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:42:56 - Picking up an item
+17-01-2017 01:42:56 - Storing item
+17-01-2017 01:42:56 - Moving from 1,5 to 5,1  
+17-01-2017 01:42:57 - Unloading items
+17-01-2017 01:42:57 - Moving from 5,1 to 1,5  
+17-01-2017 01:42:58 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:42:58 - Picking up an item
+17-01-2017 01:42:58 - Storing item
+17-01-2017 01:42:58 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:42:58 - Picking up an item
+17-01-2017 01:42:58 - Storing item
+17-01-2017 01:42:58 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:42:58 - Picking up an item
+17-01-2017 01:42:59 - Storing item
+17-01-2017 01:42:59 - Moving from 1,5 to 5,1  
+17-01-2017 01:42:59 - Unloading items
+17-01-2017 01:43:00 - Moving from 5,1 to 1,5  
+17-01-2017 01:43:01 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:43:01 - Picking up an item
+17-01-2017 01:43:01 - Storing item
+17-01-2017 01:43:01 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:43:01 - Picking up an item
+17-01-2017 01:43:01 - Storing item
+17-01-2017 01:43:01 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:43:01 - Picking up an item
+17-01-2017 01:43:01 - Storing item
+17-01-2017 01:43:02 - Moving from 1,5 to 5,1  
+17-01-2017 01:43:02 - Unloading items
+17-01-2017 01:43:03 - Moving from 5,1 to 1,5  
+17-01-2017 01:43:04 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:43:04 - Picking up an item
+17-01-2017 01:43:04 - Storing item
+17-01-2017 01:43:04 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:43:04 - Picking up an item
+17-01-2017 01:43:04 - Storing item
+17-01-2017 01:43:04 - Moving from 1,5 to 1,0  
+17-01-2017 01:43:05 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:43:05 - Picking up an item
+17-01-2017 01:43:05 - Storing item
+17-01-2017 01:43:05 - Moving from 1,0 to 5,1  
+17-01-2017 01:43:06 - Unloading items
+17-01-2017 01:43:06 - Moving from 5,1 to 1,0  
+17-01-2017 01:43:06 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:43:07 - Picking up an item
+17-01-2017 01:43:07 - Storing item
+17-01-2017 01:43:07 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:43:07 - Picking up an item
+17-01-2017 01:43:07 - Storing item
+17-01-2017 01:43:07 - Moving from 1,0 to 1,6  
+17-01-2017 01:43:08 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:43:08 - Picking up an item
+17-01-2017 01:43:08 - Storing item
+17-01-2017 01:43:08 - Moving from 1,6 to 5,1  
+17-01-2017 01:43:09 - Unloading items
+17-01-2017 01:43:09 - Moving from 5,1 to 1,6  
+17-01-2017 01:43:10 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:43:10 - Picking up an item
+17-01-2017 01:43:10 - Storing item
+17-01-2017 01:43:11 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:43:11 - Picking up an item
+17-01-2017 01:43:11 - Storing item
+17-01-2017 01:43:11 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:43:11 - Picking up an item
+17-01-2017 01:43:11 - Storing item
+17-01-2017 01:43:11 - Moving from 1,6 to 5,1  
+17-01-2017 01:43:12 - Unloading items
+17-01-2017 01:43:12 - Moving from 5,1 to 1,6  
+17-01-2017 01:43:13 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:43:13 - Picking up an item
+17-01-2017 01:43:14 - Storing item
+17-01-2017 01:43:14 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:43:14 - Picking up an item
+17-01-2017 01:43:14 - Storing item
+17-01-2017 01:43:14 - Moving from 1,6 to 2,3  
+17-01-2017 01:43:14 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:43:14 - Picking up an item
+17-01-2017 01:43:15 - Storing item
+17-01-2017 01:43:15 - Moving from 2,3 to 5,1  
+17-01-2017 01:43:15 - Unloading items
+17-01-2017 01:43:16 - Moving from 5,1 to 2,3  
+17-01-2017 01:43:16 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:43:16 - Picking up an item
+17-01-2017 01:43:16 - Storing item
+17-01-2017 01:43:16 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:43:16 - Picking up an item
+17-01-2017 01:43:17 - Storing item
+17-01-2017 01:43:17 - Moving from 2,3 to 2,11  
+17-01-2017 01:43:18 - Validation OK, product is: ME276FD/A
+17-01-2017 01:43:18 - Picking up an item
+17-01-2017 01:43:18 - Storing item
+17-01-2017 01:43:18 - Moving from 2,11 to 5,1  
+17-01-2017 01:43:19 - Unloading items
+17-01-2017 01:43:20 - Moving from 5,1 to 2,1  
+17-01-2017 01:43:20 - Validation OK, product is: SM-T550NZKADBT
+17-01-2017 01:43:20 - Picking up an item
+17-01-2017 01:43:20 - Storing item
+17-01-2017 01:43:20 - Moving from 2,1 to 2,11  
+17-01-2017 01:43:21 - Validation OK, product is: ME276FD/A
+17-01-2017 01:43:21 - Picking up an item
+17-01-2017 01:43:21 - Storing item
+17-01-2017 01:43:22 - Validation OK, product is: ME276FD/A
+17-01-2017 01:43:22 - Picking up an item
+17-01-2017 01:43:22 - Storing item
+17-01-2017 01:43:22 - Moving from 2,11 to 5,1  
+17-01-2017 01:43:23 - Unloading items
+17-01-2017 01:43:24 - Moving from 5,1 to 2,11  
+17-01-2017 01:43:25 - Validation OK, product is: ME276FD/A
+17-01-2017 01:43:25 - Picking up an item
+17-01-2017 01:43:25 - Storing item
+17-01-2017 01:43:25 - Moving from 2,11 to 5,1  
+17-01-2017 01:43:27 - Unloading items
+17-01-2017 01:44:49 - Moving from 1,1 to 1,2  
+17-01-2017 01:44:49 - Validation OK, product is: MK462LL/A
+17-01-2017 01:44:50 - Picking up an item
+17-01-2017 01:44:50 - Storing item
+17-01-2017 01:44:50 - Validation OK, product is: MK462LL/A
+17-01-2017 01:44:50 - Picking up an item
+17-01-2017 01:44:50 - Storing item
+17-01-2017 01:44:50 - Moving from 1,2 to 1,5  
+17-01-2017 01:44:50 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:44:50 - Picking up an item
+17-01-2017 01:44:51 - Storing item
+17-01-2017 01:44:51 - Moving from 1,5 to 5,1  
+17-01-2017 01:44:51 - Unloading items
+17-01-2017 01:44:52 - Moving from 5,1 to 1,5  
+17-01-2017 01:44:53 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:44:53 - Picking up an item
+17-01-2017 01:44:53 - Storing item
+17-01-2017 01:44:53 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:44:53 - Picking up an item
+17-01-2017 01:44:53 - Storing item
+17-01-2017 01:44:53 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:44:53 - Picking up an item
+17-01-2017 01:44:53 - Storing item
+17-01-2017 01:44:54 - Moving from 1,5 to 5,1  
+17-01-2017 01:44:54 - Unloading items
+17-01-2017 01:44:55 - Moving from 5,1 to 1,5  
+17-01-2017 01:44:56 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:44:56 - Picking up an item
+17-01-2017 01:44:56 - Storing item
+17-01-2017 01:44:56 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:44:56 - Picking up an item
+17-01-2017 01:44:56 - Storing item
+17-01-2017 01:44:56 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:44:56 - Picking up an item
+17-01-2017 01:44:56 - Storing item
+17-01-2017 01:44:57 - Moving from 1,5 to 5,1  
+17-01-2017 01:44:57 - Unloading items
+17-01-2017 01:44:58 - Moving from 5,1 to 1,5  
+17-01-2017 01:44:59 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:44:59 - Picking up an item
+17-01-2017 01:44:59 - Storing item
+17-01-2017 01:44:59 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:44:59 - Picking up an item
+17-01-2017 01:44:59 - Storing item
+17-01-2017 01:44:59 - Moving from 1,5 to 1,0  
+17-01-2017 01:45:00 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:45:00 - Picking up an item
+17-01-2017 01:45:00 - Storing item
+17-01-2017 01:45:00 - Moving from 1,0 to 5,1  
+17-01-2017 01:45:01 - Unloading items
+17-01-2017 01:45:01 - Moving from 5,1 to 1,0  
+17-01-2017 01:45:01 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:45:01 - Picking up an item
+17-01-2017 01:45:02 - Storing item
+17-01-2017 01:45:02 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:45:02 - Picking up an item
+17-01-2017 01:45:02 - Storing item
+17-01-2017 01:45:02 - Moving from 1,0 to 1,6  
+17-01-2017 01:45:03 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:45:03 - Picking up an item
+17-01-2017 01:45:03 - Storing item
+17-01-2017 01:45:03 - Moving from 1,6 to 5,1  
+17-01-2017 01:45:04 - Unloading items
+17-01-2017 01:45:04 - Moving from 5,1 to 1,6  
+17-01-2017 01:45:05 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:45:05 - Picking up an item
+17-01-2017 01:45:05 - Storing item
+17-01-2017 01:45:05 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:45:06 - Picking up an item
+17-01-2017 01:45:06 - Storing item
+17-01-2017 01:45:06 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:45:06 - Picking up an item
+17-01-2017 01:45:06 - Storing item
+17-01-2017 01:45:06 - Moving from 1,6 to 5,1  
+17-01-2017 01:45:07 - Unloading items
+17-01-2017 01:45:07 - Moving from 5,1 to 1,6  
+17-01-2017 01:45:08 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:45:08 - Picking up an item
+17-01-2017 01:45:08 - Storing item
+17-01-2017 01:45:09 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:45:09 - Picking up an item
+17-01-2017 01:45:09 - Storing item
+17-01-2017 01:45:09 - Moving from 1,6 to 2,3  
+17-01-2017 01:45:09 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:45:09 - Picking up an item
+17-01-2017 01:45:10 - Storing item
+17-01-2017 01:45:10 - Moving from 2,3 to 5,1  
+17-01-2017 01:45:10 - Unloading items
+17-01-2017 01:45:10 - Moving from 5,1 to 2,3  
+17-01-2017 01:45:11 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:45:11 - Picking up an item
+17-01-2017 01:45:11 - Storing item
+17-01-2017 01:45:11 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 01:45:11 - Picking up an item
+17-01-2017 01:45:12 - Storing item
+17-01-2017 01:45:12 - Moving from 2,3 to 2,11  
+17-01-2017 01:45:12 - Validation OK, product is: ME276FD/A
+17-01-2017 01:45:13 - Picking up an item
+17-01-2017 01:45:13 - Storing item
+17-01-2017 01:45:13 - Moving from 2,11 to 5,1  
+17-01-2017 01:45:14 - Unloading items
+17-01-2017 01:45:14 - Moving from 5,1 to 2,1  
+17-01-2017 01:45:15 - Validation OK, product is: SM-T550NZKADBT
+17-01-2017 01:45:15 - Picking up an item
+17-01-2017 01:45:15 - Storing item
+17-01-2017 01:45:15 - Moving from 2,1 to 2,11  
+17-01-2017 01:45:16 - Validation OK, product is: ME276FD/A
+17-01-2017 01:45:16 - Picking up an item
+17-01-2017 01:45:16 - Storing item
+17-01-2017 01:45:16 - Validation OK, product is: ME276FD/A
+17-01-2017 01:45:17 - Picking up an item
+17-01-2017 01:45:17 - Storing item
+17-01-2017 01:45:17 - Moving from 2,11 to 5,1  
+17-01-2017 01:45:18 - Unloading items
+17-01-2017 01:45:18 - Moving from 5,1 to 2,11  
+17-01-2017 01:45:20 - Validation OK, product is: ME276FD/A
+17-01-2017 01:45:20 - Picking up an item
+17-01-2017 01:45:20 - Storing item
+17-01-2017 01:45:20 - Moving from 2,11 to 5,1  
+17-01-2017 01:45:21 - Unloading items
+17-01-2017 01:59:38 - Moving from 1,1 to 1,2  
+17-01-2017 01:59:38 - Validation OK, product is: MK462LL/A
+17-01-2017 01:59:38 - Picking up an item
+17-01-2017 01:59:39 - Storing item
+17-01-2017 01:59:39 - Validation OK, product is: MK462LL/A
+17-01-2017 01:59:39 - Picking up an item
+17-01-2017 01:59:39 - Storing item
+17-01-2017 01:59:39 - Moving from 1,2 to 1,5  
+17-01-2017 01:59:39 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:59:39 - Picking up an item
+17-01-2017 01:59:40 - Storing item
+17-01-2017 01:59:40 - Moving from 1,5 to 5,1  
+17-01-2017 01:59:40 - Unloading items
+17-01-2017 01:59:41 - Moving from 5,1 to 1,5  
+17-01-2017 01:59:42 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:59:42 - Picking up an item
+17-01-2017 01:59:42 - Storing item
+17-01-2017 01:59:42 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:59:42 - Picking up an item
+17-01-2017 01:59:42 - Storing item
+17-01-2017 01:59:42 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:59:42 - Picking up an item
+17-01-2017 01:59:42 - Storing item
+17-01-2017 01:59:43 - Moving from 1,5 to 5,1  
+17-01-2017 01:59:43 - Unloading items
+17-01-2017 01:59:44 - Moving from 5,1 to 1,5  
+17-01-2017 01:59:45 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:59:45 - Picking up an item
+17-01-2017 01:59:45 - Storing item
+17-01-2017 01:59:45 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:59:45 - Picking up an item
+17-01-2017 01:59:45 - Storing item
+17-01-2017 01:59:45 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:59:45 - Picking up an item
+17-01-2017 01:59:45 - Storing item
+17-01-2017 01:59:45 - Moving from 1,5 to 5,1  
+17-01-2017 01:59:46 - Unloading items
+17-01-2017 01:59:47 - Moving from 5,1 to 1,5  
+17-01-2017 01:59:47 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:59:48 - Picking up an item
+17-01-2017 01:59:48 - Storing item
+17-01-2017 01:59:48 - Validation OK, product is: MGLW2FD/A
+17-01-2017 01:59:48 - Picking up an item
+17-01-2017 01:59:48 - Storing item
+17-01-2017 01:59:48 - Moving from 1,5 to 1,0  
+17-01-2017 01:59:49 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:59:49 - Picking up an item
+17-01-2017 01:59:49 - Storing item
+17-01-2017 01:59:49 - Moving from 1,0 to 5,1  
+17-01-2017 01:59:49 - Unloading items
+17-01-2017 01:59:50 - Moving from 5,1 to 1,0  
+17-01-2017 01:59:50 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:59:50 - Picking up an item
+17-01-2017 01:59:51 - Storing item
+17-01-2017 01:59:51 - Validation OK, product is: MJLT2LL/A
+17-01-2017 01:59:51 - Picking up an item
+17-01-2017 01:59:51 - Storing item
+17-01-2017 01:59:51 - Moving from 1,0 to 1,6  
+17-01-2017 01:59:52 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:59:52 - Picking up an item
+17-01-2017 01:59:52 - Storing item
+17-01-2017 01:59:52 - Moving from 1,6 to 5,1  
+17-01-2017 01:59:53 - Unloading items
+17-01-2017 01:59:53 - Moving from 5,1 to 1,6  
+17-01-2017 01:59:54 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:59:54 - Picking up an item
+17-01-2017 01:59:54 - Storing item
+17-01-2017 01:59:54 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:59:55 - Picking up an item
+17-01-2017 01:59:55 - Storing item
+17-01-2017 01:59:55 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 01:59:55 - Picking up an item
+17-01-2017 01:59:55 - Storing item
+17-01-2017 01:59:55 - Moving from 1,6 to 5,1  
+17-01-2017 01:59:56 - Unloading items
+17-01-2017 02:01:10 - Moving from 1,1 to 1,2  
+17-01-2017 02:01:11 - Validation OK, product is: MK462LL/A
+17-01-2017 02:01:11 - Picking up an item
+17-01-2017 02:01:11 - Storing item
+17-01-2017 02:01:11 - Validation OK, product is: MK462LL/A
+17-01-2017 02:01:11 - Picking up an item
+17-01-2017 02:01:11 - Storing item
+17-01-2017 02:01:11 - Moving from 1,2 to 1,5  
+17-01-2017 02:01:12 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:01:12 - Picking up an item
+17-01-2017 02:01:12 - Storing item
+17-01-2017 02:01:12 - Moving from 1,5 to 5,1  
+17-01-2017 02:01:13 - Unloading items
+17-01-2017 02:01:13 - Moving from 5,1 to 1,5  
+17-01-2017 02:01:14 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:01:14 - Picking up an item
+17-01-2017 02:01:14 - Storing item
+17-01-2017 02:01:14 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:01:14 - Picking up an item
+17-01-2017 02:01:14 - Storing item
+17-01-2017 02:01:14 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:01:15 - Picking up an item
+17-01-2017 02:01:15 - Storing item
+17-01-2017 02:01:27 - Moving from 1,1 to 1,2  
+17-01-2017 02:01:27 - Validation OK, product is: MK462LL/A
+17-01-2017 02:01:28 - Picking up an item
+17-01-2017 02:01:28 - Storing item
+17-01-2017 02:01:29 - Validation OK, product is: MK462LL/A
+17-01-2017 02:01:29 - Picking up an item
+17-01-2017 02:01:30 - Storing item
+17-01-2017 02:01:30 - Moving from 1,2 to 1,5  
+17-01-2017 02:01:32 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:01:32 - Picking up an item
+17-01-2017 02:01:33 - Storing item
+17-01-2017 02:01:33 - Moving from 1,5 to 5,1  
+17-01-2017 02:01:37 - Unloading items
+17-01-2017 02:01:39 - Moving from 5,1 to 1,5  
+17-01-2017 02:01:43 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:01:44 - Picking up an item
+17-01-2017 02:01:44 - Storing item
+17-01-2017 02:01:45 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:01:45 - Picking up an item
+17-01-2017 02:01:46 - Storing item
+17-01-2017 02:01:46 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:01:47 - Picking up an item
+17-01-2017 02:01:47 - Storing item
+17-01-2017 02:01:48 - Moving from 1,5 to 5,1  
+17-01-2017 02:01:52 - Unloading items
+17-01-2017 02:01:53 - Moving from 5,1 to 1,5  
+17-01-2017 02:01:57 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:01:58 - Picking up an item
+17-01-2017 02:01:58 - Storing item
+17-01-2017 02:01:59 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:01:59 - Picking up an item
+17-01-2017 02:02:00 - Storing item
+17-01-2017 02:02:00 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:02:01 - Picking up an item
+17-01-2017 02:02:01 - Storing item
+17-01-2017 02:02:02 - Moving from 1,5 to 5,1  
+17-01-2017 02:02:06 - Unloading items
+17-01-2017 02:02:07 - Moving from 5,1 to 1,5  
+17-01-2017 02:02:11 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:02:12 - Picking up an item
+17-01-2017 02:02:12 - Storing item
+17-01-2017 02:02:13 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:02:13 - Picking up an item
+17-01-2017 02:02:14 - Storing item
+17-01-2017 02:02:14 - Moving from 1,5 to 1,0  
+17-01-2017 02:02:17 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:02:17 - Picking up an item
+17-01-2017 02:02:18 - Storing item
+17-01-2017 02:02:18 - Moving from 1,0 to 5,1  
+17-01-2017 02:02:21 - Unloading items
+17-01-2017 02:02:22 - Moving from 5,1 to 1,0  
+17-01-2017 02:02:25 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:02:25 - Picking up an item
+17-01-2017 02:02:26 - Storing item
+17-01-2017 02:02:26 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:02:27 - Picking up an item
+17-01-2017 02:02:27 - Storing item
+17-01-2017 02:02:28 - Moving from 1,0 to 1,6  
+17-01-2017 02:02:31 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:02:31 - Picking up an item
+17-01-2017 02:02:32 - Storing item
+17-01-2017 02:02:33 - Moving from 1,6 to 5,1  
+17-01-2017 02:02:37 - Unloading items
+17-01-2017 02:02:39 - Moving from 5,1 to 1,6  
+17-01-2017 02:02:43 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:02:44 - Picking up an item
+17-01-2017 02:02:44 - Storing item
+17-01-2017 02:02:45 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:02:45 - Picking up an item
+17-01-2017 02:02:46 - Storing item
+17-01-2017 02:02:46 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:02:47 - Picking up an item
+17-01-2017 02:02:47 - Storing item
+17-01-2017 02:02:48 - Moving from 1,6 to 5,1  
+17-01-2017 02:04:04 - Moving from 1,1 to 1,2  
+17-01-2017 02:04:05 - Validation OK, product is: MK462LL/A
+17-01-2017 02:04:05 - Picking up an item
+17-01-2017 02:04:06 - Storing item
+17-01-2017 02:04:06 - Validation OK, product is: MK462LL/A
+17-01-2017 02:04:07 - Picking up an item
+17-01-2017 02:04:07 - Storing item
+17-01-2017 02:04:08 - Moving from 1,2 to 1,5  
+17-01-2017 02:04:09 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:04:10 - Picking up an item
+17-01-2017 02:04:10 - Storing item
+17-01-2017 02:04:11 - Moving from 1,5 to 5,1  
+17-01-2017 02:04:15 - Unloading items
+17-01-2017 02:04:16 - Moving from 5,1 to 1,5  
+17-01-2017 02:04:20 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:04:21 - Picking up an item
+17-01-2017 02:04:21 - Storing item
+17-01-2017 02:04:22 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:04:22 - Picking up an item
+17-01-2017 02:04:23 - Storing item
+17-01-2017 02:04:23 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:04:24 - Picking up an item
+17-01-2017 02:04:24 - Storing item
+17-01-2017 02:04:25 - Moving from 1,5 to 5,1  
+17-01-2017 02:04:29 - Unloading items
+17-01-2017 02:04:30 - Moving from 5,1 to 1,5  
+17-01-2017 02:04:34 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:04:35 - Picking up an item
+17-01-2017 02:04:35 - Storing item
+17-01-2017 02:04:36 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:04:36 - Picking up an item
+17-01-2017 02:04:37 - Storing item
+17-01-2017 02:04:37 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:04:38 - Picking up an item
+17-01-2017 02:04:39 - Storing item
+17-01-2017 02:04:39 - Moving from 1,5 to 5,1  
+17-01-2017 02:04:43 - Unloading items
+17-01-2017 02:04:45 - Moving from 5,1 to 1,5  
+17-01-2017 02:04:49 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:04:49 - Picking up an item
+17-01-2017 02:04:50 - Storing item
+17-01-2017 02:04:50 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:04:51 - Picking up an item
+17-01-2017 02:04:51 - Storing item
+17-01-2017 02:04:52 - Moving from 1,5 to 1,0  
+17-01-2017 02:04:54 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:04:55 - Picking up an item
+17-01-2017 02:04:55 - Storing item
+17-01-2017 02:04:56 - Moving from 1,0 to 5,1  
+17-01-2017 02:04:58 - Unloading items
+17-01-2017 02:05:00 - Moving from 5,1 to 1,0  
+17-01-2017 02:09:28 - Moving from 1,1 to 1,2  
+17-01-2017 02:09:29 - Validation OK, product is: MK462LL/A
+17-01-2017 02:09:29 - Picking up an item
+17-01-2017 02:09:30 - Storing item
+17-01-2017 02:09:30 - Validation OK, product is: MK462LL/A
+17-01-2017 02:09:31 - Picking up an item
+17-01-2017 02:09:31 - Storing item
+17-01-2017 02:09:32 - Moving from 1,2 to 1,5  
+17-01-2017 02:09:33 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:09:34 - Picking up an item
+17-01-2017 02:09:34 - Storing item
+17-01-2017 02:09:35 - Moving from 1,5 to 5,1  
+17-01-2017 02:09:39 - Unloading items
+17-01-2017 02:09:40 - Moving from 5,1 to 1,5  
+17-01-2017 02:09:44 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:09:45 - Picking up an item
+17-01-2017 02:09:45 - Storing item
+17-01-2017 02:09:46 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:09:46 - Picking up an item
+17-01-2017 02:09:47 - Storing item
+17-01-2017 02:09:47 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:09:48 - Picking up an item
+17-01-2017 02:09:48 - Storing item
+17-01-2017 02:09:49 - Moving from 1,5 to 5,1  
+17-01-2017 02:09:53 - Unloading items
+17-01-2017 02:09:55 - Moving from 5,1 to 1,5  
+17-01-2017 02:09:59 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:10:17 - Moving from 1,1 to 1,2  
+17-01-2017 02:10:18 - Validation OK, product is: MK462LL/A
+17-01-2017 02:10:19 - Picking up an item
+17-01-2017 02:10:19 - Storing item
+17-01-2017 02:10:20 - Validation OK, product is: MK462LL/A
+17-01-2017 02:10:20 - Picking up an item
+17-01-2017 02:10:21 - Storing item
+17-01-2017 02:10:21 - Moving from 1,2 to 1,5  
+17-01-2017 02:10:23 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:10:23 - Picking up an item
+17-01-2017 02:10:24 - Storing item
+17-01-2017 02:10:24 - Moving from 1,5 to 5,1  
+17-01-2017 02:10:28 - Unloading items
+17-01-2017 02:10:30 - Moving from 5,1 to 1,5  
+17-01-2017 02:10:34 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:10:34 - Picking up an item
+17-01-2017 02:10:35 - Storing item
+17-01-2017 02:10:35 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:10:36 - Picking up an item
+17-01-2017 02:10:36 - Storing item
+17-01-2017 02:10:37 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:10:37 - Picking up an item
+17-01-2017 02:10:38 - Storing item
+17-01-2017 02:10:38 - Moving from 1,5 to 5,1  
+17-01-2017 02:10:42 - Unloading items
+17-01-2017 02:10:44 - Moving from 5,1 to 1,5  
+17-01-2017 02:10:48 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:10:48 - Picking up an item
+17-01-2017 02:10:49 - Storing item
+17-01-2017 02:10:49 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:10:50 - Picking up an item
+17-01-2017 02:10:50 - Storing item
+17-01-2017 02:10:51 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:10:51 - Picking up an item
+17-01-2017 02:10:52 - Storing item
+17-01-2017 02:10:52 - Moving from 1,5 to 5,1  
+17-01-2017 02:10:56 - Unloading items
+17-01-2017 02:10:58 - Moving from 5,1 to 1,5  
+17-01-2017 02:11:02 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:11:02 - Picking up an item
+17-01-2017 02:11:03 - Storing item
+17-01-2017 02:11:03 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:11:04 - Picking up an item
+17-01-2017 02:11:04 - Storing item
+17-01-2017 02:11:05 - Moving from 1,5 to 1,1  
+17-01-2017 02:11:07 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:11:07 - Picking up an item
+17-01-2017 02:11:08 - Storing item
+17-01-2017 02:11:08 - Moving from 1,1 to 5,1  
+17-01-2017 02:11:11 - Unloading items
+17-01-2017 02:11:12 - Moving from 5,1 to 1,1  
+17-01-2017 02:11:14 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:11:15 - Picking up an item
+17-01-2017 02:11:15 - Storing item
+17-01-2017 02:11:16 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:11:16 - Picking up an item
+17-01-2017 02:11:17 - Storing item
+17-01-2017 02:11:17 - Moving from 1,1 to 1,6  
+17-01-2017 02:11:20 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:11:20 - Picking up an item
+17-01-2017 02:11:21 - Storing item
+17-01-2017 02:11:21 - Moving from 1,6 to 5,1  
+17-01-2017 02:11:26 - Unloading items
+17-01-2017 02:11:27 - Moving from 5,1 to 1,6  
+17-01-2017 02:11:32 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:11:32 - Picking up an item
+17-01-2017 02:11:33 - Storing item
+17-01-2017 02:11:33 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:11:34 - Picking up an item
+17-01-2017 02:11:34 - Storing item
+17-01-2017 02:11:35 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:11:35 - Picking up an item
+17-01-2017 02:11:36 - Storing item
+17-01-2017 02:11:36 - Moving from 1,6 to 5,1  
+17-01-2017 02:11:41 - Unloading items
+17-01-2017 02:11:42 - Moving from 5,1 to 1,6  
+17-01-2017 02:11:47 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:11:47 - Picking up an item
+17-01-2017 02:11:48 - Storing item
+17-01-2017 02:11:48 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:11:49 - Picking up an item
+17-01-2017 02:11:49 - Storing item
+17-01-2017 02:11:50 - Moving from 1,6 to 2,3  
+17-01-2017 02:11:52 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 02:11:52 - Picking up an item
+17-01-2017 02:11:53 - Storing item
+17-01-2017 02:11:53 - Moving from 2,3 to 5,1  
+17-01-2017 02:11:56 - Unloading items
+17-01-2017 02:11:57 - Moving from 5,1 to 2,3  
+17-01-2017 02:12:00 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 02:12:01 - Picking up an item
+17-01-2017 02:12:01 - Storing item
+17-01-2017 02:12:02 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 02:12:02 - Picking up an item
+17-01-2017 02:12:03 - Storing item
+17-01-2017 02:12:03 - Moving from 2,3 to 2,11  
+17-01-2017 02:12:07 - Validation OK, product is: ME276FD/A
+17-01-2017 02:12:08 - Picking up an item
+17-01-2017 02:12:08 - Storing item
+17-01-2017 02:12:09 - Moving from 2,11 to 5,1  
+17-01-2017 02:12:15 - Unloading items
+17-01-2017 02:12:17 - Moving from 5,1 to 2,1  
+17-01-2017 02:12:18 - Validation OK, product is: SM-T550NZKADBT
+17-01-2017 02:12:19 - Picking up an item
+17-01-2017 02:12:19 - Storing item
+17-01-2017 02:12:20 - Moving from 2,1 to 2,11  
+17-01-2017 02:12:25 - Validation OK, product is: ME276FD/A
+17-01-2017 02:12:25 - Picking up an item
+17-01-2017 02:12:26 - Storing item
+17-01-2017 02:12:26 - Validation OK, product is: ME276FD/A
+17-01-2017 02:12:27 - Picking up an item
+17-01-2017 02:12:27 - Storing item
+17-01-2017 02:12:28 - Moving from 2,11 to 5,1  
+17-01-2017 02:12:34 - Unloading items
+17-01-2017 02:12:36 - Moving from 5,1 to 2,11  
+17-01-2017 02:29:59 - Moving from 1,1 to 1,2  
+17-01-2017 02:30:00 - Validation OK, product is: MK462LL/A
+17-01-2017 02:30:00 - Picking up an item
+17-01-2017 02:30:01 - Storing item
+17-01-2017 02:30:01 - Validation OK, product is: MK462LL/A
+17-01-2017 02:30:02 - Picking up an item
+17-01-2017 02:30:02 - Storing item
+17-01-2017 02:30:03 - Moving from 1,2 to 1,5  
+17-01-2017 02:30:04 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:30:05 - Picking up an item
+17-01-2017 02:30:05 - Storing item
+17-01-2017 02:30:06 - Moving from 1,5 to 5,1  
+17-01-2017 02:30:10 - Unloading items
+17-01-2017 02:30:11 - Moving from 5,1 to 1,5  
+17-01-2017 02:30:15 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:30:16 - Picking up an item
+17-01-2017 02:30:17 - Storing item
+17-01-2017 02:30:17 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:30:18 - Picking up an item
+17-01-2017 02:30:18 - Storing item
+17-01-2017 02:30:19 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:30:19 - Picking up an item
+17-01-2017 02:30:20 - Storing item
+17-01-2017 02:30:20 - Moving from 1,5 to 5,1  
+17-01-2017 02:30:24 - Unloading items
+17-01-2017 02:30:26 - Moving from 5,1 to 1,5  
+17-01-2017 02:30:30 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:30:30 - Picking up an item
+17-01-2017 02:30:31 - Storing item
+17-01-2017 02:30:31 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:30:32 - Picking up an item
+17-01-2017 02:30:32 - Storing item
+17-01-2017 02:30:33 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:30:34 - Picking up an item
+17-01-2017 02:30:34 - Storing item
+17-01-2017 02:30:35 - Moving from 1,5 to 5,1  
+17-01-2017 02:30:39 - Unloading items
+17-01-2017 02:30:40 - Moving from 5,1 to 1,5  
+17-01-2017 02:30:44 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:30:45 - Picking up an item
+17-01-2017 02:30:45 - Storing item
+17-01-2017 02:30:46 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:30:46 - Picking up an item
+17-01-2017 02:30:47 - Storing item
+17-01-2017 02:30:47 - Moving from 1,5 to 1,1  
+17-01-2017 02:30:49 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:30:50 - Picking up an item
+17-01-2017 02:30:50 - Storing item
+17-01-2017 02:30:51 - Moving from 1,1 to 5,1  
+17-01-2017 02:30:53 - Unloading items
+17-01-2017 02:30:55 - Moving from 5,1 to 1,1  
+17-01-2017 02:30:57 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:30:57 - Picking up an item
+17-01-2017 02:30:58 - Storing item
+17-01-2017 02:30:58 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:30:59 - Picking up an item
+17-01-2017 02:30:59 - Storing item
+17-01-2017 02:31:00 - Moving from 1,1 to 1,6  
+17-01-2017 02:31:02 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:31:03 - Picking up an item
+17-01-2017 02:31:03 - Storing item
+17-01-2017 02:31:04 - Moving from 1,6 to 5,1  
+17-01-2017 02:31:08 - Unloading items
+17-01-2017 02:31:10 - Moving from 5,1 to 1,6  
+17-01-2017 02:31:15 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:31:15 - Picking up an item
+17-01-2017 02:31:16 - Storing item
+17-01-2017 02:31:16 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:31:17 - Picking up an item
+17-01-2017 02:31:17 - Storing item
+17-01-2017 02:31:18 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:31:18 - Picking up an item
+17-01-2017 02:31:19 - Storing item
+17-01-2017 02:31:19 - Moving from 1,6 to 5,1  
+17-01-2017 02:31:24 - Unloading items
+17-01-2017 02:31:25 - Moving from 5,1 to 1,6  
+17-01-2017 02:31:30 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:31:31 - Picking up an item
+17-01-2017 02:31:31 - Storing item
+17-01-2017 02:31:32 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:31:32 - Picking up an item
+17-01-2017 02:31:33 - Storing item
+17-01-2017 02:31:33 - Moving from 1,6 to 2,3  
+17-01-2017 02:31:35 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 02:31:36 - Picking up an item
+17-01-2017 02:31:36 - Storing item
+17-01-2017 02:32:02 - Moving from 1,1 to 1,2  
+17-01-2017 02:32:02 - Validation OK, product is: MK462LL/A
+17-01-2017 02:32:03 - Picking up an item
+17-01-2017 02:32:03 - Storing item
+17-01-2017 02:32:04 - Validation OK, product is: MK462LL/A
+17-01-2017 02:32:04 - Picking up an item
+17-01-2017 02:32:05 - Storing item
+17-01-2017 02:32:05 - Moving from 1,2 to 1,5  
+17-01-2017 02:32:07 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:32:08 - Picking up an item
+17-01-2017 02:32:08 - Storing item
+17-01-2017 02:32:09 - Moving from 1,5 to 5,1  
+17-01-2017 02:32:13 - Unloading items
+17-01-2017 02:32:14 - Moving from 5,1 to 1,5  
+17-01-2017 02:32:18 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:32:19 - Picking up an item
+17-01-2017 02:32:19 - Storing item
+17-01-2017 02:32:20 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:32:20 - Picking up an item
+17-01-2017 02:32:21 - Storing item
+17-01-2017 02:32:21 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:32:22 - Picking up an item
+17-01-2017 02:32:22 - Storing item
+17-01-2017 02:32:23 - Moving from 1,5 to 5,1  
+17-01-2017 02:32:27 - Unloading items
+17-01-2017 02:32:29 - Moving from 5,1 to 1,5  
+17-01-2017 02:32:33 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:32:33 - Picking up an item
+17-01-2017 02:32:34 - Storing item
+17-01-2017 02:32:34 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:32:35 - Picking up an item
+17-01-2017 02:32:35 - Storing item
+17-01-2017 02:32:36 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:32:36 - Picking up an item
+17-01-2017 02:32:37 - Storing item
+17-01-2017 02:32:37 - Moving from 1,5 to 5,1  
+17-01-2017 02:32:42 - Unloading items
+17-01-2017 02:32:43 - Moving from 5,1 to 1,5  
+17-01-2017 02:32:47 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:32:48 - Picking up an item
+17-01-2017 02:32:48 - Storing item
+17-01-2017 02:32:49 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:32:49 - Picking up an item
+17-01-2017 02:32:50 - Storing item
+17-01-2017 02:32:50 - Moving from 1,5 to 1,1  
+17-01-2017 02:32:52 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:32:53 - Picking up an item
+17-01-2017 02:32:53 - Storing item
+17-01-2017 02:32:54 - Moving from 1,1 to 5,1  
+17-01-2017 02:32:56 - Unloading items
+17-01-2017 02:32:58 - Moving from 5,1 to 1,1  
+17-01-2017 02:33:00 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:33:00 - Picking up an item
+17-01-2017 02:33:01 - Storing item
+17-01-2017 02:33:01 - Validation OK, product is: MJLT2LL/A
+17-01-2017 02:33:02 - Picking up an item
+17-01-2017 02:33:02 - Storing item
+17-01-2017 02:33:03 - Moving from 1,1 to 1,6  
+17-01-2017 02:33:05 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:33:06 - Picking up an item
+17-01-2017 02:33:06 - Storing item
+17-01-2017 02:33:07 - Moving from 1,6 to 5,1  
+17-01-2017 02:33:11 - Unloading items
+17-01-2017 02:33:13 - Moving from 5,1 to 1,6  
+17-01-2017 02:33:18 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:33:18 - Picking up an item
+17-01-2017 02:33:19 - Storing item
+17-01-2017 02:33:19 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:33:20 - Picking up an item
+17-01-2017 02:33:20 - Storing item
+17-01-2017 02:33:21 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:33:21 - Picking up an item
+17-01-2017 02:33:22 - Storing item
+17-01-2017 02:33:22 - Moving from 1,6 to 5,1  
+17-01-2017 02:33:27 - Unloading items
+17-01-2017 02:33:28 - Moving from 5,1 to 1,6  
+17-01-2017 02:33:33 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:33:34 - Picking up an item
+17-01-2017 02:33:34 - Storing item
+17-01-2017 02:33:35 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 02:33:35 - Picking up an item
+17-01-2017 02:33:36 - Storing item
+17-01-2017 02:33:36 - Moving from 1,6 to 2,3  
+17-01-2017 02:33:38 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 02:33:39 - Picking up an item
+17-01-2017 02:33:39 - Storing item
+17-01-2017 02:33:40 - Moving from 2,3 to 5,1  
+17-01-2017 02:34:47 - Moving from 1,1 to 1,2  
+17-01-2017 02:34:47 - Validation OK, product is: MK462LL/A
+17-01-2017 02:34:48 - Picking up an item
+17-01-2017 02:34:48 - Storing item
+17-01-2017 02:34:49 - Validation OK, product is: MK462LL/A
+17-01-2017 02:34:49 - Picking up an item
+17-01-2017 02:34:50 - Storing item
+17-01-2017 02:34:50 - Moving from 1,2 to 1,5  
+17-01-2017 02:34:52 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:34:53 - Picking up an item
+17-01-2017 02:34:53 - Storing item
+17-01-2017 02:34:54 - Moving from 1,5 to 5,1  
+17-01-2017 02:34:58 - Unloading items
+17-01-2017 02:34:59 - Moving from 5,1 to 1,5  
+17-01-2017 02:35:03 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:35:04 - Picking up an item
+17-01-2017 02:35:04 - Storing item
+17-01-2017 02:35:05 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:35:05 - Picking up an item
+17-01-2017 02:35:06 - Storing item
+17-01-2017 02:35:06 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:35:07 - Picking up an item
+17-01-2017 02:35:07 - Storing item
+17-01-2017 02:35:08 - Moving from 1,5 to 5,1  
+17-01-2017 02:35:12 - Unloading items
+17-01-2017 02:35:14 - Moving from 5,1 to 1,5  
+17-01-2017 02:35:18 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:35:18 - Picking up an item
+17-01-2017 02:35:19 - Storing item
+17-01-2017 02:35:19 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:35:20 - Picking up an item
+17-01-2017 02:35:20 - Storing item
+17-01-2017 02:35:31 - Moving from 1,1 to 1,2  
+17-01-2017 02:35:31 - Validation OK, product is: MK462LL/A
+17-01-2017 02:35:32 - Picking up an item
+17-01-2017 02:35:32 - Storing item
+17-01-2017 02:35:33 - Validation OK, product is: MK462LL/A
+17-01-2017 02:35:33 - Picking up an item
+17-01-2017 02:35:34 - Storing item
+17-01-2017 02:35:34 - Moving from 1,2 to 1,5  
+17-01-2017 02:35:36 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:35:36 - Picking up an item
+17-01-2017 02:35:37 - Storing item
+17-01-2017 02:35:37 - Moving from 1,5 to 5,1  
+17-01-2017 02:35:41 - Unloading items
+17-01-2017 02:35:43 - Moving from 5,1 to 1,5  
+17-01-2017 02:35:47 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:35:48 - Picking up an item
+17-01-2017 02:35:48 - Storing item
+17-01-2017 02:35:49 - Validation OK, product is: MGLW2FD/A
+17-01-2017 02:35:49 - Picking up an item
+17-01-2017 03:47:49 - Moving from 1,1 to 1,2  
+17-01-2017 03:48:36 - Moving from 1,1 to 1,2  
+17-01-2017 03:49:23 - Moving from 1,1 to 1,2  
+17-01-2017 03:51:28 - Moving from 1,1 to 1,2  
+17-01-2017 03:52:01 - Moving from 1,1 to 1,2  
+17-01-2017 03:52:01 - Validation OK, product is: MK462LL/A
+17-01-2017 03:52:02 - Picking up an item
+17-01-2017 03:52:02 - Storing item
+17-01-2017 03:52:03 - Validation OK, product is: MK462LL/A
+17-01-2017 03:52:03 - Picking up an item
+17-01-2017 03:52:04 - Storing item
+17-01-2017 03:52:04 - Moving from 1,2 to 1,5  
+17-01-2017 03:52:06 - Validation OK, product is: MGLW2FD/A
+17-01-2017 03:52:06 - Picking up an item
+17-01-2017 03:52:07 - Storing item
+17-01-2017 03:52:07 - Moving from 1,5 to 5,1  
+17-01-2017 03:53:08 - Moving from 1,1 to 1,2  
+17-01-2017 03:53:08 - Validation OK, product is: MK462LL/A
+17-01-2017 03:53:09 - Picking up an item
+17-01-2017 03:53:09 - Storing item
+17-01-2017 03:53:10 - Validation OK, product is: MK462LL/A
+17-01-2017 03:53:10 - Picking up an item
+17-01-2017 03:53:11 - Storing item
+17-01-2017 03:53:11 - Moving from 1,2 to 1,5  
+17-01-2017 03:53:13 - Validation OK, product is: MGLW2FD/A
+17-01-2017 03:53:13 - Picking up an item
+17-01-2017 03:53:14 - Storing item
+17-01-2017 03:53:14 - Moving from 1,5 to 5,1  
+17-01-2017 03:53:33 - Moving from 1,1 to 1,2  
+17-01-2017 03:53:33 - Validation OK, product is: MK462LL/A
+17-01-2017 03:53:34 - Picking up an item
+17-01-2017 03:53:34 - Storing item
+17-01-2017 03:53:35 - Validation OK, product is: MK462LL/A
+17-01-2017 03:53:35 - Picking up an item
+17-01-2017 03:53:36 - Storing item
+17-01-2017 03:53:36 - Moving from 1,2 to 1,5  
+17-01-2017 03:53:38 - Validation OK, product is: MGLW2FD/A
+17-01-2017 03:53:38 - Picking up an item
+17-01-2017 03:53:39 - Storing item
+17-01-2017 03:53:39 - Moving from 1,5 to 5,1  
+17-01-2017 03:53:43 - Unloading items
+17-01-2017 03:53:45 - Moving from 5,1 to 1,5  
+17-01-2017 03:53:49 - Validation OK, product is: MGLW2FD/A
+17-01-2017 03:53:54 - Moving from 1,1 to 1,2  
+17-01-2017 03:53:54 - Validation OK, product is: MK462LL/A
+17-01-2017 03:53:55 - Picking up an item
+17-01-2017 03:53:55 - Storing item
+17-01-2017 03:53:56 - Validation OK, product is: MK462LL/A
+17-01-2017 03:53:56 - Picking up an item
+17-01-2017 03:53:57 - Storing item
+17-01-2017 03:53:57 - Moving from 1,2 to 1,5  
+17-01-2017 03:53:59 - Validation OK, product is: MGLW2FD/A
+17-01-2017 03:53:59 - Picking up an item
+17-01-2017 03:54:00 - Storing item
+17-01-2017 03:54:00 - Moving from 1,5 to 5,1  
+17-01-2017 03:54:05 - Unloading items
+17-01-2017 03:54:06 - Moving from 5,1 to 1,5  
+17-01-2017 03:54:10 - Validation OK, product is: MGLW2FD/A
+17-01-2017 03:54:11 - Picking up an item
+17-01-2017 03:54:11 - Storing item
+17-01-2017 03:54:12 - Validation OK, product is: MGLW2FD/A
+17-01-2017 03:54:12 - Picking up an item
+17-01-2017 03:54:13 - Storing item
+17-01-2017 03:54:13 - Validation OK, product is: MGLW2FD/A
+17-01-2017 03:54:14 - Picking up an item
+17-01-2017 03:54:14 - Storing item
+17-01-2017 03:54:18 - Moving from 1,1 to 1,2  
+17-01-2017 03:54:18 - Validation OK, product is: MK462LL/A
+17-01-2017 03:54:19 - Picking up an item
+17-01-2017 03:54:20 - Storing item
+17-01-2017 03:54:20 - Validation OK, product is: MK462LL/A
+17-01-2017 03:54:21 - Picking up an item
+17-01-2017 03:54:21 - Storing item
+17-01-2017 03:54:22 - Moving from 1,2 to 1,5  
+17-01-2017 03:54:23 - Validation OK, product is: MGLW2FD/A
+17-01-2017 03:54:24 - Picking up an item
+17-01-2017 03:54:24 - Storing item
+17-01-2017 03:54:25 - Moving from 1,5 to 5,1  
+17-01-2017 03:54:29 - Unloading items
+17-01-2017 03:56:00 - Moving from 1,1 to 1,2  
+17-01-2017 03:56:00 - Validation OK, product is: MK462LL/A
+17-01-2017 03:56:01 - Picking up an item
+17-01-2017 03:56:01 - Storing item
+17-01-2017 03:56:02 - Validation OK, product is: MK462LL/A
+17-01-2017 03:56:02 - Picking up an item
+17-01-2017 03:56:03 - Storing item
+17-01-2017 03:56:03 - Moving from 1,2 to 1,5  
+17-01-2017 03:56:05 - Validation OK, product is: MGLW2FD/A
+17-01-2017 03:56:05 - Picking up an item
+17-01-2017 03:56:06 - Storing item
+17-01-2017 03:56:06 - Moving from 1,5 to 5,1  
+17-01-2017 03:56:11 - Unloading items
+17-01-2017 03:56:12 - Moving from 5,1 to 1,5  
+17-01-2017 04:02:55 - Moving from 1,1 to 1,2  
+17-01-2017 04:02:55 - Validation OK, product is: MK462LL/A
+17-01-2017 04:02:56 - Picking up an item
+17-01-2017 04:02:56 - Storing item
+17-01-2017 04:02:57 - Validation OK, product is: MK462LL/A
+17-01-2017 04:02:57 - Picking up an item
+17-01-2017 04:02:58 - Storing item
+17-01-2017 04:02:58 - Moving from 1,2 to 1,5  
+17-01-2017 04:03:00 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:03:00 - Picking up an item
+17-01-2017 04:03:01 - Storing item
+17-01-2017 04:03:01 - Moving from 1,5 to 5,1  
+17-01-2017 04:03:05 - Unloading items
+17-01-2017 04:03:07 - Moving from 5,1 to 1,5  
+17-01-2017 04:03:11 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:03:12 - Picking up an item
+17-01-2017 04:03:12 - Storing item
+17-01-2017 04:03:13 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:03:13 - Picking up an item
+17-01-2017 04:03:14 - Storing item
+17-01-2017 04:03:14 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:03:15 - Picking up an item
+17-01-2017 04:03:15 - Storing item
+17-01-2017 04:03:16 - Moving from 1,5 to 5,1  
+17-01-2017 04:03:20 - Unloading items
+17-01-2017 04:03:21 - Moving from 5,1 to 1,5  
+17-01-2017 04:03:25 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:03:26 - Picking up an item
+17-01-2017 04:03:26 - Storing item
+17-01-2017 04:03:27 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:03:27 - Picking up an item
+17-01-2017 04:03:28 - Storing item
+17-01-2017 04:03:29 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:03:29 - Picking up an item
+17-01-2017 04:03:30 - Storing item
+17-01-2017 04:03:30 - Moving from 1,5 to 5,1  
+17-01-2017 04:03:34 - Unloading items
+17-01-2017 04:03:36 - Moving from 5,1 to 1,5  
+17-01-2017 04:03:40 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:03:40 - Picking up an item
+17-01-2017 04:03:41 - Storing item
+17-01-2017 04:03:41 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:03:42 - Picking up an item
+17-01-2017 04:03:42 - Storing item
+17-01-2017 04:03:43 - Moving from 1,5 to 1,1  
+17-01-2017 04:03:45 - Validation OK, product is: MJLT2LL/A
+17-01-2017 04:03:46 - Picking up an item
+17-01-2017 04:03:46 - Storing item
+17-01-2017 04:03:47 - Moving from 1,1 to 5,1  
+17-01-2017 04:03:49 - Unloading items
+17-01-2017 04:03:50 - Moving from 5,1 to 1,1  
+17-01-2017 04:08:23 - Moving from 1,1 to 1,2  
+17-01-2017 04:08:24 - Validation OK, product is: MK462LL/A
+17-01-2017 04:08:24 - Picking up an item
+17-01-2017 04:08:25 - Storing item
+17-01-2017 04:08:25 - Validation OK, product is: MK462LL/A
+17-01-2017 04:08:26 - Picking up an item
+17-01-2017 04:08:26 - Storing item
+17-01-2017 04:08:27 - Moving from 1,2 to 1,5  
+17-01-2017 04:08:29 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:08:29 - Picking up an item
+17-01-2017 04:08:30 - Storing item
+17-01-2017 04:08:30 - Moving from 1,5 to 5,1  
+17-01-2017 04:08:34 - Unloading items
+17-01-2017 04:08:36 - Moving from 5,1 to 1,5  
+17-01-2017 04:08:40 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:08:40 - Picking up an item
+17-01-2017 04:08:41 - Storing item
+17-01-2017 04:08:41 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:08:42 - Picking up an item
+17-01-2017 04:08:42 - Storing item
+17-01-2017 04:08:43 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:08:43 - Picking up an item
+17-01-2017 04:08:44 - Storing item
+17-01-2017 04:08:45 - Moving from 1,5 to 5,1  
+17-01-2017 04:08:49 - Unloading items
+17-01-2017 04:08:50 - Moving from 5,1 to 1,5  
+17-01-2017 04:08:54 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:08:55 - Picking up an item
+17-01-2017 04:08:55 - Storing item
+17-01-2017 04:08:56 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:08:56 - Picking up an item
+17-01-2017 04:08:57 - Storing item
+17-01-2017 04:08:57 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:08:58 - Picking up an item
+17-01-2017 04:08:58 - Storing item
+17-01-2017 04:08:59 - Moving from 1,5 to 5,1  
+17-01-2017 04:09:03 - Unloading items
+17-01-2017 04:09:05 - Moving from 5,1 to 1,5  
+17-01-2017 04:09:09 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:09:09 - Picking up an item
+17-01-2017 04:09:10 - Storing item
+17-01-2017 04:09:10 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:09:11 - Picking up an item
+17-01-2017 04:09:11 - Storing item
+17-01-2017 04:09:12 - Moving from 1,5 to 1,1  
+17-01-2017 04:09:14 - Validation OK, product is: MJLT2LL/A
+17-01-2017 04:09:14 - Picking up an item
+17-01-2017 04:09:15 - Storing item
+17-01-2017 04:09:15 - Moving from 1,1 to 5,1  
+17-01-2017 04:09:17 - Unloading items
+17-01-2017 04:09:19 - Moving from 5,1 to 1,1  
+17-01-2017 04:09:21 - Validation OK, product is: MJLT2LL/A
+17-01-2017 04:09:22 - Picking up an item
+17-01-2017 04:09:22 - Storing item
+17-01-2017 04:09:23 - Validation OK, product is: MJLT2LL/A
+17-01-2017 04:09:23 - Picking up an item
+17-01-2017 04:09:24 - Storing item
+17-01-2017 04:09:24 - Moving from 1,1 to 1,6  
+17-01-2017 04:09:27 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:09:27 - Picking up an item
+17-01-2017 04:09:28 - Storing item
+17-01-2017 04:09:28 - Moving from 1,6 to 5,1  
+17-01-2017 04:09:33 - Unloading items
+17-01-2017 04:09:34 - Moving from 5,1 to 1,6  
+17-01-2017 04:09:39 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:09:40 - Picking up an item
+17-01-2017 04:09:40 - Storing item
+17-01-2017 04:09:41 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:09:41 - Picking up an item
+17-01-2017 04:09:42 - Storing item
+17-01-2017 04:09:42 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:09:43 - Picking up an item
+17-01-2017 04:09:43 - Storing item
+17-01-2017 04:09:44 - Moving from 1,6 to 5,1  
+17-01-2017 04:09:48 - Unloading items
+17-01-2017 04:09:50 - Moving from 5,1 to 1,6  
+17-01-2017 04:09:55 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:09:55 - Picking up an item
+17-01-2017 04:09:56 - Storing item
+17-01-2017 04:09:56 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:09:57 - Picking up an item
+17-01-2017 04:09:57 - Storing item
+17-01-2017 04:09:58 - Moving from 1,6 to 2,3  
+17-01-2017 04:10:00 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 04:10:00 - Picking up an item
+17-01-2017 04:10:01 - Storing item
+17-01-2017 04:10:01 - Moving from 2,3 to 5,1  
+17-01-2017 04:10:04 - Unloading items
+17-01-2017 04:10:05 - Moving from 5,1 to 2,3  
+17-01-2017 04:10:08 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 04:10:08 - Picking up an item
+17-01-2017 04:10:09 - Storing item
+17-01-2017 04:10:10 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 04:10:10 - Picking up an item
+17-01-2017 04:10:11 - Storing item
+17-01-2017 04:10:11 - Moving from 2,3 to 2,11  
+17-01-2017 04:10:15 - Validation OK, product is: ME276FD/A
+17-01-2017 04:10:16 - Picking up an item
+17-01-2017 04:10:16 - Storing item
+17-01-2017 04:10:17 - Moving from 2,11 to 5,1  
+17-01-2017 04:10:23 - Unloading items
+17-01-2017 04:10:25 - Moving from 5,1 to 2,1  
+17-01-2017 04:10:27 - Validation OK, product is: SM-T550NZKADBT
+17-01-2017 04:10:27 - Picking up an item
+17-01-2017 04:11:37 - Moving from 1,1 to 1,2  
+17-01-2017 04:11:38 - Validation OK, product is: MK462LL/A
+17-01-2017 04:11:38 - Picking up an item
+17-01-2017 04:11:39 - Storing item
+17-01-2017 04:11:39 - Validation OK, product is: MK462LL/A
+17-01-2017 04:11:40 - Picking up an item
+17-01-2017 04:11:40 - Storing item
+17-01-2017 04:11:41 - Moving from 1,2 to 1,5  
+17-01-2017 04:11:42 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:11:43 - Picking up an item
+17-01-2017 04:11:43 - Storing item
+17-01-2017 04:11:44 - Moving from 1,5 to 5,1  
+17-01-2017 04:11:48 - Unloading items
+17-01-2017 04:11:50 - Moving from 5,1 to 1,5  
+17-01-2017 04:11:54 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:11:54 - Picking up an item
+17-01-2017 04:11:55 - Storing item
+17-01-2017 04:11:55 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:11:56 - Picking up an item
+17-01-2017 04:11:56 - Storing item
+17-01-2017 04:11:57 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:11:57 - Picking up an item
+17-01-2017 04:11:58 - Storing item
+17-01-2017 04:11:58 - Moving from 1,5 to 5,1  
+17-01-2017 04:12:02 - Unloading items
+17-01-2017 04:12:04 - Moving from 5,1 to 1,5  
+17-01-2017 04:12:08 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:12:09 - Picking up an item
+17-01-2017 04:12:09 - Storing item
+17-01-2017 04:12:10 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:12:10 - Picking up an item
+17-01-2017 04:12:11 - Storing item
+17-01-2017 04:12:11 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:12:12 - Picking up an item
+17-01-2017 04:12:12 - Storing item
+17-01-2017 04:12:13 - Moving from 1,5 to 5,1  
+17-01-2017 04:12:17 - Unloading items
+17-01-2017 04:12:18 - Moving from 5,1 to 1,5  
+17-01-2017 04:12:23 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:12:23 - Picking up an item
+17-01-2017 04:12:24 - Storing item
+17-01-2017 04:12:24 - Validation OK, product is: MGLW2FD/A
+17-01-2017 04:12:25 - Picking up an item
+17-01-2017 04:12:25 - Storing item
+17-01-2017 04:12:26 - Moving from 1,5 to 1,1  
+17-01-2017 04:12:28 - Validation OK, product is: MJLT2LL/A
+17-01-2017 04:12:28 - Picking up an item
+17-01-2017 04:12:29 - Storing item
+17-01-2017 04:12:29 - Moving from 1,1 to 5,1  
+17-01-2017 04:12:31 - Unloading items
+17-01-2017 04:12:33 - Moving from 5,1 to 1,1  
+17-01-2017 04:12:35 - Validation OK, product is: MJLT2LL/A
+17-01-2017 04:12:35 - Picking up an item
+17-01-2017 04:12:36 - Storing item
+17-01-2017 04:12:36 - Validation OK, product is: MJLT2LL/A
+17-01-2017 04:12:37 - Picking up an item
+17-01-2017 04:12:38 - Storing item
+17-01-2017 04:12:38 - Moving from 1,1 to 1,6  
+17-01-2017 04:12:41 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:12:41 - Picking up an item
+17-01-2017 04:12:42 - Storing item
+17-01-2017 04:12:42 - Moving from 1,6 to 5,1  
+17-01-2017 04:12:47 - Unloading items
+17-01-2017 04:12:48 - Moving from 5,1 to 1,6  
+17-01-2017 04:12:53 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:12:53 - Picking up an item
+17-01-2017 04:12:54 - Storing item
+17-01-2017 04:12:55 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:12:55 - Picking up an item
+17-01-2017 04:12:56 - Storing item
+17-01-2017 04:12:56 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:12:57 - Picking up an item
+17-01-2017 04:12:57 - Storing item
+17-01-2017 04:12:58 - Moving from 1,6 to 5,1  
+17-01-2017 04:13:02 - Unloading items
+17-01-2017 04:13:04 - Moving from 5,1 to 1,6  
+17-01-2017 04:13:08 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:13:09 - Picking up an item
+17-01-2017 04:13:09 - Storing item
+17-01-2017 04:13:10 - Validation OK, product is: SM-T560NZKAPHN
+17-01-2017 04:13:10 - Picking up an item
+17-01-2017 04:13:11 - Storing item
+17-01-2017 04:13:12 - Moving from 1,6 to 2,3  
+17-01-2017 04:13:14 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 04:13:14 - Picking up an item
+17-01-2017 04:13:15 - Storing item
+17-01-2017 04:13:15 - Moving from 2,3 to 5,1  
+17-01-2017 04:13:18 - Unloading items
+17-01-2017 04:13:19 - Moving from 5,1 to 2,3  
+17-01-2017 04:13:22 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 04:13:22 - Picking up an item
+17-01-2017 04:13:23 - Storing item
+17-01-2017 04:13:23 - Validation OK, product is: SM-T555NZKADBT
+17-01-2017 04:13:24 - Picking up an item
+17-01-2017 04:13:24 - Storing item
+17-01-2017 04:13:25 - Moving from 2,3 to 2,11  
+17-01-2017 04:13:29 - Validation OK, product is: ME276FD/A
+17-01-2017 04:13:30 - Picking up an item
+17-01-2017 04:13:30 - Storing item
+17-01-2017 04:13:31 - Moving from 2,11 to 5,1  
+17-01-2017 04:13:37 - Unloading items
+17-01-2017 04:13:39 - Moving from 5,1 to 2,1  
+17-01-2017 04:13:40 - Validation OK, product is: SM-T550NZKADBT
+17-01-2017 04:13:41 - Picking up an item
+17-01-2017 04:13:41 - Storing item
+17-01-2017 04:13:42 - Moving from 2,1 to 2,11  
+17-01-2017 04:13:47 - Validation OK, product is: ME276FD/A
+17-01-2017 04:13:48 - Picking up an item
+17-01-2017 04:13:48 - Storing item
+17-01-2017 04:13:49 - Validation OK, product is: ME276FD/A
+17-01-2017 04:13:49 - Picking up an item
+17-01-2017 04:13:50 - Storing item
+17-01-2017 04:13:50 - Moving from 2,11 to 5,1  
+17-01-2017 04:13:57 - Unloading items
+17-01-2017 04:13:58 - Moving from 5,1 to 2,11  
+17-01-2017 04:14:05 - Validation OK, product is: ME276FD/A
+17-01-2017 04:14:06 - Picking up an item
+17-01-2017 04:14:06 - Storing item
+17-01-2017 04:14:07 - Moving from 2,11 to 5,1  
+17-01-2017 04:14:13 - Unloading items

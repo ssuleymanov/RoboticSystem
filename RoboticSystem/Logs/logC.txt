@@ -429,3 +429,1566 @@
 17-01-2017 10:06:23 - Storing item
 17-01-2017 10:06:24 - Validation OK, product is: SDA3/32GB
 17-01-2017 10:06:25 - Picking up an item
+17-01-2017 11:54:08 - Moving from 1,1 to 2,3  
+17-01-2017 11:54:11 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 11:54:12 - Picking up an item
+17-01-2017 12:47:42 - Moving from 1,1 to 2,3  
+17-01-2017 12:47:45 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 12:47:46 - Picking up an item
+17-01-2017 12:47:47 - Storing item
+17-01-2017 12:47:48 - Moving from 0,-1 to 4,5  
+17-01-2017 12:47:58 - Validation OK, product is: DNS-327L
+17-01-2017 12:47:59 - Picking up an item
+17-01-2017 12:48:00 - Storing item
+17-01-2017 12:48:01 - Validation OK, product is: DNS-327L
+17-01-2017 12:48:02 - Picking up an item
+17-01-2017 12:48:03 - Storing item
+17-01-2017 12:48:04 - Validation OK, product is: DNS-327L
+17-01-2017 12:48:05 - Picking up an item
+17-01-2017 12:48:06 - Storing item
+17-01-2017 12:48:07 - Validation OK, product is: DNS-327L
+17-01-2017 12:56:30 - Moving from 1,1 to 2,3  
+17-01-2017 12:56:33 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 12:56:34 - Picking up an item
+17-01-2017 12:56:35 - Storing item
+17-01-2017 12:56:36 - Moving from 0,-1 to 4,5  
+17-01-2017 12:56:46 - Validation OK, product is: DNS-327L
+17-01-2017 12:56:47 - Picking up an item
+17-01-2017 12:56:48 - Storing item
+17-01-2017 12:56:49 - Validation OK, product is: DNS-327L
+17-01-2017 12:56:50 - Picking up an item
+17-01-2017 12:56:51 - Storing item
+17-01-2017 12:56:52 - Validation OK, product is: DNS-327L
+17-01-2017 12:56:53 - Picking up an item
+17-01-2017 12:56:54 - Storing item
+17-01-2017 12:56:55 - Validation OK, product is: DNS-327L
+17-01-2017 12:56:56 - Picking up an item
+17-01-2017 12:56:57 - Storing item
+17-01-2017 12:56:58 - Validation OK, product is: DNS-327L
+17-01-2017 12:56:59 - Picking up an item
+17-01-2017 12:57:00 - Storing item
+17-01-2017 12:57:01 - Validation OK, product is: DNS-327L
+17-01-2017 12:57:02 - Picking up an item
+17-01-2017 12:57:03 - Storing item
+17-01-2017 12:57:04 - Moving from -4,-7 to 3,3  
+17-01-2017 12:57:21 - Validation OK, product is: SDA3/32GB
+17-01-2017 12:57:22 - Picking up an item
+17-01-2017 12:57:23 - Storing item
+17-01-2017 12:57:24 - Validation OK, product is: SDA3/32GB
+17-01-2017 12:57:25 - Picking up an item
+17-01-2017 12:57:26 - Storing item
+17-01-2017 12:57:27 - Validation OK, product is: SDA3/32GB
+17-01-2017 12:57:28 - Picking up an item
+17-01-2017 12:57:29 - Storing item
+17-01-2017 12:57:30 - Validation OK, product is: SDA3/32GB
+17-01-2017 12:57:31 - Picking up an item
+17-01-2017 12:57:32 - Storing item
+17-01-2017 12:57:33 - Moving from -11,-17 to 1,0  
+17-01-2017 12:58:02 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 12:58:03 - Picking up an item
+17-01-2017 12:58:04 - Storing item
+17-01-2017 12:58:05 - Moving from -23,-34 to 6,1  
+17-01-2017 12:58:11 - Moving from 1,1 to 2,3  
+17-01-2017 12:58:14 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 12:58:15 - Picking up an item
+17-01-2017 12:58:16 - Storing item
+17-01-2017 12:58:17 - Moving from 0,-1 to 4,5  
+17-01-2017 12:58:27 - Validation OK, product is: DNS-327L
+17-01-2017 12:58:28 - Picking up an item
+17-01-2017 01:07:36 - Moving from 1,1 to 2,3  
+17-01-2017 01:07:39 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:07:40 - Picking up an item
+17-01-2017 01:07:41 - Storing item
+17-01-2017 01:07:42 - Moving from 0,-1 to 4,5  
+17-01-2017 01:07:52 - Validation OK, product is: DNS-327L
+17-01-2017 01:07:53 - Picking up an item
+17-01-2017 01:07:54 - Storing item
+17-01-2017 01:07:55 - Validation OK, product is: DNS-327L
+17-01-2017 01:07:56 - Picking up an item
+17-01-2017 01:07:57 - Storing item
+17-01-2017 01:07:58 - Validation OK, product is: DNS-327L
+17-01-2017 01:07:59 - Picking up an item
+17-01-2017 01:08:00 - Storing item
+17-01-2017 01:08:01 - Validation OK, product is: DNS-327L
+17-01-2017 01:08:02 - Picking up an item
+17-01-2017 01:08:03 - Storing item
+17-01-2017 01:08:04 - Validation OK, product is: DNS-327L
+17-01-2017 01:08:05 - Picking up an item
+17-01-2017 01:08:06 - Storing item
+17-01-2017 01:08:07 - Validation OK, product is: DNS-327L
+17-01-2017 01:08:08 - Picking up an item
+17-01-2017 01:08:09 - Storing item
+17-01-2017 01:08:10 - Moving from -4,-7 to 3,3  
+17-01-2017 01:12:07 - Moving from 1,1 to 2,3  
+17-01-2017 01:12:10 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:12:11 - Picking up an item
+17-01-2017 01:12:12 - Storing item
+17-01-2017 01:12:13 - Moving from 0,-1 to 4,5  
+17-01-2017 01:12:23 - Validation OK, product is: DNS-327L
+17-01-2017 01:12:24 - Picking up an item
+17-01-2017 01:12:25 - Storing item
+17-01-2017 01:12:26 - Validation OK, product is: DNS-327L
+17-01-2017 01:12:27 - Picking up an item
+17-01-2017 01:12:28 - Storing item
+17-01-2017 01:12:29 - Validation OK, product is: DNS-327L
+17-01-2017 01:12:30 - Picking up an item
+17-01-2017 01:12:31 - Storing item
+17-01-2017 01:12:32 - Validation OK, product is: DNS-327L
+17-01-2017 01:12:33 - Picking up an item
+17-01-2017 01:12:34 - Storing item
+17-01-2017 01:12:35 - Validation OK, product is: DNS-327L
+17-01-2017 01:12:36 - Picking up an item
+17-01-2017 01:12:37 - Storing item
+17-01-2017 01:12:38 - Validation OK, product is: DNS-327L
+17-01-2017 01:12:39 - Picking up an item
+17-01-2017 01:12:40 - Storing item
+17-01-2017 01:12:41 - Moving from -4,-7 to 3,3  
+17-01-2017 01:12:58 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:12:59 - Picking up an item
+17-01-2017 01:13:00 - Storing item
+17-01-2017 01:13:01 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:13:02 - Picking up an item
+17-01-2017 01:13:03 - Storing item
+17-01-2017 01:13:04 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:13:05 - Picking up an item
+17-01-2017 01:13:06 - Storing item
+17-01-2017 01:13:07 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:13:08 - Picking up an item
+17-01-2017 01:13:09 - Storing item
+17-01-2017 01:13:10 - Moving from -11,-17 to 1,0  
+17-01-2017 01:16:23 - Moving from 1,1 to 2,3  
+17-01-2017 01:16:26 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:16:27 - Picking up an item
+17-01-2017 01:16:28 - Storing item
+17-01-2017 01:16:29 - Moving from 0,-1 to 4,5  
+17-01-2017 01:16:39 - Validation OK, product is: DNS-327L
+17-01-2017 01:16:40 - Picking up an item
+17-01-2017 01:16:41 - Storing item
+17-01-2017 01:16:42 - Validation OK, product is: DNS-327L
+17-01-2017 01:16:43 - Picking up an item
+17-01-2017 01:16:44 - Storing item
+17-01-2017 01:16:45 - Validation OK, product is: DNS-327L
+17-01-2017 01:16:46 - Picking up an item
+17-01-2017 01:16:47 - Storing item
+17-01-2017 01:16:48 - Validation OK, product is: DNS-327L
+17-01-2017 01:16:49 - Picking up an item
+17-01-2017 01:16:50 - Storing item
+17-01-2017 01:16:51 - Validation OK, product is: DNS-327L
+17-01-2017 01:16:52 - Picking up an item
+17-01-2017 01:16:53 - Storing item
+17-01-2017 01:16:54 - Validation OK, product is: DNS-327L
+17-01-2017 01:16:55 - Picking up an item
+17-01-2017 01:16:56 - Storing item
+17-01-2017 01:16:57 - Moving from -4,-7 to 3,3  
+17-01-2017 01:17:14 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:17:15 - Picking up an item
+17-01-2017 01:17:16 - Storing item
+17-01-2017 01:17:17 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:17:18 - Picking up an item
+17-01-2017 01:17:19 - Storing item
+17-01-2017 01:17:20 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:17:21 - Picking up an item
+17-01-2017 01:17:22 - Storing item
+17-01-2017 01:17:23 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:17:24 - Picking up an item
+17-01-2017 01:17:25 - Storing item
+17-01-2017 01:17:26 - Moving from -11,-17 to 1,0  
+17-01-2017 01:17:55 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:17:56 - Picking up an item
+17-01-2017 01:17:57 - Storing item
+17-01-2017 01:17:58 - Moving from -23,-34 to 6,1  
+17-01-2017 01:19:02 - Unloading items
+17-01-2017 01:19:14 - Moving from 6,1 to 1,0  
+17-01-2017 01:19:20 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:19:21 - Picking up an item
+17-01-2017 01:19:22 - Storing item
+17-01-2017 01:19:23 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:19:24 - Picking up an item
+17-01-2017 01:19:25 - Storing item
+17-01-2017 01:19:26 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:19:27 - Picking up an item
+17-01-2017 01:19:28 - Storing item
+17-01-2017 01:19:29 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:19:30 - Picking up an item
+17-01-2017 01:19:31 - Storing item
+17-01-2017 01:19:32 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:19:33 - Picking up an item
+17-01-2017 01:19:34 - Storing item
+17-01-2017 01:19:35 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:19:36 - Picking up an item
+17-01-2017 01:19:37 - Storing item
+17-01-2017 01:19:38 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:19:39 - Picking up an item
+17-01-2017 01:19:40 - Storing item
+17-01-2017 01:19:41 - Moving from -52,-69 to 1,2  
+17-01-2017 01:21:45 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:21:46 - Picking up an item
+17-01-2017 01:21:47 - Storing item
+17-01-2017 01:21:48 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:21:49 - Picking up an item
+17-01-2017 01:21:50 - Storing item
+17-01-2017 01:21:51 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:23:20 - Moving from 1,1 to 2,3  
+17-01-2017 01:23:22 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:23:22 - Picking up an item
+17-01-2017 01:23:23 - Storing item
+17-01-2017 01:23:23 - Moving from 0,-1 to 4,5  
+17-01-2017 01:23:28 - Validation OK, product is: DNS-327L
+17-01-2017 01:23:29 - Picking up an item
+17-01-2017 01:23:29 - Storing item
+17-01-2017 01:23:30 - Validation OK, product is: DNS-327L
+17-01-2017 01:23:30 - Picking up an item
+17-01-2017 01:23:31 - Storing item
+17-01-2017 01:23:31 - Validation OK, product is: DNS-327L
+17-01-2017 01:23:32 - Picking up an item
+17-01-2017 01:23:32 - Storing item
+17-01-2017 01:23:33 - Validation OK, product is: DNS-327L
+17-01-2017 01:23:33 - Picking up an item
+17-01-2017 01:23:34 - Storing item
+17-01-2017 01:23:34 - Validation OK, product is: DNS-327L
+17-01-2017 01:23:35 - Picking up an item
+17-01-2017 01:23:35 - Storing item
+17-01-2017 01:23:36 - Validation OK, product is: DNS-327L
+17-01-2017 01:23:36 - Picking up an item
+17-01-2017 01:23:37 - Storing item
+17-01-2017 01:23:37 - Moving from -4,-7 to 3,3  
+17-01-2017 01:23:46 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:23:46 - Picking up an item
+17-01-2017 01:23:47 - Storing item
+17-01-2017 01:23:47 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:23:48 - Picking up an item
+17-01-2017 01:23:48 - Storing item
+17-01-2017 01:23:49 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:23:49 - Picking up an item
+17-01-2017 01:23:50 - Storing item
+17-01-2017 01:23:50 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:23:51 - Picking up an item
+17-01-2017 01:23:51 - Storing item
+17-01-2017 01:23:52 - Moving from -11,-17 to 1,0  
+17-01-2017 01:24:07 - Moving from 1,1 to 2,3  
+17-01-2017 01:24:09 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:24:09 - Picking up an item
+17-01-2017 01:24:10 - Storing item
+17-01-2017 01:24:10 - Moving from 0,-1 to 4,5  
+17-01-2017 01:24:15 - Validation OK, product is: DNS-327L
+17-01-2017 01:24:16 - Picking up an item
+17-01-2017 01:24:16 - Storing item
+17-01-2017 01:24:17 - Validation OK, product is: DNS-327L
+17-01-2017 01:24:17 - Picking up an item
+17-01-2017 01:24:18 - Storing item
+17-01-2017 01:24:18 - Validation OK, product is: DNS-327L
+17-01-2017 01:24:19 - Picking up an item
+17-01-2017 01:24:19 - Storing item
+17-01-2017 01:24:20 - Validation OK, product is: DNS-327L
+17-01-2017 01:24:21 - Picking up an item
+17-01-2017 01:24:21 - Storing item
+17-01-2017 01:24:22 - Validation OK, product is: DNS-327L
+17-01-2017 01:24:22 - Picking up an item
+17-01-2017 01:24:23 - Storing item
+17-01-2017 01:24:23 - Validation OK, product is: DNS-327L
+17-01-2017 01:24:24 - Picking up an item
+17-01-2017 01:24:24 - Storing item
+17-01-2017 01:24:25 - Moving from -4,-7 to 3,3  
+17-01-2017 01:24:33 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:24:34 - Picking up an item
+17-01-2017 01:24:34 - Storing item
+17-01-2017 01:24:35 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:24:35 - Picking up an item
+17-01-2017 01:24:36 - Storing item
+17-01-2017 01:24:36 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:24:37 - Picking up an item
+17-01-2017 01:24:37 - Storing item
+17-01-2017 01:24:38 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:24:38 - Picking up an item
+17-01-2017 01:24:39 - Storing item
+17-01-2017 01:24:39 - Moving from -11,-17 to 1,0  
+17-01-2017 01:25:28 - Moving from 1,1 to 2,3  
+17-01-2017 01:25:29 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:25:29 - Picking up an item
+17-01-2017 01:25:29 - Storing item
+17-01-2017 01:25:29 - Moving from 0,-1 to 4,5  
+17-01-2017 01:25:30 - Validation OK, product is: DNS-327L
+17-01-2017 01:25:30 - Picking up an item
+17-01-2017 01:25:30 - Storing item
+17-01-2017 01:25:30 - Validation OK, product is: DNS-327L
+17-01-2017 01:25:30 - Picking up an item
+17-01-2017 01:25:31 - Storing item
+17-01-2017 01:25:31 - Validation OK, product is: DNS-327L
+17-01-2017 01:25:31 - Picking up an item
+17-01-2017 01:25:31 - Storing item
+17-01-2017 01:25:31 - Validation OK, product is: DNS-327L
+17-01-2017 01:25:31 - Picking up an item
+17-01-2017 01:25:31 - Storing item
+17-01-2017 01:25:31 - Validation OK, product is: DNS-327L
+17-01-2017 01:25:31 - Picking up an item
+17-01-2017 01:25:31 - Storing item
+17-01-2017 01:25:32 - Validation OK, product is: DNS-327L
+17-01-2017 01:25:32 - Picking up an item
+17-01-2017 01:25:32 - Storing item
+17-01-2017 01:25:32 - Moving from -4,-7 to 3,3  
+17-01-2017 01:25:34 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:25:34 - Picking up an item
+17-01-2017 01:25:34 - Storing item
+17-01-2017 01:25:34 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:25:34 - Picking up an item
+17-01-2017 01:25:34 - Storing item
+17-01-2017 01:25:34 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:25:34 - Picking up an item
+17-01-2017 01:25:34 - Storing item
+17-01-2017 01:25:35 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:25:35 - Picking up an item
+17-01-2017 01:25:35 - Storing item
+17-01-2017 01:25:35 - Moving from -11,-17 to 1,0  
+17-01-2017 01:25:38 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:25:38 - Picking up an item
+17-01-2017 01:25:38 - Storing item
+17-01-2017 01:25:38 - Moving from -23,-34 to 6,1  
+17-01-2017 01:25:45 - Unloading items
+17-01-2017 01:25:46 - Moving from 6,1 to 1,0  
+17-01-2017 01:25:46 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:25:47 - Picking up an item
+17-01-2017 01:25:47 - Storing item
+17-01-2017 01:25:47 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:25:47 - Picking up an item
+17-01-2017 01:25:47 - Storing item
+17-01-2017 01:25:47 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:25:47 - Picking up an item
+17-01-2017 01:25:47 - Storing item
+17-01-2017 01:25:47 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:25:47 - Picking up an item
+17-01-2017 01:25:48 - Storing item
+17-01-2017 01:25:48 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:25:48 - Picking up an item
+17-01-2017 01:25:48 - Storing item
+17-01-2017 01:25:48 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:25:48 - Picking up an item
+17-01-2017 01:25:48 - Storing item
+17-01-2017 01:25:48 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:25:48 - Picking up an item
+17-01-2017 01:25:49 - Storing item
+17-01-2017 01:25:49 - Moving from -52,-69 to 1,2  
+17-01-2017 01:30:42 - Moving from 1,1 to 2,3  
+17-01-2017 01:30:43 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:30:43 - Picking up an item
+17-01-2017 01:30:43 - Storing item
+17-01-2017 01:30:43 - Moving from 0,-1 to 4,5  
+17-01-2017 01:30:44 - Validation OK, product is: DNS-327L
+17-01-2017 01:30:44 - Picking up an item
+17-01-2017 01:30:44 - Storing item
+17-01-2017 01:30:44 - Validation OK, product is: DNS-327L
+17-01-2017 01:30:44 - Picking up an item
+17-01-2017 01:30:45 - Storing item
+17-01-2017 01:30:45 - Validation OK, product is: DNS-327L
+17-01-2017 01:30:45 - Picking up an item
+17-01-2017 01:30:45 - Storing item
+17-01-2017 01:30:45 - Validation OK, product is: DNS-327L
+17-01-2017 01:30:45 - Picking up an item
+17-01-2017 01:30:45 - Storing item
+17-01-2017 01:30:45 - Validation OK, product is: DNS-327L
+17-01-2017 01:30:45 - Picking up an item
+17-01-2017 01:30:46 - Storing item
+17-01-2017 01:30:46 - Validation OK, product is: DNS-327L
+17-01-2017 01:30:46 - Picking up an item
+17-01-2017 01:30:46 - Storing item
+17-01-2017 01:30:46 - Moving from -4,-7 to 3,3  
+17-01-2017 01:30:48 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:30:48 - Picking up an item
+17-01-2017 01:30:48 - Storing item
+17-01-2017 01:30:48 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:30:48 - Picking up an item
+17-01-2017 01:30:48 - Storing item
+17-01-2017 01:30:48 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:30:48 - Picking up an item
+17-01-2017 01:30:48 - Storing item
+17-01-2017 01:30:49 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:30:49 - Picking up an item
+17-01-2017 01:30:49 - Storing item
+17-01-2017 01:30:49 - Moving from -11,-17 to 1,0  
+17-01-2017 01:31:42 - Moving from 1,1 to 2,3  
+17-01-2017 01:31:42 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:31:42 - Picking up an item
+17-01-2017 01:31:43 - Storing item
+17-01-2017 01:31:43 - Moving from 2,3 to 4,5  
+17-01-2017 01:31:43 - Validation OK, product is: DNS-327L
+17-01-2017 01:31:43 - Picking up an item
+17-01-2017 01:31:43 - Storing item
+17-01-2017 01:31:43 - Validation OK, product is: DNS-327L
+17-01-2017 01:31:44 - Picking up an item
+17-01-2017 01:31:44 - Storing item
+17-01-2017 01:31:44 - Validation OK, product is: DNS-327L
+17-01-2017 01:31:44 - Picking up an item
+17-01-2017 01:31:44 - Storing item
+17-01-2017 01:31:44 - Validation OK, product is: DNS-327L
+17-01-2017 01:31:44 - Picking up an item
+17-01-2017 01:31:44 - Storing item
+17-01-2017 01:31:44 - Validation OK, product is: DNS-327L
+17-01-2017 01:31:44 - Picking up an item
+17-01-2017 01:31:45 - Storing item
+17-01-2017 01:31:45 - Validation OK, product is: DNS-327L
+17-01-2017 01:31:45 - Picking up an item
+17-01-2017 01:31:45 - Storing item
+17-01-2017 01:31:45 - Moving from 4,5 to 3,3  
+17-01-2017 01:31:45 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:31:45 - Picking up an item
+17-01-2017 01:31:45 - Storing item
+17-01-2017 01:31:46 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:31:46 - Picking up an item
+17-01-2017 01:31:46 - Storing item
+17-01-2017 01:31:46 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:31:46 - Picking up an item
+17-01-2017 01:31:46 - Storing item
+17-01-2017 01:31:46 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:31:46 - Picking up an item
+17-01-2017 01:31:46 - Storing item
+17-01-2017 01:31:47 - Moving from 3,3 to 1,0  
+17-01-2017 01:31:47 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:31:47 - Picking up an item
+17-01-2017 01:31:47 - Storing item
+17-01-2017 01:31:47 - Moving from 1,0 to 6,1  
+17-01-2017 01:31:48 - Unloading items
+17-01-2017 01:31:49 - Moving from 6,1 to 1,0  
+17-01-2017 01:31:50 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:31:50 - Picking up an item
+17-01-2017 01:31:50 - Storing item
+17-01-2017 01:31:50 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:31:50 - Picking up an item
+17-01-2017 01:31:50 - Storing item
+17-01-2017 01:31:50 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:31:50 - Picking up an item
+17-01-2017 01:31:51 - Storing item
+17-01-2017 01:31:51 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:31:51 - Picking up an item
+17-01-2017 01:31:51 - Storing item
+17-01-2017 01:31:51 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:31:51 - Picking up an item
+17-01-2017 01:31:51 - Storing item
+17-01-2017 01:31:51 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:31:51 - Picking up an item
+17-01-2017 01:31:52 - Storing item
+17-01-2017 01:31:52 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:31:52 - Picking up an item
+17-01-2017 01:31:52 - Storing item
+17-01-2017 01:31:52 - Moving from 1,0 to 1,2  
+17-01-2017 01:31:52 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:31:52 - Picking up an item
+17-01-2017 01:31:52 - Storing item
+17-01-2017 01:31:52 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:31:53 - Picking up an item
+17-01-2017 01:31:53 - Storing item
+17-01-2017 01:31:53 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:31:53 - Picking up an item
+17-01-2017 01:31:53 - Storing item
+17-01-2017 01:31:53 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:31:53 - Picking up an item
+17-01-2017 01:31:53 - Storing item
+17-01-2017 01:31:53 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:31:53 - Picking up an item
+17-01-2017 01:31:54 - Storing item
+17-01-2017 01:31:54 - Moving from 1,2 to 6,1  
+17-01-2017 01:31:54 - Unloading items
+17-01-2017 01:31:56 - Moving from 6,1 to 4,4  
+17-01-2017 01:31:56 - Validation OK, product is: 1558
+17-01-2017 01:31:56 - Picking up an item
+17-01-2017 01:31:56 - Storing item
+17-01-2017 01:31:56 - Validation OK, product is: 1558
+17-01-2017 01:31:56 - Picking up an item
+17-01-2017 01:31:57 - Storing item
+17-01-2017 01:31:57 - Validation OK, product is: 1558
+17-01-2017 01:31:57 - Picking up an item
+17-01-2017 01:31:57 - Storing item
+17-01-2017 01:31:57 - Moving from 4,4 to 4,3  
+17-01-2017 01:31:57 - Validation OK, product is: 1636
+17-01-2017 01:31:57 - Picking up an item
+17-01-2017 01:31:57 - Storing item
+17-01-2017 01:31:57 - Validation OK, product is: 1636
+17-01-2017 01:31:57 - Picking up an item
+17-01-2017 01:31:58 - Storing item
+17-01-2017 01:31:58 - Validation OK, product is: 1636
+17-01-2017 01:31:58 - Picking up an item
+17-01-2017 01:31:58 - Storing item
+17-01-2017 01:31:58 - Validation OK, product is: 1636
+17-01-2017 01:31:58 - Picking up an item
+17-01-2017 01:31:58 - Storing item
+17-01-2017 01:31:58 - Moving from 4,3 to 2,3  
+17-01-2017 01:31:59 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:31:59 - Picking up an item
+17-01-2017 01:31:59 - Storing item
+17-01-2017 01:31:59 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:31:59 - Picking up an item
+17-01-2017 01:31:59 - Storing item
+17-01-2017 01:31:59 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:31:59 - Picking up an item
+17-01-2017 01:31:59 - Storing item
+17-01-2017 01:31:59 - Moving from 2,3 to 6,1  
+17-01-2017 01:32:00 - Unloading items
+17-01-2017 01:35:32 - Moving from 1,1 to 2,3  
+17-01-2017 01:35:32 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:35:32 - Picking up an item
+17-01-2017 01:35:32 - Storing item
+17-01-2017 01:35:32 - Moving from 2,3 to 4,5  
+17-01-2017 01:35:33 - Validation OK, product is: DNS-327L
+17-01-2017 01:35:33 - Picking up an item
+17-01-2017 01:35:33 - Storing item
+17-01-2017 01:35:33 - Validation OK, product is: DNS-327L
+17-01-2017 01:35:33 - Picking up an item
+17-01-2017 01:35:33 - Storing item
+17-01-2017 01:35:33 - Validation OK, product is: DNS-327L
+17-01-2017 01:35:33 - Picking up an item
+17-01-2017 01:35:33 - Storing item
+17-01-2017 01:35:34 - Validation OK, product is: DNS-327L
+17-01-2017 01:35:34 - Picking up an item
+17-01-2017 01:35:34 - Storing item
+17-01-2017 01:35:34 - Validation OK, product is: DNS-327L
+17-01-2017 01:35:34 - Picking up an item
+17-01-2017 01:35:34 - Storing item
+17-01-2017 01:35:34 - Validation OK, product is: DNS-327L
+17-01-2017 01:35:34 - Picking up an item
+17-01-2017 01:35:34 - Storing item
+17-01-2017 01:35:34 - Moving from 4,5 to 3,3  
+17-01-2017 01:35:35 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:35:35 - Picking up an item
+17-01-2017 01:35:35 - Storing item
+17-01-2017 01:35:35 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:35:35 - Picking up an item
+17-01-2017 01:35:35 - Storing item
+17-01-2017 01:35:35 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:35:35 - Picking up an item
+17-01-2017 01:35:36 - Storing item
+17-01-2017 01:35:36 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:35:36 - Picking up an item
+17-01-2017 01:35:36 - Storing item
+17-01-2017 01:35:36 - Moving from 3,3 to 1,0  
+17-01-2017 01:36:42 - Moving from 1,1 to 2,3  
+17-01-2017 01:36:42 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:36:43 - Picking up an item
+17-01-2017 01:36:43 - Storing item
+17-01-2017 01:36:43 - Moving from 2,3 to 4,5  
+17-01-2017 01:36:43 - Validation OK, product is: DNS-327L
+17-01-2017 01:36:43 - Picking up an item
+17-01-2017 01:36:43 - Storing item
+17-01-2017 01:36:43 - Validation OK, product is: DNS-327L
+17-01-2017 01:36:44 - Picking up an item
+17-01-2017 01:36:44 - Storing item
+17-01-2017 01:36:44 - Validation OK, product is: DNS-327L
+17-01-2017 01:36:44 - Picking up an item
+17-01-2017 01:36:44 - Storing item
+17-01-2017 01:36:44 - Validation OK, product is: DNS-327L
+17-01-2017 01:36:44 - Picking up an item
+17-01-2017 01:36:44 - Storing item
+17-01-2017 01:36:44 - Validation OK, product is: DNS-327L
+17-01-2017 01:36:44 - Picking up an item
+17-01-2017 01:36:45 - Storing item
+17-01-2017 01:36:45 - Validation OK, product is: DNS-327L
+17-01-2017 01:36:45 - Picking up an item
+17-01-2017 01:36:45 - Storing item
+17-01-2017 01:36:45 - Moving from 4,5 to 3,3  
+17-01-2017 01:36:45 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:36:45 - Picking up an item
+17-01-2017 01:36:46 - Storing item
+17-01-2017 01:36:46 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:36:46 - Picking up an item
+17-01-2017 01:36:46 - Storing item
+17-01-2017 01:36:46 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:36:46 - Picking up an item
+17-01-2017 01:36:46 - Storing item
+17-01-2017 01:36:46 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:36:46 - Picking up an item
+17-01-2017 01:36:46 - Storing item
+17-01-2017 01:36:47 - Moving from 3,3 to 1,0  
+17-01-2017 01:36:47 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:36:47 - Picking up an item
+17-01-2017 01:36:47 - Storing item
+17-01-2017 01:36:47 - Moving from 1,0 to 6,1  
+17-01-2017 01:36:48 - Unloading items
+17-01-2017 01:36:49 - Moving from 6,1 to 1,0  
+17-01-2017 01:36:50 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:36:50 - Picking up an item
+17-01-2017 01:36:50 - Storing item
+17-01-2017 01:36:50 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:36:50 - Picking up an item
+17-01-2017 01:36:50 - Storing item
+17-01-2017 01:36:50 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:36:51 - Picking up an item
+17-01-2017 01:36:51 - Storing item
+17-01-2017 01:36:51 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:36:51 - Picking up an item
+17-01-2017 01:36:51 - Storing item
+17-01-2017 01:36:51 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:36:51 - Picking up an item
+17-01-2017 01:36:51 - Storing item
+17-01-2017 01:36:51 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:36:51 - Picking up an item
+17-01-2017 01:36:52 - Storing item
+17-01-2017 01:36:52 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:36:52 - Picking up an item
+17-01-2017 01:36:52 - Storing item
+17-01-2017 01:36:52 - Moving from 1,0 to 1,2  
+17-01-2017 01:36:52 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:36:52 - Picking up an item
+17-01-2017 01:36:52 - Storing item
+17-01-2017 01:36:52 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:36:53 - Picking up an item
+17-01-2017 01:36:53 - Storing item
+17-01-2017 01:36:53 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:36:53 - Picking up an item
+17-01-2017 01:36:53 - Storing item
+17-01-2017 01:36:53 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:36:53 - Picking up an item
+17-01-2017 01:36:53 - Storing item
+17-01-2017 01:36:53 - Validation OK, product is: SDA10/16GB
+17-01-2017 01:36:54 - Picking up an item
+17-01-2017 01:36:54 - Storing item
+17-01-2017 01:36:54 - Moving from 1,2 to 6,1  
+17-01-2017 01:36:54 - Unloading items
+17-01-2017 01:36:56 - Moving from 6,1 to 4,4  
+17-01-2017 01:36:56 - Validation OK, product is: 1558
+17-01-2017 01:36:56 - Picking up an item
+17-01-2017 01:36:56 - Storing item
+17-01-2017 01:36:56 - Validation OK, product is: 1558
+17-01-2017 01:36:56 - Picking up an item
+17-01-2017 01:36:57 - Storing item
+17-01-2017 01:36:57 - Validation OK, product is: 1558
+17-01-2017 01:36:57 - Picking up an item
+17-01-2017 01:36:57 - Storing item
+17-01-2017 01:36:57 - Moving from 4,4 to 4,3  
+17-01-2017 01:36:57 - Validation OK, product is: 1636
+17-01-2017 01:36:57 - Picking up an item
+17-01-2017 01:36:57 - Storing item
+17-01-2017 01:36:57 - Validation OK, product is: 1636
+17-01-2017 01:36:58 - Picking up an item
+17-01-2017 01:36:58 - Storing item
+17-01-2017 01:36:58 - Validation OK, product is: 1636
+17-01-2017 01:36:58 - Picking up an item
+17-01-2017 01:36:58 - Storing item
+17-01-2017 01:36:58 - Validation OK, product is: 1636
+17-01-2017 01:36:58 - Picking up an item
+17-01-2017 01:36:58 - Storing item
+17-01-2017 01:36:58 - Moving from 4,3 to 2,3  
+17-01-2017 01:36:59 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:36:59 - Picking up an item
+17-01-2017 01:36:59 - Storing item
+17-01-2017 01:36:59 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:36:59 - Picking up an item
+17-01-2017 01:36:59 - Storing item
+17-01-2017 01:36:59 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:36:59 - Picking up an item
+17-01-2017 01:36:59 - Storing item
+17-01-2017 01:36:59 - Moving from 2,3 to 6,1  
+17-01-2017 01:37:00 - Unloading items
+17-01-2017 01:37:18 - Moving from 1,1 to 2,3  
+17-01-2017 01:37:19 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:37:19 - Picking up an item
+17-01-2017 01:37:19 - Storing item
+17-01-2017 01:37:19 - Moving from 2,3 to 4,5  
+17-01-2017 01:37:19 - Validation OK, product is: DNS-327L
+17-01-2017 01:37:19 - Picking up an item
+17-01-2017 01:37:20 - Storing item
+17-01-2017 01:37:20 - Validation OK, product is: DNS-327L
+17-01-2017 01:37:20 - Picking up an item
+17-01-2017 01:37:20 - Storing item
+17-01-2017 01:37:20 - Validation OK, product is: DNS-327L
+17-01-2017 01:37:20 - Picking up an item
+17-01-2017 01:37:20 - Storing item
+17-01-2017 01:37:20 - Validation OK, product is: DNS-327L
+17-01-2017 01:37:20 - Picking up an item
+17-01-2017 01:37:21 - Storing item
+17-01-2017 01:37:21 - Validation OK, product is: DNS-327L
+17-01-2017 01:37:21 - Picking up an item
+17-01-2017 01:37:21 - Storing item
+17-01-2017 01:37:21 - Validation OK, product is: DNS-327L
+17-01-2017 01:37:21 - Picking up an item
+17-01-2017 01:37:21 - Storing item
+17-01-2017 01:37:21 - Moving from 4,5 to 3,3  
+17-01-2017 01:37:22 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:37:22 - Picking up an item
+17-01-2017 01:37:22 - Storing item
+17-01-2017 01:37:22 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:37:22 - Picking up an item
+17-01-2017 01:37:22 - Storing item
+17-01-2017 01:37:22 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:37:22 - Picking up an item
+17-01-2017 01:37:22 - Storing item
+17-01-2017 01:37:22 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:37:23 - Picking up an item
+17-01-2017 01:37:23 - Storing item
+17-01-2017 01:37:23 - Moving from 3,3 to 1,0  
+17-01-2017 01:37:23 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:37:23 - Picking up an item
+17-01-2017 01:37:24 - Storing item
+17-01-2017 01:37:24 - Moving from 1,0 to 6,1  
+17-01-2017 01:37:24 - Unloading items
+17-01-2017 01:37:25 - Moving from 6,1 to 1,0  
+17-01-2017 01:37:26 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:37:26 - Picking up an item
+17-01-2017 01:37:26 - Storing item
+17-01-2017 01:37:26 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:37:26 - Picking up an item
+17-01-2017 01:37:27 - Storing item
+17-01-2017 01:37:46 - Moving from 1,1 to 2,3  
+17-01-2017 01:37:49 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:37:50 - Picking up an item
+17-01-2017 01:37:51 - Storing item
+17-01-2017 01:37:52 - Moving from 2,3 to 4,5  
+17-01-2017 01:37:56 - Validation OK, product is: DNS-327L
+17-01-2017 01:37:57 - Picking up an item
+17-01-2017 01:37:58 - Storing item
+17-01-2017 01:37:59 - Validation OK, product is: DNS-327L
+17-01-2017 01:38:00 - Picking up an item
+17-01-2017 01:38:01 - Storing item
+17-01-2017 01:38:02 - Validation OK, product is: DNS-327L
+17-01-2017 01:38:03 - Picking up an item
+17-01-2017 01:38:04 - Storing item
+17-01-2017 01:38:05 - Validation OK, product is: DNS-327L
+17-01-2017 01:38:06 - Picking up an item
+17-01-2017 01:38:07 - Storing item
+17-01-2017 01:38:08 - Validation OK, product is: DNS-327L
+17-01-2017 01:38:09 - Picking up an item
+17-01-2017 01:38:10 - Storing item
+17-01-2017 01:38:11 - Validation OK, product is: DNS-327L
+17-01-2017 01:38:12 - Picking up an item
+17-01-2017 01:38:13 - Storing item
+17-01-2017 01:38:14 - Moving from 4,5 to 3,3  
+17-01-2017 01:38:17 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:38:18 - Picking up an item
+17-01-2017 01:38:19 - Storing item
+17-01-2017 01:38:20 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:38:21 - Picking up an item
+17-01-2017 01:39:30 - Moving from 1,1 to 2,3  
+17-01-2017 01:39:33 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:39:34 - Picking up an item
+17-01-2017 01:39:35 - Storing item
+17-01-2017 01:39:36 - Moving from 2,3 to 4,5  
+17-01-2017 01:39:40 - Validation OK, product is: DNS-327L
+17-01-2017 01:39:41 - Picking up an item
+17-01-2017 01:39:42 - Storing item
+17-01-2017 01:39:43 - Validation OK, product is: DNS-327L
+17-01-2017 01:39:44 - Picking up an item
+17-01-2017 01:39:45 - Storing item
+17-01-2017 01:39:46 - Validation OK, product is: DNS-327L
+17-01-2017 01:39:47 - Picking up an item
+17-01-2017 01:39:48 - Storing item
+17-01-2017 01:39:49 - Validation OK, product is: DNS-327L
+17-01-2017 01:39:50 - Picking up an item
+17-01-2017 01:39:51 - Storing item
+17-01-2017 01:39:52 - Validation OK, product is: DNS-327L
+17-01-2017 01:39:53 - Picking up an item
+17-01-2017 01:39:54 - Storing item
+17-01-2017 01:39:55 - Validation OK, product is: DNS-327L
+17-01-2017 01:39:56 - Picking up an item
+17-01-2017 01:39:57 - Storing item
+17-01-2017 01:39:58 - Moving from 4,5 to 3,3  
+17-01-2017 01:40:01 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:40:02 - Picking up an item
+17-01-2017 01:40:03 - Storing item
+17-01-2017 01:40:04 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:40:05 - Picking up an item
+17-01-2017 01:40:06 - Storing item
+17-01-2017 01:40:07 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:40:08 - Picking up an item
+17-01-2017 01:40:09 - Storing item
+17-01-2017 01:40:10 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:40:11 - Picking up an item
+17-01-2017 01:40:12 - Storing item
+17-01-2017 01:40:13 - Moving from 3,3 to 1,0  
+17-01-2017 01:40:18 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:40:19 - Picking up an item
+17-01-2017 01:40:20 - Storing item
+17-01-2017 01:40:21 - Moving from 1,0 to 6,1  
+17-01-2017 01:40:27 - Unloading items
+17-01-2017 01:40:39 - Moving from 6,1 to 1,0  
+17-01-2017 01:40:52 - Moving from 1,1 to 2,3  
+17-01-2017 01:40:53 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:40:53 - Picking up an item
+17-01-2017 01:40:53 - Storing item
+17-01-2017 01:40:53 - Moving from 2,3 to 4,5  
+17-01-2017 01:40:53 - Validation OK, product is: DNS-327L
+17-01-2017 01:40:53 - Picking up an item
+17-01-2017 01:40:53 - Storing item
+17-01-2017 01:40:54 - Validation OK, product is: DNS-327L
+17-01-2017 01:40:54 - Picking up an item
+17-01-2017 01:40:54 - Storing item
+17-01-2017 01:40:54 - Validation OK, product is: DNS-327L
+17-01-2017 01:40:54 - Picking up an item
+17-01-2017 01:40:54 - Storing item
+17-01-2017 01:40:54 - Validation OK, product is: DNS-327L
+17-01-2017 01:40:54 - Picking up an item
+17-01-2017 01:40:54 - Storing item
+17-01-2017 01:40:55 - Validation OK, product is: DNS-327L
+17-01-2017 01:40:55 - Picking up an item
+17-01-2017 01:40:55 - Storing item
+17-01-2017 01:40:55 - Validation OK, product is: DNS-327L
+17-01-2017 01:40:55 - Picking up an item
+17-01-2017 01:40:55 - Storing item
+17-01-2017 01:40:55 - Moving from 4,5 to 3,3  
+17-01-2017 01:40:55 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:40:56 - Picking up an item
+17-01-2017 01:40:56 - Storing item
+17-01-2017 01:40:56 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:40:56 - Picking up an item
+17-01-2017 01:40:56 - Storing item
+17-01-2017 01:40:56 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:40:56 - Picking up an item
+17-01-2017 01:40:56 - Storing item
+17-01-2017 01:40:56 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:40:56 - Picking up an item
+17-01-2017 01:40:57 - Storing item
+17-01-2017 01:40:57 - Moving from 3,3 to 1,0  
+17-01-2017 01:40:57 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:40:57 - Picking up an item
+17-01-2017 01:40:57 - Storing item
+17-01-2017 01:40:57 - Moving from 1,0 to 6,1  
+17-01-2017 01:40:58 - Unloading items
+17-01-2017 01:40:59 - Moving from 6,1 to 1,0  
+17-01-2017 01:41:00 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:41:00 - Picking up an item
+17-01-2017 01:41:00 - Storing item
+17-01-2017 01:41:00 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:41:00 - Picking up an item
+17-01-2017 01:41:00 - Storing item
+17-01-2017 01:41:01 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:41:01 - Picking up an item
+17-01-2017 01:41:01 - Storing item
+17-01-2017 01:41:01 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:41:01 - Picking up an item
+17-01-2017 01:41:01 - Storing item
+17-01-2017 01:41:01 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:41:01 - Picking up an item
+17-01-2017 01:41:01 - Storing item
+17-01-2017 01:41:01 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:41:02 - Picking up an item
+17-01-2017 01:41:02 - Storing item
+17-01-2017 01:41:02 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:41:02 - Picking up an item
+17-01-2017 01:41:02 - Storing item
+17-01-2017 01:42:54 - Moving from 1,1 to 2,3  
+17-01-2017 01:42:55 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:42:55 - Picking up an item
+17-01-2017 01:42:55 - Storing item
+17-01-2017 01:42:55 - Moving from 2,3 to 4,5  
+17-01-2017 01:42:55 - Validation OK, product is: DNS-327L
+17-01-2017 01:42:55 - Picking up an item
+17-01-2017 01:42:56 - Storing item
+17-01-2017 01:42:56 - Validation OK, product is: DNS-327L
+17-01-2017 01:42:56 - Picking up an item
+17-01-2017 01:42:56 - Storing item
+17-01-2017 01:42:56 - Validation OK, product is: DNS-327L
+17-01-2017 01:42:56 - Picking up an item
+17-01-2017 01:42:56 - Storing item
+17-01-2017 01:42:56 - Validation OK, product is: DNS-327L
+17-01-2017 01:42:56 - Picking up an item
+17-01-2017 01:42:57 - Storing item
+17-01-2017 01:42:57 - Validation OK, product is: DNS-327L
+17-01-2017 01:42:57 - Picking up an item
+17-01-2017 01:42:57 - Storing item
+17-01-2017 01:42:57 - Validation OK, product is: DNS-327L
+17-01-2017 01:42:57 - Picking up an item
+17-01-2017 01:42:57 - Storing item
+17-01-2017 01:42:57 - Moving from 4,5 to 3,3  
+17-01-2017 01:42:58 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:42:58 - Picking up an item
+17-01-2017 01:42:58 - Storing item
+17-01-2017 01:42:58 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:42:58 - Picking up an item
+17-01-2017 01:42:58 - Storing item
+17-01-2017 01:42:58 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:42:58 - Picking up an item
+17-01-2017 01:42:58 - Storing item
+17-01-2017 01:42:58 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:42:59 - Picking up an item
+17-01-2017 01:42:59 - Storing item
+17-01-2017 01:42:59 - Moving from 3,3 to 1,0  
+17-01-2017 01:42:59 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:42:59 - Picking up an item
+17-01-2017 01:42:59 - Storing item
+17-01-2017 01:43:00 - Moving from 1,0 to 6,1  
+17-01-2017 01:43:00 - Unloading items
+17-01-2017 01:43:01 - Moving from 6,1 to 1,0  
+17-01-2017 01:43:02 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:43:02 - Picking up an item
+17-01-2017 01:43:02 - Storing item
+17-01-2017 01:43:02 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:43:02 - Picking up an item
+17-01-2017 01:43:03 - Storing item
+17-01-2017 01:43:03 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:43:03 - Picking up an item
+17-01-2017 01:43:03 - Storing item
+17-01-2017 01:43:03 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:43:03 - Picking up an item
+17-01-2017 01:43:03 - Storing item
+17-01-2017 01:43:03 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:43:03 - Picking up an item
+17-01-2017 01:43:03 - Storing item
+17-01-2017 01:43:04 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:43:04 - Picking up an item
+17-01-2017 01:43:04 - Storing item
+17-01-2017 01:43:04 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:43:04 - Picking up an item
+17-01-2017 01:43:04 - Storing item
+17-01-2017 01:44:49 - Moving from 1,1 to 2,3  
+17-01-2017 01:44:50 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:44:50 - Picking up an item
+17-01-2017 01:44:50 - Storing item
+17-01-2017 01:44:50 - Moving from 2,3 to 4,5  
+17-01-2017 01:44:50 - Validation OK, product is: DNS-327L
+17-01-2017 01:44:50 - Picking up an item
+17-01-2017 01:44:51 - Storing item
+17-01-2017 01:44:51 - Validation OK, product is: DNS-327L
+17-01-2017 01:44:51 - Picking up an item
+17-01-2017 01:44:51 - Storing item
+17-01-2017 01:44:51 - Validation OK, product is: DNS-327L
+17-01-2017 01:44:51 - Picking up an item
+17-01-2017 01:44:51 - Storing item
+17-01-2017 01:44:51 - Validation OK, product is: DNS-327L
+17-01-2017 01:44:51 - Picking up an item
+17-01-2017 01:44:51 - Storing item
+17-01-2017 01:44:52 - Validation OK, product is: DNS-327L
+17-01-2017 01:44:52 - Picking up an item
+17-01-2017 01:44:52 - Storing item
+17-01-2017 01:44:52 - Validation OK, product is: DNS-327L
+17-01-2017 01:44:52 - Picking up an item
+17-01-2017 01:44:52 - Storing item
+17-01-2017 01:44:52 - Moving from 4,5 to 3,3  
+17-01-2017 01:44:52 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:44:53 - Picking up an item
+17-01-2017 01:44:53 - Storing item
+17-01-2017 01:44:53 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:44:53 - Picking up an item
+17-01-2017 01:44:53 - Storing item
+17-01-2017 01:44:53 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:44:53 - Picking up an item
+17-01-2017 01:44:53 - Storing item
+17-01-2017 01:44:53 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:44:53 - Picking up an item
+17-01-2017 01:44:54 - Storing item
+17-01-2017 01:44:54 - Moving from 3,3 to 1,0  
+17-01-2017 01:44:54 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:44:54 - Picking up an item
+17-01-2017 01:44:54 - Storing item
+17-01-2017 01:44:55 - Moving from 1,0 to 6,1  
+17-01-2017 01:44:55 - Unloading items
+17-01-2017 01:44:56 - Moving from 6,1 to 1,0  
+17-01-2017 01:44:57 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:44:57 - Picking up an item
+17-01-2017 01:44:57 - Storing item
+17-01-2017 01:44:57 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:44:57 - Picking up an item
+17-01-2017 01:44:57 - Storing item
+17-01-2017 01:44:58 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:44:58 - Picking up an item
+17-01-2017 01:44:58 - Storing item
+17-01-2017 01:44:58 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:44:58 - Picking up an item
+17-01-2017 01:44:58 - Storing item
+17-01-2017 01:44:58 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:44:58 - Picking up an item
+17-01-2017 01:44:58 - Storing item
+17-01-2017 01:44:59 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:44:59 - Picking up an item
+17-01-2017 01:44:59 - Storing item
+17-01-2017 01:44:59 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:44:59 - Picking up an item
+17-01-2017 01:44:59 - Storing item
+17-01-2017 01:59:38 - Moving from 1,1 to 2,3  
+17-01-2017 01:59:39 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 01:59:39 - Picking up an item
+17-01-2017 01:59:39 - Storing item
+17-01-2017 01:59:39 - Moving from 2,3 to 4,5  
+17-01-2017 01:59:39 - Validation OK, product is: DNS-327L
+17-01-2017 01:59:39 - Picking up an item
+17-01-2017 01:59:39 - Storing item
+17-01-2017 01:59:40 - Validation OK, product is: DNS-327L
+17-01-2017 01:59:40 - Picking up an item
+17-01-2017 01:59:40 - Storing item
+17-01-2017 01:59:40 - Validation OK, product is: DNS-327L
+17-01-2017 01:59:40 - Picking up an item
+17-01-2017 01:59:40 - Storing item
+17-01-2017 01:59:40 - Validation OK, product is: DNS-327L
+17-01-2017 01:59:40 - Picking up an item
+17-01-2017 01:59:40 - Storing item
+17-01-2017 01:59:41 - Validation OK, product is: DNS-327L
+17-01-2017 01:59:41 - Picking up an item
+17-01-2017 01:59:41 - Storing item
+17-01-2017 01:59:41 - Validation OK, product is: DNS-327L
+17-01-2017 01:59:41 - Picking up an item
+17-01-2017 01:59:41 - Storing item
+17-01-2017 01:59:41 - Moving from 4,5 to 3,3  
+17-01-2017 01:59:41 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:59:42 - Picking up an item
+17-01-2017 01:59:42 - Storing item
+17-01-2017 01:59:42 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:59:42 - Picking up an item
+17-01-2017 01:59:42 - Storing item
+17-01-2017 01:59:42 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:59:42 - Picking up an item
+17-01-2017 01:59:42 - Storing item
+17-01-2017 01:59:42 - Validation OK, product is: SDA3/32GB
+17-01-2017 01:59:42 - Picking up an item
+17-01-2017 01:59:43 - Storing item
+17-01-2017 01:59:43 - Moving from 3,3 to 1,0  
+17-01-2017 01:59:43 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:59:43 - Picking up an item
+17-01-2017 01:59:43 - Storing item
+17-01-2017 01:59:44 - Moving from 1,0 to 6,1  
+17-01-2017 01:59:44 - Unloading items
+17-01-2017 01:59:45 - Moving from 6,1 to 1,0  
+17-01-2017 01:59:46 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:59:46 - Picking up an item
+17-01-2017 01:59:46 - Storing item
+17-01-2017 01:59:46 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:59:46 - Picking up an item
+17-01-2017 01:59:46 - Storing item
+17-01-2017 01:59:47 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:59:47 - Picking up an item
+17-01-2017 01:59:47 - Storing item
+17-01-2017 01:59:47 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:59:47 - Picking up an item
+17-01-2017 01:59:47 - Storing item
+17-01-2017 01:59:47 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:59:47 - Picking up an item
+17-01-2017 01:59:47 - Storing item
+17-01-2017 01:59:48 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:59:48 - Picking up an item
+17-01-2017 01:59:48 - Storing item
+17-01-2017 01:59:48 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 01:59:48 - Picking up an item
+17-01-2017 01:59:48 - Storing item
+17-01-2017 01:59:48 - Moving from 1,0 to 4,4  
+17-01-2017 02:01:10 - Moving from 1,1 to 2,3  
+17-01-2017 02:01:11 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 02:01:11 - Picking up an item
+17-01-2017 02:01:11 - Storing item
+17-01-2017 02:01:11 - Moving from 2,3 to 4,5  
+17-01-2017 02:01:11 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:12 - Picking up an item
+17-01-2017 02:01:12 - Storing item
+17-01-2017 02:01:12 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:12 - Picking up an item
+17-01-2017 02:01:12 - Storing item
+17-01-2017 02:01:12 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:12 - Picking up an item
+17-01-2017 02:01:12 - Storing item
+17-01-2017 02:01:12 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:13 - Picking up an item
+17-01-2017 02:01:13 - Storing item
+17-01-2017 02:01:13 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:13 - Picking up an item
+17-01-2017 02:01:13 - Storing item
+17-01-2017 02:01:13 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:13 - Picking up an item
+17-01-2017 02:01:13 - Storing item
+17-01-2017 02:01:13 - Moving from 4,5 to 3,3  
+17-01-2017 02:01:14 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:01:14 - Picking up an item
+17-01-2017 02:01:14 - Storing item
+17-01-2017 02:01:14 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:01:14 - Picking up an item
+17-01-2017 02:01:14 - Storing item
+17-01-2017 02:01:14 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:01:14 - Picking up an item
+17-01-2017 02:01:14 - Storing item
+17-01-2017 02:01:15 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:01:15 - Picking up an item
+17-01-2017 02:01:27 - Moving from 1,1 to 2,3  
+17-01-2017 02:01:28 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 02:01:29 - Picking up an item
+17-01-2017 02:01:29 - Storing item
+17-01-2017 02:01:30 - Moving from 2,3 to 4,5  
+17-01-2017 02:01:32 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:32 - Picking up an item
+17-01-2017 02:01:33 - Storing item
+17-01-2017 02:01:33 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:34 - Picking up an item
+17-01-2017 02:01:34 - Storing item
+17-01-2017 02:01:35 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:35 - Picking up an item
+17-01-2017 02:01:36 - Storing item
+17-01-2017 02:01:36 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:37 - Picking up an item
+17-01-2017 02:01:37 - Storing item
+17-01-2017 02:01:38 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:38 - Picking up an item
+17-01-2017 02:01:39 - Storing item
+17-01-2017 02:01:39 - Validation OK, product is: DNS-327L
+17-01-2017 02:01:40 - Picking up an item
+17-01-2017 02:01:40 - Storing item
+17-01-2017 02:01:41 - Moving from 4,5 to 3,3  
+17-01-2017 02:01:42 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:01:43 - Picking up an item
+17-01-2017 02:01:43 - Storing item
+17-01-2017 02:01:44 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:01:44 - Picking up an item
+17-01-2017 02:01:45 - Storing item
+17-01-2017 02:01:45 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:01:46 - Picking up an item
+17-01-2017 02:01:46 - Storing item
+17-01-2017 02:01:47 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:01:47 - Picking up an item
+17-01-2017 02:01:48 - Storing item
+17-01-2017 02:01:48 - Moving from 3,3 to 1,0  
+17-01-2017 02:01:51 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:01:51 - Picking up an item
+17-01-2017 02:01:52 - Storing item
+17-01-2017 02:01:53 - Moving from 1,0 to 6,1  
+17-01-2017 02:01:56 - Unloading items
+17-01-2017 02:02:02 - Moving from 6,1 to 1,0  
+17-01-2017 02:02:05 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:02:05 - Picking up an item
+17-01-2017 02:02:06 - Storing item
+17-01-2017 02:02:06 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:02:07 - Picking up an item
+17-01-2017 02:02:07 - Storing item
+17-01-2017 02:02:08 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:02:08 - Picking up an item
+17-01-2017 02:02:09 - Storing item
+17-01-2017 02:02:09 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:02:10 - Picking up an item
+17-01-2017 02:02:10 - Storing item
+17-01-2017 02:02:11 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:02:11 - Picking up an item
+17-01-2017 02:02:12 - Storing item
+17-01-2017 02:02:12 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:02:13 - Picking up an item
+17-01-2017 02:02:13 - Storing item
+17-01-2017 02:02:14 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:02:14 - Picking up an item
+17-01-2017 02:02:15 - Storing item
+17-01-2017 02:02:15 - Moving from 1,0 to 4,4  
+17-01-2017 02:04:04 - Moving from 1,1 to 2,3  
+17-01-2017 02:04:06 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 02:04:06 - Picking up an item
+17-01-2017 02:04:07 - Storing item
+17-01-2017 02:04:07 - Moving from 2,3 to 4,5  
+17-01-2017 02:04:09 - Validation OK, product is: DNS-327L
+17-01-2017 02:04:10 - Picking up an item
+17-01-2017 02:04:10 - Storing item
+17-01-2017 02:04:11 - Validation OK, product is: DNS-327L
+17-01-2017 02:04:11 - Picking up an item
+17-01-2017 02:04:12 - Storing item
+17-01-2017 02:04:12 - Validation OK, product is: DNS-327L
+17-01-2017 02:04:13 - Picking up an item
+17-01-2017 02:04:13 - Storing item
+17-01-2017 02:04:14 - Validation OK, product is: DNS-327L
+17-01-2017 02:04:14 - Picking up an item
+17-01-2017 02:04:15 - Storing item
+17-01-2017 02:04:15 - Validation OK, product is: DNS-327L
+17-01-2017 02:04:16 - Picking up an item
+17-01-2017 02:04:16 - Storing item
+17-01-2017 02:04:17 - Validation OK, product is: DNS-327L
+17-01-2017 02:04:17 - Picking up an item
+17-01-2017 02:04:18 - Storing item
+17-01-2017 02:04:18 - Moving from 4,5 to 3,3  
+17-01-2017 02:04:20 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:04:20 - Picking up an item
+17-01-2017 02:04:21 - Storing item
+17-01-2017 02:04:21 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:04:22 - Picking up an item
+17-01-2017 02:04:22 - Storing item
+17-01-2017 02:04:23 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:04:23 - Picking up an item
+17-01-2017 02:04:24 - Storing item
+17-01-2017 02:04:24 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:04:25 - Picking up an item
+17-01-2017 02:04:25 - Storing item
+17-01-2017 02:04:26 - Moving from 3,3 to 1,0  
+17-01-2017 02:04:28 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:04:29 - Picking up an item
+17-01-2017 02:04:29 - Storing item
+17-01-2017 02:04:30 - Moving from 1,0 to 6,1  
+17-01-2017 02:04:33 - Unloading items
+17-01-2017 02:04:39 - Moving from 6,1 to 1,0  
+17-01-2017 02:04:42 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:04:42 - Picking up an item
+17-01-2017 02:04:43 - Storing item
+17-01-2017 02:04:43 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:04:44 - Picking up an item
+17-01-2017 02:04:44 - Storing item
+17-01-2017 02:04:45 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:04:45 - Picking up an item
+17-01-2017 02:04:46 - Storing item
+17-01-2017 02:04:46 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:04:47 - Picking up an item
+17-01-2017 02:04:47 - Storing item
+17-01-2017 02:04:48 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:04:48 - Picking up an item
+17-01-2017 02:04:49 - Storing item
+17-01-2017 02:04:49 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:04:50 - Picking up an item
+17-01-2017 02:04:50 - Storing item
+17-01-2017 02:04:51 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:04:51 - Picking up an item
+17-01-2017 02:04:52 - Storing item
+17-01-2017 02:04:52 - Moving from 1,0 to 4,4  
+17-01-2017 02:09:28 - Moving from 1,1 to 2,3  
+17-01-2017 02:09:30 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 02:09:30 - Picking up an item
+17-01-2017 02:09:31 - Storing item
+17-01-2017 02:09:31 - Moving from 2,3 to 4,5  
+17-01-2017 02:09:33 - Validation OK, product is: DNS-327L
+17-01-2017 02:09:34 - Picking up an item
+17-01-2017 02:09:34 - Storing item
+17-01-2017 02:09:35 - Validation OK, product is: DNS-327L
+17-01-2017 02:09:35 - Picking up an item
+17-01-2017 02:09:36 - Storing item
+17-01-2017 02:09:36 - Validation OK, product is: DNS-327L
+17-01-2017 02:09:37 - Picking up an item
+17-01-2017 02:09:37 - Storing item
+17-01-2017 02:09:38 - Validation OK, product is: DNS-327L
+17-01-2017 02:09:38 - Picking up an item
+17-01-2017 02:09:39 - Storing item
+17-01-2017 02:09:39 - Validation OK, product is: DNS-327L
+17-01-2017 02:09:40 - Picking up an item
+17-01-2017 02:09:40 - Storing item
+17-01-2017 02:09:41 - Validation OK, product is: DNS-327L
+17-01-2017 02:09:41 - Picking up an item
+17-01-2017 02:09:42 - Storing item
+17-01-2017 02:09:42 - Moving from 4,5 to 3,3  
+17-01-2017 02:09:44 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:09:44 - Picking up an item
+17-01-2017 02:09:45 - Storing item
+17-01-2017 02:09:45 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:09:46 - Picking up an item
+17-01-2017 02:09:46 - Storing item
+17-01-2017 02:09:47 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:09:47 - Picking up an item
+17-01-2017 02:09:48 - Storing item
+17-01-2017 02:09:48 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:09:49 - Picking up an item
+17-01-2017 02:09:49 - Storing item
+17-01-2017 02:09:50 - Moving from 3,3 to 1,1  
+17-01-2017 02:09:52 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:09:52 - Picking up an item
+17-01-2017 02:09:53 - Storing item
+17-01-2017 02:09:53 - Moving from 1,1 to 6,1  
+17-01-2017 02:09:56 - Unloading items
+17-01-2017 02:10:17 - Moving from 1,1 to 2,3  
+17-01-2017 02:10:19 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 02:10:19 - Picking up an item
+17-01-2017 02:10:20 - Storing item
+17-01-2017 02:10:20 - Moving from 2,3 to 4,5  
+17-01-2017 02:10:23 - Validation OK, product is: DNS-327L
+17-01-2017 02:10:23 - Picking up an item
+17-01-2017 02:10:24 - Storing item
+17-01-2017 02:10:24 - Validation OK, product is: DNS-327L
+17-01-2017 02:10:25 - Picking up an item
+17-01-2017 02:10:25 - Storing item
+17-01-2017 02:10:26 - Validation OK, product is: DNS-327L
+17-01-2017 02:10:26 - Picking up an item
+17-01-2017 02:10:27 - Storing item
+17-01-2017 02:10:27 - Validation OK, product is: DNS-327L
+17-01-2017 02:10:28 - Picking up an item
+17-01-2017 02:10:28 - Storing item
+17-01-2017 02:10:29 - Validation OK, product is: DNS-327L
+17-01-2017 02:10:29 - Picking up an item
+17-01-2017 02:10:30 - Storing item
+17-01-2017 02:10:30 - Validation OK, product is: DNS-327L
+17-01-2017 02:10:31 - Picking up an item
+17-01-2017 02:10:31 - Storing item
+17-01-2017 02:10:32 - Moving from 4,5 to 3,3  
+17-01-2017 02:10:33 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:10:34 - Picking up an item
+17-01-2017 02:10:34 - Storing item
+17-01-2017 02:10:35 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:10:35 - Picking up an item
+17-01-2017 02:10:36 - Storing item
+17-01-2017 02:10:36 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:10:37 - Picking up an item
+17-01-2017 02:10:37 - Storing item
+17-01-2017 02:10:38 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:10:38 - Picking up an item
+17-01-2017 02:10:39 - Storing item
+17-01-2017 02:10:39 - Moving from 3,3 to 1,1  
+17-01-2017 02:10:41 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:10:42 - Picking up an item
+17-01-2017 02:10:42 - Storing item
+17-01-2017 02:10:43 - Moving from 1,1 to 6,1  
+17-01-2017 02:10:45 - Unloading items
+17-01-2017 02:10:51 - Moving from 6,1 to 1,1  
+17-01-2017 02:10:54 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:10:54 - Picking up an item
+17-01-2017 02:10:55 - Storing item
+17-01-2017 02:10:55 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:10:56 - Picking up an item
+17-01-2017 02:10:56 - Storing item
+17-01-2017 02:10:57 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:10:57 - Picking up an item
+17-01-2017 02:10:58 - Storing item
+17-01-2017 02:10:58 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:10:59 - Picking up an item
+17-01-2017 02:10:59 - Storing item
+17-01-2017 02:11:00 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:11:00 - Picking up an item
+17-01-2017 02:11:01 - Storing item
+17-01-2017 02:11:01 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:11:02 - Picking up an item
+17-01-2017 02:11:02 - Storing item
+17-01-2017 02:11:03 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 02:11:03 - Picking up an item
+17-01-2017 02:11:04 - Storing item
+17-01-2017 02:11:04 - Moving from 1,1 to 4,4  
+17-01-2017 02:29:59 - Moving from 1,1 to 2,3  
+17-01-2017 02:30:01 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 02:30:01 - Picking up an item
+17-01-2017 02:30:02 - Storing item
+17-01-2017 02:30:02 - Moving from 2,3 to 3,3  
+17-01-2017 02:32:02 - Moving from 1,1 to 2,3  
+17-01-2017 02:32:03 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 02:32:04 - Picking up an item
+17-01-2017 02:32:04 - Storing item
+17-01-2017 02:32:05 - Moving from 2,3 to 3,3  
+17-01-2017 02:34:47 - Moving from 1,1 to 2,3  
+17-01-2017 02:34:48 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 02:34:49 - Picking up an item
+17-01-2017 02:34:49 - Storing item
+17-01-2017 02:35:00 - Moving from 2,3 to 4,5  
+17-01-2017 02:35:02 - Validation OK, product is: DNS-327L
+17-01-2017 02:35:03 - Picking up an item
+17-01-2017 02:35:03 - Storing item
+17-01-2017 02:35:04 - Validation OK, product is: DNS-327L
+17-01-2017 02:35:04 - Picking up an item
+17-01-2017 02:35:05 - Storing item
+17-01-2017 02:35:05 - Validation OK, product is: DNS-327L
+17-01-2017 02:35:06 - Picking up an item
+17-01-2017 02:35:06 - Storing item
+17-01-2017 02:35:07 - Validation OK, product is: DNS-327L
+17-01-2017 02:35:07 - Picking up an item
+17-01-2017 02:35:08 - Storing item
+17-01-2017 02:35:08 - Validation OK, product is: DNS-327L
+17-01-2017 02:35:09 - Picking up an item
+17-01-2017 02:35:09 - Storing item
+17-01-2017 02:35:10 - Validation OK, product is: DNS-327L
+17-01-2017 02:35:10 - Picking up an item
+17-01-2017 02:35:11 - Storing item
+17-01-2017 02:35:11 - Moving from 4,5 to 3,3  
+17-01-2017 02:35:13 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:35:13 - Picking up an item
+17-01-2017 02:35:14 - Storing item
+17-01-2017 02:35:14 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:35:15 - Picking up an item
+17-01-2017 02:35:15 - Storing item
+17-01-2017 02:35:16 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:35:16 - Picking up an item
+17-01-2017 02:35:17 - Storing item
+17-01-2017 02:35:17 - Validation OK, product is: SDA3/32GB
+17-01-2017 02:35:18 - Picking up an item
+17-01-2017 02:35:18 - Storing item
+17-01-2017 02:35:19 - Moving from 3,3 to 1,1  
+17-01-2017 02:35:31 - Moving from 1,1 to 2,3  
+17-01-2017 02:35:32 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 02:35:33 - Picking up an item
+17-01-2017 02:35:33 - Storing item
+17-01-2017 02:35:44 - Moving from 2,3 to 4,5  
+17-01-2017 02:35:46 - Validation OK, product is: DNS-327L
+17-01-2017 02:35:46 - Picking up an item
+17-01-2017 02:35:47 - Storing item
+17-01-2017 02:35:47 - Validation OK, product is: DNS-327L
+17-01-2017 02:35:48 - Picking up an item
+17-01-2017 02:35:48 - Storing item
+17-01-2017 02:35:49 - Validation OK, product is: DNS-327L
+17-01-2017 02:35:49 - Picking up an item
+17-01-2017 03:47:49 - Moving from 1,1 to 2,3  
+17-01-2017 03:48:36 - Moving from 1,1 to 2,3  
+17-01-2017 03:49:23 - Moving from 1,1 to 2,3  
+17-01-2017 03:51:28 - Moving from 1,1 to 2,3  
+17-01-2017 03:52:01 - Moving from 1,1 to 2,3  
+17-01-2017 03:52:02 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 03:52:03 - Picking up an item
+17-01-2017 03:52:03 - Storing item
+17-01-2017 03:52:04 - Moving from 2,3 to 4,5  
+17-01-2017 03:52:06 - Validation OK, product is: DNS-327L
+17-01-2017 03:52:06 - Picking up an item
+17-01-2017 03:52:07 - Storing item
+17-01-2017 03:52:07 - Validation OK, product is: DNS-327L
+17-01-2017 03:52:08 - Picking up an item
+17-01-2017 03:52:08 - Storing item
+17-01-2017 03:53:08 - Moving from 1,1 to 2,3  
+17-01-2017 03:53:09 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 03:53:10 - Picking up an item
+17-01-2017 03:53:10 - Storing item
+17-01-2017 03:53:11 - Moving from 2,3 to 4,5  
+17-01-2017 03:53:13 - Validation OK, product is: DNS-327L
+17-01-2017 03:53:13 - Picking up an item
+17-01-2017 03:53:14 - Storing item
+17-01-2017 03:53:14 - Validation OK, product is: DNS-327L
+17-01-2017 03:53:15 - Picking up an item
+17-01-2017 03:53:15 - Storing item
+17-01-2017 03:53:16 - Validation OK, product is: DNS-327L
+17-01-2017 03:53:16 - Picking up an item
+17-01-2017 03:53:17 - Storing item
+17-01-2017 03:53:17 - Validation OK, product is: DNS-327L
+17-01-2017 03:53:33 - Moving from 1,1 to 2,3  
+17-01-2017 03:53:34 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 03:53:35 - Picking up an item
+17-01-2017 03:53:35 - Storing item
+17-01-2017 03:53:46 - Moving from 2,3 to 4,5  
+17-01-2017 03:53:48 - Validation OK, product is: DNS-327L
+17-01-2017 03:53:48 - Picking up an item
+17-01-2017 03:53:49 - Storing item
+17-01-2017 03:53:54 - Moving from 1,1 to 2,3  
+17-01-2017 03:53:55 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 03:53:56 - Picking up an item
+17-01-2017 03:53:56 - Storing item
+17-01-2017 03:54:07 - Moving from 2,3 to 4,5  
+17-01-2017 03:54:09 - Validation OK, product is: DNS-327L
+17-01-2017 03:54:09 - Picking up an item
+17-01-2017 03:54:10 - Storing item
+17-01-2017 03:54:10 - Validation OK, product is: DNS-327L
+17-01-2017 03:54:11 - Picking up an item
+17-01-2017 03:54:11 - Storing item
+17-01-2017 03:54:12 - Validation OK, product is: DNS-327L
+17-01-2017 03:54:12 - Picking up an item
+17-01-2017 03:54:13 - Storing item
+17-01-2017 03:54:14 - Validation OK, product is: DNS-327L
+17-01-2017 03:54:14 - Picking up an item
+17-01-2017 03:54:18 - Moving from 1,1 to 2,3  
+17-01-2017 03:54:19 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 03:54:20 - Picking up an item
+17-01-2017 03:54:21 - Storing item
+17-01-2017 03:56:00 - Moving from 1,1 to 2,3  
+17-01-2017 03:56:01 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 03:56:02 - Picking up an item
+17-01-2017 03:56:02 - Storing item
+17-01-2017 04:02:54 - Moving from 1,1 to 2,3  
+17-01-2017 04:02:56 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 04:02:57 - Picking up an item
+17-01-2017 04:02:57 - Storing item
+17-01-2017 04:02:58 - Moving from 2,3 to 4,5  
+17-01-2017 04:03:00 - Validation OK, product is: DNS-327L
+17-01-2017 04:03:00 - Picking up an item
+17-01-2017 04:03:01 - Storing item
+17-01-2017 04:03:11 - Validation OK, product is: DNS-327L
+17-01-2017 04:03:12 - Picking up an item
+17-01-2017 04:03:12 - Storing item
+17-01-2017 04:03:23 - Validation OK, product is: DNS-327L
+17-01-2017 04:03:23 - Picking up an item
+17-01-2017 04:03:24 - Storing item
+17-01-2017 04:03:34 - Validation OK, product is: DNS-327L
+17-01-2017 04:03:35 - Picking up an item
+17-01-2017 04:03:35 - Storing item
+17-01-2017 04:03:46 - Validation OK, product is: DNS-327L
+17-01-2017 04:03:46 - Picking up an item
+17-01-2017 04:03:47 - Storing item
+17-01-2017 04:08:23 - Moving from 1,1 to 2,3  
+17-01-2017 04:08:25 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 04:08:25 - Picking up an item
+17-01-2017 04:08:26 - Storing item
+17-01-2017 04:08:26 - Moving from 2,3 to 4,5  
+17-01-2017 04:08:29 - Validation OK, product is: DNS-327L
+17-01-2017 04:08:29 - Picking up an item
+17-01-2017 04:08:30 - Storing item
+17-01-2017 04:11:37 - Moving from 1,1 to 2,3  
+17-01-2017 04:11:39 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 04:11:39 - Picking up an item
+17-01-2017 04:11:40 - Storing item
+17-01-2017 04:11:40 - Moving from 2,3 to 4,5  
+17-01-2017 04:11:42 - Validation OK, product is: DNS-327L
+17-01-2017 04:11:43 - Picking up an item
+17-01-2017 04:11:43 - Storing item
+17-01-2017 04:11:54 - Validation OK, product is: DNS-327L
+17-01-2017 04:11:54 - Picking up an item
+17-01-2017 04:11:55 - Storing item
+17-01-2017 04:11:55 - Validation OK, product is: DNS-327L
+17-01-2017 04:11:56 - Picking up an item
+17-01-2017 04:11:57 - Storing item
+17-01-2017 04:11:57 - Validation OK, product is: DNS-327L
+17-01-2017 04:11:58 - Picking up an item
+17-01-2017 04:11:58 - Storing item
+17-01-2017 04:11:59 - Validation OK, product is: DNS-327L
+17-01-2017 04:11:59 - Picking up an item
+17-01-2017 04:12:00 - Storing item
+17-01-2017 04:12:00 - Validation OK, product is: DNS-327L
+17-01-2017 04:12:01 - Picking up an item
+17-01-2017 04:12:01 - Storing item
+17-01-2017 04:12:02 - Moving from 4,5 to 3,3  
+17-01-2017 04:12:03 - Validation OK, product is: SDA3/32GB
+17-01-2017 04:12:04 - Picking up an item
+17-01-2017 04:12:04 - Storing item
+17-01-2017 04:12:05 - Validation OK, product is: SDA3/32GB
+17-01-2017 04:12:05 - Picking up an item
+17-01-2017 04:12:06 - Storing item
+17-01-2017 04:12:06 - Validation OK, product is: SDA3/32GB
+17-01-2017 04:12:07 - Picking up an item
+17-01-2017 04:12:07 - Storing item
+17-01-2017 04:12:08 - Validation OK, product is: SDA3/32GB
+17-01-2017 04:12:08 - Picking up an item
+17-01-2017 04:12:09 - Storing item
+17-01-2017 04:12:09 - Moving from 3,3 to 1,1  
+17-01-2017 04:12:11 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 04:12:12 - Picking up an item
+17-01-2017 04:12:12 - Storing item
+17-01-2017 04:12:13 - Moving from 1,1 to 6,1  
+17-01-2017 04:12:16 - Unloading items
+17-01-2017 04:12:22 - Moving from 6,1 to 1,1  
+17-01-2017 04:12:24 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 04:12:25 - Picking up an item
+17-01-2017 04:12:25 - Storing item
+17-01-2017 04:12:26 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 04:12:26 - Picking up an item
+17-01-2017 04:12:27 - Storing item
+17-01-2017 04:12:27 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 04:12:28 - Picking up an item
+17-01-2017 04:12:28 - Storing item
+17-01-2017 04:12:29 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 04:12:29 - Picking up an item
+17-01-2017 04:12:30 - Storing item
+17-01-2017 04:12:31 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 04:12:31 - Picking up an item
+17-01-2017 04:12:32 - Storing item
+17-01-2017 04:12:32 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 04:12:33 - Picking up an item
+17-01-2017 04:12:33 - Storing item
+17-01-2017 04:12:34 - Validation OK, product is: LSD16GBBEU300
+17-01-2017 04:12:34 - Picking up an item
+17-01-2017 04:12:35 - Storing item
+17-01-2017 04:12:35 - Moving from 1,1 to 1,2  
+17-01-2017 04:12:36 - Validation OK, product is: SDA10/16GB
+17-01-2017 04:12:36 - Picking up an item
+17-01-2017 04:12:37 - Storing item
+17-01-2017 04:12:37 - Validation OK, product is: SDA10/16GB
+17-01-2017 04:12:38 - Picking up an item
+17-01-2017 04:12:38 - Storing item
+17-01-2017 04:12:39 - Validation OK, product is: SDA10/16GB
+17-01-2017 04:12:39 - Picking up an item
+17-01-2017 04:12:40 - Storing item
+17-01-2017 04:12:40 - Validation OK, product is: SDA10/16GB
+17-01-2017 04:12:41 - Picking up an item
+17-01-2017 04:12:41 - Storing item
+17-01-2017 04:12:42 - Validation OK, product is: SDA10/16GB
+17-01-2017 04:12:42 - Picking up an item
+17-01-2017 04:12:43 - Storing item
+17-01-2017 04:12:43 - Moving from 1,2 to 6,1  
+17-01-2017 04:12:47 - Unloading items
+17-01-2017 04:12:53 - Moving from 6,1 to 4,4  
+17-01-2017 04:12:55 - Validation OK, product is: 1558
+17-01-2017 04:12:56 - Picking up an item
+17-01-2017 04:12:56 - Storing item
+17-01-2017 04:12:57 - Validation OK, product is: 1558
+17-01-2017 04:12:57 - Picking up an item
+17-01-2017 04:12:58 - Storing item
+17-01-2017 04:12:58 - Validation OK, product is: 1558
+17-01-2017 04:12:59 - Picking up an item
+17-01-2017 04:12:59 - Storing item
+17-01-2017 04:13:00 - Moving from 4,4 to 4,3  
+17-01-2017 04:13:00 - Validation OK, product is: 1636
+17-01-2017 04:13:01 - Picking up an item
+17-01-2017 04:13:01 - Storing item
+17-01-2017 04:13:02 - Validation OK, product is: 1636
+17-01-2017 04:13:02 - Picking up an item
+17-01-2017 04:13:03 - Storing item
+17-01-2017 04:13:03 - Validation OK, product is: 1636
+17-01-2017 04:13:04 - Picking up an item
+17-01-2017 04:13:05 - Storing item
+17-01-2017 04:13:05 - Validation OK, product is: 1636
+17-01-2017 04:13:06 - Picking up an item
+17-01-2017 04:13:06 - Storing item
+17-01-2017 04:13:07 - Moving from 4,3 to 2,3  
+17-01-2017 04:13:08 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 04:13:08 - Picking up an item
+17-01-2017 04:13:09 - Storing item
+17-01-2017 04:13:09 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 04:13:10 - Picking up an item
+17-01-2017 04:13:10 - Storing item
+17-01-2017 04:13:11 - Validation OK, product is: SD10VG2/32GB
+17-01-2017 04:13:11 - Picking up an item
+17-01-2017 04:13:12 - Storing item
+17-01-2017 04:13:12 - Moving from 2,3 to 6,1  
+17-01-2017 04:13:15 - Unloading items

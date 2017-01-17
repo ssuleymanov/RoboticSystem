@@ -37,6 +37,10 @@ void RobotController::executeOrders(std::vector<Order> orders)
 {
 	mapper.printWarehouseMap();
 	for(auto &order : orders){
+		if (order.productID == "DNS-327L") {
+			cout << "Pause " << endl;
+			robot.pauseRobot(true);
+		}
 		processOrder(order);
 		if (robot.getNrItemsInBasket() == robot.getBasketSize()) {
 			robot.moveTo(*currentPoint, unloadingPoint);
@@ -53,11 +57,18 @@ void RobotController::executeOrders(std::vector<Order> orders)
 
 bool RobotController::processOrder(Order order)
 {
+	//if (order.productID == "DNS-327L") {
+	//	cout << "Pause " << endl;
+	//	robot.pauseRobot(true);
+	//	Sleep(10000);
+	//	robot.pauseRobot(false);
+	//}
+
 	mapper.resetMap();
 	Point orderPosition = warehouse->getCompartmentPosition(order);
 	mapper.setCompartmentPosition(orderPosition);
 	robot.moveTo(*currentPoint, orderPosition);
-	for (int i = 0; i < order.quantity; i++) {		// if the basket if full, first move to the unloading area to unload the items, then return back
+	for (int i = 0; i < order.quantity; i++) {			// if the basket if full, first move to the unloading area to unload the items, then return back
 		if (robot.getNrItemsInBasket() == robot.getBasketSize()) {
 			mapper.resetMap();							// make P appear on the map if there are still items left that need to be picked
 			robot.moveTo(*currentPoint, unloadingPoint);
@@ -74,7 +85,6 @@ bool RobotController::processOrder(Order order)
 			cerr << "Invalid Product ID: " << order.productID << endl;
 			break;
 		}
-
 	}
 
 	return true;

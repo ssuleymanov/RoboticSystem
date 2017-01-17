@@ -5,6 +5,8 @@ PickerRobot::PickerRobot(int basketSize, Manager &manager) : basketSize(basketSi
 {
 	itemsInBasket = 0;
 	timer = 0;
+	stop = false;
+	pause = false;
 }
 
 PickerRobot::~PickerRobot()
@@ -19,7 +21,9 @@ serial(robot.serial),
 mapper(robot.mapper),
 itemsInBasket(robot.itemsInBasket),
 timer(robot.timer),
-manager(robot.manager)
+manager(robot.manager),
+stop(robot.stop),
+pause(robot.pause)
 {
 }
 
@@ -95,6 +99,7 @@ bool PickerRobot::validate(Order order)
 {
 	mapper->printString("Validating an item        ", ACTION_NLINE, ACTION_NCOL);
 	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
+	mapper->printString("Order ID: " + order.productID, MOVE_NLINE, MOVE_NCOL);
 	//cout << "Validating an item" << endl;
 	sendCommand(VALIDATE);
 
@@ -143,6 +148,11 @@ void PickerRobot::store(Order order)
 	}
 	mapper->printWarehouseMap();
 	itemsInBasket++;
+
+	while (pause == true) {
+		Sleep(10000);
+		pause = false;
+	}
 }
 
 void PickerRobot::unload()
@@ -162,6 +172,11 @@ void PickerRobot::unload()
 	}
 	ordersInBasket.clear();
 
+	while (pause == true) {
+		Sleep(10000);
+		pause = false;
+	}
+
 	//itemsInBasket = 0;
 }
 
@@ -180,8 +195,20 @@ int PickerRobot::getTime()
 	return timer;
 }
 
-void PickerRobot::sendCommand(const char c)
+void PickerRobot::emergency_stop(bool stop)
 {
+	this->stop = stop;
+}
+
+void PickerRobot::pauseRobot(bool pause)
+{
+	this->pause = pause;
+}
+
+bool PickerRobot::sendCommand(const char c)
+{
+	while (stop == true) {}
+
 	if (serial.IsOpened()) {
 		char message[5] = "F";
 		//cout << "Send command => " << c << endl;
@@ -201,4 +228,6 @@ void PickerRobot::sendCommand(const char c)
 		mapper->updateWarehouseMap(c);
 	}
 	timer += MOVE_TIME;
+
+	return true;
 }

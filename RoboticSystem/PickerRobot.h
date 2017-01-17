@@ -49,6 +49,8 @@ public:
 	int getBasketSize();
 	int getNrItemsInBasket();
 	int getTime();
+	void emergency_stop(bool stop);
+	void pauseRobot(bool pause);
 
 private:
 	int basketSize;
@@ -57,9 +59,11 @@ private:
 	CSerial serial;
 	Mapper* mapper;
 	Manager* manager;
-	void sendCommand(const char c);
+	bool sendCommand(const char c);
 	int itemsInBasket;
 	vector<Order> ordersInBasket;
 	int timer;
+	bool stop;
+	bool pause;
 
 };

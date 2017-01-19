@@ -8,29 +8,16 @@ Mapper::Mapper(Warehouse* wrhouse) : warehouse(wrhouse)
 	command = 'A';
 }
 
-//Mapper::Mapper(Warehouse* wrhouse, Point start, Point unload, Printer* printer) : warehouse(wrhouse),startingPoint(start),unloadingPoint(unload), printer(printer)
-//{
-//	Printer* p = Printer::getInstance();
-//	Sleep(500);
-//	int start_X = startingPoint.getX();
-//	int start_Y = warehouse->getRows() + 1 - startingPoint.getY();
-//	currentPosition = startingPoint;
-//
-//	command = 'A';
-//
-//	itemIsPicked = false;
-//}
-
-Mapper::Mapper(const Mapper& map)
+Mapper::Mapper(const Mapper& map):
+	warehouse(map.warehouse),
+	startingPoint(map.startingPoint),
+	unloadingPoint(map.unloadingPoint),
+	command(map.command),
+	compartmentPosition(map.compartmentPosition),
+	currentPosition(map.currentPosition),
+	itemIsPicked(map.itemIsPicked),
+	printer(map.printer)
 {
-	warehouse = map.warehouse;
-	startingPoint = map.startingPoint;
-	unloadingPoint = map.unloadingPoint;
-	command = map.command;
-	compartmentPosition = map.compartmentPosition;
-	currentPosition = map.currentPosition;
-	itemIsPicked = map.itemIsPicked;
-	printer = map.printer;
 }
 
 Mapper::~Mapper()
@@ -61,19 +48,19 @@ void Mapper::printWarehouseMap()
 
 	if (command == 'U') {
 		currentPosition.setY(currentPosition.getY() + 1);
-		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE,MOVE_NCOL,"Moving Up            ");
+		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE,MOVE_NCOL,"Moving Up");
 	}
 	else if (command == 'D') {
 		currentPosition.setY(currentPosition.getY() - 1);
-		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE, MOVE_NCOL, "Moving Down             ");
+		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE, MOVE_NCOL, "Moving Down");
 	}
 	else if (command == 'R') {
 		currentPosition.setX(currentPosition.getX() + 1);
-		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE, MOVE_NCOL, "Moving Right             ");
+		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE, MOVE_NCOL, "Moving Right");
 	}
 	else if (command == 'L') {
 		currentPosition.setX(currentPosition.getX() - 1);
-		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE, MOVE_NCOL, "Moving Left               ");
+		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE, MOVE_NCOL, "Moving Left");
 	}
 
 	if (currentPosition.getX() == compartmentPosition.getX() && currentPosition.getY() == compartmentPosition.getY()) {
@@ -83,67 +70,63 @@ void Mapper::printWarehouseMap()
 	for (int j = 0; j <= rows + 1; j++) {
 		int nlines = (j*2) + 5;
 		if (j == 0) {	
-			printer->printString(warehouse->getWarehouseID(),nlines+1,4, string(1, 201).c_str());
+			printer->printMap(warehouse->getWarehouseID(),nlines+1,4, string(1, 201).c_str());
 			for (int i = 1; i <= cols; i++) {
 				int ncols = (i * 4)+1;
-				printer->printString(warehouse->getWarehouseID(), nlines+1, ncols, string(3, 205).c_str());
+				printer->printMap(warehouse->getWarehouseID(), nlines+1, ncols, string(3, 205));
 				if (i < cols) {
-					printer->printString(warehouse->getWarehouseID(), nlines+1, ncols+3, string(1, 203).c_str());
+					printer->printMap(warehouse->getWarehouseID(), nlines+1, ncols+3, string(1, 203));
 				}
 			}
-			printer->printString(warehouse->getWarehouseID(), nlines+1, (cols*4)+4, string(1, 187).c_str());
+			printer->printMap(warehouse->getWarehouseID(), nlines + 1, (cols * 4) + 4, string(1, 187));
 		}
 		else if (j == rows + 1) {
-			printer->printString(warehouse->getWarehouseID(), nlines-1, 4, string(1, 200).c_str());
+			printer->printMap(warehouse->getWarehouseID(), nlines-1, 4, string(1, 200));
 			for (int i = 1; i <= cols; i++) {
 				int ncols = (i * 4)+1;
-				printer->printString(warehouse->getWarehouseID(), nlines-1, ncols, string(3, 205).c_str());
+				printer->printMap(warehouse->getWarehouseID(), nlines-1, ncols, string(3, 205));
 				if (i<cols) {
-					printer->printString(warehouse->getWarehouseID(), nlines-1, ncols+3, string(1, 202).c_str());
+					printer->printMap(warehouse->getWarehouseID(), nlines-1, ncols+3, string(1, 202));
 				}
 			}
-			printer->printString(warehouse->getWarehouseID(), nlines-1, (cols*4)+4, string(1, 188).c_str());
+			printer->printMap(warehouse->getWarehouseID(), nlines-1, (cols*4)+4, string(1, 188));
 		}
 		else {
 			for (int i = 1; i <= cols; i++) {
 				int ncols = (i * 4);
-				printer->printString(warehouse->getWarehouseID(), nlines, ncols, string(1, 186).c_str());
+				printer->printMap(warehouse->getWarehouseID(), nlines, ncols, string(1, 186));
 				if (i == currentPosition.getX() && j == rows - currentPosition.getY() + 1) {
-					printer->printString(warehouse->getWarehouseID(), nlines, ncols+1, " R ");
+					printer->printMap(warehouse->getWarehouseID(), nlines, ncols+1, " R ");
 				}
 				else if (i == unload_X && j == unload_Y) {
-					printer->printString(warehouse->getWarehouseID(), nlines, ncols+1, " U ");
+					printer->printMap(warehouse->getWarehouseID(), nlines, ncols+1, " U ");
 				}
 				else if (i == compartmentPosition.getX() && j == rows - compartmentPosition.getY() + 1) {
 					if (itemIsPicked == false)
-						printer->printString(warehouse->getWarehouseID(), nlines, ncols + 1, " P ");
+						printer->printMap(warehouse->getWarehouseID(), nlines, ncols + 1, " P ");
 					else {
-						printer->printString(warehouse->getWarehouseID(), nlines, ncols + 1, "   ");
+						printer->printMap(warehouse->getWarehouseID(), nlines, ncols + 1, "   ");
 					}
 				}
 				else {
-					//string comp = to_string((rows-j) + 1 + (i-1)*rows)+ "  ";
-					//printer->printString(warehouse->getWarehouseID(), nlines, ncols + 1, comp.c_str());
-					printer->printString(warehouse->getWarehouseID(), nlines, ncols+1, "   ");
+					printer->printMap(warehouse->getWarehouseID(), nlines, ncols+1, "   ");
 				}
 			}
-			printer->printString(warehouse->getWarehouseID(), nlines, (cols*4)+4, string(1, 186).c_str());
+			printer->printMap(warehouse->getWarehouseID(), nlines, (cols*4)+4, string(1, 186));
 			if (j < rows) {
-				printer->printString(warehouse->getWarehouseID(), nlines+1, 4, string(1, 204).c_str());
+				printer->printMap(warehouse->getWarehouseID(), nlines+1, 4, string(1, 204));
 				for (int i = 1; i <= cols; i++) {
 					int ncols = (i * 4) + 1;
-					printer->printString(warehouse->getWarehouseID(), nlines+1, ncols, string(3, 205).c_str());
+					printer->printMap(warehouse->getWarehouseID(), nlines+1, ncols, string(3, 205));
 					if (i < cols) {
-						printer->printString(warehouse->getWarehouseID(), nlines+1, ncols+3, string(1, 206).c_str());
+						printer->printMap(warehouse->getWarehouseID(), nlines+1, ncols+3, string(1, 206));
 					}
 				}
-				printer->printString(warehouse->getWarehouseID(), nlines+1, (cols*4)+4, string(1, 185).c_str());
+				printer->printMap(warehouse->getWarehouseID(), nlines+1, (cols*4)+4, string(1, 185));
 			}
 		}
 	}
 	printer->refreshw(warehouse->getWarehouseID());
-
-	Sleep(100);
 }
 
 void Mapper::updateWarehouseMap(char command)
@@ -151,12 +134,12 @@ void Mapper::updateWarehouseMap(char command)
 	this->command = command;
 }
 
-void Mapper::printLog(string message) {
-	printer->printlog(warehouse->getWarehouseID(), message);
+void Mapper::printLog(log_type type, string message) {
+	printer->printLog(type,warehouse->getWarehouseID(), message);
 }
 
 void Mapper::printString(string message,int y, int x) {
-	printer->printString(warehouse->getWarehouseID(), y, x, message.c_str());
+	printer->printString(warehouse->getWarehouseID(), y, x, message);
 	printer->refreshw(warehouse->getWarehouseID());
 }
 
@@ -167,7 +150,6 @@ void Mapper::resetMap()
 
 Point* Mapper::getCurrentPosition()
 {
-	//Point temp(currentPosition.getX(), warehouse->getRows() + 1 - currentPosition.getY());
 	return &currentPosition;
 }
 

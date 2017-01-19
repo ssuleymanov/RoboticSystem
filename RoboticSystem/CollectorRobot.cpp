@@ -36,10 +36,10 @@ void CollectorRobot::startRobot(Printer* printr)
 {
 	printer = printr;
 	if (serial.Open(portNumber, baudRate)) {
-		clog << "Port " << portNumber << " opened succesfully.." << endl;
+		printer->printLog(LOG_INFO,"X", "Port " + to_string(portNumber) + " opened succesfully..");
 	}
 	else {
-		clog << "Failed to open port " << portNumber << "..!" << portNumber << endl;
+		printer->printLog(LOG_ERROR, "X", "Failed to open port " + to_string(portNumber) + " ..!");
 	}
 	while (!ready) {
 		if (ordersReady.size() > 0) {

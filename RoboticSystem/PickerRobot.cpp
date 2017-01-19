@@ -30,33 +30,28 @@ void PickerRobot::moveTo(Point start, Point dest)
 	y = dest.getY() - start.getY();
 
 	string message = "Moving from " + to_string(start.getX()) + "," + to_string(start.getY());
-	//mapper->printString(message, ACTION_NLINE, ACTION_NCOL);
-	message += " to " + to_string(dest.getX()) + "," + to_string(dest.getY()) + "  ";
+	message += " to " + to_string(dest.getX()) + "," + to_string(dest.getY());
 	mapper->printString(message, ACTION_NLINE, ACTION_NCOL);
-	mapper->printLog(message);
+	mapper->printLog(LOG_ACTIONS,message);
 
 	for (int i = 0; i < abs(x); i++) {
-		//cout << "Moving to => " << dest << endl;
-		if (x > 0)
+		if (x > 0) {
 			sendCommand(RIGHT);
-		else
+		}
+		else {
 			sendCommand(LEFT);
-
+		}
 		mapper->printWarehouseMap();
 	}
 	for (int i = 0; i < abs(y); i++) {
-		//cout << "Moving to => " << dest << endl;
-		if (y > 0)
+		if (y > 0) {
 			sendCommand(UP);
-		else
+		}
+		else {
 			sendCommand(DOWN);
-
+		}
 		mapper->printWarehouseMap();
-		
 	}
-	
-	//clog << "\tMoving from " << start.getX() << "," << start.getY();
-	//clog << " to " << dest.getX() << "," << dest.getY() << endl;
 }
 
 
@@ -74,61 +69,52 @@ void PickerRobot::setMapper(Mapper *map)
 void PickerRobot::startSerial()
 {
 	if (serial.Open(portNumber, baudRate)) {
-		clog << "Port " << portNumber << " opened succesfully.." << endl;
+		//clog << "Port " << portNumber << " opened succesfully.." << endl;
+		mapper->printLog(LOG_INFO,"Port " + to_string(portNumber) + " opended succesfully..\n");
 	}
 	else {
 		clog << "Failed to open port " << portNumber << "..!" << endl;
+		mapper->printLog(LOG_ERROR,"Failed to open port " + to_string(portNumber) + "..!\n");
 	}
 }
 
 void PickerRobot::pick()
 {
-	mapper->printString("Picking up an item       ",ACTION_NLINE, ACTION_NCOL);
-	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
-	mapper->printLog("Picking up an item");
-	//cout << "Picking up an item" << endl;
+	mapper->printString("Picking up an item",ACTION_NLINE, ACTION_NCOL);
+	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
+	mapper->printLog(LOG_ACTIONS,"Picking up an item");
 	sendCommand(PICK);
 	mapper->printWarehouseMap();
 }
 
 bool PickerRobot::validate(Order order)
 {
-	mapper->printString("Validating an item        ", ACTION_NLINE, ACTION_NCOL);
-	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
-	//cout << "Validating an item" << endl;
+	mapper->printString("Validating an item", ACTION_NLINE, ACTION_NCOL);
+	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
 	sendCommand(VALIDATE);
 
 	string productID;
 	std::ifstream file("validate.txt");
 	while (std::getline(file, productID)) {
 		if (order.productID == productID) {
-			mapper->printLog("Validation OK, product is: " + order.productID);
-			//mapper->printLog("Fetched product ID: " + productID);
-			//mapper->printLog("Actual product ID: "  + order.productID);
-			//cout << "Fetched product ID: " << productID << endl;
-			//cout << "Actual product ID: " << order.productID << endl;
+			mapper->printLog(LOG_ACTIONS, "Validation OK, product is: " + order.productID);
 			mapper->printWarehouseMap();
 			return true;
 		}
 	}
-	mapper->printLog("Validation ERROR");
-	mapper->printString("Wrong product ID:        ", ACTION_NLINE, ACTION_NCOL);
-	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
-	cerr << "Order " << order.orderID << " with productID " << order.productID << " is incorrect.\n";
-	//cout << "Wrong product ID: " << order.productID << endl;
+	mapper->printLog(LOG_ERROR,"Validation ERROR");
+	mapper->printString("Wrong product ID.", ACTION_NLINE, ACTION_NCOL);
+	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
+	//cerr << "Order " << order.orderID << " with productID " << order.productID << " is incorrect.\n";
 	mapper->printWarehouseMap();
 	return false;
 }
 
-bool OrderExist(Order order) {
-	return true;
-}
-
 void PickerRobot::store(Order order)
 {
-	mapper->printString("Storing an item         ", ACTION_NLINE, ACTION_NCOL);
-	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
-	mapper->printLog("Storing item");
+	mapper->printString("Storing an item", ACTION_NLINE, ACTION_NCOL);
+	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
+	mapper->printLog(LOG_ACTIONS,"Storing item");
 	sendCommand(STORE);
 	bool newOrder = true;
 	for (auto& bOrder : ordersInBasket) {
@@ -147,8 +133,9 @@ void PickerRobot::store(Order order)
 
 void PickerRobot::unload()
 {
-	mapper->printString("Unloading items         ", ACTION_NLINE, ACTION_NCOL);
-	mapper->printLog("Unloading items");
+	mapper->printString("Unloading items", ACTION_NLINE, ACTION_NCOL);
+	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
+	mapper->printLog(LOG_ACTIONS,"Unloading items");
 	Order tempOrder;
 	for (vector<Order>::iterator it = ordersInBasket.begin(); it != ordersInBasket.end(); ++it) {
 		for (int i = 0; i < it->quantity; i++) {
@@ -161,8 +148,6 @@ void PickerRobot::unload()
 		mapper->getWarehouse()->getUnloadedOrders().push_back(*it);	
 	}
 	ordersInBasket.clear();
-
-	//itemsInBasket = 0;
 }
 
 int PickerRobot::getBasketSize()
@@ -184,21 +169,33 @@ void PickerRobot::sendCommand(const char c)
 {
 	if (serial.IsOpened()) {
 		char message[5] = "F";
-		//cout << "Send command => " << c << endl;
-		//cout << "Number of items in the basket: " << itemsInBasket << endl;
-		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize) + "    ", BASKET_NLINE, BASKET_NCOL);
+		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
 
 		assert(serial.SendData(c));
 		mapper->updateWarehouseMap(c);
 
-		if (serial.ReadDataWaiting() > 0) {
-			serial.ReadData(message, 1);
-			cerr << "ERROR ON: " << message << endl;
+		bool recieved = false;
+		int counter = 0;
+		while (!recieved) {
+			if (serial.ReadDataWaiting() > 0) {
+				serial.ReadData(message, 1);
+				if (message == "E") { mapper->printLog(LOG_ERROR, "SERIAL COMM ERROR"); }
+				recieved = true;
+			}
+			if (counter > 2000) {
+				mapper->printLog(LOG_ERROR, "SERIAL COMM TIMEOUT\n");
+				recieved = true;
+			}
+			Sleep(1); 
+			counter++;
 		}
 	}
+#if NOSERIAL
 	else {
-		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize) + "    ", BASKET_NLINE, BASKET_NCOL);
+		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
 		mapper->updateWarehouseMap(c);
+		Sleep(1000);
 	}
+#endif
 	timer += MOVE_TIME;
 }

@@ -11,6 +11,9 @@
 #include "Serial.h"
 #include "Point.h"
 #include "Mapper.h"
+//#include "Printer.h"
+
+#define NOSERIAL true
 
 #define VALIDATE 'V'
 #define PICK 'P'

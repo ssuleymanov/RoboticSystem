@@ -166,7 +166,7 @@ int main() {
 	initscr();
 	start_color();
 	//init_color(COLOR_BLUE,400,400,400);
-	init_pair(3,COLOR_WHITE,COLOR_CYAN);
+	init_pair(3,COLOR_BLUE,COLOR_BLACK);
 	init_pair(2, COLOR_WHITE, COLOR_BLACK);
 	cbreak();
 	//noecho();
@@ -179,30 +179,52 @@ int main() {
 		manager.execute(fileParams[2]);//"Order_Picking_List.csv"
 	}
 	else if (param1 == 'M' || param1 == 'm') {
-		//Order orderK = { 50,"11",5,3,"9435",4,1,"A" };
-		char productID[20], quantity[5];
-		printw("ProductID: ") ;
-		getstr(productID);
-		//cin >> productID;
-		printw("\nQuantity: ");
-		getstr(quantity);
-		noecho();
-		//cin >> quantity;
-		manager.setup(fileParams[0]); //
 		manager.readArticles(fileParams[1]);
-		manager.manualControl(productID,stoi(quantity));//"manual_orders.txt"
+		char productID[20], quantity[5];
+		printw("ProductID:  ") ;
+		while (true) {
+			getstr(productID);
+			if (manager.productValid(productID)) {
+				break;
+			}
+			else if (productID[0] == '\0') { return (EXIT_FAILURE); }
+			else { 
+				clear();
+				printw("This Product does not exist, please try again or press enter to stop\n");
+				printw("ProductID:  ");
+			}
+		}
+		clear();
+		printw("Quantity:  ");
+		int q = 0;
+		while (true) {
+			getstr(quantity);
+			try {
+				q = stoi(quantity);
+				if (q == 0) {
+					clear();
+					printw("Quantity cannot be 0, please try again or press enter to stop\n");
+					printw("Quantity:  ");
+				}
+				else { break; }
+				
+			}
+			catch (exception e) {
+				clear();
+				printw("%s is not a number, please try again or press enter to stop\n",quantity);
+				printw("Quantity:  ");
+			}
+			if (quantity[0] == '\0') { return (EXIT_FAILURE); }
+		}
+		noecho();
+		manager.setup(fileParams[0]); //
+		manager.manualControl(productID,q);//"manual_orders.txt"
 		getchar();
 	}
 	else {
 		cout << "Incorrect \n";
 		getchar();
 	}
-
-	/*CollectorRobot cr(16, 3, "path_times.txt");
-	cout << "Moving time is: " << cr.moveTo("A") << endl;
-	cout << "Moving time is: " << cr.moveTo("B") << endl;
-	cout << "Moving time is: " << cr.moveTo("C") << endl;
-	cout << "Moving time is: " << cr.moveTo("LD") << endl;*/
 
 #endif
 

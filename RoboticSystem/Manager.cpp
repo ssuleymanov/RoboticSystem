@@ -43,18 +43,28 @@ void Manager::setup(string fileName)
 			addWarehouse(Warehouse(whID, rows, cols));
 			PickerRobot pRobot(basket, *this);
 			pRobot.setSerialParameters(port, baud);
-			RobotController rController(pRobot, getWarehouse(whID));
-			rController.setStartingPoint(Point(start_x,start_y));
-			rController.setUnloadingPoint(Point(unload_x,unload_y));
-			addRobotController(rController);
+			addRobotController(RobotController(pRobot, getWarehouse(whID)));
+			for (auto& controller : rControllers) { if (whID == controller.getWarehouseID()) {controller.Initialize(Point(start_x, start_y), Point(unload_x, unload_y), printer); } }
 		}
 		else {
-			cout << "[Error] expecting 10 arguments in the warehouse configuration, recieved " << size << endl;
+			printer->printLog(LOG_ERROR,"M","Expecting 10 arguments in the warehouse configuration, recieved " + to_string(size));
 		}
 	}
 	loadingDock = LoadingDock();
 	collector = CollectorRobot(16,loadingDock,"path_times.txt");
 	collector.setupSerial(9600,4);
+
+	int mapOffset = 0;
+	system("cls");
+	resize_term(60, 50);
+	for (RobotController rController : rControllers) {
+		Warehouse wh = getWarehouse(rController.getWarehouseID());
+		mapOffset += printer->addWindow(wh, mapOffset);
+		resize_term(60, mapOffset + 50);
+	}
+	mapOffset += printer->addWindow("log", 50, 45, mapOffset, 2);
+	resize_term(60, mapOffset);
+	printer->drawBoxes();
 }
 
 void Manager::execute(string oplFile)
@@ -67,19 +77,10 @@ void Manager::execute(string oplFile)
 	for (Order order : orderList) {
 		getWarehouse(order.warehouseID).addOrder(order);
 	}
-	int mapOffset = 0;
-	system("cls");
-	resize_term(60, 50);
-	for (RobotController rController : rControllers) {
-		Warehouse wh = getWarehouse(rController.getWarehouseID());
-		mapOffset += printer->addWindow(wh,mapOffset);
-		resize_term(60, mapOffset+50);
-	}
-	resize_term(60, mapOffset);
-	printer->drawBoxes();
-	thread controlThread(&Manager::ControlPanel,this,mapOffset);
+
+	thread controlThread(&Manager::ControlPanel,this,20);
 	for (int i = 0; i < rControllers.size(); i++) {
-		threads.push_back(thread(&RobotController::startRobot, &rControllers[i], printer));
+		threads.push_back(thread(&RobotController::startRobot, &rControllers[i]));
 	}
 
 	collectThread = thread(&CollectorRobot::startRobot, &collector, printer);
@@ -97,7 +98,6 @@ void Manager::execute(string oplFile)
 	menuOn = false;
 	controlThread.join();
 	getchar();
-	getchar();
 	system("cls");
 	loadingDock.printOrders();
 	getchar();
@@ -107,7 +107,7 @@ bool Manager::manualControl(string productID, int quantity)
 {
 	Article article = articles[productID];
 	Order order = { article.compartment, "", 0, 0, productID, quantity, 0, article.warehouseID };
-	if (article.warehouseID == "") {
+	if (articles.find(productID) == articles.end()) {
 		cout << "Product with ID: " << productID << " does not exist";
 		return false;
 	}
@@ -116,11 +116,15 @@ bool Manager::manualControl(string productID, int quantity)
 		if (i->getWarehouseID() == order.warehouseID) {
 			Warehouse wh = i->getWarehouseID();
 			printer->addWindow(wh, 0);
-			i->starManualRobot(printer);
-			i->getOrder(order);
+			i->startManualRobot(order);
 		}
 	}
 	return true;
+}
+
+bool Manager::productValid(string productID)
+{
+	return (articles.find(productID) != articles.end());
 }
 
 
@@ -184,20 +188,21 @@ vector<Order> Manager::readOPL(string oplFile)
 		int orderID, truckNr, quantity, size;
 		size = sscanf_s(value.c_str(), " %d;%[^;];%d;%[^;];%d", &orderID, &customerID, 20, &truckNr, &productID, 20, &quantity);
 		if (size == 5)
-		{
-			Article article = articles[productID];
-			if (article.warehouseID != "") {
+		{		
+			if (articles.find(productID) != articles.end()) {
+				Article article = articles[productID];
 				Order order = { article.compartment, customerID, orderID, priority, productID, quantity, truckNr, article.warehouseID };
-				clog << "Added Order: " << orderID << endl;
+				printer->printLog(LOG_INFO,"M","Added Order: " + to_string(orderID) + " - " + productID);
 				orderList.push_back(order);
 				priority++;
 			}
 			else {
-				cerr << "Product with ID: " << productID << " does not exist";
+				string pID = productID;
+				printer->printLog(LOG_ERROR,"M","Product with ID: " + pID + " does not exist");
 			}
 		}
 		else {
-			cerr << "[Error] Order should contain 5 arguments, recieved " << size << endl;
+			printer->printLog(LOG_ERROR,"M","Order should contain 5 arguments, recieved " + to_string(size));
 		}
 	}
 	return orderList;
@@ -211,93 +216,40 @@ void Manager::readArticles(string articleFile) {
 	doc.parse<0>(f.data());
 
 	xml_node<> *pRoot = doc.first_node("Workbook");
-	for (xml_node<> *node = pRoot->first_node("Worksheet");
+	for (xml_node<> *node = pRoot->first_node("Worksheet"); // Every page is one worksheet
 		node; node = node->next_sibling())
-	{
-		xml_attribute<> *wname = node->first_attribute();
+	{													
 		char warehouseID[20], temp[30];
 		vector<string> data;
-		string attribute = wname->value();
+		string attribute = node->first_attribute()->value();
 		sscanf_s(attribute.c_str(), " %[^(](%[^)])", &temp, 30, &warehouseID, 20);
-		clog << "Node Worksheet has value " << warehouseID << "\n";
 
-		xml_node<> *node2 = node->first_node("Table");
 		int i = 0;
 		Article product;
-		for (xml_node<> *node3 = node2->first_node("Row");
+		for (xml_node<> *node3 = node->first_node("Table")->first_node("Row");
 			node3; node3 = node3->next_sibling())
 		{
-			xml_attribute<> *attr2 = node3->first_attribute();
-			xml_node<> *snode = node3->next_sibling();
-			if (attr2 != NULL) {
-				if (i < 3) {
-					product.compartment = 0;
-				}
-				i = 0;
-				product.warehouseID = warehouseID[2];
-				articles.insert(pair<string, Article>(product.productID, product));
-			}
-
 			for (xml_node<> *node4 = node3->first_node("Cell");
 				node4; node4 = node4->next_sibling())
 			{
-				xml_node<> *node5 = node4->first_node("Data");
-				xml_node<> *node6 = node5->first_node();
-				if (i == 1) {
+				xml_node<> *node6 = node4->first_node("Data")->first_node();
+				if (i == 1) { //Second cell contains the productID
 					product.productID = node6->value();
 				}
-				else if (i == 3) {
+				else if (i == 3) { //Fourth cell contains the compartment number
 					string comp = node6->value();
 					product.compartment = stoi(comp);
-					
 				}
 				i++;
 			}
-			if (snode == NULL) {
-				if (i < 3) {
-					product.compartment = 0;
+			xml_node<> *snode = node3->next_sibling();
+			if (snode == NULL || snode->first_attribute() != NULL) { //If this is the last row save the article
+				if (i == 4) { // If 4 cells were found save as article
+					product.warehouseID = warehouseID[2];
+					articles.insert(pair<string, Article>(product.productID, product));
 				}
-				i = 0;
-				product.warehouseID = warehouseID[2];
-				articles.insert(pair<string, Article>(product.productID, product));
+				i = 0;				
 			}
-			//i++;
 		}
-		/*int i = 0;
-		Article product;
-		for (auto& cell : data) {
-			if (i == 1) {
-				product.productID = cell;
-				i++;
-			}
-			else if (i == 3) {
-				product.compartment = stoi(cell);
-				product.warehouseID = warehouseID;
-				articles.insert(pair<string, Article>(product.productID, product));
-				i = 0;
-			}
-			else {
-				i++;
-			}
-		}*/
 	}
-	//string value;
-	//cout << "Article List made.\n";
-
-	//getline(articleStream, value); //Skip Header
-	//while (getline(articleStream, value)) {
-
-	//	char productID[20], warehouseID[20];
-	//	int compartment, size;
-	//	size = sscanf_s(value.c_str(), " %[^;];%[^;];%d", &productID, 20, &warehouseID, 20, &compartment);
-	//	if (size == 3)
-	//	{
-	//		Article article = { productID, warehouseID, compartment };
-	//		articles.insert(pair<string, Article>(productID, article));
-	//		cout << "Added article: " << article.productID << endl;
-	//	}
-	//	else {
-	//		cout << "[Error] Article should contain 3 arguments, recieved " << size << endl;
-	//	}
-	//}
 }

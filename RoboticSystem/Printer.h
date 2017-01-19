@@ -29,6 +29,13 @@
 #define MAX_HEIGHT 55
 #define MIN_WIDTH 32 	
 
+enum log_type
+{
+	LOG_ERROR,
+	LOG_INFO,
+	LOG_ACTIONS
+};
+
 using namespace std; 
 
 class Printer
@@ -36,18 +43,17 @@ class Printer
 public:
 	static Printer* getInstance();
 
-	//Printer(const Printer& printer);
 	string current_time();
-	void printlog(string warehouseID, string message);
+	void printLog(log_type type, string warehouseID, string message);
 	int addWindow(Warehouse warehouse, int offset);
-	int addWindow(string name, int offset);
+	int addWindow(string name, int height, int width, int x, int y);
 	void refreshw(string warehouseID);
-	void printString(string warehouseID, int y, int x, const char* message);
-	//void drawHorLine(string warehouseID, int y, int x, chtype c, int n);
-	//void drawVertLine(string warehouseID, int y, int x, chtype c, int n);
+	void printMap(string warehouseID, int y, int x, string message);
+	void printString(string warehouseID, int y, int x, string message);
 	void drawBoxes();
 private:
 	static Printer* instance;
+	int logLine;
 	Printer();
 	map<string, WINDOW*> windows;
 	mutex printer_mutex;

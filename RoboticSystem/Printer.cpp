@@ -45,13 +45,12 @@ void Printer::printlog(string warehouseID, string message)
 
 int Printer::addWindow(Warehouse warehouse, int offset)
 {
-	int height = warehouse.getRows() * 2 + 10;
-	if (height > 50)
-		height = 50;
+	int height = warehouse.getRows() * 2 + 6 + MAP_OFFSET;
+	if (height > MAX_HEIGHT)
+		height = MAX_HEIGHT;
 	int width = warehouse.getCols() * 4 + 12;
-	if (width < 30) {
-		width = 30;
-		
+	if (width < MIN_WIDTH) {
+		width = MIN_WIDTH;	
 	}
 	WINDOW* win = newwin(height, width, VMAP_OFFSET, offset);
 	box(win, 0, 0);

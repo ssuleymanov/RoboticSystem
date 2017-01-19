@@ -41,10 +41,6 @@ int Warehouse::getCols() const
 Point Warehouse::getCompartmentPosition(Order order)
 {
 	lock_guard<mutex> guard(wh_mutex);
-	if (order.compartment == 0) {
-		order.compartment = 1;
-		cout << "Compartment number is zero: " << warehouseID << endl;
-	}
 	return Point((order.compartment - 1) / rows + 1, (order.compartment - 1) % rows + 1);
 }
 

@@ -3,6 +3,9 @@
 #define ROBOTCONTROLLER_H
 #include <vector>
 #include <string>
+#include <algorithm>
+#include <list>
+#include <map>
 
 #include "Point.h"
 #include "Order.h"
@@ -36,8 +39,10 @@ private:
 	Mapper mapper;
 	Point startingPoint;
 	Point unloadingPoint;
-	std::vector<Order> sortedOrders;
+	vector<Order> sortedOrders;
 	Point* currentPoint;
+	int totalOrderNumber;
+	int currentOrderNumber;
 
 };
 

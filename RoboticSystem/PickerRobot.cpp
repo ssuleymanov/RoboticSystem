@@ -99,7 +99,7 @@ bool PickerRobot::validate(Order order)
 {
 	mapper->printString("Validating an item        ", ACTION_NLINE, ACTION_NCOL);
 	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
-	mapper->printString("Order ID: " + order.productID, MOVE_NLINE, MOVE_NCOL);
+	mapper->printString("Product ID: " + order.productID, MOVE_NLINE, MOVE_NCOL);
 	//cout << "Validating an item" << endl;
 	sendCommand(VALIDATE);
 
@@ -135,6 +135,7 @@ void PickerRobot::store(Order order)
 	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
 	mapper->printLog("Storing item");
 	sendCommand(STORE);
+
 	bool newOrder = true;
 	for (auto& bOrder : ordersInBasket) {
 		if (bOrder.orderID == order.orderID) {

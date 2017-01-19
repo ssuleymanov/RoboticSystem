@@ -19,8 +19,7 @@
 #define BASKET_NLINE 5
 #define BASKET_NCOL 3
 
-#define HOR_LINE 1
-#define VERT_LINE 2
+#define VMAP_OFFSET 1
 
 using namespace std; 
 
@@ -33,6 +32,7 @@ public:
 	string current_time();
 	void printlog(string warehouseID, string message);
 	int addWindow(Warehouse warehouse, int offset);
+	int addWindow(string name, int offset);
 	void refreshw(string warehouseID);
 	void printString(string warehouseID, int y, int x, const char* message);
 	//void drawHorLine(string warehouseID, int y, int x, chtype c, int n);

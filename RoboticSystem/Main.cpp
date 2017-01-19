@@ -168,12 +168,12 @@ int main() {
 	//init_color(COLOR_BLUE,400,400,400);
 	init_pair(3,COLOR_WHITE,COLOR_CYAN);
 	init_pair(2, COLOR_WHITE, COLOR_BLACK);
-	resize_term(120, 200);
 	cbreak();
 	//noecho();
 	curs_set(0);
 
 	if (param1 == 'A' || param1 == 'a') {
+		noecho();
 		manager.setup(fileParams[0]); //"wh_config.txt"
 		manager.readArticles(fileParams[1]);//"Article_List_XML.xml"
 		manager.execute(fileParams[2]);//"Order_Picking_List.csv"
@@ -186,6 +186,7 @@ int main() {
 		//cin >> productID;
 		printw("\nQuantity: ");
 		getstr(quantity);
+		noecho();
 		//cin >> quantity;
 		manager.setup(fileParams[0]); //
 		manager.readArticles(fileParams[1]);

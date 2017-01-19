@@ -1,9 +1,25 @@
 #include "Manager.h"
 
+void Manager::ControlPanel(int offset) {
+	char c;
+	WINDOW* win = newwin(1, offset, 0, 0);
+	while (menuOn) {
+		c = ' ';
+		c = wgetch(win);
+		if (c == 'x') {
+			mvwaddstr(win, 0, 1, "Stopping");
+		}
+		else {
+			mvwaddch(win, 0, 1, c);
+		}
+	}
+}
+
 Manager::Manager()
 {
 	warehouses.empty();
 	printer = Printer::getInstance();
+	menuOn = true;
 }
 
 Manager::~Manager()
@@ -53,13 +69,15 @@ void Manager::execute(string oplFile)
 	}
 	int mapOffset = 0;
 	system("cls");
+	resize_term(60, 50);
 	for (RobotController rController : rControllers) {
 		Warehouse wh = getWarehouse(rController.getWarehouseID());
 		mapOffset += printer->addWindow(wh,mapOffset);
-		resize_term(50, mapOffset+50);
+		resize_term(60, mapOffset+50);
 	}
-	resize_term(50, mapOffset);
+	resize_term(60, mapOffset);
 	printer->drawBoxes();
+	thread controlThread(&Manager::ControlPanel,this,mapOffset);
 	for (int i = 0; i < rControllers.size(); i++) {
 		threads.push_back(thread(&RobotController::startRobot, &rControllers[i], printer));
 	}
@@ -74,8 +92,10 @@ void Manager::execute(string oplFile)
 	
 	collector.isReady();
 	if (collectThread.joinable()) {
-		collectThread.join();
+		collectThread.join();	
 	}
+	menuOn = false;
+	controlThread.join();
 	getchar();
 	getchar();
 	system("cls");
@@ -102,6 +122,8 @@ bool Manager::manualControl(string productID, int quantity)
 	}
 	return true;
 }
+
+
 
 void Manager::orderIsDone(Order order)
 {
@@ -207,7 +229,7 @@ void Manager::readArticles(string articleFile) {
 		{
 			xml_attribute<> *attr2 = node3->first_attribute();
 			xml_node<> *snode = node3->next_sibling();
-			if (attr2 != NULL || snode == NULL) {
+			if (attr2 != NULL) {
 				if (i < 3) {
 					product.compartment = 0;
 				}
@@ -230,8 +252,14 @@ void Manager::readArticles(string articleFile) {
 					
 				}
 				i++;
-				//data.push_back(node6->value());
-				//cout << "Node Data has value: " << node6->value() << "\n";
+			}
+			if (snode == NULL) {
+				if (i < 3) {
+					product.compartment = 0;
+				}
+				i = 0;
+				product.warehouseID = warehouseID[2];
+				articles.insert(pair<string, Article>(product.productID, product));
 			}
 			//i++;
 		}

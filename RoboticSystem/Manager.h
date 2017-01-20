@@ -48,7 +48,6 @@ public:
 	*/
 	void execute(string oplFile);
 	void readArticles(string articleFile);
-
 	bool manualControl(string productID, int quantity);
 	bool productValid(string productID);
 	void orderIsDone(Order order);

@@ -12,14 +12,22 @@
 
 #include "Warehouse.h"
 
-#define ACTION_NLINE 3
+#define ACTION_NLINE MAP_OFFSET - 2
 #define ACTION_NCOL 3
-#define MOVE_NLINE 4
+#define MOVE_NLINE MAP_OFFSET - 1
 #define MOVE_NCOL 3
-#define BASKET_NLINE 5
+#define BASKET_NLINE MAP_OFFSET
 #define BASKET_NCOL 3
+#define ORDER_NLINE MAP_OFFSET - 3
+#define ORDER_NCOL 3
+#define PROGRESS_NLINE MAP_OFFSET - 4
+#define PROGRESS_NCOL 3
 
 #define VMAP_OFFSET 1
+#define MAP_OFFSET 7
+
+#define MAX_HEIGHT 55
+#define MIN_WIDTH 32 	
 
 enum log_type
 {
@@ -34,7 +42,6 @@ class Printer
 {
 public:
 	static Printer* getInstance();
-
 	string current_time();
 	void printLog(log_type type, string warehouseID, string message);
 	int addWindow(Warehouse warehouse, int offset);

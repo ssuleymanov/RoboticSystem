@@ -162,11 +162,6 @@ int main() {
 		fileParams[i] = parameter;
 	}
 
-	/*for (int i = 0; i < 4; i++) {
-		cout << "File parameters: " << fileParams[i] << ", ";
-	}
-	cout << endl;*/
-
 	initscr();
 	start_color();
 	//init_color(COLOR_BLUE,400,400,400);
@@ -177,7 +172,7 @@ int main() {
 	curs_set(0);
 
 	if (param1 == 'A' || param1 == 'a') {
-		noecho();
+		//noecho();
 		manager.setup(fileParams[0]); //"wh_config.txt"
 		manager.readArticles(fileParams[1]);//"Article_List_XML.xml"
 		manager.execute(fileParams[2]);//"Order_Picking_List.csv"

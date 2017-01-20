@@ -1,17 +1,45 @@
 #include "Manager.h"
 
 void Manager::ControlPanel(int offset) {
-	char c;
+	char operation = ' ';
+	char warehouseID = ' ';
+	bool wh_correct = false;
 	WINDOW* win = newwin(1, offset, 0, 0);
 	while (menuOn) {
-		c = ' ';
-		c = wgetch(win);
-		if (c == 'x') {
-			mvwaddstr(win, 0, 1, "Stopping");
+		warehouseID = wgetch(win);
+		operation = wgetch(win);
+		for (auto &rController : rControllers) {
+			if (warehouseID == rController.getWarehouseID().at(0) || warehouseID == (char)tolower(rController.getWarehouseID().at(0))) {
+				if (operation == 'S' || operation == 's') {
+					rController.getPickerRobot().emergency_stop(true);
+				}
+				else if (operation == 'P' || operation == 'p') {
+					rController.getPickerRobot().pauseRobot(true);
+				}
+				else if (operation == 'R' || operation == 'r') {
+					rController.getPickerRobot().emergency_stop(false);
+					rController.getPickerRobot().pauseRobot(false);
+				}
+				else {
+					wclear(win);
+					wprintw(win, "Wrong OPERATION");
+				}
+
+				wh_correct = true;
+				break;
+			}
+		}
+
+		if (wh_correct) {
+			wh_correct = false;
 		}
 		else {
-			mvwaddch(win, 0, 1, c);
+			wclear(win);
+			wprintw(win, "Wrong WAREHOUSE");
 		}
+
+		wgetch(win);
+		wclear(win);
 	}
 }
 
@@ -28,8 +56,6 @@ Manager::~Manager()
 
 void Manager::setup(string fileName)
 {
-
-	//Read Warehouse settings
 	ifstream file(fileName);
 	string value;
 	getline(file, value); //Skip Header
@@ -78,7 +104,7 @@ void Manager::execute(string oplFile)
 		getWarehouse(order.warehouseID).addOrder(order);
 	}
 
-	thread controlThread(&Manager::ControlPanel,this,20);
+	thread controlThread (&Manager::ControlPanel, this, 30);
 	for (int i = 0; i < rControllers.size(); i++) {
 		threads.push_back(thread(&RobotController::startRobot, &rControllers[i]));
 	}
@@ -104,17 +130,18 @@ void Manager::execute(string oplFile)
 bool Manager::manualControl(string productID, int quantity)
 {
 	Article article = articles[productID];
+	vector<Order> manOrder;
 	Order order = { article.compartment, "", 0, 0, productID, quantity, 0, article.warehouseID };
+	manOrder.push_back(order);
 	if (articles.find(productID) == articles.end()) {
 		cout << "Product with ID: " << productID << " does not exist";
 		return false;
 	}
 
 	for (vector<RobotController>::iterator i = this->rControllers.begin(), end = rControllers.end(); i != end; i++) {
+
 		if (i->getWarehouseID() == order.warehouseID) {
-			Warehouse wh = i->getWarehouseID();
-			printer->addWindow(wh, 0);
-			i->startManualRobot(order);
+			i->startManualRobot(manOrder);
 		}
 	}
 	return true;
@@ -124,8 +151,6 @@ bool Manager::productValid(string productID)
 {
 	return (articles.find(productID) != articles.end());
 }
-
-
 
 void Manager::orderIsDone(Order order)
 {

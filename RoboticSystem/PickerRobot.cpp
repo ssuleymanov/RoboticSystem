@@ -5,6 +5,8 @@ PickerRobot::PickerRobot(int basketSize, Manager &manager) : basketSize(basketSi
 {
 	itemsInBasket = 0;
 	timer = 0;
+	stop = false;
+	pause = false;
 }
 
 PickerRobot::~PickerRobot()
@@ -19,7 +21,9 @@ serial(robot.serial),
 mapper(robot.mapper),
 itemsInBasket(robot.itemsInBasket),
 timer(robot.timer),
-manager(robot.manager)
+manager(robot.manager),
+stop(robot.stop),
+pause(robot.pause)
 {
 }
 
@@ -89,8 +93,8 @@ void PickerRobot::pick()
 
 bool PickerRobot::validate(Order order)
 {
-	mapper->printString("Validating an item", ACTION_NLINE, ACTION_NCOL);
-	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
+	mapper->printString("Product ID: " + order.productID, MOVE_NLINE, MOVE_NCOL);
+	//cout << "Validating an item" << endl;
 	sendCommand(VALIDATE);
 
 	string productID;
@@ -102,7 +106,7 @@ bool PickerRobot::validate(Order order)
 			return true;
 		}
 	}
-	mapper->printLog(LOG_ERROR,"Validation ERROR");
+	mapper->printLog(LOG_ERROR,"Validation ERROR - " + order.productID);
 	mapper->printString("Wrong product ID.", ACTION_NLINE, ACTION_NCOL);
 	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
 	//cerr << "Order " << order.orderID << " with productID " << order.productID << " is incorrect.\n";
@@ -130,6 +134,8 @@ void PickerRobot::store(Order order)
 	ordersInBasket.push_back(order);
 	mapper->printWarehouseMap();
 	itemsInBasket++;
+
+	while (pause == true) {}
 }
 
 void PickerRobot::unload()
@@ -149,6 +155,10 @@ void PickerRobot::unload()
 		mapper->getWarehouse()->getUnloadedOrders().push_back(*it);	
 	}
 	ordersInBasket.clear();
+
+	while (pause == true) {}
+
+	//itemsInBasket = 0;
 }
 
 int PickerRobot::getBasketSize()
@@ -166,8 +176,19 @@ int PickerRobot::getTime()
 	return timer;
 }
 
-void PickerRobot::sendCommand(const char c)
+void PickerRobot::emergency_stop(bool stop)
 {
+	this->stop = stop;
+}
+
+void PickerRobot::pauseRobot(bool pause)
+{
+	this->pause = pause;
+}
+
+bool PickerRobot::sendCommand(const char c)
+{
+	while (stop == true) {}
 #if SERIAL
 	if (serial.IsOpened()) {
 		char message[5] = "F";
@@ -198,4 +219,6 @@ void PickerRobot::sendCommand(const char c)
 	Sleep(50);
 #endif
 	timer += MOVE_TIME;
+
+	return true;
 }

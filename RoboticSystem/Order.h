@@ -10,7 +10,7 @@ typedef struct {
 	int		compartment;
 }Article;
 
-typedef struct {
+struct Order {
 	int		compartment;
 	std::string	customerID;
 	int		orderID;
@@ -19,17 +19,9 @@ typedef struct {
 	int		quantity;
 	int		truckNr;
 	std::string	warehouseID;
-}Order;
+	bool operator<(const Order &rhs) const { return compartment < rhs.compartment; }
+};
 
-
-//struct Order {
-//	std::string productID;
-//	std::string customerID;
-//	int priority;
-//	int compartmentPosition;
-//	int truckNumber;
-//	int amountOfItems;
-//};
-
+typedef struct Order Order;
 
 #endif // !ORDER_H

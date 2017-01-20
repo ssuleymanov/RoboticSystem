@@ -68,7 +68,7 @@ void Mapper::printWarehouseMap()
 	}
 
 	for (int j = 0; j <= rows + 1; j++) {
-		int nlines = (j*2) + 5;
+		int nlines = (j*2) + 1 + MAP_OFFSET;
 		if (j == 0) {	
 			printer->printMap(warehouse->getWarehouseID(),nlines+1,4, string(1, 201).c_str());
 			for (int i = 1; i <= cols; i++) {

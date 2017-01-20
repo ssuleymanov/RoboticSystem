@@ -42,7 +42,6 @@ class Printer
 {
 public:
 	static Printer* getInstance();
-
 	string current_time();
 	void printLog(log_type type, string warehouseID, string message);
 	int addWindow(Warehouse warehouse, int offset);

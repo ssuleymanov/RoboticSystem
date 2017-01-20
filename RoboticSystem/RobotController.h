@@ -24,8 +24,9 @@ public:
 	Point getStartingPoint();
 	Point getUnloadingPoint();
 	void startRobot();					
-	void startManualRobot(Order ordr); // manual control of robot, gets a specified order and unloads it in the unloading area
+	void startManualRobot(vector<Order> orders); // manual control of robot, gets a specified order and unloads it in the unloading area
 	string getWarehouseID();
+	PickerRobot& getPickerRobot();
 
 private:
 	PickerRobot robot;
@@ -42,7 +43,7 @@ private:
 	void calculateOptimalPath(std::vector<Order> orders);
 	void executeOrders(std::vector<Order> orders);		// execute orders in the warehouse
 	bool processOrder(Order order);						// processes single order, the robot moves to the order location, picks and stores it	
-	bool getOrder(Order ordr);
+	bool getOrder(vector<Order> orders);
 	bool inRange(Point p);
 
 };

@@ -6844,3 +6844,3037 @@ Failed to open port 5..!
 Failed to open port 8..!
 Failed to open port 7..!
 Port 4 opened succesfully..
+Starting: 19-01-2017 04:48:03
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Port 3 opended succesfully..
+
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 09:01:20
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 9Port 3 opended succesfully..
+..!
+
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 09:10:20
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Port 3 opended succesfully..
+
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 09:12:49
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 09:16:46
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10Port 4 opened succesfully....!
+
+Starting: 20-01-2017 09:24:56
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 09:26:04
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7Failed to open port ..!9
+..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 09:26:47
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 09:42:36
+
+Ending: 20-01-2017 09:42:36
+
+Starting: 20-01-2017 09:42:40
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 09:43:07
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 09:43:44
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 09:44:43
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 10:33:06
+
+Starting: 20-01-2017 10:33:28
+
+Ending: 20-01-2017 10:33:28
+
+Starting: 20-01-2017 10:33:34
+
+Ending: 20-01-2017 10:33:35
+
+Starting: 20-01-2017 10:33:38
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 10:34:32
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 10:35:25
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 10:35:31
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 10:35:44
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7Failed to open port ..!9
+..!
+Failed to open port 10..!
+Starting: 20-01-2017 10:42:15
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Starting: 20-01-2017 10:42:45
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Starting: 20-01-2017 10:47:27
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port Port 4 opened succesfully..10
+..!
+Starting: 20-01-2017 11:01:31
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Starting: 20-01-2017 11:01:46
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Starting: 20-01-2017 11:04:15
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:04:32
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:05:51
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7Failed to open port ..!9
+..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:07:20
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:08:40
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:09:17
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7Failed to open port ..!9
+..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:33:32
+
+Ending: 20-01-2017 11:33:33
+
+Starting: 20-01-2017 11:33:36
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 9..!Failed to open port 
+7..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:33:49
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:35:59
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7Failed to open port ..!9
+..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:40:56
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:41:12
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:41:55
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:42:43
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:43:35
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:44:26
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Port 4 opened succesfully..
+Failed to open port 10..!
+Starting: 20-01-2017 11:47:23
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:48:44
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Starting: 20-01-2017 11:49:24
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:50:21
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:50:43
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:51:20
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:52:34
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:52:55
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:53:42
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7Failed to open port ..!9
+..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:54:02
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:54:20
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:57:08
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:57:39
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:57:51
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 11:59:11
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:00:28
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:00:56
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:01:22
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Starting: 20-01-2017 12:02:36
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:03:45
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:05:12
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:06:24
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:07:01
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:09:41
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:09:59
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:11:36
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:12:24
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:14:58
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:17:16
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10Port 4 opened succesfully....!
+
+Starting: 20-01-2017 12:19:41
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:23:23
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:35:05
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:37:59
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:38:52
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:40:55
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7Failed to open port ..!9
+..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:42:13
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 12:47:40
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 01:22:50
+
+Starting: 20-01-2017 01:24:30
+
+Starting: 20-01-2017 01:25:44
+
+Failed to open port 10..!
+Starting: 20-01-2017 01:49:13
+
+Failed to open port 10..!
+Ending: 20-01-2017 01:49:39
+
+Starting: 20-01-2017 01:50:58
+
+Failed to open port 7..!
+Ending: 20-01-2017 01:51:57
+
+Starting: 20-01-2017 01:52:09
+
+Failed to open port 7..!
+Ending: 20-01-2017 01:53:53
+
+Starting: 20-01-2017 01:54:26
+
+Starting: 20-01-2017 01:54:32
+
+Failed to open port 7..!
+Ending: 20-01-2017 01:55:03
+
+Starting: 20-01-2017 01:57:27
+
+Failed to open port 7..!
+Ending: 20-01-2017 01:57:57
+
+Starting: 20-01-2017 02:00:30
+
+Starting: 20-01-2017 02:00:41
+
+Failed to open port 7..!
+Ending: 20-01-2017 02:01:03
+
+Starting: 20-01-2017 02:04:30
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!
+Port 4 opened succesfully..
+Starting: 20-01-2017 02:10:00
+
+Added Order: 1 - MK462LL/A
+Added Order: 1 - 90YH00Q1-BAUA00
+Added Order: 1 - SD10VG2/32GB
+Added Order: 1 - DNS-327L
+Added Order: 1 - SDA3/32GB
+Added Order: 2 - MGLW2FD/A
+Added Order: 2 - MJLT2LL/A
+Added Order: 2 - SM-T560NZKAPHN
+Added Order: 2 - LSD16GBBEU300
+Added Order: 2 - SM-T555NZKADBT
+Added Order: 2 - 90YH0051-BBUA00
+Added Order: 3 - ME276FD/A
+Added Order: 3 - SM-T550NZKADBT
+Added Order: 3 - SDA10/16GB
+Added Order: 3 - 1558
+Added Order: 3 - 1636
+Added Order: 4 - ME276FD/A
+Added Order: 4 - SD10VG2/32GB
+Added Order: 4 - MB112ZM/C
+Added Order: 5 - 90XB02C0-BMU000
+Added Order: 5 - MB112ZM/C
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - G84-4420LUBEU-0
+Added Order: 5 - JD-0800EU-2
+Added Order: 6 - USB-N53
+Added Order: 6 - DWA-121
+Added Order: 6 - EN-9235TX-32 V2
+Added Order: 6 - SD10VG2/16GB
+Added Order: 6 - LSD16GBBEU300
+Added Order: 6 - SD4/32GB
+Added Order: 7 - SN1AW72B2E
+Added Order: 7 - SM-T550NZKADBT
+Added Order: 7 - MGHW2FD/A
+Added Order: 7 - MJLT2LL/A
+Failed to open port 7..!
+Failed to open port 9..!
+Failed to open port 10..!

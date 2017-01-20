@@ -56,7 +56,8 @@ void Printer::printLog(log_type type,string warehouseID, string message)
 	else if (type == LOG_INFO) {
 		string m = "[" + warehouseID + "] " + message;
 		clog << message << "\n";
-		printString("log", logLine, 1, m);
+		return;
+		//printString("log", logLine, 1, m);
 	}
 	
 	if (logLine < 48) { logLine++; }

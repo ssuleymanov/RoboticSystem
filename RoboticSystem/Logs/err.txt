@@ -469,4 +469,903 @@ Product with ID: 90-XB2400KM00130 does not existStarting: 19-01-2017 04:23:54
 
 Product with ID: 90-XB2400KM00130 does not existStarting: 19-01-2017 04:25:11
 
-Product with ID: 90-XB2400KM00130 does not exist
+Product with ID: 90-XB2400KM00130 does not existStarting: 19-01-2017 04:48:03
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+Starting: 20-01-2017 09:01:20
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+[A] SERIAL COMM TIMEOUT
+
+Starting: 20-01-2017 09:10:20
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+[A] SERIAL COMM TIMEOUT
+
+Starting: 20-01-2017 09:12:49
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 09:16:46
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 09:24:56
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+[C] Validation ERROR
+Invalid Product ID: SDA3/32GB
+[C] Validation ERROR
+Invalid Product ID: SDA3/32GB
+[C] Validation ERROR
+Invalid Product ID: SDA3/32GB
+[C] Validation ERROR
+Invalid Product ID: SDA3/32GB
+[C] Validation ERROR
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR
+Invalid Product ID: SD4/32GB
+Starting: 20-01-2017 09:26:04
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+[C] Validation ERRORSDA3/32GB
+Invalid Product ID: SDA3/32GB
+[C] Validation ERRORSDA3/32GB
+Invalid Product ID: SDA3/32GB
+[C] Validation ERRORSDA3/32GB
+Invalid Product ID: SDA3/32GB
+[C] Validation ERRORSDA3/32GB
+Invalid Product ID: SDA3/32GB
+[C] Validation ERRORSD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERRORSD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERRORSD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERRORSD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERRORSD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERRORSD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERRORSD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERRORSD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERRORSD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERRORSD4/32GB
+Invalid Product ID: SD4/32GB
+Starting: 20-01-2017 09:26:47
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+[C] Validation ERROR - SDA3/32GB
+Invalid Product ID: SDA3/32GB
+[C] Validation ERROR - SDA3/32GB
+Invalid Product ID: SDA3/32GB
+[C] Validation ERROR - SDA3/32GB
+Invalid Product ID: SDA3/32GB
+[C] Validation ERROR - SDA3/32GB
+Invalid Product ID: SDA3/32GB
+[C] Validation ERROR - SD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR - SD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR - SD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR - SD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR - SD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR - SD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR - SD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR - SD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR - SD4/32GB
+Invalid Product ID: SD4/32GB
+[C] Validation ERROR - SD4/32GB
+Invalid Product ID: SD4/32GB
+Starting: 20-01-2017 09:42:36
+
+Ending: 20-01-2017 09:42:36
+
+Starting: 20-01-2017 09:42:40
+
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+[C] Validation ERROR - SDA3/32GB
+Invalid Product ID: SDA3/32GB
+[C] Validation ERROR - SDA3/32GB
+Invalid Product ID: SDA3/32GB
+[C] Validation ERROR - SDA3/32GB
+Invalid Product ID: SDA3/32GB
+[C] Validation ERROR - SDA3/32GB
+Invalid Product ID: SDA3/32GB
+Starting: 20-01-2017 09:43:07
+
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 09:43:44
+
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 09:44:43
+
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 10:33:06
+
+Starting: 20-01-2017 10:33:28
+
+Ending: 20-01-2017 10:33:28
+
+Starting: 20-01-2017 10:33:34
+
+Ending: 20-01-2017 10:33:35
+
+Starting: 20-01-2017 10:33:38
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 10:34:32
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 10:35:25
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[C] Failed to open port 10..!
+
+[B] Failed to open port 9..!
+
+Starting: 20-01-2017 10:35:31
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 10:35:44
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 10:42:15
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 10:42:45
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 10:47:27
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:01:31
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:01:46
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:04:15
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:04:32
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:05:51
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:07:20
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:08:40
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:09:17
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:33:32
+
+Ending: 20-01-2017 11:33:33
+
+Starting: 20-01-2017 11:33:36
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[B] Failed to open port 9..!
+
+[A] Failed to open port 7..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:33:49
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:35:59
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:40:56
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:41:12
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:41:55
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:42:43
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:43:35
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:44:26
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:47:23
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[C] Failed to open port 10..!
+
+[B] Failed to open port 9..!
+
+Starting: 20-01-2017 11:48:44
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:49:24
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[C] Failed to open port 10..!
+
+[B] Failed to open port 9..!
+
+Starting: 20-01-2017 11:50:21
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:50:43
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:51:20
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:52:34
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:52:55
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:53:42
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:54:02
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:54:20
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:57:08
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:57:39
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:57:51
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 11:59:11
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:00:28
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:00:56
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:01:22
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:02:36
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:03:45
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:05:12
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:06:24
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:07:01
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:09:41
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:09:59
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:11:36
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:12:24
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:14:58
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:17:16
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:19:41
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:23:23
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:35:05
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:37:59
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:38:52
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:40:55
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:42:13
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 12:47:40
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 01:22:50
+
+Starting: 20-01-2017 01:24:30
+
+Starting: 20-01-2017 01:25:44
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 01:49:13
+
+[C] Failed to open port 10..!
+
+Ending: 20-01-2017 01:49:39
+
+Starting: 20-01-2017 01:50:58
+
+[A] Failed to open port 7..!
+
+Ending: 20-01-2017 01:51:57
+
+Starting: 20-01-2017 01:52:09
+
+[A] Failed to open port 7..!
+
+Ending: 20-01-2017 01:53:53
+
+Starting: 20-01-2017 01:54:26
+
+Starting: 20-01-2017 01:54:32
+
+[A] Failed to open port 7..!
+
+Ending: 20-01-2017 01:55:03
+
+Starting: 20-01-2017 01:57:27
+
+[A] Failed to open port 7..!
+
+Ending: 20-01-2017 01:57:57
+
+Starting: 20-01-2017 02:00:30
+
+Starting: 20-01-2017 02:00:41
+
+[A] Failed to open port 7..!
+
+Ending: 20-01-2017 02:01:03
+
+Starting: 20-01-2017 02:04:30
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+
+Starting: 20-01-2017 02:10:00
+
+[M] Product with ID: 90-XB2400KM00130 does not exist
+[A] Failed to open port 7..!
+
+[B] Failed to open port 9..!
+
+[C] Failed to open port 10..!
+

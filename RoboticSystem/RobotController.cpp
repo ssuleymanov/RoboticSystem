@@ -72,15 +72,20 @@ void RobotController::startRobot()
 }
 
 
-void RobotController::startManualRobot(Order ordr)
+void RobotController::startManualRobot(vector<Order> orders)
 {
 	robot.startSerial();
-	getOrder(ordr);
+	getOrder(orders);
 }
 
 string RobotController::getWarehouseID()
 {
 	return warehouse->getWarehouseID();
+}
+
+PickerRobot & RobotController::getPickerRobot()
+{
+	return robot;
 }
 
 void RobotController::calculateOptimalPath(std::vector<Order> orders)
@@ -102,11 +107,14 @@ void RobotController::calculateOptimalPath(std::vector<Order> orders)
 void RobotController::executeOrders(std::vector<Order> orders)
 {
 	vector<Order> tempOrders;
+	Order tempOrder;
 	int i, j;
 
 	for (auto &order : orders) {
+		tempOrder = order;
 		for (i = 0; i < order.quantity; i++) {
-			tempOrders.push_back(order);
+			tempOrder.quantity = 1;
+			tempOrders.push_back(tempOrder);
 		}
 	}
 	totalOrderNumber = tempOrders.size();
@@ -130,37 +138,14 @@ void RobotController::executeOrders(std::vector<Order> orders)
 		robot.unload();
 	}
 
-	//mapper.printWarehouseMap();
-	//for(auto &order : orders){
-	//	if (order.productID == "DNS-327L") {
-	//		cout << "Pause " << endl;
-	//		robot.pauseRobot(true);
-	//	}
-	//	processOrder(order);
-	//	if (robot.getNrItemsInBasket() == robot.getBasketSize()) {
-	//		robot.moveTo(*currentPoint, unloadingPoint);
-	//		robot.unload();
-	//	}
-	//}
-	//if (robot.getNrItemsInBasket() != 0) {
-	//	robot.moveTo(*currentPoint, unloadingPoint);
-	//	robot.unload();
-	//}
 	mapper.printString("Warehouse Done!       ",ACTION_NLINE, ACTION_NCOL);
 	mapper.printString("Time = " + to_string(robot.getTime()) + " seconds    ", MOVE_NLINE, MOVE_NCOL);
 }
 
 bool RobotController::processOrder(Order order)
 {
-	//if (order.productID == "DNS-327L") {
-	//	cout << "STOP " << endl;
-	//	robot.emergency_stop(true);
-	//	Sleep(10000);
-	//	robot.emergency_stop(false);
-	//}
 
 	mapper.printString("Processing Order: " + to_string(order.orderID), ORDER_NLINE , ORDER_NCOL);
-	
 	mapper.resetMap();
 	Point orderPosition = warehouse->getCompartmentPosition(order);
 	mapper.setCompartmentPosition(orderPosition);
@@ -174,43 +159,17 @@ bool RobotController::processOrder(Order order)
 		mapper.printString("Progress: " + to_string(currentOrderNumber * 100 / totalOrderNumber) + " %", PROGRESS_NLINE, PROGRESS_NCOL);
 	}
 	else {
-		//TODO logging should be added here
 		cerr << "Invalid Product ID: " << order.productID << endl;
 		return false;
 	}
 
-	//for (int i = 0; i < order.quantity; i++) {			// if the basket if full, first move to the unloading area to unload the items, then return back
-	//	if (robot.getNrItemsInBasket() == robot.getBasketSize()) {
-	//		mapper.resetMap();							// make P appear on the map if there are still items left that need to be picked
-	//		robot.moveTo(*currentPoint, unloadingPoint);
-	//		robot.unload();
-	//		robot.moveTo(unloadingPoint, orderPosition);
-	//	}
-
-	//	if (robot.validate(order)) {
-	//		robot.pick();
-	//		robot.store(order);
-
-	//		currentOrderNumber++;
-	//		mapper.printString("Progress: " + to_string(currentOrderNumber * 100 / totalOrderNumber) + " %", PROGRESS_NLINE, PROGRESS_NCOL);
-	//	}
-	//	else {
-	//		//TODO logging should be added here
-	//		cerr << "Invalid Product ID: " << order.productID << endl;
-	//		break;
-	//	}
-	//}
-
 	return true;
 }
 
-bool RobotController::getOrder(Order ordr)
+bool RobotController::getOrder(vector<Order> orders)
 {
 	mapper.printWarehouseMap();
-	processOrder(ordr);
-	robot.moveTo(*currentPoint, unloadingPoint);
-	robot.unload();
-
+	executeOrders(orders);
 	return true;
 }
 

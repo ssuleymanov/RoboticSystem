@@ -108,7 +108,7 @@ bool PickerRobot::validate(Order order)
 			return true;
 		}
 	}
-	mapper->printLog(LOG_ERROR,"Validation ERROR");
+	mapper->printLog(LOG_ERROR,"Validation ERROR - " + order.productID);
 	mapper->printString("Wrong product ID.", ACTION_NLINE, ACTION_NCOL);
 	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
 	//cerr << "Order " << order.orderID << " with productID " << order.productID << " is incorrect.\n";
@@ -137,10 +137,7 @@ void PickerRobot::store(Order order)
 	mapper->printWarehouseMap();
 	itemsInBasket++;
 
-	while (pause == true) {
-		Sleep(10000);
-		pause = false;
-	}
+	while (pause == true) {}
 }
 
 void PickerRobot::unload()
@@ -161,10 +158,7 @@ void PickerRobot::unload()
 	}
 	ordersInBasket.clear();
 
-	while (pause == true) {
-		Sleep(10000);
-		pause = false;
-	}
+	while (pause == true) {}
 
 	//itemsInBasket = 0;
 }
@@ -225,7 +219,7 @@ bool PickerRobot::sendCommand(const char c)
 	else {
 		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
 		mapper->updateWarehouseMap(c);
-		Sleep(1000);
+		Sleep(100);
 	}
 #endif
 	timer += MOVE_TIME;

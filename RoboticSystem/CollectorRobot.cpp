@@ -46,9 +46,9 @@ void CollectorRobot::startRobot(Printer* printr)
 			while (nrItemsInBasket < basketSize && ordersReady.size() > 0) {
 				Order o = ordersReady.back();
 				if (currentPoint != o.warehouseID) { totalTime += moveTo(o.warehouseID);}
-				bool newOrder = true;
+				/*bool newOrder = true;
 				for (vector<Order>::iterator it = this->ordersInBasket.begin(), end = ordersInBasket.end(); it != end; it++) {
-					if (it->orderID == o.orderID) {
+					if (it->orderID == o.orderID && it->productID == o.productID) {
 						it->quantity += 1;
 						if (o.quantity == 1) { ordersReady.pop_back(); }
 						else { ordersReady[ordersReady.size() - 1].quantity -= 1; }
@@ -60,7 +60,9 @@ void CollectorRobot::startRobot(Printer* printr)
 					else { ordersReady[ordersReady.size() - 1].quantity -= 1; }
 					o.quantity = 1;
 					ordersInBasket.push_back(o); 
-				}
+				}*/
+				ordersInBasket.push_back(o);
+				ordersReady.pop_back();
 				nrItemsInBasket++;
 			}
 			totalTime += moveTo("LD");

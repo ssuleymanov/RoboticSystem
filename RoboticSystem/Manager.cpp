@@ -97,9 +97,7 @@ void Manager::execute(string oplFile)
 	}
 	menuOn = false;
 	controlThread.join();
-	getchar();
-	system("cls");
-	loadingDock.printOrders();
+	loadingDock.printOrders(printer);
 	getchar();
 }
 

@@ -116,7 +116,7 @@ void PickerRobot::store(Order order)
 	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
 	mapper->printLog(LOG_ACTIONS,"Storing item");
 	sendCommand(STORE);
-	bool newOrder = true;
+	/*bool newOrder = true;
 	for (auto& bOrder : ordersInBasket) {
 		if (bOrder.orderID == order.orderID) {
 			bOrder.quantity++;
@@ -126,7 +126,8 @@ void PickerRobot::store(Order order)
 	if (newOrder) {
 		order.quantity = 1;
 		ordersInBasket.push_back(order);
-	}
+	}*/
+	ordersInBasket.push_back(order);
 	mapper->printWarehouseMap();
 	itemsInBasket++;
 }
@@ -138,12 +139,12 @@ void PickerRobot::unload()
 	mapper->printLog(LOG_ACTIONS,"Unloading items");
 	Order tempOrder;
 	for (vector<Order>::iterator it = ordersInBasket.begin(); it != ordersInBasket.end(); ++it) {
-		for (int i = 0; i < it->quantity; i++) {
-			itemsInBasket--;
-			sendCommand(UNLOAD);
-			mapper->printWarehouseMap();
+		//for (int i = 0; i < it->quantity; i++) {
+		itemsInBasket--;
+		sendCommand(UNLOAD);
+		mapper->printWarehouseMap();
 			//TODO add time for each unload
-		}
+		//}
 		manager->orderIsDone(*it);
 		mapper->getWarehouse()->getUnloadedOrders().push_back(*it);	
 	}
@@ -167,6 +168,7 @@ int PickerRobot::getTime()
 
 void PickerRobot::sendCommand(const char c)
 {
+#if SERIAL
 	if (serial.IsOpened()) {
 		char message[5] = "F";
 		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
@@ -190,12 +192,10 @@ void PickerRobot::sendCommand(const char c)
 			counter++;
 		}
 	}
-#if NOSERIAL
-	else {
-		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
-		mapper->updateWarehouseMap(c);
-		Sleep(1000);
-	}
+#else
+	mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
+	mapper->updateWarehouseMap(c);
+	Sleep(50);
 #endif
 	timer += MOVE_TIME;
 }

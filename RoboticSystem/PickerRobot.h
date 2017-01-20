@@ -13,7 +13,7 @@
 #include "Mapper.h"
 //#include "Printer.h"
 
-#define NOSERIAL true
+#define SERIAL false
 
 #define VALIDATE 'V'
 #define PICK 'P'

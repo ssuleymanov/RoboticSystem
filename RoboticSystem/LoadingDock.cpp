@@ -14,7 +14,7 @@ void LoadingDock::addOrderforTruck(Order order)
 	bool newOrder = true;
 	std::vector<Order> orders = unloadedOrdersPerTruck[order.truckNr];
 	for (std::vector<Order>::iterator it = orders.begin(), end = orders.end(); it != end; it++) {
-		if (it->orderID == order.orderID) {
+		if (it->orderID == order.orderID && it->productID == order.productID) {
 			it->quantity += order.quantity;
 			newOrder = false;
 		}
@@ -28,12 +28,12 @@ void LoadingDock::addOrderforTruck(Order order)
 	}
 }
 
-void LoadingDock::printOrders() {
+void LoadingDock::printOrders(Printer* printer) {
 	for (int i = 1; i < unloadedOrdersPerTruck.size()+1; i++) {
-		std::cout << "Truck: " << i << "\n";
+		printer->printLog(LOG_ACTIONS, "LoadingDock", "Truck: " + to_string(i));
 		for (auto& order : unloadedOrdersPerTruck[i]) {
-			std::cout << "\tOrder: " << order.orderID << " ProductID: " << order.productID << " Quantity: " << order.quantity << "\n";
+			printer->printLog(LOG_ACTIONS, "LoadingDock", "\tOrder: " + to_string(order.orderID) + " ProductID: " + order.productID + " Quantity: " + to_string(order.quantity));
 		}
-		std::cout << "\n";
+		printer->printLog(LOG_ACTIONS, "LoadingDock", " ");
 	}
 }

@@ -9,6 +9,7 @@
 #include <map>
 #include <sstream>
 #include <algorithm>
+#include <mutex>
 
 #include "Order.h"
 #include "Warehouse.h"
@@ -24,11 +25,12 @@ public:
 	void setupSerial(int baudrate, int portnumber);
 	void startRobot(Printer* printer);
 	void addOrder(Order order);
-	void loadOrders(Warehouse& warehouse);			// returns the time spent on operation
+	//void loadOrders(Warehouse& warehouse);			// returns the time spent on operation
 	int unload();									// unload items, 
 	int getNrItemsInBasket();
 	void isReady();
 	string getCurrentPoint();
+	void warehouseReady();
 
 private:
 	int baudRate;
@@ -37,6 +39,7 @@ private:
 	int nrItemsInBasket;
 	int totalTime;
 	bool ready;
+	bool wh_ready;
 	//std::string startingPoint;
 	std::string currentPoint;
 	std::vector<Order> ordersReady;
@@ -47,6 +50,7 @@ private:
 	Printer* printer;
 	int moveTo(string dest);						// returns the time travelled
 	void collectOrder();
+	bool sendCommand(const char c);
 };
 
 

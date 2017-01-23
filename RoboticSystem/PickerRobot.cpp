@@ -123,17 +123,19 @@ void PickerRobot::store(Order order)
 	mapper->printLog(LOG_ACTIONS,"Storing item");
 	sendCommand(STORE);
 
-	bool newOrder = true;
-	for (auto& bOrder : ordersInBasket) {
-		if (bOrder.orderID == order.orderID) {
-			bOrder.quantity++;
-			newOrder = false;
-		}
-	}
-	if (newOrder) {
-		order.quantity = 1;
-		ordersInBasket.push_back(order);
-	}
+	//bool newOrder = true;
+	//for (auto& bOrder : ordersInBasket) {
+	//	if (bOrder.orderID == order.orderID) {
+	//		bOrder.quantity++;
+	//		newOrder = false;
+	//	}
+	//}
+	//if (newOrder) {
+	//	order.quantity = 1;
+	//	ordersInBasket.push_back(order);
+	//}
+
+	ordersInBasket.push_back(order);
 	mapper->printWarehouseMap();
 	itemsInBasket++;
 
@@ -147,15 +149,14 @@ void PickerRobot::unload()
 	mapper->printLog(LOG_ACTIONS,"Unloading items");
 	Order tempOrder;
 	for (vector<Order>::iterator it = ordersInBasket.begin(); it != ordersInBasket.end(); ++it) {
-		for (int i = 0; i < it->quantity; i++) {
-			itemsInBasket--;
-			sendCommand(UNLOAD);
-			mapper->printWarehouseMap();
-			//TODO add time for each unload
-		}
-		manager->orderIsDone(*it);
+		itemsInBasket--;
+		sendCommand(UNLOAD);
+		mapper->printWarehouseMap();
+
+		//manager->orderIsDone(*it);
 		mapper->getWarehouse()->getUnloadedOrders().push_back(*it);	
 	}
+	manager->orderIsDone(ordersInBasket);
 	ordersInBasket.clear();
 
 	while (pause == true) {}

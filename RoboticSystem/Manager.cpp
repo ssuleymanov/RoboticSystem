@@ -89,6 +89,7 @@ void Manager::setup(string fileName)
 		resize_term(60, mapOffset + 50);
 	}
 	mapOffset += printer->addWindow("log", 50, 45, mapOffset, 2);
+	//mapOffset += printer->addWindow("collector", 50, 45, mapOffset, 2);
 	resize_term(60, mapOffset);
 	printer->drawBoxes();
 }
@@ -125,6 +126,7 @@ void Manager::execute(string oplFile)
 	controlThread.join();
 	getchar();
 	system("cls");
+	loadingDock.addOrdersforTruck();
 	loadingDock.printOrders();
 	getchar();
 }
@@ -154,10 +156,13 @@ bool Manager::productValid(string productID)
 	return (articles.find(productID) != articles.end());
 }
 
-void Manager::orderIsDone(Order order)
+void Manager::orderIsDone(vector<Order> orders)
 {
 	lock_guard<mutex> guard(collect_mutex);
-	collector.addOrder(order);
+	for (auto& order : orders) {
+		collector.addOrder(order);
+	}
+	collector.warehouseReady();
 }
 
 void Manager::addWarehouse(Warehouse wh)

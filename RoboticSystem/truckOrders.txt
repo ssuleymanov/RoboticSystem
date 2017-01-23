@@ -1,0 +1,77 @@
+Truck: 1
+	Order: 1 ProductID: 90YH00Q1-BAUA00 Quantity: 2
+	Order: 1 ProductID: MK462LL/A Quantity: 2
+	Order: 1 ProductID: SDA3/32GB Quantity: 4
+	Order: 1 ProductID: SD10VG2/32GB Quantity: 4
+	Order: 1 ProductID: DNS-327L Quantity: 6
+	Order: 2 ProductID: LSD16GBBEU300 Quantity: 7
+	Order: 2 ProductID: SM-T555NZKADBT Quantity: 3
+	Order: 2 ProductID: MJLT2LL/A Quantity: 3
+	Order: 2 ProductID: MGLW2FD/A Quantity: 8
+	Order: 2 ProductID: SM-T560NZKAPHN Quantity: 6
+	Order: 2 ProductID: 90YH0051-BBUA00 Quantity: 2
+	Order: 3 ProductID: SM-T550NZKADBT Quantity: 1
+	Order: 3 ProductID: 1636 Quantity: 4
+	Order: 3 ProductID: SDA10/16GB Quantity: 5
+	Order: 3 ProductID: 1558 Quantity: 3
+	Order: 3 ProductID: ME276FD/A Quantity: 4
+	Order: 4 ProductID: MB112ZM/C Quantity: 5
+	Order: 5 ProductID: 90XB02C0-BMU000 Quantity: 4
+	Order: 5 ProductID: G84-4420LUBEU-0 Quantity: 10
+	Order: 5 ProductID: JD-0800EU-2 Quantity: 3
+	Order: 8 ProductID: MLW221 Quantity: 5
+	Order: 8 ProductID: USB-N53 Quantity: 2
+	Order: 8 ProductID: PWLA8391GTBLK Quantity: 14
+	Order: 8 ProductID: 90LM0180-B01170 Quantity: 2
+	Order: 8 ProductID: T1531SAW-B1 Quantity: 5
+
+Truck: 2
+	Order: 6 ProductID: LSD16GBBEU300 Quantity: 9
+	Order: 6 ProductID: USB-N53 Quantity: 4
+	Order: 6 ProductID: EN-9235TX-32 V2 Quantity: 8
+	Order: 6 ProductID: SD10VG2/16GB Quantity: 14
+	Order: 6 ProductID: SD4/32GB Quantity: 9
+	Order: 6 ProductID: DWA-121 Quantity: 2
+	Order: 7 ProductID: SM-T550NZKADBT Quantity: 2
+	Order: 7 ProductID: MJLT2LL/A Quantity: 4
+	Order: 7 ProductID: 90YH0051-BBUA00 Quantity: 6
+	Order: 7 ProductID: MGHW2FD/A Quantity: 9
+	Order: 9 ProductID: 90-XB1000KM00020 Quantity: 5
+	Order: 10 ProductID: MK462LL/A Quantity: 8
+	Order: 10 ProductID: 1636 Quantity: 12
+	Order: 10 ProductID: 90-MXGZ20-A0UAYZ Quantity: 6
+	Order: 11 ProductID: SD4/16GB Quantity: 5
+	Order: 12 ProductID: MK482LL/A Quantity: 3
+	Order: 12 ProductID: SM-T550NZWADBT Quantity: 3
+	Order: 12 ProductID: 90XB02C0-BMU000 Quantity: 1
+	Order: 16 ProductID: 55745 Quantity: 2
+	Order: 16 ProductID: SD4/8GB Quantity: 8
+	Order: 16 ProductID: SM-T560NZKAPHN Quantity: 5
+	Order: 16 ProductID: 90-MXGXX0-A0UAYZ Quantity: 2
+
+Truck: 3
+	Order: 13 ProductID: 90-XB2400KM00030- Quantity: 10
+	Order: 13 ProductID: MK462LL/A Quantity: 7
+	Order: 13 ProductID: MLW221 Quantity: 4
+	Order: 13 ProductID: 90XB02C0-BMU000 Quantity: 15
+	Order: 13 ProductID: SDA10/16GB Quantity: 21
+	Order: 13 ProductID: SD10VG2/32GB Quantity: 6
+	Order: 13 ProductID: SDA3/16GB Quantity: 6
+	Order: 13 ProductID: 90IG0120-BM0000 Quantity: 11
+	Order: 14 ProductID: 90-XB2400KM00130- Quantity: 14
+	Order: 14 ProductID: 90YH00C2-BAUA00 Quantity: 7
+	Order: 14 ProductID: EN-9235TX-32 V2 Quantity: 2
+	Order: 14 ProductID: T1521MSC-B1 Quantity: 12
+	Order: 14 ProductID: SD4/32GB Quantity: 6
+	Order: 14 ProductID: DWA-121 Quantity: 5
+	Order: 14 ProductID: 90-MXGXX0-A0UAYZ Quantity: 2
+	Order: 14 ProductID: 88316 Quantity: 5
+	Order: 17 ProductID: SM-T550NZWADBT Quantity: 2
+	Order: 17 ProductID: MD101US/A Quantity: 4
+	Order: 17 ProductID: SDA10/32GB Quantity: 5
+	Order: 19 ProductID: USB-N53 Quantity: 1
+	Order: 19 ProductID: MB112ZM/C Quantity: 5
+	Order: 19 ProductID: PWLA8391GTBLK Quantity: 3
+	Order: 19 ProductID: JD-0800EU-2 Quantity: 5
+	Order: 19 ProductID: DNS-327L Quantity: 1
+

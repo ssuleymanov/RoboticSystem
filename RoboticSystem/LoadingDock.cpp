@@ -45,21 +45,21 @@ void LoadingDock::sortOrderbyPriority(Order order)
 	customerOrdersbyPriority.insert(std::pair<int, Order>(order.orderID, order));
 }
 
-void LoadingDock::printOrders() {
-	std::ofstream outputFile;
-	outputFile.open("truckOrders.txt", std::fstream::out);
-	if (outputFile.is_open()) {
-		for (int i = 1; i < unloadedOrdersPerTruck.size() + 1; i++) {
-			outputFile << "Truck: " << i << "\n";
-			for (auto& order : unloadedOrdersPerTruck[i]) {
-				outputFile << "\tOrder: " << order.orderID << " ProductID: " << order.productID << " Quantity: " << order.quantity << "\n";
-			}
-			outputFile << "\n";
-		}
-	}
-	else {
-		std::cout << "the file cannot be opened \n";
-	}
+//void LoadingDock::printOrders() {
+//	std::ofstream outputFile;
+//	outputFile.open("truckOrders.txt", std::fstream::out);
+//	if (outputFile.is_open()) {
+//		for (int i = 1; i < unloadedOrdersPerTruck.size() + 1; i++) {
+//			outputFile << "Truck: " << i << "\n";
+//			for (auto& order : unloadedOrdersPerTruck[i]) {
+//				outputFile << "\tOrder: " << order.orderID << " ProductID: " << order.productID << " Quantity: " << order.quantity << "\n";
+//			}
+//			outputFile << "\n";
+//		}
+//	}
+//	else {
+//		std::cout << "the file cannot be opened \n";
+//	}
 
 void LoadingDock::printOrders(Printer* printer) {
 	for (int i = 1; i < unloadedOrdersPerTruck.size()+1; i++) {

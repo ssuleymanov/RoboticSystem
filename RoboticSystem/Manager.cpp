@@ -45,8 +45,9 @@ void Manager::ControlPanel(int offset) {
 	}
 }
 
-Manager::Manager()
+Manager::Manager() : collector(16, loadingDock, "path_times.txt")
 {
+	//collector = CollectorRobot(16, loadingDock, "path_times.txt");
 	warehouses.empty();
 	printer = Printer::getInstance();
 	menuOn = true;
@@ -78,8 +79,7 @@ void Manager::setup(string fileName)
 			printer->printLog(LOG_ERROR,"M","Expecting 10 arguments in the warehouse configuration, recieved " + to_string(size));
 		}
 	}
-	loadingDock = LoadingDock();
-	collector = CollectorRobot(16,loadingDock,"path_times.txt");
+	//collector = CollectorRobot(16,loadingDock,"path_times.txt");
 	collector.setupSerial(9600,4);
 
 	int mapOffset = 0;
@@ -131,7 +131,7 @@ void Manager::execute(string oplFile)
 	getchar();
 	system("cls");
 	loadingDock.addOrdersforTruck();
-	loadingDock.printOrders();
+	loadingDock.printOrders(printer);
 	getchar();
 }
 

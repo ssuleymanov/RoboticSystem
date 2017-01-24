@@ -18,7 +18,7 @@ public:
 	std::vector<Order> getOrdersperTruck(int truckNr);
 	void addOrdersforTruck();
 	void sortOrderbyPriority(Order order);
-	void printOrders();
+	void printOrders(Printer* printer);
 
 private:
 	std::map <int, std::vector<Order>> unloadedOrdersPerTruck;						// unloaded orders per truck

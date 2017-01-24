@@ -78,7 +78,7 @@ void Manager::setup(string fileName)
 	}
 	loadingDock = LoadingDock();
 	collector = CollectorRobot(16,loadingDock,"path_times.txt");
-	collector.setupSerial(9600,4);
+	collector.setupSerial(115200,7);
 
 	int mapOffset = 0;
 	system("cls");

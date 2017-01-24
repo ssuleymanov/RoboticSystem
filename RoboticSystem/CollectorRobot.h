@@ -9,6 +9,7 @@
 #include <map>
 #include <sstream>
 #include <algorithm>
+#include <cassert>
 #include <mutex>
 
 #include "Order.h"
@@ -25,7 +26,6 @@ public:
 	void setupSerial(int baudrate, int portnumber);
 	void startRobot(Printer* printer);
 	void addOrder(Order order);
-	//void loadOrders(Warehouse& warehouse);			// returns the time spent on operation
 	int unload();									// unload items, 
 	int getNrItemsInBasket();
 	void isReady();

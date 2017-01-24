@@ -58,8 +58,12 @@ void CollectorRobot::addOrder(Order order)
 
 int CollectorRobot::moveTo(string dest)
 {
-	currentPoint = dest;
 	int time = path_times[currentPoint + "to" + dest];
+	currentPoint = dest;
+	for (int i = 0; i < time; i++) {
+		sendCommand(currentPoint.at(0));
+	}
+	sendCommand('R');
 	return time;
 
 }
@@ -85,56 +89,21 @@ void CollectorRobot::collectOrder()
 
 bool CollectorRobot::sendCommand(const char c)
 {
+	if (serial.IsOpened()) {
+		char message[5] = "F";
+		assert(serial.SendData(c));
 
+		if (serial.ReadDataWaiting() > 0) {
+			serial.ReadData(message, 1);
+		}
+
+		Sleep(100);
+	}
+	else {
+		cout << "Serial port is not open!!! \n";
+	}
 	return true;
 }
-
-//void CollectorRobot::loadOrders(Warehouse& warehouse)
-//{
-//	const int pick_time = 2;
-//	string warehouseID = warehouse.getWarehouseID();
-//	int movingTime = moveTo(warehouseID);
-//	int loadingTime = 0;
-//
-//	vector<Order> temp;
-//
-//	for (vector<Order>::iterator it = warehouse.getUnloadedOrders().begin(); it != warehouse.getUnloadedOrders().end(); it++) {
-//		if (nrItemsInBasket < basketSize) {
-//			ordersInBasket.push_back(*it);
-//			loadingTime = loadingTime + pick_time;
-//			if (warehouseID == "A") {
-//				nrItemsInBasket++;
-//			}
-//			else if (warehouseID == "B") {
-//				nrItemsInBasket = nrItemsInBasket + 2;
-//			}
-//			else if (warehouseID == "C") {
-//				nrItemsInBasket = nrItemsInBasket + 4;
-//			}
-//		}
-//		else {
-//			break;
-//		}
-//	}
-//
-//	bool inTheBasket = false;
-//	
-//	// checks if the order is already in the basket of the collector robot, if not it adds it to the temporary vector and updates the warehouse with it later
-//	for (vector<Order>::iterator itw = warehouse.getUnloadedOrders().begin(); itw != warehouse.getUnloadedOrders().end(); itw++) {
-//		for (vector<Order>::iterator it = ordersInBasket.begin(); it != ordersInBasket.end(); it++) {
-//			if (it->productID == itw->productID) {		
-//				inTheBasket = true;
-//			}
-//		}
-//		if (inTheBasket == false) {
-//			temp.push_back(*itw);
-//		}
-//		inTheBasket = false;
-//	}
-//
-//	warehouse.updateUnloadedOrders(temp);
-//	totalTime = totalTime + movingTime + loadingTime;
-//}
 
 int CollectorRobot::unload()
 {

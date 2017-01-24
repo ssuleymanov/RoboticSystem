@@ -7,7 +7,9 @@ void Manager::ControlPanel(int offset) {
 	WINDOW* win = newwin(1, offset, 0, 0);
 	while (menuOn) {
 		warehouseID = wgetch(win);
+		if (!menuOn) { return; }
 		operation = wgetch(win);
+		if (!menuOn) { return; }
 		for (auto &rController : rControllers) {
 			if (warehouseID == rController.getWarehouseID().at(0) || warehouseID == (char)tolower(rController.getWarehouseID().at(0))) {
 				if (operation == 'S' || operation == 's') {
@@ -85,9 +87,11 @@ void Manager::setup(string fileName)
 	resize_term(60, 50);
 	for (RobotController rController : rControllers) {
 		Warehouse wh = getWarehouse(rController.getWarehouseID());
+		collector.addWarehouseID(wh.getWarehouseID());
 		mapOffset += printer->addWindow(wh, mapOffset);
 		resize_term(60, mapOffset + 50);
 	}
+	mapOffset += printer->addWindow("collector", 50, 25, mapOffset, 2);
 	mapOffset += printer->addWindow("log", 50, 45, mapOffset, 2);
 	resize_term(60, mapOffset);
 	printer->drawBoxes();
@@ -129,6 +133,8 @@ void Manager::execute(string oplFile)
 
 bool Manager::manualControl(string productID, int quantity)
 {
+	printer->clearWindows();
+	printer->drawBoxes();
 	Article article = articles[productID];
 	vector<Order> manOrder;
 	Order order = { article.compartment, "", 0, 0, productID, quantity, 0, article.warehouseID };

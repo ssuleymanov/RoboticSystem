@@ -73,7 +73,6 @@ void PickerRobot::setMapper(Mapper *map)
 void PickerRobot::startSerial()
 {
 	if (serial.Open(portNumber, baudRate)) {
-		//clog << "Port " << portNumber << " opened succesfully.." << endl;
 		mapper->printLog(LOG_INFO,"Port " + to_string(portNumber) + " opended succesfully..\n");
 	}
 	else {
@@ -94,7 +93,6 @@ void PickerRobot::pick()
 bool PickerRobot::validate(Order order)
 {
 	mapper->printString("Product ID: " + order.productID, MOVE_NLINE, MOVE_NCOL);
-	//cout << "Validating an item" << endl;
 	sendCommand(VALIDATE);
 
 	string productID;
@@ -109,7 +107,6 @@ bool PickerRobot::validate(Order order)
 	mapper->printLog(LOG_ERROR,"Validation ERROR - " + order.productID);
 	mapper->printString("Wrong product ID.", ACTION_NLINE, ACTION_NCOL);
 	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
-	//cerr << "Order " << order.orderID << " with productID " << order.productID << " is incorrect.\n";
 	mapper->printWarehouseMap();
 	return false;
 }
@@ -120,17 +117,6 @@ void PickerRobot::store(Order order)
 	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
 	mapper->printLog(LOG_ACTIONS,"Storing item");
 	sendCommand(STORE);
-	/*bool newOrder = true;
-	for (auto& bOrder : ordersInBasket) {
-		if (bOrder.orderID == order.orderID) {
-			bOrder.quantity++;
-			newOrder = false;
-		}
-	}
-	if (newOrder) {
-		order.quantity = 1;
-		ordersInBasket.push_back(order);
-	}*/
 	ordersInBasket.push_back(order);
 	mapper->printWarehouseMap();
 	itemsInBasket++;
@@ -216,7 +202,7 @@ bool PickerRobot::sendCommand(const char c)
 #else
 	mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
 	mapper->updateWarehouseMap(c);
-	Sleep(50);
+	Sleep(100);
 #endif
 	timer += MOVE_TIME;
 

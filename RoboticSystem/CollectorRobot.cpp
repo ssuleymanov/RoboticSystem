@@ -12,6 +12,8 @@ CollectorRobot::CollectorRobot(int basketsize, LoadingDock& ld, string filename)
 	ready = false;
 	nrItemsInBasket = 0;
 	totalTime = 0;
+	startTime = clock();
+	warehouseIDs.push_back("LD");
 
 	ifstream file(filename);
 	string path;
@@ -35,6 +37,7 @@ void CollectorRobot::setupSerial(int baudrate, int portnumber)
 void CollectorRobot::startRobot(Printer* printr)
 {
 	printer = printr;
+	printMap(currentPoint);
 	if (serial.Open(portNumber, baudRate)) {
 		printer->printLog(LOG_INFO,"X", "Port " + to_string(portNumber) + " opened succesfully..");
 	}
@@ -46,21 +49,6 @@ void CollectorRobot::startRobot(Printer* printr)
 			while (nrItemsInBasket < basketSize && ordersReady.size() > 0) {
 				Order o = ordersReady.back();
 				if (currentPoint != o.warehouseID) { totalTime += moveTo(o.warehouseID);}
-				/*bool newOrder = true;
-				for (vector<Order>::iterator it = this->ordersInBasket.begin(), end = ordersInBasket.end(); it != end; it++) {
-					if (it->orderID == o.orderID && it->productID == o.productID) {
-						it->quantity += 1;
-						if (o.quantity == 1) { ordersReady.pop_back(); }
-						else { ordersReady[ordersReady.size() - 1].quantity -= 1; }
-						newOrder = false;
-					}
-				}
-				if (newOrder) { 
-					if (o.quantity == 1) { ordersReady.pop_back(); }
-					else { ordersReady[ordersReady.size() - 1].quantity -= 1; }
-					o.quantity = 1;
-					ordersInBasket.push_back(o); 
-				}*/
 				ordersInBasket.push_back(o);
 				ordersReady.pop_back();
 				nrItemsInBasket++;
@@ -70,6 +58,7 @@ void CollectorRobot::startRobot(Printer* printr)
 		}
 
 	}
+	printer->printString("collector", MOVE_NLINE, MOVE_NCOL, "Time = " + to_string(totalTime) + " seconds ");
 }
 
 void CollectorRobot::addOrder(Order order)
@@ -79,10 +68,58 @@ void CollectorRobot::addOrder(Order order)
 
 int CollectorRobot::moveTo(string dest)
 {
-	currentPoint = dest;
 	int time = path_times[currentPoint + "to" + dest];
+
+	for (int i = 0; i < time; ++i) {
+		if (i == time) { currentPoint = dest; }
+		printMap(dest);
+		Sleep(100);
+	}
 	return time;
 
+}
+
+void CollectorRobot::printMap(string dest) {
+	static bool blink = false;
+	string top = string(1, 201) + string(3, 205) + string(1, 203) + string(3, 205) + string(1, 187);
+	string middle1 = string(1, 186) + "   " + string(1, 186) + "   " + string(1, 186);
+	string middle2 = string(1, 204) + string(3, 205) + string(1, 206) + string(3, 205) + string(1, 185);
+	string bottom = string(1, 200) + string(3, 205) + string(1, 202) + string(3, 205) + string(1, 188);
+	int nline = MAP_OFFSET+2;
+	
+	printer->printMap("collector", nline, 3, top);
+	for (int i = 1; i < warehouseIDs.size()+1; i++) {
+		string whIcon = warehouseIDs[i - 1] + ' ';
+		if (whIcon.size() == 2) { whIcon = ' ' + whIcon; }
+		if (currentPoint == warehouseIDs[i - 1] && currentPoint == dest) {
+			middle1 = string(1, 186) + whIcon + string(1, 186) + " X " + string(1, 186);
+		}
+		else if (dest == warehouseIDs[i - 1] && currentPoint != dest) {
+			if (blink) {
+				blink = false;
+				middle1 = string(1, 186) + whIcon + string(1, 186) + "   " + string(1, 186);
+			}
+			else {
+				blink = true;
+				middle1 = string(1, 186) + whIcon + string(1, 186) + " X " + string(1, 186);
+			}
+		}
+		else {
+			middle1 = string(1, 186) + whIcon + string(1, 186) + "   " + string(1, 186);
+		}
+		
+		printer->printMap("collector", nline+(i*2)-1, 3, middle1);
+		if (i < warehouseIDs.size()) {
+			printer->printMap("collector", nline + (i * 2), 3, middle2);
+		}
+	}
+
+	printer->printString("collector", MOVE_NLINE, MOVE_NCOL, "Time = " + to_string(totalTime) + " seconds ");
+	printer->printMap("collector", nline + warehouseIDs.size()*2, 3, bottom);
+	printer->printString("collector", BASKET_NLINE, BASKET_NCOL,"Basket: " + to_string(nrItemsInBasket) + "/" + to_string(basketSize));
+
+
+	printer->refreshw("collector");
 }
 
 void CollectorRobot::collectOrder()
@@ -143,6 +180,8 @@ int CollectorRobot::unload()
 		loadingDock->addOrderforTruck(o);
 		nrItemsInBasket -= o.quantity;
 		ordersInBasket.pop_back();
+		printMap("LD");
+		Sleep(100);
 	}
 	return 0;
 }
@@ -160,5 +199,10 @@ void CollectorRobot::isReady()
 string CollectorRobot::getCurrentPoint()
 {
 	return currentPoint;
+}
+
+void CollectorRobot::addWarehouseID(string warehouseID)
+{
+	warehouseIDs.push_back(warehouseID);
 }
 

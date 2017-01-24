@@ -3,6 +3,12 @@
 #ifndef COLLECTORROBOT_H
 #define COLLECTORROBOT_H
 
+#ifdef WIN32
+#include <windows.h>
+#else
+#include <ctime>
+#endif
+
 #include <vector>
 #include <string>
 #include <fstream>
@@ -29,6 +35,7 @@ public:
 	int getNrItemsInBasket();
 	void isReady();
 	string getCurrentPoint();
+	void addWarehouseID(string warehouseID);
 
 private:
 	int baudRate;
@@ -36,8 +43,9 @@ private:
 	int basketSize;
 	int nrItemsInBasket;
 	int totalTime;
+	clock_t startTime;
+	vector<string> warehouseIDs;
 	bool ready;
-	//std::string startingPoint;
 	std::string currentPoint;
 	std::vector<Order> ordersReady;
 	std::vector<Order> ordersInBasket;				// orders stored in the basket of the collector robot
@@ -47,6 +55,7 @@ private:
 	Printer* printer;
 	int moveTo(string dest);						// returns the time travelled
 	void collectOrder();
+	void printMap(string dest);
 };
 
 

@@ -91,17 +91,21 @@ PickerRobot & RobotController::getPickerRobot()
 
 void RobotController::calculateOptimalPath(std::vector<Order> orders)
 {
-	multimap<int, Order> tempMap;
+	multimap<int, Order> distanceToOrder;					// map of distance to orders from the unloading point
+	map<int, multimap<int, Order>> sortedDistanceOrder;		// sorted orders by distance and based on row that is close to the unloading point
+	map<int, multimap<int, Order>>::iterator iter;
 	multimap<int, Order>::iterator it;
 	int distance;
 
 	for (auto& order : orders) {
-		distance = (unloadingPoint.getX() - warehouse->getCompartmentPosition(order).getX())^2 + abs(unloadingPoint.getY() - warehouse->getCompartmentPosition(order).getY())^2; // euclidian distance
-		tempMap.insert(std::pair<int, Order>(distance, order));
+		distance = (unloadingPoint.getX() - warehouse->getCompartmentPosition(order).getX()) + abs(unloadingPoint.getY() - warehouse->getCompartmentPosition(order).getY()); // euclidian distance
+		sortedDistanceOrder[warehouse->getCompartmentPosition(order).getY()].insert(std::pair<int, Order>(distance, order));
 	}
 
-	for (it = tempMap.begin(); it != tempMap.end(); it++) {
-		sortedOrders.push_back(it->second);
+	for (iter = sortedDistanceOrder.begin(); iter != sortedDistanceOrder.end(); iter++) {
+		for (it = iter->second.begin(); it != iter->second.end(); it++) {
+			sortedOrders.push_back(it->second);
+		}
 	}
 }
 
@@ -263,7 +267,7 @@ void RobotController::executeOrders(std::vector<Order> orders)
 	}
 	totalOrderNumber = tempOrders.size();
 
-	for (auto &order : tempOrders) {
+	for (auto &order : sortedOrders) {
 		if (robot.getNrItemsInBasket() < robot.getBasketSize()) {
 			processOrder(order);
 		}

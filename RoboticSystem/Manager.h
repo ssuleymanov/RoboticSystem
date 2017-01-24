@@ -50,7 +50,7 @@ public:
 	void readArticles(string articleFile);
 	bool manualControl(string productID, int quantity);
 	bool productValid(string productID);
-	void orderIsDone(Order order);
+	void orderIsDone(vector<Order> orders);
 
 private:
 	Printer* printer;

@@ -6,19 +6,24 @@
 #include <vector>
 #include <algorithm>
 #include <iostream>
+#include <fstream> 
 
 #include "Order.h"
 #include "Printer.h"
+
 
 class LoadingDock {
 public:
 	LoadingDock();
 	std::vector<Order> getOrdersperTruck(int truckNr);
-	void addOrderforTruck(Order order);
-	void printOrders(Printer* printer);
+	void addOrdersforTruck();
+	void sortOrderbyPriority(Order order);
+	void printOrders();
 
 private:
-	std::map <int, std::vector<Order>> unloadedOrdersPerTruck;				// unloaded orders per truck
+	std::map <int, std::vector<Order>> unloadedOrdersPerTruck;						// unloaded orders per truck
+	std::multimap <std::string, Order> unloadedOrdersPerCustomer;				// unloaded orders per customer
+	std::multimap <int, Order> customerOrdersbyPriority;							//
 
 };
 

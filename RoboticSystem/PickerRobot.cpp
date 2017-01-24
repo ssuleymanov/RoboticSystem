@@ -131,15 +131,14 @@ void PickerRobot::unload()
 	mapper->printLog(LOG_ACTIONS,"Unloading items");
 	Order tempOrder;
 	for (vector<Order>::iterator it = ordersInBasket.begin(); it != ordersInBasket.end(); ++it) {
-		//for (int i = 0; i < it->quantity; i++) {
 		itemsInBasket--;
 		sendCommand(UNLOAD);
 		mapper->printWarehouseMap();
-			//TODO add time for each unload
-		//}
-		manager->orderIsDone(*it);
+
+		//manager->orderIsDone(*it);
 		mapper->getWarehouse()->getUnloadedOrders().push_back(*it);	
 	}
+	manager->orderIsDone(ordersInBasket);
 	ordersInBasket.clear();
 
 	while (pause == true) {}

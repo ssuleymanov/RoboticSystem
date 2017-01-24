@@ -5,6 +5,7 @@
 #include <ctime>
 #include <vector>
 #include <sstream>
+#include <stdio.h>
 
 #include "Serial.h"
 #include "Point.h"
@@ -34,6 +35,7 @@ string current_time() {
 	return str;
 }
 
+
 void write_header() {
 	clog << "Starting: " << current_time() << endl << endl;
 	cerr << "Starting: " << current_time() << endl << endl;
@@ -46,6 +48,8 @@ void write_footer() {
 
 int main() {
 	
+	//system("exec rm -r /Logs/*");
+	system("del /Q Logs\\*.txt");
 	filebuf os;
 	os.open("Logs\\log.txt", fstream::app);
 	streambuf* oldbuf = clog.rdbuf(&os);

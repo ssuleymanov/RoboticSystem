@@ -93,8 +93,6 @@ void PickerRobot::pick()
 
 bool PickerRobot::validate(Order order)
 {
-	mapper->printString("Validating an item        ", ACTION_NLINE, ACTION_NCOL);
-	mapper->printString("                         ", MOVE_NLINE, MOVE_NCOL);
 	mapper->printString("Product ID: " + order.productID, MOVE_NLINE, MOVE_NCOL);
 	//cout << "Validating an item" << endl;
 	sendCommand(VALIDATE);
@@ -192,7 +190,7 @@ void PickerRobot::pauseRobot(bool pause)
 bool PickerRobot::sendCommand(const char c)
 {
 	while (stop == true) {}
-
+#if SERIAL
 	if (serial.IsOpened()) {
 		char message[5] = "F";
 		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
@@ -216,12 +214,10 @@ bool PickerRobot::sendCommand(const char c)
 			counter++;
 		}
 	}
-#if NOSERIAL
-	else {
-		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
-		mapper->updateWarehouseMap(c);
-		Sleep(100);
-	}
+#else
+	mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
+	mapper->updateWarehouseMap(c);
+	Sleep(50);
 #endif
 	timer += MOVE_TIME;
 

@@ -13,6 +13,7 @@
 #include "Warehouse.h"
 #include "Mapper.h"
 
+
 class Manager;
 
 class RobotController {
@@ -41,6 +42,12 @@ private:
 	int currentOrderNumber;
 
 	void calculateOptimalPath(std::vector<Order> orders);
+	void calculateOptimalRoute();
+	int nearest_neighbor(string productID, vector<Order>* route);
+	int getRouteDistance(vector<Order> route);
+	//int two_opt(vector<Order> route);
+	int moveDistance(Point start, Point dest);
+	vector<Order> getProductList(vector<Order> orders);
 	void executeOrders(std::vector<Order> orders);		// execute orders in the warehouse
 	bool processOrder(Order order);						// processes single order, the robot moves to the order location, picks and stores it	
 	bool getOrder(vector<Order> orders);

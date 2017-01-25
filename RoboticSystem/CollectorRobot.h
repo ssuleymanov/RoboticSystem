@@ -3,12 +3,6 @@
 #ifndef COLLECTORROBOT_H
 #define COLLECTORROBOT_H
 
-#ifdef WIN32
-#include <windows.h>
-#else
-#include <ctime>
-#endif
-
 #include <vector>
 #include <string>
 #include <fstream>
@@ -24,24 +18,16 @@
 #include "LoadingDock.h"
 #include "Printer.h"
 
-#define S_TIME 1000
-
 class CollectorRobot {
 public:
 	CollectorRobot();
 	~CollectorRobot();
 	CollectorRobot(int basketsize, LoadingDock& ld, string filename);
-	//CollectorRobot(const CollectorRobot& collector);
 	void setupSerial(int baudrate, int portnumber);
 	void startRobot(Printer* printer);
-	void addOrder(Order order);
-	//void loadOrders(Warehouse& warehouse);			// returns the time spent on operation
-	int unload();									// unload items, 
-	int getNrItemsInBasket();
-	void isReady();
-	string getCurrentPoint();
-	void warehouseReady();
 	void addWarehouseID(string warehouseID);
+	void addOrder(Order order);
+	void isReady();
 
 private:
 	int baudRate;
@@ -49,26 +35,24 @@ private:
 	int basketSize;
 	int nrItemsInBasket;
 	int totalTime;
-	int totTime;
-	clock_t startTime;
-	vector<string> warehouseIDs;
 	bool ready;
-	bool wh_ready;
-	//std::string startingPoint;
 	string currentPoint;
+	mutex order_mutex;
+	vector<string> warehouseIDs;
 	map<string,vector<Order>> ordersReady;
 	vector<Order> ordersInBasket;				// orders stored in the basket of the collector robot
 	map<string, int> path_times;
 	CSerial serial;
 	LoadingDock* loadingDock;
 	Printer* printer;
-	mutex order_mutex;
 
-	int moveTo(string dest);						// returns the time travelled
+	Order getOrder(string warehouseID);
 	void collectOrder(string warehouseID);
+	int unload();									// unload items, 
+	int moveTo(string dest);						// returns the time travelled
 	bool sendCommand(const char c);
 	void printMap(string dest);
-	Order getOrder(string warehouseID);
+	
 };
 
 

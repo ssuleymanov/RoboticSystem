@@ -74,9 +74,10 @@ void PickerRobot::startSerial()
 {
 	if (serial.Open(portNumber, baudRate)) {
 		mapper->printLog(LOG_INFO,"Port " + to_string(portNumber) + " opended succesfully..\n");
+		mapper->printLog(LOG_SCREEN, "Port " + to_string(portNumber) + " opended succesfully..\n");
 	}
 	else {
-		clog << "Failed to open port " << portNumber << "..!" << endl;
+		mapper->printLog(LOG_INFO, "Failed to open port " + to_string(portNumber) + "..!\n");
 		mapper->printLog(LOG_ERROR,"Failed to open port " + to_string(portNumber) + "..!\n");
 	}
 }
@@ -134,16 +135,11 @@ void PickerRobot::unload()
 		itemsInBasket--;
 		sendCommand(UNLOAD);
 		mapper->printWarehouseMap();
-
-		//manager->orderIsDone(*it);
-		mapper->getWarehouse()->getUnloadedOrders().push_back(*it);	
 	}
 	manager->orderIsDone(ordersInBasket);
 	ordersInBasket.clear();
 
 	while (pause == true) {}
-
-	//itemsInBasket = 0;
 }
 
 int PickerRobot::getBasketSize()
@@ -182,26 +178,25 @@ bool PickerRobot::sendCommand(const char c)
 		assert(serial.SendData(c));
 		mapper->updateWarehouseMap(c);
 
-		bool recieved = false;
-		int counter = 0;
-		while (!recieved) {
-			if (serial.ReadDataWaiting() > 0) {
-				serial.ReadData(message, 1);
-				if (message == "E") { mapper->printLog(LOG_ERROR, "SERIAL COMM ERROR"); }
-				recieved = true;
+		Sleep(S_TIME);
+		if (serial.ReadDataWaiting() > 0) {
+			serial.ReadData(message, 1);
+			if (message[0] == 'E') { mapper->printLog(LOG_ERROR, "SERIAL COMM ERROR"); }
+			else if (message[0] == 'S') {
+				stop = true;
+				while (stop == true) {
+					if (serial.ReadDataWaiting() > 0) {
+						serial.ReadData(message, 1);
+						if (message[0] == 'R') { stop = false; }
+					}
+				}
 			}
-			if (counter > 2000) {
-				mapper->printLog(LOG_ERROR, "SERIAL COMM TIMEOUT\n");
-				recieved = true;
-			}
-			Sleep(1); 
-			counter++;
 		}
 	}
 #else
 	mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
 	mapper->updateWarehouseMap(c);
-	Sleep(1000);
+	Sleep(S_TIME);
 #endif
 	timer += MOVE_TIME;
 

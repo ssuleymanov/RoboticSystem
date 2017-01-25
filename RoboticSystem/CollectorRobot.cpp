@@ -17,7 +17,6 @@ CollectorRobot::CollectorRobot(int basketsize, LoadingDock& ld, string filename)
 	nrItemsInBasket = 0;
 	totalTime = 0;
 	warehouseIDs.push_back("LD");
-	wh_ready = false;
 
 	ifstream file(filename);
 	string path;
@@ -32,22 +31,6 @@ CollectorRobot::CollectorRobot(int basketsize, LoadingDock& ld, string filename)
 	}
 }
 
-//CollectorRobot::CollectorRobot(const CollectorRobot & collector) :
-//	baudRate(collector.baudRate),
-//	portNumber(collector.portNumber),
-//	basketSize(collector.basketSize),
-//	nrItemsInBasket(collector.nrItemsInBasket),
-//	totalTime(collector.totalTime),
-//	warehouseIDs(collector.warehouseIDs),
-//	ready(collector.ready),
-//	currentPoint(collector.currentPoint),
-//	ordersReady(collector.ordersReady),
-//	ordersInBasket(collector.ordersInBasket),
-//	path_times(collector.path_times),
-//	serial(collector.serial),
-//	loadingDock(collector.loadingDock)
-//{
-//}
 
 void CollectorRobot::setupSerial(int baudrate, int portnumber)
 {
@@ -58,7 +41,6 @@ void CollectorRobot::setupSerial(int baudrate, int portnumber)
 void CollectorRobot::startRobot(Printer* printr)
 {
 	printer = printr;
-	startTime = clock();
 	printMap(currentPoint);
 	if (serial.Open(portNumber, baudRate)) {
 		printer->printLog(LOG_INFO,"X", "Port " + to_string(portNumber) + " opened succesfully..");
@@ -78,8 +60,6 @@ void CollectorRobot::startRobot(Printer* printr)
 				}
 			}
 			if (bestSize > 0){ collectOrder(bestWarehouse); }
-			else if (bestSize == 0) { unload(); }
-
 			if (bestSize == 0 && ready) { break; }
 		}
 		Sleep(100);
@@ -88,11 +68,22 @@ void CollectorRobot::startRobot(Printer* printr)
 	printer->printString("collector", MOVE_NLINE, MOVE_NCOL, "Time = " + to_string(totalTime) + " sec");
 }
 
+void CollectorRobot::addWarehouseID(string warehouseID)
+{
+	warehouseIDs.push_back(warehouseID);
+}
+
 void CollectorRobot::addOrder(Order order)
 {
 	lock_guard<mutex> lock(order_mutex);
 	ordersReady[order.warehouseID].push_back(order);
 }
+
+void CollectorRobot::isReady()
+{
+	ready = true;
+}
+
 
 int CollectorRobot::moveTo(string dest)
 {
@@ -142,8 +133,6 @@ void CollectorRobot::printMap(string dest) {
 			printer->printMap("collector", nline + (i * 2), 3, middle2);
 		}
 	}
-	totTime = (clock() - startTime)/ CLK_TCK;
-	printer->printString("collector", ACTION_NLINE, ACTION_NCOL, "real time = " + to_string(totTime) + " sec");
 	printer->printString("collector", MOVE_NLINE, MOVE_NCOL, "Time = " + to_string(totalTime) + " sec");
 	printer->printMap("collector", nline + warehouseIDs.size()*2, 3, bottom);
 	printer->printString("collector", BASKET_NLINE, BASKET_NCOL,"Basket: " + to_string(nrItemsInBasket) + "/" + to_string(basketSize));
@@ -176,8 +165,7 @@ void CollectorRobot::collectOrder(string warehouseID)
 			Sleep(S_TIME);
 			totalTime += 1;
 		}
-	
-		if (nrItemsInBasket == basketSize) { unload(); }
+		unload();
 	}
 }
 
@@ -201,29 +189,4 @@ int CollectorRobot::unload()
 	}
 
 	return 0;
-}
-
-int CollectorRobot::getNrItemsInBasket()
-{
-	return nrItemsInBasket;
-}
-
-void CollectorRobot::isReady()
-{
-	ready = true;
-}
-
-string CollectorRobot::getCurrentPoint()
-{
-	return currentPoint;
-}
-
-void CollectorRobot::warehouseReady()
-{
-	wh_ready = true;
-}
-
-void CollectorRobot::addWarehouseID(string warehouseID)
-{
-	warehouseIDs.push_back(warehouseID);
 }

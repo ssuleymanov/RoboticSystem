@@ -22,8 +22,6 @@ public:
 	~RobotController();
 	RobotController(const RobotController& rController);
 	void Initialize(Point start, Point unload, Printer* print);
-	Point getStartingPoint();
-	Point getUnloadingPoint();
 	void startRobot();					
 	void startManualRobot(vector<Order> orders); // manual control of robot, gets a specified order and unloads it in the unloading area
 	string getWarehouseID();
@@ -42,10 +40,6 @@ private:
 	int currentOrderNumber;
 
 	void calculateOptimalPath(std::vector<Order> orders);
-	void calculateOptimalRoute(vector<Order> orders);
-	int nearest_neighbor(string productID, vector<Order>* route);
-	int getRouteDistance(vector<Order> route);
-	int moveDistance(Point start, Point dest);
 	vector<Order> getProductList(vector<Order> orders);
 	void executeOrders(std::vector<Order> orders);		// execute orders in the warehouse
 	bool processOrder(Order order);						// processes single order, the robot moves to the order location, picks and stores it	

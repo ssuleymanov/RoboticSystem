@@ -15,8 +15,6 @@ void LoadingDock::addOrdersforTruck()
 
 	bool firstOrder = true;
 	bool newOrder = true;
-	//std::vector<Order> orders = unloadedOrdersPerTruck[order.truckNr];
-
 
 	for (it = customerOrdersbyPriority.begin(); it != customerOrdersbyPriority.end(); it++) {
 		if(firstOrder){
@@ -32,11 +30,9 @@ void LoadingDock::addOrdersforTruck()
 			}
 			if(newOrder){
 				unloadedOrdersPerTruck[it->second.truckNr].push_back(it->second);
-			}
-			
+			}		
 		}
 		newOrder = true;
-
 	}
 }
 

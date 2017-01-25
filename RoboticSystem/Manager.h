@@ -36,9 +36,9 @@ public:
 	//! A destructor.
 	~Manager();
 
-	//! A function to create picker robots for each warehouse.
+	//! A function to Initialize the manager.
 	/*!
-	\param[in] fileName path to the of the warehouse configuration file
+	\param[in] fileName path to an article list
 	*/
 	void setup(string fileName);
 
@@ -47,9 +47,32 @@ public:
 	\param[in] fileName path to the order picking list
 	*/
 	void execute(string oplFile);
+
+	//! A function to read and save an article list.
+	/*!
+	\param[in] fileName path to the order picking list
+	*/
 	void readArticles(string articleFile);
+
+	//! A function to process a single order
+	/*!
+	\param[in] productID ProductID of the product to be picked
+	\param[in] quantity Number of products to be picked
+	\return returns false if productID could not be found in the article list, else returns true
+	*/
 	bool manualControl(string productID, int quantity);
+
+	//! A function to check if a product exists in the article list
+	/*!
+	\param[in] productID ProductID
+	\return returns false if productID could not be found in the article list, else returns true
+	*/
 	bool productValid(string productID);
+
+	//! A function to notify the CollectorRobot when an order has been picked
+	/*!
+	\param[in] orders Vector of orders that are ready to be collected
+	*/
 	void orderIsDone(vector<Order> orders);
 
 private:

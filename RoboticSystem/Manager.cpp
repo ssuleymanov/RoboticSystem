@@ -84,7 +84,6 @@ void Manager::execute(string oplFile)
 	controlThread.join();
 	getchar();
 	system("cls");
-	loadingDock.addOrdersforTruck();
 	loadingDock.printOrders(printer);
 	getchar();
 }

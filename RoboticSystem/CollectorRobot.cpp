@@ -180,10 +180,10 @@ bool CollectorRobot::sendCommand(const char c)
 			serial.ReadData(message, 1);
 		}
 
-		Sleep(100);
+		//Sleep(100);
 	}
 	else {
-		cout << "Serial port is not open!!! \n";
+		//cout << "Serial port is not open!!! \n";
 	}
 	return true;
 }
@@ -193,7 +193,7 @@ int CollectorRobot::unload()
 	totalTime += moveTo("LD");		// move to loading dock
 	while (nrItemsInBasket > 0) {
 		Order order = ordersInBasket.back();
-		loadingDock->sortOrderbyPriority(order);
+		loadingDock->addOrdersforTruck(order);
 		nrItemsInBasket --;
 		ordersInBasket.pop_back();
 		printMap("LD");

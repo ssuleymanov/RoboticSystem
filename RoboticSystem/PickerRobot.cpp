@@ -169,10 +169,16 @@ void PickerRobot::pauseRobot(bool pause)
 
 bool PickerRobot::sendCommand(const char c)
 {
-	while (stop == true) {}
+	char message[5] = "F";
+	while (stop == true) {
+		if (serial.ReadDataWaiting() > 0) {
+			serial.ReadData(message, 1);
+			if (message[0] == 'R') { stop = false; }
+		}
+	}
 #if SERIAL
 	if (serial.IsOpened()) {
-		char message[5] = "F";
+		
 		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
 
 		assert(serial.SendData(c));
@@ -184,14 +190,16 @@ bool PickerRobot::sendCommand(const char c)
 			if (message[0] == 'E') { mapper->printLog(LOG_ERROR, "SERIAL COMM ERROR"); }
 			else if (message[0] == 'S') {
 				stop = true;
-				while (stop == true) {
-					if (serial.ReadDataWaiting() > 0) {
-						serial.ReadData(message, 1);
-						if (message[0] == 'R') { stop = false; }
-					}
-				}
+			}
+			else if (message[0] == 'P') {
+				pause = true;
 			}
 		}
+	}
+	else {
+		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
+		mapper->updateWarehouseMap(c);
+		Sleep(S_TIME);
 	}
 #else
 	mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);

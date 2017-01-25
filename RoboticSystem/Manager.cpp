@@ -34,7 +34,7 @@ void Manager::setup(string fileName)
 			printer->printLog(LOG_ERROR,"M","Expecting 10 arguments in the warehouse configuration, recieved " + to_string(size));
 		}
 	}
-	collector.setupSerial(9600,4);
+	collector.setupSerial(115200,7);
 
 	int mapOffset = 0;
 	system("cls");

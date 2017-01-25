@@ -90,11 +90,12 @@ int CollectorRobot::moveTo(string dest)
 	int time = path_times[currentPoint + "to" + dest];
 
 	for (int i = 0; i < time; ++i) {
+		sendCommand(currentPoint.at(0));
 		if (i == time) { currentPoint = dest; }
 		printMap(dest);
 		Sleep(S_TIME);
 	}
-	currentPoint = dest;
+	sendCommand('R');
 	return time;
 
 }
@@ -171,7 +172,19 @@ void CollectorRobot::collectOrder(string warehouseID)
 
 bool CollectorRobot::sendCommand(const char c)
 {
+	if (serial.IsOpened()) {
+		char message[5] = "F";
+		assert(serial.SendData(c));
 
+		if (serial.ReadDataWaiting() > 0) {
+			serial.ReadData(message, 1);
+		}
+
+		Sleep(100);
+	}
+	else {
+		cout << "Serial port is not open!!! \n";
+	}
 	return true;
 }
 

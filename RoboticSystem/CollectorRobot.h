@@ -9,6 +9,7 @@
 #include <map>
 #include <sstream>
 #include <algorithm>
+#include <cassert>
 #include <mutex>
 
 #include "Order.h"

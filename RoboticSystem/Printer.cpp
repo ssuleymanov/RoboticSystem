@@ -57,7 +57,11 @@ void Printer::printLog(log_type type,string warehouseID, string message)
 		string m = "[" + warehouseID + "] " + message;
 		clog << message << "\n";
 		return;
-		//printString("log", logLine, 1, m);
+		
+	}
+	else if (type == LOG_SCREEN) {
+		string m = "[" + warehouseID + "] " + message;
+		printString("log", logLine, 1, m);
 	}
 	
 	if (logLine < 48) { logLine++; }
@@ -133,6 +137,14 @@ void Printer::drawBoxes()
 	for (auto& window : windows) {
 		box(window.second, 0, 0);
 		wrefresh(window.second);
+	}
+}
+
+void Printer::clearWindows()
+{
+	lock_guard<mutex> guard(printer_mutex);
+	for (auto& window : windows) {
+		wclear(window.second);
 	}
 }
 

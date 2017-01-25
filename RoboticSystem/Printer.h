@@ -33,7 +33,8 @@ enum log_type
 {
 	LOG_ERROR,
 	LOG_INFO,
-	LOG_ACTIONS
+	LOG_ACTIONS,
+	LOG_SCREEN
 };
 
 using namespace std; 
@@ -50,6 +51,7 @@ public:
 	void printMap(string warehouseID, int y, int x, string message);
 	void printString(string warehouseID, int y, int x, string message);
 	void drawBoxes();
+	void clearWindows();
 private:
 	static Printer* instance;
 	int logLine;

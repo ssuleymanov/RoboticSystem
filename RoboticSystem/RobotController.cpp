@@ -6,7 +6,7 @@ RobotController::RobotController(PickerRobot robot, Warehouse &warehouseaddr) : 
 	currentPoint = new Point(1,1);
 	printer = Printer::getInstance();
 	currentOrderNumber = 0;
-	totalOrderNumber = 0;
+	totalOrderNumber = 1;
 }
 
 RobotController::~RobotController()
@@ -75,7 +75,8 @@ void RobotController::startRobot()
 void RobotController::startManualRobot(vector<Order> orders)
 {
 	robot.startSerial();
-	getOrder(orders);
+	mapper.printWarehouseMap();
+	executeOrders(orders);
 }
 
 string RobotController::getWarehouseID()
@@ -108,57 +109,76 @@ void RobotController::calculateOptimalPath(std::vector<Order> orders)
 	}
 }
 
-void RobotController::calculateOptimalRoute()
+void RobotController::calculateOptimalRoute(vector<Order> orders)
 {
-	vector<Order> bestRoute, productList, orderList;
-	orderList = warehouse->getOrders();
+	vector<Order> bestRoute, orderList;
 	int best_total = 9999999;
-	for (int i = 0; i < orderList.size(); i++) {
+	for (int i = 0; i < orders.size(); i++) {
 		vector<Order> newRoute;
-		int total = nearest_neighbor(orderList[i].productID, &newRoute);
+		int total = nearest_neighbor(orders[i].productID, &newRoute);
 		if (total < best_total) {
 			best_total = total;
 			bestRoute = newRoute;
 		}
 	}
 
-	mapper.printLog(LOG_INFO, "Best Route: " + to_string(best_total));
+	mapper.printLog(LOG_SCREEN, "Best Route: " + to_string(best_total));
 	sortedOrders = bestRoute;
-
-
-
-	//vector<Order> 
 }
 
 
 
 int RobotController::nearest_neighbor(string productID,vector<Order>* route)
 {
+	vector<vector<int>> dist;
+	int totalComp, cols, rows, start, unload;
+	start = startingPoint.getX() * startingPoint.getY();
+	unload = unloadingPoint.getX() * unloadingPoint.getY();
+	cols = warehouse->getCols();
+	rows = warehouse->getRows();
+	totalComp = cols * rows;
+	for (int cx = 1; cx < totalComp; ++cx) {
+		vector<int> val;
+		for (int cy = 1; cy < totalComp; ++cy) {
+			int x = (((cx - 1) / rows) + 1) - (((cy - 1) / rows) + 1);
+			int y = (((cx - 1) % rows) + 1) - (((cy - 1) % rows) + 1);		
+			val.push_back(abs(x) + abs(y));
+		}
+		dist.push_back(val);
+	}
+
 	vector<Order> orders = getProductList(warehouse->getOrders());
 	vector<Order> sortedRoute;
 	vector<Order>::iterator startIt = find_if(orders.begin(), orders.end(), [&](Order order) {return order.productID == productID; });
-	int total_dist = moveDistance(startingPoint, warehouse->getCompartmentPosition(*startIt));
+	int total_dist = dist[start][startIt->compartment];
 	int basketSize = robot.getBasketSize();
 	int basket = 1;
 
 	string name = "Route" + warehouse->getWarehouseID();
-	printer->printLog(LOG_ACTIONS,name, "Starting..");
+	//printer->printLog(LOG_ACTIONS,name, "Starting..");
 
 	sortedRoute.push_back(*startIt);
 	orders.erase(startIt);
+
 	while (orders.size() > 0) {
 		int bestDistance = 9999999;
 		vector<Order>::iterator bestOrder;
-		Point previousPos = warehouse->getCompartmentPosition(sortedRoute.back());
+		//Point previousPos = compartmentPos[sortedRoute.back().compartment];//warehouse->getCompartmentPosition(sortedRoute.back());
+		int previousPos = sortedRoute.back().compartment;
 		if (basket == basketSize) {
-			total_dist += moveDistance(previousPos, unloadingPoint);
-			printer->printLog(LOG_ACTIONS, name, "Moving to unloading, Distance is: " + to_string(moveDistance(previousPos, unloadingPoint)));
-			previousPos = unloadingPoint;
+			total_dist += dist[previousPos][unload];
+			//printer->printLog(LOG_ACTIONS, name, "Moving to unloading, Distance is: " + to_string(moveDistance(previousPos, unloadingPoint)));
+			previousPos = unload;
 			basket = 0;
 		}
 		for (std::vector<Order>::iterator it = orders.begin(), end = orders.end(); it != end; it++) {
 			int distance = 0;
-			distance = moveDistance(previousPos, warehouse->getCompartmentPosition(*it));
+			distance = dist[previousPos][it->compartment];
+			if (distance == 0) {
+				bestDistance = distance;
+				bestOrder = it;
+				break;
+			}
 			if (distance < bestDistance) {
 				bestDistance = distance;
 				bestOrder = it;
@@ -167,11 +187,11 @@ int RobotController::nearest_neighbor(string productID,vector<Order>* route)
 		++basket;
 		sortedRoute.push_back(*bestOrder);
 		orders.erase(bestOrder);
-		printer->printLog(LOG_ACTIONS, name, "Moving to " + to_string(sortedRoute.back().compartment) + ", Distance is: " + to_string(bestDistance));
+		//printer->printLog(LOG_ACTIONS, name, "Moving to " + to_string(sortedRoute.back().compartment) + ", Distance is: " + to_string(bestDistance));
 		total_dist += bestDistance;
 	}
-	if (basket != 0) { total_dist += moveDistance(warehouse->getCompartmentPosition(sortedRoute.back()), unloadingPoint); }
-	printer->printLog(LOG_ACTIONS, name, "Total is: " + to_string(total_dist));
+	if (basket != 0) { total_dist += dist[sortedRoute.back().compartment][unload]; }
+	//printer->printLog(LOG_ACTIONS, name, "Total is: " + to_string(total_dist));
 
 	vector<Order> temp;
 	for (int i = sortedRoute.size()-1; i >= 0; --i) {
@@ -188,14 +208,20 @@ int RobotController::nearest_neighbor(string productID,vector<Order>* route)
 }
 
 int RobotController::getRouteDistance(vector<Order> route) {
+
 	int total_dist = 0;
 	int basketSize = robot.getBasketSize();
 	int basket = 0;
 	Point previousPos = startingPoint;
 
+	map<int, Point> compartmentPos;
+	for (auto& order : warehouse->getOrders()) {
+		compartmentPos[order.compartment] = warehouse->getCompartmentPosition(order);
+	}
+
 	for (auto& product : route) {
-		total_dist += moveDistance(previousPos, warehouse->getCompartmentPosition(product));
-		previousPos = warehouse->getCompartmentPosition(product);
+		total_dist += moveDistance(previousPos, compartmentPos[product.compartment]);
+		previousPos = compartmentPos[product.compartment];
 		++basket;
 
 		if (basket == basketSize) {
@@ -230,14 +256,16 @@ vector<Order> RobotController::getProductList(vector<Order> orders)
 void RobotController::executeOrders(std::vector<Order> orders)
 {
 	vector<Order> tempOrders = getProductList(orders);
-
-	//vector<Order> productList = sortedOrders;
-	//vector<Order> productList = getProductList(orders);
-
-	totalOrderNumber = tempOrders.size();
+	
+	/*totalOrderNumber = tempOrders.size();
 
 	calculateOptimalPath(tempOrders);
-	sort(tempOrders.begin(), tempOrders.end());				// sorts by compartment number
+	sort(tempOrders.begin(), tempOrders.end());*/				// sorts by compartment number
+	if (orders.size() > 1) {
+		calculateOptimalRoute(orders);
+		tempOrders = sortedOrders;
+	}
+	totalOrderNumber = tempOrders.size();
 
 	for (auto &order : sortedOrders) {
 		if (robot.getNrItemsInBasket() < robot.getBasketSize()) {
@@ -280,13 +308,6 @@ bool RobotController::processOrder(Order order)
 		return false;
 	}
 
-	return true;
-}
-
-bool RobotController::getOrder(vector<Order> orders)
-{
-	mapper.printWarehouseMap();
-	executeOrders(orders);
 	return true;
 }
 

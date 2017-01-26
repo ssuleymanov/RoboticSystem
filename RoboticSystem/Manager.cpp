@@ -45,9 +45,9 @@ void Manager::setup(string fileName)
 		mapOffset += printer->addWindow(wh, mapOffset);
 		resize_term(60, mapOffset + 50);
 	}
-	mapOffset += printer->addWindow("collector", 50, 25, mapOffset, 2) - 10;
-	resize_term(60, mapOffset + 50);
-	mapOffset += printer->addWindow("log", 50, 45, mapOffset, 2);
+	mapOffset += printer->addWindow("collector", 50, 25, mapOffset, 2);
+	resize_term(60, mapOffset + 80);
+	mapOffset += printer->addWindow("log", 50, 75, mapOffset, 2);
 	resize_term(60, mapOffset);
 	printer->drawBoxes();
 }
@@ -178,7 +178,6 @@ vector<Order> Manager::readOPL(string oplFile)
 				Order order = { article.compartment, customerID, orderID, priority, productID, quantity, truckNr, article.warehouseID };
 				printer->printLog(LOG_INFO,"M","Added Order: " + to_string(orderID) + " - " + productID);
 				orderList.push_back(order);
-				priority++;
 			}
 			else {
 				string pID = productID;
@@ -186,8 +185,10 @@ vector<Order> Manager::readOPL(string oplFile)
 			}
 		}
 		else {
-			printer->printLog(LOG_ERROR,"M","Order should contain 5 arguments, recieved " + to_string(size));
+			//printer->printLog(LOG_ERROR,"M","Order should contain 5 arguments, recieved " + to_string(size));
+			printer->printLog(LOG_ERROR, "M", "Incorrect or missing parameters!!! Check the OPL line: " + to_string(priority + 1));
 		}
+		priority++;
 	}
 	return orderList;
 }

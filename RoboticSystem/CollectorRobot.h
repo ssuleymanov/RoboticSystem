@@ -19,6 +19,8 @@
 #include "LoadingDock.h"
 #include "Printer.h"
 
+#define S_TIME 1000
+
 class CollectorRobot {
 public:
 	//! A default constructor.

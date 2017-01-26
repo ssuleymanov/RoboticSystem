@@ -73,12 +73,12 @@ void PickerRobot::setMapper(Mapper *map)
 void PickerRobot::startSerial()
 {
 	if (serial.Open(portNumber, baudRate)) {
-		mapper->printLog(LOG_INFO,"Port " + to_string(portNumber) + " opended succesfully..\n");
-		mapper->printLog(LOG_SCREEN, "Port " + to_string(portNumber) + " opended succesfully..\n");
+		mapper->printLog(LOG_INFO,"Port " + to_string(portNumber) + " opended succesfully..");
+		mapper->printLog(LOG_SCREEN, "Port " + to_string(portNumber) + " opended succesfully..");
 	}
 	else {
-		mapper->printLog(LOG_INFO, "Failed to open port " + to_string(portNumber) + "..!\n");
-		mapper->printLog(LOG_ERROR,"Failed to open port " + to_string(portNumber) + "..!\n");
+		mapper->printLog(LOG_INFO, "Failed to open port " + to_string(portNumber) + "..!");
+		mapper->printLog(LOG_ERROR,"Failed to open port " + to_string(portNumber) + "..!");
 	}
 }
 

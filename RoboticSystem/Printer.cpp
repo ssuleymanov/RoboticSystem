@@ -44,14 +44,14 @@ void Printer::printLog(log_type type,string warehouseID, string message)
 	}
 	else if (type == LOG_ERROR) {
 		string m = "[" + warehouseID + "] " + message;
-		cerr << m << "\n";
+		cerr << current_time() << " - " << m << "\n";
 		wattron(win, COLOR_PAIR(3) | A_BOLD);
 		printString("log", logLine, 1, m);
 		wattroff(win, COLOR_PAIR(3) | A_BOLD);
 	}
 	else if (type == LOG_INFO) {
 		string m = "[" + warehouseID + "] " + message;
-		clog << message << "\n";
+		clog << current_time() << " - " << message << "\n";
 		return;
 		
 	}

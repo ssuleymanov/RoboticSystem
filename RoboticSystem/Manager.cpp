@@ -96,10 +96,6 @@ bool Manager::manualControl(string productID, int quantity)
 	vector<Order> manOrder;
 	Order order = { article.compartment, "", 0, 0, productID, quantity, 0, article.warehouseID };
 	manOrder.push_back(order);
-	if (articles.find(productID) == articles.end()) {
-		cout << "Product with ID: " << productID << " does not exist";
-		return false;
-	}
 
 	for (vector<RobotController>::iterator i = this->rControllers.begin(), end = rControllers.end(); i != end; i++) {
 

@@ -65,6 +65,7 @@ void RobotController::startManualRobot(vector<Order> orders)
 {
 	robot.startSerial();
 	mapper.printWarehouseMap();
+	printer->printString(warehouse->getWarehouseID(),1,3, "Warehouse " + warehouse->getWarehouseID());
 	executeOrders(orders);
 }
 
@@ -119,12 +120,15 @@ void RobotController::executeOrders(std::vector<Order> orders)
 		calculateOptimalPath(tempOrders);
 		sort(tempOrders.begin(), tempOrders.end());			// sorts by compartment number
 	}
-	else {
+	else if (orders.size() == 0) {
 		printer->printLog(LOG_ERROR, warehouse->getWarehouseID(), "The OPL does not contain any orders.");
 		return;
 	}
+	else {
+		sortedOrders = tempOrders;
+	}
 	totalOrderNumber = tempOrders.size();
-	mapper.printString("Progress: 0 %", PROGRESS_NLINE, PROGRESS_NCOL);
+	mapper.printString("Progress: 0 % (0/" + to_string(totalOrderNumber) + ")", PROGRESS_NLINE, PROGRESS_NCOL);
 	for (auto &order : sortedOrders) {
 		if (robot.getNrItemsInBasket() < robot.getBasketSize()) {
 			processOrder(order);
@@ -159,10 +163,10 @@ bool RobotController::processOrder(Order order)
 		robot.store(order);
 
 		currentOrderNumber++;
-		mapper.printString("Progress: " + to_string(currentOrderNumber * 100 / totalOrderNumber) + " %", PROGRESS_NLINE, PROGRESS_NCOL);
+		mapper.printString("Progress: " + to_string(currentOrderNumber * 100 / totalOrderNumber) + " % (" + to_string(currentOrderNumber) + "/" + to_string(totalOrderNumber) + ")" , PROGRESS_NLINE, PROGRESS_NCOL);
 	}
 	else {
-		cerr << "Invalid Product ID: " << order.productID << endl;
+		printer->printLog(LOG_ERROR, warehouse->getWarehouseID(), "Invalid Product ID: " + order.productID);
 		return false;
 	}
 

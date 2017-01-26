@@ -31,7 +31,7 @@
 #define MAX_HEIGHT 55
 #define MIN_WIDTH 32 	
 
-#define S_TIME 1000
+#define S_TIME 100
 
 enum log_type
 {

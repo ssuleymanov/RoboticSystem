@@ -1,5 +1,7 @@
-Starting: 24-01-2017 02:46:46
+Starting: 26-01-2017 01:17:36
 
+[M] Incorrect or missing parameters!!! Check the OPL line: 3
+[M] Incorrect or missing parameters!!! Check the OPL line: 11
 [M] Product with ID: 90-XB2400KM00130 does not exist
 [M] Product with ID: 90MP0081-B0UA00 does not exist
 [A] Failed to open port 8..!

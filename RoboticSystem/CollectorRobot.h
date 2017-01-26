@@ -25,7 +25,7 @@
 #include "LoadingDock.h"
 #include "Printer.h"
 
-#define S_TIME 1000
+#define S_TIME 500
 
 class CollectorRobot {
 public:

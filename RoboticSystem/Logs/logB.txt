@@ -1,82 +1,17 @@
-24-01-2017 02:46:48 - Moving from 1,1 to 1,1
-24-01-2017 02:46:48 - Validation OK, product is: 90-XB1000KM00020
-24-01-2017 02:46:48 - Picking up an item
-24-01-2017 02:46:48 - Storing item
-24-01-2017 02:46:48 - Moving from 1,1 to 1,1
-24-01-2017 02:46:48 - Validation OK, product is: 90-XB1000KM00020
-24-01-2017 02:46:48 - Picking up an item
-24-01-2017 02:46:48 - Storing item
-24-01-2017 02:46:48 - Moving from 1,1 to 1,1
-24-01-2017 02:46:48 - Validation OK, product is: 90-XB1000KM00020
-24-01-2017 02:46:48 - Picking up an item
-24-01-2017 02:46:48 - Storing item
-24-01-2017 02:46:48 - Moving from 1,1 to 1,1
-24-01-2017 02:46:48 - Validation OK, product is: 90-XB1000KM00020
-24-01-2017 02:46:48 - Picking up an item
-24-01-2017 02:46:48 - Storing item
-24-01-2017 02:46:48 - Moving from 1,1 to 1,1
-24-01-2017 02:46:49 - Validation OK, product is: 90-XB1000KM00020
-24-01-2017 02:46:49 - Picking up an item
-24-01-2017 02:46:49 - Storing item
-24-01-2017 02:46:49 - Moving from 1,1 to 2,2
-24-01-2017 02:46:49 - Validation OK, product is: 90YH00Q1-BAUA00
-24-01-2017 02:46:49 - Picking up an item
-24-01-2017 02:46:49 - Storing item
-24-01-2017 02:46:49 - Moving from 2,2 to 4,1
-24-01-2017 02:46:49 - Unloading items
-24-01-2017 02:46:49 - Moving from 4,1 to 2,2
-24-01-2017 02:46:50 - Validation OK, product is: 90YH00Q1-BAUA00
-24-01-2017 02:46:50 - Picking up an item
-24-01-2017 02:46:50 - Storing item
-24-01-2017 02:46:50 - Moving from 2,2 to 1,2
-24-01-2017 02:46:50 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:50 - Picking up an item
-24-01-2017 02:46:50 - Storing item
-24-01-2017 02:46:50 - Moving from 1,2 to 1,2
-24-01-2017 02:46:50 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:50 - Picking up an item
-24-01-2017 02:46:50 - Storing item
-24-01-2017 02:46:50 - Moving from 1,2 to 1,2
-24-01-2017 02:46:50 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:50 - Picking up an item
-24-01-2017 02:46:50 - Storing item
-24-01-2017 02:46:50 - Moving from 1,2 to 1,2
-24-01-2017 02:46:50 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:50 - Picking up an item
-24-01-2017 02:46:50 - Storing item
-24-01-2017 02:46:50 - Moving from 1,2 to 1,2
-24-01-2017 02:46:51 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:51 - Picking up an item
-24-01-2017 02:46:51 - Storing item
-24-01-2017 02:46:51 - Moving from 1,2 to 4,1
-24-01-2017 02:46:51 - Unloading items
-24-01-2017 02:46:51 - Moving from 4,1 to 1,2
-24-01-2017 02:46:51 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:51 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:52 - Moving from 1,2 to 1,2
-24-01-2017 02:46:52 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:52 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:52 - Moving from 1,2 to 1,2
-24-01-2017 02:46:52 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:52 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:52 - Moving from 1,2 to 1,2
-24-01-2017 02:46:52 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:52 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:52 - Moving from 1,2 to 1,2
-24-01-2017 02:46:52 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:52 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:52 - Moving from 1,2 to 1,2
-24-01-2017 02:46:52 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:52 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:52 - Moving from 1,2 to 4,1
-24-01-2017 02:46:53 - Unloading items
-24-01-2017 02:46:53 - Moving from 4,1 to 1,2
-24-01-2017 02:46:53 - Validation OK, product is: 90-XB2400KM00130-
-24-01-2017 02:46:53 - Picking up an item
-24-01-2017 02:46:53 - Storing item
+26-01-2017 01:17:38 - Moving from 1,1 to 1,10
+26-01-2017 01:17:43 - Validation OK, product is: JD-0800EU-2
+26-01-2017 01:17:43 - Picking up an item
+26-01-2017 01:17:43 - Storing item
+26-01-2017 01:17:44 - Moving from 1,10 to 1,10
+26-01-2017 01:17:44 - Validation OK, product is: JD-0800EU-2
+26-01-2017 01:17:44 - Picking up an item
+26-01-2017 01:17:45 - Storing item
+26-01-2017 01:17:45 - Moving from 1,10 to 1,10
+26-01-2017 01:17:46 - Validation OK, product is: JD-0800EU-2
+26-01-2017 01:17:46 - Picking up an item
+26-01-2017 01:17:47 - Storing item
+26-01-2017 01:17:47 - Moving from 1,10 to 1,10
+26-01-2017 01:17:48 - Validation OK, product is: JD-0800EU-2
+26-01-2017 01:17:48 - Picking up an item
+26-01-2017 01:17:48 - Storing item
+26-01-2017 01:17:49 - Moving from 1,10 to 1,10

@@ -1,7 +1,6 @@
-Starting: 24-01-2017 02:46:46
+Starting: 26-01-2017 01:17:36
 
 Added Order: 1 - MK462LL/A
-Added Order: 1 - 90YH00Q1-BAUA00
 Added Order: 1 - SD10VG2/32GB
 Added Order: 1 - DNS-327L
 Added Order: 1 - SDA3/32GB
@@ -9,7 +8,6 @@ Added Order: 8 - 90LM0180-B01170
 Added Order: 8 - T1531SAW-B1
 Added Order: 8 - PWLA8391GTBLK
 Added Order: 8 - USB-N53
-Added Order: 8 - MLW221
 Added Order: 2 - MGLW2FD/A
 Added Order: 2 - MJLT2LL/A
 Added Order: 2 - SM-T560NZKAPHN
@@ -98,5 +96,5 @@ Added Order: 18 - 88316
 Added Order: 18 - T1521MSC-B1
 Added Order: 18 - 90XB02C0-BMU000
 Failed to open port 8..!
-Failed to open port 9Failed to open port ..!
-10..!
+Failed to open port 9Failed to open port ..!10
+..!

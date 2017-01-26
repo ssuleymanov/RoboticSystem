@@ -91,8 +91,8 @@ PickerRobot & RobotController::getPickerRobot()
 
 void RobotController::calculateOptimalPath(std::vector<Order> orders)
 {
-	multimap<int, Order> distanceToOrder;					// map of distance to orders from the unloading point
-	map<int, multimap<int, Order>> sortedDistanceOrder;		// sorted orders by distance and based on row that is close to the unloading point
+	//multimap<int, Order> distanceToOrder;					// map of distance to orders from the unloading point
+	map<int, multimap<int, Order>> sortedDistanceOrder;		// sorted orders by row and by distance that is close to the unloading point
 	map<int, multimap<int, Order>>::iterator iter;
 	multimap<int, Order>::iterator it;
 	int distance;

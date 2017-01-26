@@ -201,7 +201,7 @@ bool PickerRobot::sendCommand(const char c)
 #else
 	mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
 	mapper->updateWarehouseMap(c);
-	Sleep(1000);
+	Sleep(500);
 #endif
 	timer += MOVE_TIME;
 

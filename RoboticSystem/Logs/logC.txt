@@ -1,100 +1,868 @@
-24-01-2017 02:46:48 - Moving from 1,1 to 4,1
-24-01-2017 02:46:48 - Validation OK, product is: 55745
-24-01-2017 02:46:48 - Picking up an item
-24-01-2017 02:46:48 - Storing item
-24-01-2017 02:46:48 - Moving from 4,1 to 4,1
-24-01-2017 02:46:48 - Validation OK, product is: 55745
-24-01-2017 02:46:48 - Picking up an item
-24-01-2017 02:46:48 - Storing item
-24-01-2017 02:46:48 - Moving from 4,1 to 3,1
-24-01-2017 02:46:48 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:48 - Picking up an item
-24-01-2017 02:46:48 - Storing item
-24-01-2017 02:46:49 - Moving from 3,1 to 3,1
-24-01-2017 02:46:49 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:49 - Picking up an item
-24-01-2017 02:46:49 - Storing item
-24-01-2017 02:46:49 - Moving from 3,1 to 3,1
-24-01-2017 02:46:49 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:49 - Picking up an item
-24-01-2017 02:46:49 - Storing item
-24-01-2017 02:46:49 - Moving from 3,1 to 3,1
-24-01-2017 02:46:49 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:49 - Picking up an item
-24-01-2017 02:46:49 - Storing item
-24-01-2017 02:46:49 - Moving from 3,1 to 3,1
-24-01-2017 02:46:49 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:49 - Picking up an item
-24-01-2017 02:46:49 - Storing item
-24-01-2017 02:46:49 - Moving from 3,1 to 3,1
-24-01-2017 02:46:49 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:49 - Picking up an item
-24-01-2017 02:46:49 - Storing item
-24-01-2017 02:46:49 - Moving from 3,1 to 3,1
-24-01-2017 02:46:49 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:49 - Picking up an item
-24-01-2017 02:46:49 - Storing item
-24-01-2017 02:46:50 - Moving from 3,1 to 3,1
-24-01-2017 02:46:50 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:50 - Picking up an item
-24-01-2017 02:46:50 - Storing item
-24-01-2017 02:46:50 - Moving from 3,1 to 3,1
-24-01-2017 02:46:50 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:50 - Picking up an item
-24-01-2017 02:46:50 - Storing item
-24-01-2017 02:46:50 - Moving from 3,1 to 3,1
-24-01-2017 02:46:50 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:50 - Picking up an item
-24-01-2017 02:46:50 - Storing item
-24-01-2017 02:46:50 - Moving from 3,1 to 6,1
-24-01-2017 02:46:50 - Unloading items
-24-01-2017 02:46:51 - Moving from 6,1 to 3,1
-24-01-2017 02:46:51 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:51 - Picking up an item
-24-01-2017 02:46:51 - Storing item
-24-01-2017 02:46:51 - Moving from 3,1 to 3,1
-24-01-2017 02:46:51 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:51 - Picking up an item
-24-01-2017 02:46:51 - Storing item
-24-01-2017 02:46:51 - Moving from 3,1 to 3,1
-24-01-2017 02:46:51 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:51 - Picking up an item
-24-01-2017 02:46:51 - Storing item
-24-01-2017 02:46:52 - Moving from 3,1 to 3,1
-24-01-2017 02:46:52 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:52 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:52 - Moving from 3,1 to 3,1
-24-01-2017 02:46:52 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:52 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:52 - Moving from 3,1 to 3,1
-24-01-2017 02:46:52 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:52 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:52 - Moving from 3,1 to 3,1
-24-01-2017 02:46:52 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:52 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:52 - Moving from 3,1 to 3,1
-24-01-2017 02:46:52 - Validation OK, product is: LSD16GBBEU300
-24-01-2017 02:46:52 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:52 - Moving from 3,1 to 2,1
-24-01-2017 02:46:52 - Validation OK, product is: USB-N53
-24-01-2017 02:46:52 - Picking up an item
-24-01-2017 02:46:52 - Storing item
-24-01-2017 02:46:53 - Moving from 2,1 to 2,1
-24-01-2017 02:46:53 - Validation OK, product is: USB-N53
-24-01-2017 02:46:53 - Picking up an item
-24-01-2017 02:46:53 - Storing item
-24-01-2017 02:46:53 - Moving from 2,1 to 2,1
-24-01-2017 02:46:53 - Validation OK, product is: USB-N53
-24-01-2017 02:46:53 - Picking up an item
-24-01-2017 02:46:53 - Storing item
-24-01-2017 02:46:53 - Moving from 2,1 to 2,1
-24-01-2017 02:46:53 - Validation OK, product is: USB-N53
-24-01-2017 02:46:53 - Picking up an item
-24-01-2017 02:46:53 - Storing item
-24-01-2017 02:46:53 - Moving from 2,1 to 6,1
-24-01-2017 02:46:53 - Unloading items
+26-01-2017 01:17:40 - Moving from 1,1 to 1,4
+26-01-2017 01:17:42 - Validation OK, product is: 90IG0120-BM0000
+26-01-2017 01:17:42 - Picking up an item
+26-01-2017 01:17:43 - Storing item
+26-01-2017 01:17:43 - Moving from 1,4 to 1,4
+26-01-2017 01:17:44 - Validation OK, product is: 90IG0120-BM0000
+26-01-2017 01:17:44 - Picking up an item
+26-01-2017 01:17:44 - Storing item
+26-01-2017 01:17:45 - Moving from 1,4 to 1,4
+26-01-2017 01:17:45 - Validation OK, product is: 90IG0120-BM0000
+26-01-2017 01:17:46 - Picking up an item
+26-01-2017 01:17:46 - Storing item
+26-01-2017 01:17:47 - Moving from 1,4 to 1,4
+26-01-2017 01:17:47 - Validation OK, product is: 90IG0120-BM0000
+26-01-2017 01:17:47 - Picking up an item
+26-01-2017 01:17:48 - Storing item
+26-01-2017 01:17:48 - Moving from 1,4 to 1,4
+26-01-2017 01:17:49 - Validation OK, product is: 90IG0120-BM0000
+26-01-2017 01:17:49 - Picking up an item
+26-01-2017 01:17:49 - Storing item
+26-01-2017 01:17:50 - Moving from 1,4 to 1,4
+26-01-2017 01:17:50 - Validation OK, product is: 90IG0120-BM0000
+26-01-2017 01:17:50 - Picking up an item
+26-01-2017 01:17:51 - Storing item
+26-01-2017 01:17:51 - Moving from 1,4 to 1,4
+26-01-2017 01:17:52 - Validation OK, product is: 90IG0120-BM0000
+26-01-2017 01:17:52 - Picking up an item
+26-01-2017 01:17:52 - Storing item
+26-01-2017 01:17:53 - Moving from 1,4 to 1,4
+26-01-2017 01:17:53 - Validation OK, product is: 90IG0120-BM0000
+26-01-2017 01:17:53 - Picking up an item
+26-01-2017 01:17:54 - Storing item
+26-01-2017 01:17:54 - Moving from 1,4 to 1,4
+26-01-2017 01:17:55 - Validation OK, product is: 90IG0120-BM0000
+26-01-2017 01:17:55 - Picking up an item
+26-01-2017 01:17:55 - Storing item
+26-01-2017 01:17:56 - Moving from 1,4 to 1,4
+26-01-2017 01:17:56 - Validation OK, product is: 90IG0120-BM0000
+26-01-2017 01:17:56 - Picking up an item
+26-01-2017 01:17:57 - Storing item
+26-01-2017 01:17:57 - Moving from 1,4 to 1,4
+26-01-2017 01:17:58 - Validation OK, product is: 90IG0120-BM0000
+26-01-2017 01:17:58 - Picking up an item
+26-01-2017 01:17:58 - Storing item
+26-01-2017 01:17:59 - Moving from 1,4 to 2,4
+26-01-2017 01:18:00 - Validation OK, product is: DWA-121
+26-01-2017 01:18:00 - Picking up an item
+26-01-2017 01:18:00 - Storing item
+26-01-2017 01:18:01 - Moving from 2,4 to 6,1
+26-01-2017 01:18:05 - Unloading items
+26-01-2017 01:18:11 - Moving from 6,1 to 2,1
+26-01-2017 01:18:13 - Validation OK, product is: USB-N53
+26-01-2017 01:18:13 - Picking up an item
+26-01-2017 01:18:14 - Storing item
+26-01-2017 01:18:14 - Moving from 2,1 to 2,1
+26-01-2017 01:18:15 - Validation OK, product is: USB-N53
+26-01-2017 01:18:15 - Picking up an item
+26-01-2017 01:18:15 - Storing item
+26-01-2017 01:18:16 - Moving from 2,1 to 2,1
+26-01-2017 01:18:16 - Validation OK, product is: USB-N53
+26-01-2017 01:18:16 - Picking up an item
+26-01-2017 01:18:17 - Storing item
+26-01-2017 01:18:17 - Moving from 2,1 to 2,1
+26-01-2017 01:18:18 - Validation OK, product is: USB-N53
+26-01-2017 01:18:18 - Picking up an item
+26-01-2017 01:18:18 - Storing item
+26-01-2017 01:18:19 - Moving from 2,1 to 2,1
+26-01-2017 01:18:19 - Validation OK, product is: USB-N53
+26-01-2017 01:18:19 - Picking up an item
+26-01-2017 01:18:20 - Storing item
+26-01-2017 01:18:21 - Moving from 2,1 to 2,1
+26-01-2017 01:18:21 - Validation OK, product is: USB-N53
+26-01-2017 01:18:21 - Picking up an item
+26-01-2017 01:18:22 - Storing item
+26-01-2017 01:18:22 - Moving from 2,1 to 2,1
+26-01-2017 01:18:23 - Validation OK, product is: USB-N53
+26-01-2017 01:18:23 - Picking up an item
+26-01-2017 01:18:23 - Storing item
+26-01-2017 01:18:24 - Moving from 2,1 to 2,1
+26-01-2017 01:18:24 - Validation OK, product is: USB-N53
+26-01-2017 01:18:24 - Picking up an item
+26-01-2017 01:18:25 - Storing item
+26-01-2017 01:18:25 - Moving from 2,1 to 1,1
+26-01-2017 01:18:26 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:26 - Picking up an item
+26-01-2017 01:18:27 - Storing item
+26-01-2017 01:18:27 - Moving from 1,1 to 1,1
+26-01-2017 01:18:28 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:28 - Picking up an item
+26-01-2017 01:18:28 - Storing item
+26-01-2017 01:18:29 - Moving from 1,1 to 1,1
+26-01-2017 01:18:29 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:29 - Picking up an item
+26-01-2017 01:18:30 - Storing item
+26-01-2017 01:18:30 - Moving from 1,1 to 1,1
+26-01-2017 01:18:31 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:31 - Picking up an item
+26-01-2017 01:18:31 - Storing item
+26-01-2017 01:18:32 - Moving from 1,1 to 6,1
+26-01-2017 01:18:34 - Unloading items
+26-01-2017 01:18:41 - Moving from 6,1 to 1,1
+26-01-2017 01:18:44 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:44 - Picking up an item
+26-01-2017 01:18:44 - Storing item
+26-01-2017 01:18:45 - Moving from 1,1 to 1,1
+26-01-2017 01:18:45 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:45 - Picking up an item
+26-01-2017 01:18:46 - Storing item
+26-01-2017 01:18:46 - Moving from 1,1 to 1,1
+26-01-2017 01:18:47 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:47 - Picking up an item
+26-01-2017 01:18:47 - Storing item
+26-01-2017 01:18:48 - Moving from 1,1 to 1,1
+26-01-2017 01:18:48 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:48 - Picking up an item
+26-01-2017 01:18:49 - Storing item
+26-01-2017 01:18:49 - Moving from 1,1 to 1,1
+26-01-2017 01:18:50 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:50 - Picking up an item
+26-01-2017 01:18:50 - Storing item
+26-01-2017 01:18:51 - Moving from 1,1 to 1,1
+26-01-2017 01:18:51 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:51 - Picking up an item
+26-01-2017 01:18:52 - Storing item
+26-01-2017 01:18:52 - Moving from 1,1 to 1,1
+26-01-2017 01:18:53 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:53 - Picking up an item
+26-01-2017 01:18:53 - Storing item
+26-01-2017 01:18:54 - Moving from 1,1 to 1,1
+26-01-2017 01:18:54 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:54 - Picking up an item
+26-01-2017 01:18:55 - Storing item
+26-01-2017 01:18:55 - Moving from 1,1 to 1,1
+26-01-2017 01:18:56 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:56 - Picking up an item
+26-01-2017 01:18:56 - Storing item
+26-01-2017 01:18:57 - Moving from 1,1 to 1,1
+26-01-2017 01:18:57 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:57 - Picking up an item
+26-01-2017 01:18:58 - Storing item
+26-01-2017 01:18:58 - Moving from 1,1 to 1,1
+26-01-2017 01:18:59 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:18:59 - Picking up an item
+26-01-2017 01:18:59 - Storing item
+26-01-2017 01:19:00 - Moving from 1,1 to 1,1
+26-01-2017 01:19:00 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:19:00 - Picking up an item
+26-01-2017 01:19:01 - Storing item
+26-01-2017 01:19:01 - Moving from 1,1 to 6,1
+26-01-2017 01:19:04 - Unloading items
+26-01-2017 01:19:10 - Moving from 6,1 to 3,1
+26-01-2017 01:19:12 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:12 - Picking up an item
+26-01-2017 01:19:13 - Storing item
+26-01-2017 01:19:13 - Moving from 3,1 to 3,1
+26-01-2017 01:19:14 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:14 - Picking up an item
+26-01-2017 01:19:14 - Storing item
+26-01-2017 01:19:15 - Moving from 3,1 to 3,1
+26-01-2017 01:19:15 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:15 - Picking up an item
+26-01-2017 01:19:16 - Storing item
+26-01-2017 01:19:16 - Moving from 3,1 to 3,1
+26-01-2017 01:19:17 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:17 - Picking up an item
+26-01-2017 01:19:17 - Storing item
+26-01-2017 01:19:18 - Moving from 3,1 to 3,1
+26-01-2017 01:19:18 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:18 - Picking up an item
+26-01-2017 01:19:19 - Storing item
+26-01-2017 01:19:19 - Moving from 3,1 to 3,1
+26-01-2017 01:19:20 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:20 - Picking up an item
+26-01-2017 01:19:20 - Storing item
+26-01-2017 01:19:21 - Moving from 3,1 to 3,1
+26-01-2017 01:19:21 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:21 - Picking up an item
+26-01-2017 01:19:22 - Storing item
+26-01-2017 01:19:22 - Moving from 3,1 to 3,1
+26-01-2017 01:19:23 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:23 - Picking up an item
+26-01-2017 01:19:23 - Storing item
+26-01-2017 01:19:24 - Moving from 3,1 to 3,1
+26-01-2017 01:19:25 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:25 - Picking up an item
+26-01-2017 01:19:25 - Storing item
+26-01-2017 01:19:26 - Moving from 3,1 to 3,1
+26-01-2017 01:19:26 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:26 - Picking up an item
+26-01-2017 01:19:27 - Storing item
+26-01-2017 01:19:27 - Moving from 3,1 to 3,1
+26-01-2017 01:19:28 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:28 - Picking up an item
+26-01-2017 01:19:28 - Storing item
+26-01-2017 01:19:29 - Moving from 3,1 to 3,1
+26-01-2017 01:19:29 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:29 - Picking up an item
+26-01-2017 01:19:30 - Storing item
+26-01-2017 01:19:30 - Moving from 3,1 to 6,1
+26-01-2017 01:19:32 - Unloading items
+26-01-2017 01:19:38 - Moving from 6,1 to 3,1
+26-01-2017 01:19:40 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:40 - Picking up an item
+26-01-2017 01:19:40 - Storing item
+26-01-2017 01:19:41 - Moving from 3,1 to 3,1
+26-01-2017 01:19:41 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:41 - Picking up an item
+26-01-2017 01:19:42 - Storing item
+26-01-2017 01:19:42 - Moving from 3,1 to 3,1
+26-01-2017 01:19:43 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:43 - Picking up an item
+26-01-2017 01:19:43 - Storing item
+26-01-2017 01:19:44 - Moving from 3,1 to 3,1
+26-01-2017 01:19:44 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:44 - Picking up an item
+26-01-2017 01:19:45 - Storing item
+26-01-2017 01:19:45 - Moving from 3,1 to 3,1
+26-01-2017 01:19:46 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:46 - Picking up an item
+26-01-2017 01:19:46 - Storing item
+26-01-2017 01:19:47 - Moving from 3,1 to 3,1
+26-01-2017 01:19:47 - Validation OK, product is: LSD16GBBEU300
+26-01-2017 01:19:47 - Picking up an item
+26-01-2017 01:19:48 - Storing item
+26-01-2017 01:19:48 - Moving from 3,1 to 3,2
+26-01-2017 01:19:49 - Validation OK, product is: EN-9235TX-32 V2
+26-01-2017 01:19:49 - Picking up an item
+26-01-2017 01:19:50 - Storing item
+26-01-2017 01:19:50 - Moving from 3,2 to 3,2
+26-01-2017 01:19:51 - Validation OK, product is: EN-9235TX-32 V2
+26-01-2017 01:19:51 - Picking up an item
+26-01-2017 01:19:51 - Storing item
+26-01-2017 01:19:52 - Moving from 3,2 to 3,2
+26-01-2017 01:19:52 - Validation OK, product is: EN-9235TX-32 V2
+26-01-2017 01:19:52 - Picking up an item
+26-01-2017 01:19:53 - Storing item
+26-01-2017 01:19:53 - Moving from 3,2 to 3,2
+26-01-2017 01:19:54 - Validation OK, product is: EN-9235TX-32 V2
+26-01-2017 01:19:54 - Picking up an item
+26-01-2017 01:19:54 - Storing item
+26-01-2017 01:19:55 - Moving from 3,2 to 3,2
+26-01-2017 01:19:55 - Validation OK, product is: EN-9235TX-32 V2
+26-01-2017 01:19:55 - Picking up an item
+26-01-2017 01:19:56 - Storing item
+26-01-2017 01:19:56 - Moving from 3,2 to 3,2
+26-01-2017 01:19:57 - Validation OK, product is: EN-9235TX-32 V2
+26-01-2017 01:19:57 - Picking up an item
+26-01-2017 01:19:57 - Storing item
+26-01-2017 01:19:58 - Moving from 3,2 to 6,1
+26-01-2017 01:20:00 - Unloading items
+26-01-2017 01:20:06 - Moving from 6,1 to 1,1
+26-01-2017 01:20:09 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:20:09 - Picking up an item
+26-01-2017 01:20:10 - Storing item
+26-01-2017 01:20:10 - Moving from 1,1 to 1,1
+26-01-2017 01:20:11 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:20:11 - Picking up an item
+26-01-2017 01:20:11 - Storing item
+26-01-2017 01:20:12 - Moving from 1,1 to 1,1
+26-01-2017 01:20:12 - Validation OK, product is: PWLA8391GTBLK
+26-01-2017 01:20:12 - Picking up an item
+26-01-2017 01:20:13 - Storing item
+26-01-2017 01:20:13 - Moving from 1,1 to 1,2
+26-01-2017 01:20:14 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:20:14 - Picking up an item
+26-01-2017 01:20:15 - Storing item
+26-01-2017 01:20:15 - Moving from 1,2 to 1,2
+26-01-2017 01:20:16 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:20:16 - Picking up an item
+26-01-2017 01:20:16 - Storing item
+26-01-2017 01:20:17 - Moving from 1,2 to 1,2
+26-01-2017 01:20:17 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:20:17 - Picking up an item
+26-01-2017 01:20:18 - Storing item
+26-01-2017 01:20:18 - Moving from 1,2 to 1,2
+26-01-2017 01:20:19 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:20:19 - Picking up an item
+26-01-2017 01:20:19 - Storing item
+26-01-2017 01:20:20 - Moving from 1,2 to 1,2
+26-01-2017 01:20:20 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:20:20 - Picking up an item
+26-01-2017 01:20:21 - Storing item
+26-01-2017 01:20:21 - Moving from 1,2 to 1,2
+26-01-2017 01:20:22 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:20:22 - Picking up an item
+26-01-2017 01:20:22 - Storing item
+26-01-2017 01:20:23 - Moving from 1,2 to 1,2
+26-01-2017 01:20:23 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:20:23 - Picking up an item
+26-01-2017 01:20:24 - Storing item
+26-01-2017 01:20:24 - Moving from 1,2 to 1,2
+26-01-2017 01:20:25 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:20:25 - Picking up an item
+26-01-2017 01:20:25 - Storing item
+26-01-2017 01:20:26 - Moving from 1,2 to 1,2
+26-01-2017 01:20:26 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:20:26 - Picking up an item
+26-01-2017 01:20:27 - Storing item
+26-01-2017 01:20:27 - Moving from 1,2 to 6,1
+26-01-2017 01:20:31 - Unloading items
+26-01-2017 01:20:37 - Moving from 6,1 to 2,2
+26-01-2017 01:20:40 - Validation OK, product is: SDA10/32GB
+26-01-2017 01:20:40 - Picking up an item
+26-01-2017 01:20:40 - Storing item
+26-01-2017 01:20:41 - Moving from 2,2 to 2,2
+26-01-2017 01:20:41 - Validation OK, product is: SDA10/32GB
+26-01-2017 01:20:41 - Picking up an item
+26-01-2017 01:20:42 - Storing item
+26-01-2017 01:20:42 - Moving from 2,2 to 2,2
+26-01-2017 01:20:43 - Validation OK, product is: SDA10/32GB
+26-01-2017 01:20:43 - Picking up an item
+26-01-2017 01:20:43 - Storing item
+26-01-2017 01:20:44 - Moving from 2,2 to 2,2
+26-01-2017 01:20:44 - Validation OK, product is: SDA10/32GB
+26-01-2017 01:20:44 - Picking up an item
+26-01-2017 01:20:45 - Storing item
+26-01-2017 01:20:45 - Moving from 2,2 to 2,2
+26-01-2017 01:20:46 - Validation OK, product is: SDA10/32GB
+26-01-2017 01:20:46 - Picking up an item
+26-01-2017 01:20:46 - Storing item
+26-01-2017 01:20:47 - Moving from 2,2 to 2,2
+26-01-2017 01:20:47 - Validation OK, product is: SDA10/32GB
+26-01-2017 01:20:47 - Picking up an item
+26-01-2017 01:20:48 - Storing item
+26-01-2017 01:20:48 - Moving from 2,2 to 2,2
+26-01-2017 01:20:49 - Validation OK, product is: SDA10/32GB
+26-01-2017 01:20:49 - Picking up an item
+26-01-2017 01:20:49 - Storing item
+26-01-2017 01:20:50 - Moving from 2,2 to 2,3
+26-01-2017 01:20:51 - Validation OK, product is: SD10VG2/32GB
+26-01-2017 01:20:51 - Picking up an item
+26-01-2017 01:20:51 - Storing item
+26-01-2017 01:20:52 - Moving from 2,3 to 2,3
+26-01-2017 01:20:52 - Validation OK, product is: SD10VG2/32GB
+26-01-2017 01:20:52 - Picking up an item
+26-01-2017 01:20:53 - Storing item
+26-01-2017 01:20:53 - Moving from 2,3 to 2,3
+26-01-2017 01:20:54 - Validation OK, product is: SD10VG2/32GB
+26-01-2017 01:20:54 - Picking up an item
+26-01-2017 01:20:54 - Storing item
+26-01-2017 01:20:55 - Moving from 2,3 to 2,3
+26-01-2017 01:20:55 - Validation OK, product is: SD10VG2/32GB
+26-01-2017 01:20:55 - Picking up an item
+26-01-2017 01:20:56 - Storing item
+26-01-2017 01:20:56 - Moving from 2,3 to 2,3
+26-01-2017 01:20:57 - Validation OK, product is: SD10VG2/32GB
+26-01-2017 01:20:57 - Picking up an item
+26-01-2017 01:20:57 - Storing item
+26-01-2017 01:20:58 - Moving from 2,3 to 6,1
+26-01-2017 01:21:01 - Unloading items
+26-01-2017 01:21:07 - Moving from 6,1 to 3,2
+26-01-2017 01:21:10 - Validation OK, product is: EN-9235TX-32 V2
+26-01-2017 01:21:10 - Picking up an item
+26-01-2017 01:21:10 - Storing item
+26-01-2017 01:21:11 - Moving from 3,2 to 3,2
+26-01-2017 01:21:11 - Validation OK, product is: EN-9235TX-32 V2
+26-01-2017 01:21:11 - Picking up an item
+26-01-2017 01:21:12 - Storing item
+26-01-2017 01:21:12 - Moving from 3,2 to 3,2
+26-01-2017 01:21:13 - Validation OK, product is: SD4/8GB
+26-01-2017 01:21:13 - Picking up an item
+26-01-2017 01:21:13 - Storing item
+26-01-2017 01:21:14 - Moving from 3,2 to 3,2
+26-01-2017 01:21:14 - Validation OK, product is: SD4/8GB
+26-01-2017 01:21:14 - Picking up an item
+26-01-2017 01:21:15 - Storing item
+26-01-2017 01:21:15 - Moving from 3,2 to 3,2
+26-01-2017 01:21:16 - Validation OK, product is: SD4/8GB
+26-01-2017 01:21:16 - Picking up an item
+26-01-2017 01:21:16 - Storing item
+26-01-2017 01:21:17 - Moving from 3,2 to 3,2
+26-01-2017 01:21:17 - Validation OK, product is: SD4/8GB
+26-01-2017 01:21:17 - Picking up an item
+26-01-2017 01:21:18 - Storing item
+26-01-2017 01:21:18 - Moving from 3,2 to 3,2
+26-01-2017 01:21:19 - Validation OK, product is: SD4/8GB
+26-01-2017 01:21:19 - Picking up an item
+26-01-2017 01:21:19 - Storing item
+26-01-2017 01:21:20 - Moving from 3,2 to 3,2
+26-01-2017 01:21:20 - Validation OK, product is: SD4/8GB
+26-01-2017 01:21:20 - Picking up an item
+26-01-2017 01:21:21 - Storing item
+26-01-2017 01:21:21 - Moving from 3,2 to 3,2
+26-01-2017 01:21:22 - Validation OK, product is: SD4/8GB
+26-01-2017 01:21:22 - Picking up an item
+26-01-2017 01:21:22 - Storing item
+26-01-2017 01:21:23 - Moving from 3,2 to 3,2
+26-01-2017 01:21:23 - Validation OK, product is: SD4/8GB
+26-01-2017 01:21:23 - Picking up an item
+26-01-2017 01:21:24 - Storing item
+26-01-2017 01:21:24 - Moving from 3,2 to 3,2
+26-01-2017 01:21:25 - Validation OK, product is: EN-9235TX-32 V2
+26-01-2017 01:21:25 - Picking up an item
+26-01-2017 01:21:25 - Storing item
+26-01-2017 01:21:26 - Moving from 3,2 to 3,2
+26-01-2017 01:21:26 - Validation OK, product is: EN-9235TX-32 V2
+26-01-2017 01:21:26 - Picking up an item
+26-01-2017 01:21:27 - Storing item
+26-01-2017 01:21:27 - Moving from 3,2 to 6,1
+26-01-2017 01:21:29 - Unloading items
+26-01-2017 01:21:36 - Moving from 6,1 to 1,2
+26-01-2017 01:21:39 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:39 - Picking up an item
+26-01-2017 01:21:40 - Storing item
+26-01-2017 01:21:40 - Moving from 1,2 to 1,2
+26-01-2017 01:21:41 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:41 - Picking up an item
+26-01-2017 01:21:41 - Storing item
+26-01-2017 01:21:42 - Moving from 1,2 to 1,2
+26-01-2017 01:21:42 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:42 - Picking up an item
+26-01-2017 01:21:43 - Storing item
+26-01-2017 01:21:43 - Moving from 1,2 to 1,2
+26-01-2017 01:21:44 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:44 - Picking up an item
+26-01-2017 01:21:44 - Storing item
+26-01-2017 01:21:45 - Moving from 1,2 to 1,2
+26-01-2017 01:21:45 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:45 - Picking up an item
+26-01-2017 01:21:46 - Storing item
+26-01-2017 01:21:46 - Moving from 1,2 to 1,2
+26-01-2017 01:21:47 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:47 - Picking up an item
+26-01-2017 01:21:47 - Storing item
+26-01-2017 01:21:48 - Moving from 1,2 to 1,2
+26-01-2017 01:21:48 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:48 - Picking up an item
+26-01-2017 01:21:49 - Storing item
+26-01-2017 01:21:49 - Moving from 1,2 to 1,2
+26-01-2017 01:21:50 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:50 - Picking up an item
+26-01-2017 01:21:50 - Storing item
+26-01-2017 01:21:51 - Moving from 1,2 to 1,2
+26-01-2017 01:21:51 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:51 - Picking up an item
+26-01-2017 01:21:52 - Storing item
+26-01-2017 01:21:52 - Moving from 1,2 to 1,2
+26-01-2017 01:21:53 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:53 - Picking up an item
+26-01-2017 01:21:53 - Storing item
+26-01-2017 01:21:54 - Moving from 1,2 to 1,2
+26-01-2017 01:21:54 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:54 - Picking up an item
+26-01-2017 01:21:55 - Storing item
+26-01-2017 01:21:55 - Moving from 1,2 to 1,2
+26-01-2017 01:21:56 - Validation OK, product is: SD10VG2/16GB
+26-01-2017 01:21:56 - Picking up an item
+26-01-2017 01:21:56 - Storing item
+26-01-2017 01:21:57 - Moving from 1,2 to 6,1
+26-01-2017 01:22:00 - Unloading items
+26-01-2017 01:22:06 - Moving from 6,1 to 4,1
+26-01-2017 01:22:08 - Validation OK, product is: 55745
+26-01-2017 01:22:08 - Picking up an item
+26-01-2017 01:22:08 - Storing item
+26-01-2017 01:22:09 - Moving from 4,1 to 4,1
+26-01-2017 01:22:09 - Validation OK, product is: 55745
+26-01-2017 01:22:09 - Picking up an item
+26-01-2017 01:22:10 - Storing item
+26-01-2017 01:22:10 - Moving from 4,1 to 4,2
+26-01-2017 01:22:11 - Validation OK, product is: MLW221
+26-01-2017 01:22:11 - Picking up an item
+26-01-2017 01:22:12 - Storing item
+26-01-2017 01:22:12 - Moving from 4,2 to 4,2
+26-01-2017 01:22:13 - Validation OK, product is: MLW221
+26-01-2017 01:22:13 - Picking up an item
+26-01-2017 01:22:13 - Storing item
+26-01-2017 01:22:14 - Moving from 4,2 to 4,2
+26-01-2017 01:22:14 - Validation OK, product is: MLW221
+26-01-2017 01:22:14 - Picking up an item
+26-01-2017 01:22:15 - Storing item
+26-01-2017 01:22:15 - Moving from 4,2 to 4,2
+26-01-2017 01:22:16 - Validation OK, product is: MLW221
+26-01-2017 01:22:16 - Picking up an item
+26-01-2017 01:22:16 - Storing item
+26-01-2017 01:22:17 - Moving from 4,2 to 4,3
+26-01-2017 01:22:18 - Validation OK, product is: 1636
+26-01-2017 01:22:18 - Picking up an item
+26-01-2017 01:22:18 - Storing item
+26-01-2017 01:22:19 - Moving from 4,3 to 4,3
+26-01-2017 01:22:19 - Validation OK, product is: 1636
+26-01-2017 01:22:19 - Picking up an item
+26-01-2017 01:22:20 - Storing item
+26-01-2017 01:22:20 - Moving from 4,3 to 4,3
+26-01-2017 01:22:21 - Validation OK, product is: 1636
+26-01-2017 01:22:21 - Picking up an item
+26-01-2017 01:22:21 - Storing item
+26-01-2017 01:22:22 - Moving from 4,3 to 4,3
+26-01-2017 01:22:22 - Validation OK, product is: 1636
+26-01-2017 01:22:22 - Picking up an item
+26-01-2017 01:22:23 - Storing item
+26-01-2017 01:22:23 - Moving from 4,3 to 4,3
+26-01-2017 01:22:24 - Validation OK, product is: 1636
+26-01-2017 01:22:24 - Picking up an item
+26-01-2017 01:22:25 - Storing item
+26-01-2017 01:22:25 - Moving from 4,3 to 4,3
+26-01-2017 01:22:26 - Validation OK, product is: 1636
+26-01-2017 01:22:26 - Picking up an item
+26-01-2017 01:22:26 - Storing item
+26-01-2017 01:22:27 - Moving from 4,3 to 6,1
+26-01-2017 01:22:29 - Unloading items
+26-01-2017 01:22:35 - Moving from 6,1 to 1,2
+26-01-2017 01:22:38 - Validation OK, product is: SD4/16GB
+26-01-2017 01:22:38 - Picking up an item
+26-01-2017 01:22:39 - Storing item
+26-01-2017 01:22:39 - Moving from 1,2 to 1,2
+26-01-2017 01:22:40 - Validation OK, product is: SD4/16GB
+26-01-2017 01:22:40 - Picking up an item
+26-01-2017 01:22:40 - Storing item
+26-01-2017 01:22:41 - Moving from 1,2 to 1,2
+26-01-2017 01:22:41 - Validation OK, product is: SD4/16GB
+26-01-2017 01:22:41 - Picking up an item
+26-01-2017 01:22:42 - Storing item
+26-01-2017 01:22:42 - Moving from 1,2 to 1,2
+26-01-2017 01:22:43 - Validation OK, product is: SD4/16GB
+26-01-2017 01:22:43 - Picking up an item
+26-01-2017 01:22:43 - Storing item
+26-01-2017 01:22:44 - Moving from 1,2 to 1,2
+26-01-2017 01:22:44 - Validation OK, product is: SD4/16GB
+26-01-2017 01:22:44 - Picking up an item
+26-01-2017 01:22:45 - Storing item
+26-01-2017 01:22:45 - Moving from 1,2 to 1,2
+26-01-2017 01:22:46 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:22:46 - Picking up an item
+26-01-2017 01:22:46 - Storing item
+26-01-2017 01:22:47 - Moving from 1,2 to 1,2
+26-01-2017 01:22:47 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:22:47 - Picking up an item
+26-01-2017 01:22:48 - Storing item
+26-01-2017 01:22:48 - Moving from 1,2 to 1,2
+26-01-2017 01:22:49 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:22:49 - Picking up an item
+26-01-2017 01:22:49 - Storing item
+26-01-2017 01:22:50 - Moving from 1,2 to 1,2
+26-01-2017 01:22:50 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:22:50 - Picking up an item
+26-01-2017 01:22:51 - Storing item
+26-01-2017 01:22:51 - Moving from 1,2 to 1,2
+26-01-2017 01:22:52 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:22:52 - Picking up an item
+26-01-2017 01:22:52 - Storing item
+26-01-2017 01:22:53 - Moving from 1,2 to 1,2
+26-01-2017 01:22:54 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:22:54 - Picking up an item
+26-01-2017 01:22:54 - Storing item
+26-01-2017 01:22:55 - Moving from 1,2 to 1,2
+26-01-2017 01:22:55 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:22:55 - Picking up an item
+26-01-2017 01:22:56 - Storing item
+26-01-2017 01:22:56 - Moving from 1,2 to 6,1
+26-01-2017 01:22:59 - Unloading items
+26-01-2017 01:23:05 - Moving from 6,1 to 2,3
+26-01-2017 01:23:09 - Validation OK, product is: SD10VG2/32GB
+26-01-2017 01:23:09 - Picking up an item
+26-01-2017 01:23:09 - Storing item
+26-01-2017 01:23:10 - Moving from 2,3 to 2,3
+26-01-2017 01:23:10 - Validation OK, product is: SD10VG2/32GB
+26-01-2017 01:23:10 - Picking up an item
+26-01-2017 01:23:11 - Storing item
+26-01-2017 01:23:11 - Moving from 2,3 to 2,3
+26-01-2017 01:23:12 - Validation OK, product is: SD10VG2/32GB
+26-01-2017 01:23:12 - Picking up an item
+26-01-2017 01:23:12 - Storing item
+26-01-2017 01:23:13 - Moving from 2,3 to 2,3
+26-01-2017 01:23:13 - Validation OK, product is: SD10VG2/32GB
+26-01-2017 01:23:13 - Picking up an item
+26-01-2017 01:23:14 - Storing item
+26-01-2017 01:23:14 - Moving from 2,3 to 2,3
+26-01-2017 01:23:15 - Validation OK, product is: SD10VG2/32GB
+26-01-2017 01:23:15 - Picking up an item
+26-01-2017 01:23:15 - Storing item
+26-01-2017 01:23:16 - Moving from 2,3 to 3,3
+26-01-2017 01:23:17 - Validation OK, product is: SDA3/32GB
+26-01-2017 01:23:17 - Picking up an item
+26-01-2017 01:23:17 - Storing item
+26-01-2017 01:23:18 - Moving from 3,3 to 3,3
+26-01-2017 01:23:18 - Validation OK, product is: SDA3/32GB
+26-01-2017 01:23:18 - Picking up an item
+26-01-2017 01:23:19 - Storing item
+26-01-2017 01:23:19 - Moving from 3,3 to 3,3
+26-01-2017 01:23:20 - Validation OK, product is: SDA3/32GB
+26-01-2017 01:23:20 - Picking up an item
+26-01-2017 01:23:20 - Storing item
+26-01-2017 01:23:21 - Moving from 3,3 to 3,3
+26-01-2017 01:23:21 - Validation OK, product is: SDA3/32GB
+26-01-2017 01:23:21 - Picking up an item
+26-01-2017 01:23:22 - Storing item
+26-01-2017 01:23:22 - Moving from 3,3 to 3,4
+26-01-2017 01:23:23 - Validation OK, product is: SD4/32GB
+26-01-2017 01:23:23 - Picking up an item
+26-01-2017 01:23:24 - Storing item
+26-01-2017 01:23:24 - Moving from 3,4 to 3,4
+26-01-2017 01:23:25 - Validation OK, product is: SD4/32GB
+26-01-2017 01:23:25 - Picking up an item
+26-01-2017 01:23:25 - Storing item
+26-01-2017 01:23:26 - Moving from 3,4 to 3,4
+26-01-2017 01:23:26 - Validation OK, product is: SD4/32GB
+26-01-2017 01:23:26 - Picking up an item
+26-01-2017 01:23:27 - Storing item
+26-01-2017 01:23:27 - Moving from 3,4 to 6,1
+26-01-2017 01:23:31 - Unloading items
+26-01-2017 01:23:37 - Moving from 6,1 to 1,2
+26-01-2017 01:23:40 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:40 - Picking up an item
+26-01-2017 01:23:41 - Storing item
+26-01-2017 01:23:41 - Moving from 1,2 to 1,2
+26-01-2017 01:23:42 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:42 - Picking up an item
+26-01-2017 01:23:42 - Storing item
+26-01-2017 01:23:43 - Moving from 1,2 to 1,2
+26-01-2017 01:23:43 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:43 - Picking up an item
+26-01-2017 01:23:44 - Storing item
+26-01-2017 01:23:44 - Moving from 1,2 to 1,2
+26-01-2017 01:23:45 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:45 - Picking up an item
+26-01-2017 01:23:45 - Storing item
+26-01-2017 01:23:46 - Moving from 1,2 to 1,2
+26-01-2017 01:23:46 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:46 - Picking up an item
+26-01-2017 01:23:47 - Storing item
+26-01-2017 01:23:47 - Moving from 1,2 to 1,2
+26-01-2017 01:23:48 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:48 - Picking up an item
+26-01-2017 01:23:48 - Storing item
+26-01-2017 01:23:49 - Moving from 1,2 to 1,2
+26-01-2017 01:23:49 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:49 - Picking up an item
+26-01-2017 01:23:50 - Storing item
+26-01-2017 01:23:50 - Moving from 1,2 to 1,2
+26-01-2017 01:23:51 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:51 - Picking up an item
+26-01-2017 01:23:51 - Storing item
+26-01-2017 01:23:52 - Moving from 1,2 to 1,2
+26-01-2017 01:23:52 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:52 - Picking up an item
+26-01-2017 01:23:53 - Storing item
+26-01-2017 01:23:53 - Moving from 1,2 to 1,2
+26-01-2017 01:23:54 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:54 - Picking up an item
+26-01-2017 01:23:54 - Storing item
+26-01-2017 01:23:55 - Moving from 1,2 to 1,2
+26-01-2017 01:23:55 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:55 - Picking up an item
+26-01-2017 01:23:56 - Storing item
+26-01-2017 01:23:56 - Moving from 1,2 to 1,2
+26-01-2017 01:23:57 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:23:57 - Picking up an item
+26-01-2017 01:23:58 - Storing item
+26-01-2017 01:23:58 - Moving from 1,2 to 6,1
+26-01-2017 01:24:01 - Unloading items
+26-01-2017 01:24:07 - Moving from 6,1 to 1,2
+26-01-2017 01:24:11 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:24:11 - Picking up an item
+26-01-2017 01:24:11 - Storing item
+26-01-2017 01:24:12 - Moving from 1,2 to 1,2
+26-01-2017 01:24:12 - Validation OK, product is: SDA10/16GB
+26-01-2017 01:24:12 - Picking up an item
+26-01-2017 01:24:13 - Storing item
+26-01-2017 01:24:13 - Moving from 1,2 to 1,3
+26-01-2017 01:24:14 - Validation OK, product is: SDA3/16GB
+26-01-2017 01:24:14 - Picking up an item
+26-01-2017 01:24:15 - Storing item
+26-01-2017 01:24:15 - Moving from 1,3 to 1,3
+26-01-2017 01:24:16 - Validation OK, product is: SDA3/16GB
+26-01-2017 01:24:16 - Picking up an item
+26-01-2017 01:24:16 - Storing item
+26-01-2017 01:24:17 - Moving from 1,3 to 1,3
+26-01-2017 01:24:17 - Validation OK, product is: SDA3/16GB
+26-01-2017 01:24:17 - Picking up an item
+26-01-2017 01:24:18 - Storing item
+26-01-2017 01:24:18 - Moving from 1,3 to 1,3
+26-01-2017 01:24:19 - Validation OK, product is: SDA3/16GB
+26-01-2017 01:24:19 - Picking up an item
+26-01-2017 01:24:19 - Storing item
+26-01-2017 01:24:20 - Moving from 1,3 to 1,3
+26-01-2017 01:24:20 - Validation OK, product is: SDA3/16GB
+26-01-2017 01:24:20 - Picking up an item
+26-01-2017 01:24:21 - Storing item
+26-01-2017 01:24:21 - Moving from 1,3 to 1,3
+26-01-2017 01:24:22 - Validation OK, product is: SDA3/16GB
+26-01-2017 01:24:22 - Picking up an item
+26-01-2017 01:24:22 - Storing item
+26-01-2017 01:24:23 - Moving from 1,3 to 2,4
+26-01-2017 01:24:25 - Validation OK, product is: DWA-121
+26-01-2017 01:24:25 - Picking up an item
+26-01-2017 01:24:25 - Storing item
+26-01-2017 01:24:26 - Moving from 2,4 to 2,4
+26-01-2017 01:24:26 - Validation OK, product is: DWA-121
+26-01-2017 01:24:26 - Picking up an item
+26-01-2017 01:24:27 - Storing item
+26-01-2017 01:24:27 - Moving from 2,4 to 2,4
+26-01-2017 01:24:28 - Validation OK, product is: DWA-121
+26-01-2017 01:24:28 - Picking up an item
+26-01-2017 01:24:28 - Storing item
+26-01-2017 01:24:29 - Moving from 2,4 to 2,4
+26-01-2017 01:24:29 - Validation OK, product is: DWA-121
+26-01-2017 01:24:29 - Picking up an item
+26-01-2017 01:24:30 - Storing item
+26-01-2017 01:24:30 - Moving from 2,4 to 6,1
+26-01-2017 01:24:34 - Unloading items
+26-01-2017 01:24:40 - Moving from 6,1 to 3,5
+26-01-2017 01:24:44 - Validation OK, product is: 88316
+26-01-2017 01:24:44 - Picking up an item
+26-01-2017 01:24:44 - Storing item
+26-01-2017 01:24:45 - Moving from 3,5 to 3,5
+26-01-2017 01:24:45 - Validation OK, product is: 88316
+26-01-2017 01:24:45 - Picking up an item
+26-01-2017 01:24:46 - Storing item
+26-01-2017 01:24:46 - Moving from 3,5 to 3,5
+26-01-2017 01:24:47 - Validation OK, product is: 88316
+26-01-2017 01:24:47 - Picking up an item
+26-01-2017 01:24:47 - Storing item
+26-01-2017 01:24:48 - Moving from 3,5 to 3,5
+26-01-2017 01:24:48 - Validation OK, product is: 88316
+26-01-2017 01:24:48 - Picking up an item
+26-01-2017 01:24:49 - Storing item
+26-01-2017 01:24:49 - Moving from 3,5 to 3,5
+26-01-2017 01:24:50 - Validation OK, product is: 88316
+26-01-2017 01:24:50 - Picking up an item
+26-01-2017 01:24:50 - Storing item
+26-01-2017 01:24:51 - Moving from 3,5 to 4,5
+26-01-2017 01:24:52 - Validation OK, product is: DNS-327L
+26-01-2017 01:24:52 - Picking up an item
+26-01-2017 01:24:52 - Storing item
+26-01-2017 01:24:53 - Moving from 4,5 to 4,5
+26-01-2017 01:24:53 - Validation OK, product is: DNS-327L
+26-01-2017 01:24:53 - Picking up an item
+26-01-2017 01:24:54 - Storing item
+26-01-2017 01:24:54 - Moving from 4,5 to 4,5
+26-01-2017 01:24:55 - Validation OK, product is: DNS-327L
+26-01-2017 01:24:55 - Picking up an item
+26-01-2017 01:24:55 - Storing item
+26-01-2017 01:24:56 - Moving from 4,5 to 4,5
+26-01-2017 01:24:57 - Validation OK, product is: DNS-327L
+26-01-2017 01:24:57 - Picking up an item
+26-01-2017 01:24:57 - Storing item
+26-01-2017 01:24:58 - Moving from 4,5 to 4,5
+26-01-2017 01:24:58 - Validation OK, product is: DNS-327L
+26-01-2017 01:24:58 - Picking up an item
+26-01-2017 01:24:59 - Storing item
+26-01-2017 01:24:59 - Moving from 4,5 to 4,5
+26-01-2017 01:25:00 - Validation OK, product is: DNS-327L
+26-01-2017 01:25:00 - Picking up an item
+26-01-2017 01:25:00 - Storing item
+26-01-2017 01:25:01 - Moving from 4,5 to 4,5
+26-01-2017 01:25:01 - Validation OK, product is: DNS-327L
+26-01-2017 01:25:01 - Picking up an item
+26-01-2017 01:25:02 - Storing item
+26-01-2017 01:25:02 - Moving from 4,5 to 6,1
+26-01-2017 01:25:05 - Unloading items
+26-01-2017 01:25:11 - Moving from 6,1 to 2,4
+26-01-2017 01:25:15 - Validation OK, product is: DWA-121
+26-01-2017 01:25:15 - Picking up an item
+26-01-2017 01:25:16 - Storing item
+26-01-2017 01:25:16 - Moving from 2,4 to 2,4
+26-01-2017 01:25:17 - Validation OK, product is: DWA-121
+26-01-2017 01:25:17 - Picking up an item
+26-01-2017 01:25:17 - Storing item
+26-01-2017 01:25:18 - Moving from 2,4 to 3,4
+26-01-2017 01:25:19 - Validation OK, product is: SD4/32GB
+26-01-2017 01:25:19 - Picking up an item
+26-01-2017 01:25:19 - Storing item
+26-01-2017 01:25:20 - Moving from 3,4 to 3,4
+26-01-2017 01:25:20 - Validation OK, product is: SD4/32GB
+26-01-2017 01:25:20 - Picking up an item
+26-01-2017 01:25:21 - Storing item
+26-01-2017 01:25:21 - Moving from 3,4 to 3,4
+26-01-2017 01:25:22 - Validation OK, product is: SD4/32GB
+26-01-2017 01:25:22 - Picking up an item
+26-01-2017 01:25:22 - Storing item
+26-01-2017 01:25:23 - Moving from 3,4 to 3,4
+26-01-2017 01:25:23 - Validation OK, product is: SD4/32GB
+26-01-2017 01:25:23 - Picking up an item
+26-01-2017 01:25:24 - Storing item
+26-01-2017 01:25:24 - Moving from 3,4 to 3,4
+26-01-2017 01:25:25 - Validation OK, product is: SD4/32GB
+26-01-2017 01:25:25 - Picking up an item
+26-01-2017 01:25:25 - Storing item
+26-01-2017 01:25:26 - Moving from 3,4 to 3,4
+26-01-2017 01:25:26 - Validation OK, product is: SD4/32GB
+26-01-2017 01:25:26 - Picking up an item
+26-01-2017 01:25:27 - Storing item
+26-01-2017 01:25:27 - Moving from 3,4 to 3,4
+26-01-2017 01:25:28 - Validation OK, product is: SD4/32GB
+26-01-2017 01:25:28 - Picking up an item
+26-01-2017 01:25:28 - Storing item
+26-01-2017 01:25:29 - Moving from 3,4 to 3,4
+26-01-2017 01:25:29 - Validation OK, product is: SD4/32GB
+26-01-2017 01:25:29 - Picking up an item
+26-01-2017 01:25:30 - Storing item
+26-01-2017 01:25:30 - Moving from 3,4 to 3,4
+26-01-2017 01:25:31 - Validation OK, product is: SD4/32GB
+26-01-2017 01:25:31 - Picking up an item
+26-01-2017 01:25:31 - Storing item
+26-01-2017 01:25:32 - Moving from 3,4 to 3,4
+26-01-2017 01:25:32 - Validation OK, product is: SD4/32GB
+26-01-2017 01:25:32 - Picking up an item
+26-01-2017 01:25:33 - Storing item
+26-01-2017 01:25:34 - Moving from 3,4 to 6,1
+26-01-2017 01:25:37 - Unloading items
+26-01-2017 01:25:43 - Moving from 6,1 to 4,3
+26-01-2017 01:25:45 - Validation OK, product is: 1636
+26-01-2017 01:25:45 - Picking up an item
+26-01-2017 01:25:46 - Storing item
+26-01-2017 01:25:46 - Moving from 4,3 to 4,3
+26-01-2017 01:25:47 - Validation OK, product is: 1636
+26-01-2017 01:25:47 - Picking up an item
+26-01-2017 01:25:47 - Storing item
+26-01-2017 01:25:48 - Moving from 4,3 to 4,3
+26-01-2017 01:25:48 - Validation OK, product is: 1636
+26-01-2017 01:25:48 - Picking up an item
+26-01-2017 01:25:49 - Storing item
+26-01-2017 01:25:49 - Moving from 4,3 to 4,3
+26-01-2017 01:25:50 - Validation OK, product is: 1636
+26-01-2017 01:25:50 - Picking up an item
+26-01-2017 01:25:50 - Storing item
+26-01-2017 01:25:51 - Moving from 4,3 to 4,3
+26-01-2017 01:25:51 - Validation OK, product is: 1636
+26-01-2017 01:25:51 - Picking up an item
+26-01-2017 01:25:52 - Storing item
+26-01-2017 01:25:52 - Moving from 4,3 to 4,3
+26-01-2017 01:25:53 - Validation OK, product is: 1636
+26-01-2017 01:25:53 - Picking up an item
+26-01-2017 01:25:53 - Storing item
+26-01-2017 01:25:54 - Moving from 4,3 to 4,3
+26-01-2017 01:25:54 - Validation OK, product is: 1636
+26-01-2017 01:25:54 - Picking up an item
+26-01-2017 01:25:55 - Storing item
+26-01-2017 01:25:55 - Moving from 4,3 to 4,3
+26-01-2017 01:25:56 - Validation OK, product is: 1636
+26-01-2017 01:25:56 - Picking up an item
+26-01-2017 01:25:56 - Storing item
+26-01-2017 01:25:57 - Moving from 4,3 to 4,3
+26-01-2017 01:25:57 - Validation OK, product is: 1636
+26-01-2017 01:25:57 - Picking up an item
+26-01-2017 01:25:58 - Storing item
+26-01-2017 01:25:58 - Moving from 4,3 to 4,3
+26-01-2017 01:25:59 - Validation OK, product is: 1636
+26-01-2017 01:25:59 - Picking up an item
+26-01-2017 01:25:59 - Storing item
+26-01-2017 01:26:00 - Moving from 4,3 to 4,4
+26-01-2017 01:26:01 - Validation OK, product is: 1558
+26-01-2017 01:26:01 - Picking up an item
+26-01-2017 01:26:02 - Storing item
+26-01-2017 01:26:02 - Moving from 4,4 to 4,4
+26-01-2017 01:26:03 - Validation OK, product is: 1558
+26-01-2017 01:26:03 - Picking up an item
+26-01-2017 01:26:03 - Storing item
+26-01-2017 01:26:04 - Moving from 4,4 to 6,1
+26-01-2017 01:26:06 - Unloading items
+26-01-2017 01:26:12 - Moving from 6,1 to 3,4
+26-01-2017 01:26:16 - Validation OK, product is: SD4/32GB
+26-01-2017 01:26:16 - Picking up an item
+26-01-2017 01:26:16 - Storing item
+26-01-2017 01:26:17 - Moving from 3,4 to 3,4
+26-01-2017 01:26:17 - Validation OK, product is: SD4/32GB
+26-01-2017 01:26:17 - Picking up an item
+26-01-2017 01:26:18 - Storing item
+26-01-2017 01:26:18 - Moving from 3,4 to 3,4
+26-01-2017 01:26:19 - Validation OK, product is: SD4/32GB
+26-01-2017 01:26:19 - Picking up an item
+26-01-2017 01:26:19 - Storing item
+26-01-2017 01:26:20 - Moving from 3,4 to 4,4
+26-01-2017 01:26:21 - Validation OK, product is: 1558
+26-01-2017 01:26:21 - Picking up an item
+26-01-2017 01:26:21 - Storing item
+26-01-2017 01:26:22 - Moving from 4,4 to 6,1
+26-01-2017 01:26:24 - Unloading items

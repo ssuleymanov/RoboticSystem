@@ -32,23 +32,6 @@ CollectorRobot::CollectorRobot(int basketsize, LoadingDock& ld, string filename)
 	}
 }
 
-//CollectorRobot::CollectorRobot(const CollectorRobot & collector) :
-//	baudRate(collector.baudRate),
-//	portNumber(collector.portNumber),
-//	basketSize(collector.basketSize),
-//	nrItemsInBasket(collector.nrItemsInBasket),
-//	totalTime(collector.totalTime),
-//	warehouseIDs(collector.warehouseIDs),
-//	ready(collector.ready),
-//	currentPoint(collector.currentPoint),
-//	ordersReady(collector.ordersReady),
-//	ordersInBasket(collector.ordersInBasket),
-//	path_times(collector.path_times),
-//	serial(collector.serial),
-//	loadingDock(collector.loadingDock)
-//{
-//}
-
 void CollectorRobot::setupSerial(int baudrate, int portnumber)
 {
 	this->baudRate = baudrate;
@@ -99,11 +82,13 @@ int CollectorRobot::moveTo(string dest)
 	int time = path_times[currentPoint + "to" + dest];
 
 	for (int i = 0; i < time; ++i) {
-		sendCommand(currentPoint.at(0));
-		if (i == time) { currentPoint = dest; }
+		sendCommand(dest.at(0));
+		//if (i == time) { currentPoint = dest; }
 		printMap(dest);
 		Sleep(S_TIME);
 	}
+	currentPoint = dest;
+	printMap(dest);
 	sendCommand('R');
 	return time;
 
@@ -206,7 +191,7 @@ int CollectorRobot::unload()
 	while (nrItemsInBasket > 0) {
 		Order order = ordersInBasket.back();
 		loadingDock->sortOrderbyPriority(order);
-		nrItemsInBasket --;
+		nrItemsInBasket--;
 		ordersInBasket.pop_back();
 		printMap("LD");
 		Sleep(S_TIME);

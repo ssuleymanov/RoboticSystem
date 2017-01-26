@@ -7,10 +7,6 @@ Printer::Printer()
 	logLine = 1;
 }
 
-//Printer::Printer(const Printer& printer) {
-//	windows = printer.windows;
-//}
-
 string Printer::current_time() {
 	time_t rawtime;
 	struct tm timeinfo;
@@ -104,20 +100,15 @@ int Printer::addWindow(string name, int height, int width, int x, int y)
 void Printer::refreshw(string warehouseID)
 {
 	lock_guard<mutex> guard(printer_mutex);
+	wborder(windows[warehouseID], ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ');
+	box(windows[warehouseID], 0, 0);
 	wrefresh(windows[warehouseID]);
 }
 
 void Printer::printMap(string warehouseID, int y, int x, string message)
 {
 	lock_guard<mutex> guard(printer_mutex);
-	if (message == " R ") {
-		wattron(windows[warehouseID], COLOR_PAIR(2));
-		mvwaddstr(windows[warehouseID], y, x, message.c_str());
-		wattroff(windows[warehouseID], COLOR_PAIR(2));
-	}
-	else {
-		mvwaddstr(windows[warehouseID], y, x, message.c_str());
-	}
+	mvwaddstr(windows[warehouseID], y, x, message.c_str());
 }
 
 void Printer::printString(string warehouseID, int y, int x, string message)

@@ -1,50 +1,5 @@
 #include "Manager.h"
 
-void Manager::ControlPanel(int offset) {
-	char operation = ' ';
-	char warehouseID = ' ';
-	bool wh_correct = false;
-	WINDOW* win = newwin(1, offset, 0, 0);
-	while (menuOn) {
-		warehouseID = wgetch(win);
-		if (!menuOn) { return; }
-		operation = wgetch(win);
-		if (!menuOn) { return; }
-		for (auto &rController : rControllers) {
-			if (warehouseID == rController.getWarehouseID().at(0) || warehouseID == (char)tolower(rController.getWarehouseID().at(0))) {
-				if (operation == 'S' || operation == 's') {
-					rController.getPickerRobot().emergency_stop(true);
-				}
-				else if (operation == 'P' || operation == 'p') {
-					rController.getPickerRobot().pauseRobot(true);
-				}
-				else if (operation == 'R' || operation == 'r') {
-					rController.getPickerRobot().emergency_stop(false);
-					rController.getPickerRobot().pauseRobot(false);
-				}
-				else {
-					wclear(win);
-					wprintw(win, "Wrong OPERATION");
-				}
-
-				wh_correct = true;
-				break;
-			}
-		}
-
-		if (wh_correct) {
-			wh_correct = false;
-		}
-		else {
-			wclear(win);
-			wprintw(win, "Wrong WAREHOUSE");
-		}
-
-		wgetch(win);
-		wclear(win);
-	}
-}
-
 Manager::Manager() : collector(16, loadingDock, "path_times.txt")
 {
 	//collector = CollectorRobot(16, loadingDock, "path_times.txt");
@@ -79,8 +34,6 @@ void Manager::setup(string fileName)
 			printer->printLog(LOG_ERROR,"M","Expecting 10 arguments in the warehouse configuration, recieved " + to_string(size));
 		}
 	}
-	//loadingDock = LoadingDock();
-	//collector = CollectorRobot(16,loadingDock,"path_times.txt");
 	collector.setupSerial(115200,7);
 
 	int mapOffset = 0;
@@ -131,7 +84,6 @@ void Manager::execute(string oplFile)
 	controlThread.join();
 	getchar();
 	system("cls");
-	loadingDock.addOrdersforTruck();
 	loadingDock.printOrders(printer);
 	getchar();
 }
@@ -169,7 +121,6 @@ void Manager::orderIsDone(vector<Order> orders)
 	for (auto& order : orders) {
 		collector.addOrder(order);
 	}
-	collector.warehouseReady();
 }
 
 void Manager::addWarehouse(Warehouse wh)
@@ -189,11 +140,11 @@ Warehouse & Manager::getWarehouse(string WarehouseID)
 			return *i;
 		}
 	}
-	string err_msg;
+	printer->printLog(LOG_ERROR, "M", "Warehouse " + WarehouseID + "does not exist");
+
 	stringstream sstm;
 	sstm << "Warehouse " << WarehouseID << " does not exist";
-	err_msg = sstm.str();
-	throw std::runtime_error(err_msg);
+	throw std::runtime_error(sstm.str());
 }
 
 
@@ -204,11 +155,11 @@ RobotController& Manager::getRobotController(string WarehouseID)
 			return *i;
 		}
 	}
-	string err_msg;
+	printer->printLog(LOG_ERROR, "M", "PickerRobot for Warehouse " + WarehouseID + "does not exist");
+
 	stringstream sstm;
 	sstm << "PickerRobot for Warehouse " << WarehouseID << " does not exist";
-	err_msg = sstm.str();
-	throw std::runtime_error(err_msg);
+	throw std::runtime_error(sstm.str());
 }
 
 vector<Order> Manager::readOPL(string oplFile)
@@ -289,5 +240,50 @@ void Manager::readArticles(string articleFile) {
 				i = 0;				
 			}
 		}
+	}
+}
+
+void Manager::ControlPanel(int offset) {
+	char operation = ' ';
+	char warehouseID = ' ';
+	bool wh_correct = false;
+	WINDOW* win = newwin(1, offset, 0, 0);
+	while (menuOn) {
+		warehouseID = wgetch(win);
+		if (!menuOn) { return; }
+		operation = wgetch(win);
+		if (!menuOn) { return; }
+		for (auto &rController : rControllers) {
+			if (warehouseID == rController.getWarehouseID().at(0) || warehouseID == (char)tolower(rController.getWarehouseID().at(0))) {
+				if (operation == 'S' || operation == 's') {
+					rController.getPickerRobot().emergency_stop(true);
+				}
+				else if (operation == 'P' || operation == 'p') {
+					rController.getPickerRobot().pauseRobot(true);
+				}
+				else if (operation == 'R' || operation == 'r') {
+					rController.getPickerRobot().emergency_stop(false);
+					rController.getPickerRobot().pauseRobot(false);
+				}
+				else {
+					wclear(win);
+					wprintw(win, "Wrong OPERATION");
+				}
+
+				wh_correct = true;
+				break;
+			}
+		}
+
+		if (wh_correct) {
+			wh_correct = false;
+		}
+		else {
+			wclear(win);
+			wprintw(win, "Wrong WAREHOUSE");
+		}
+
+		wgetch(win);
+		wclear(win);
 	}
 }

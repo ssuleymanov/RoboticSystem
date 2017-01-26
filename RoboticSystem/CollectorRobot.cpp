@@ -90,7 +90,6 @@ int CollectorRobot::moveTo(string dest)
 
 	for (int i = 0; i < time; ++i) {
 		sendCommand(dest.at(0));
-		//if (i == time) { currentPoint = dest; }
 		printMap(dest);
 		Sleep(S_TIME);
 	}
@@ -194,7 +193,7 @@ int CollectorRobot::unload()
 	totalTime += moveTo("LD");		// move to loading dock
 	while (nrItemsInBasket > 0) {
 		Order order = ordersInBasket.back();
-		loadingDock->sortOrderbyPriority(order);
+		loadingDock->addOrdersforTruck(order);
 		nrItemsInBasket--;
 		ordersInBasket.pop_back();
 		printMap("LD");

@@ -45,25 +45,32 @@ void Mapper::printWarehouseMap()
 	int unload_X = unloadingPoint.getX();
 	int unload_Y = rows - unloadingPoint.getY() + 1;
 
+	int newXPosition = currentPosition.getX();
+	int newYPosition = currentPosition.getY();
+	string log_string;
 
 	if (command == 'U') {
-		currentPosition.setY(currentPosition.getY() + 1);
-		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE,MOVE_NCOL,"Moving Up");
+		newYPosition++;
+		log_string = "Moving Up";
 	}
 	else if (command == 'D') {
-		currentPosition.setY(currentPosition.getY() - 1);
-		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE, MOVE_NCOL, "Moving Down");
+		newYPosition--;
+		log_string = "Moving Down";
 	}
 	else if (command == 'R') {
-		currentPosition.setX(currentPosition.getX() + 1);
-		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE, MOVE_NCOL, "Moving Right");
+		newXPosition++;
+		log_string = "Moving Right";
 	}
 	else if (command == 'L') {
-		currentPosition.setX(currentPosition.getX() - 1);
-		printer->printString(warehouse->getWarehouseID(), MOVE_NLINE, MOVE_NCOL, "Moving Left");
+		newXPosition--;
+		log_string = "Moving Left";
 	}
 
-	if (currentPosition.getX() == compartmentPosition.getX() && currentPosition.getY() == compartmentPosition.getY()) {
+	currentPosition.setX(newXPosition);
+	currentPosition.setY(newYPosition);
+	printer->printString(warehouse->getWarehouseID(), MOVE_NLINE, MOVE_NCOL, log_string);
+
+	if (newXPosition == compartmentPosition.getX() && newYPosition == compartmentPosition.getY()) {
 		itemIsPicked = true;
 	}
 

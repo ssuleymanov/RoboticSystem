@@ -34,6 +34,7 @@ void Printer::printLog(log_type type,string warehouseID, string message)
 {
 	lock_guard<mutex> guard(log_mutex);
 	WINDOW* win = windows["log"];
+
 	if (type == LOG_ACTIONS) {
 		string filename = "Logs\\log" + warehouseID + ".txt";
 		ofstream myfile;

@@ -88,7 +88,7 @@ void Manager::execute(string oplFile)
 
 	thread controlThread (&Manager::ControlPanel, this, 30);
 	for (int i = 0; i < rControllers.size(); i++) {
-		threads.push_back(thread(&RobotController::startRobot, &rControllers[i]));
+		threads.push_back(thread(&RobotController::startAutomaticRobot, &rControllers[i]));
 	}
 
 	collectThread = thread(&CollectorRobot::startRobot, &collector, printer);

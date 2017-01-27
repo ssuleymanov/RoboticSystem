@@ -41,10 +41,10 @@ public:
 	\param[in] unload Unloading position of the robot
 	\param[in] print Pointer to the Printer
 	*/
-	void Initialize(Point start, Point unload, Printer* print);
+	void Initialize(const Point& start, const Point& unload, Printer* print);
 
 	//! A function to start the robot in automatic mode.
-	void startRobot();	
+	void startAutomaticRobot();	
 
 	//! A function to start the robot in manual mode.
 	/*!
@@ -56,7 +56,7 @@ public:
 	/*!
 	\return WarehouseID
 	*/
-	string getWarehouseID();
+	string getWarehouseID() const;
 
 	//! A function to get the PickerRobot.
 	/*!
@@ -77,10 +77,10 @@ private:
 	int totalOrderNumber;
 	int currentOrderNumber;
 
-	void calculateOptimalPath(std::vector<Order> orders);
+	void calculateOptimalPath(const std::vector<Order>& orders);
 	vector<Order> getProductList(vector<Order> orders);
 	void executeOrders(std::vector<Order> orders);		// execute orders in the warehouse
-	bool processOrder(Order order);						// processes single order, the robot moves to the order location, picks and stores it	
+	void processOrder(const Order& order);						// processes single order, the robot moves to the order location, picks and stores it	
 	bool inRange(Point p);
 
 };

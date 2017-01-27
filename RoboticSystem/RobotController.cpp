@@ -11,6 +11,7 @@ RobotController::RobotController(PickerRobot robot, Warehouse &warehouseaddr) : 
 
 RobotController::~RobotController()
 {
+	//delete currentPoint;
 }
 
 RobotController::RobotController(const RobotController& rController) :
@@ -29,7 +30,7 @@ RobotController::RobotController(const RobotController& rController) :
 }
 
 
-void RobotController::Initialize(Point start, Point unload, Printer* print) {
+void RobotController::Initialize(const Point& start, const Point& unload, Printer* print) {
 
 	if (inRange(start)) {
 		startingPoint = start;
@@ -54,7 +55,7 @@ void RobotController::Initialize(Point start, Point unload, Printer* print) {
 	currentPoint = mapper.getCurrentPosition();
 }
 
-void RobotController::startRobot()
+void RobotController::startAutomaticRobot()
 {
 	robot.startSerial();
 	executeOrders(warehouse->getOrders());
@@ -69,7 +70,7 @@ void RobotController::startManualRobot(vector<Order> orders)
 	executeOrders(orders);
 }
 
-string RobotController::getWarehouseID()
+string RobotController::getWarehouseID() const
 {
 	return warehouse->getWarehouseID();
 }
@@ -79,7 +80,7 @@ PickerRobot & RobotController::getPickerRobot()
 	return robot;
 }
 
-void RobotController::calculateOptimalPath(std::vector<Order> orders)
+void RobotController::calculateOptimalPath(const std::vector<Order>& orders)
 {
 	//multimap<int, Order> distanceToOrder;					// map of distance to orders from the unloading point
 	map<int, multimap<int, Order>> sortedDistanceOrder;		// sorted orders by row and by distance that is close to the unloading point
@@ -151,7 +152,7 @@ void RobotController::executeOrders(std::vector<Order> orders)
 	mapper.printString("Time = " + to_string(robot.getTime()) + " seconds    ", MOVE_NLINE, MOVE_NCOL);
 }
 
-bool RobotController::processOrder(Order order)
+void RobotController::processOrder(const Order& order)
 {
 
 	mapper.printString("Processing Order: " + to_string(order.orderID), ORDER_NLINE , ORDER_NCOL);
@@ -169,10 +170,8 @@ bool RobotController::processOrder(Order order)
 	}
 	else {
 		//printer->printLog(LOG_ERROR, warehouse->getWarehouseID(), "Invalid Product ID: " + order.productID);
-		return false;
+		return;
 	}
-
-	return true;
 }
 
 bool RobotController::inRange(Point p)

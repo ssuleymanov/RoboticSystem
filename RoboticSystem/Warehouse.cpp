@@ -38,19 +38,19 @@ int Warehouse::getCols() const
 }
 
 
-Point Warehouse::getCompartmentPosition(Order order)
+Point Warehouse::getCompartmentPosition(const Order& order) const
 {
 	lock_guard<mutex> guard(wh_mutex);
 	return Point((order.compartment - 1) / rows + 1, (order.compartment - 1) % rows + 1);
 }
 
 
-void Warehouse::addOrder(Order order)
+void Warehouse::addOrder(const Order& order)
 {
 	orders.push_back(order);
 }
 
-vector<Order> Warehouse::getOrders()
+vector<Order> Warehouse::getOrders() const
 {
 	lock_guard<mutex> guard(wh_mutex);
 	return this->orders;

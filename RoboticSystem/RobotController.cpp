@@ -152,7 +152,7 @@ void RobotController::executeOrders(std::vector<Order> orders)
 	mapper.printString("Time = " + to_string(robot.getTime()) + " seconds    ", MOVE_NLINE, MOVE_NCOL);
 }
 
-void RobotController::processOrder(const Order& order)
+bool RobotController::processOrder(const Order& order)
 {
 
 	mapper.printString("Processing Order: " + to_string(order.orderID), ORDER_NLINE , ORDER_NCOL);
@@ -170,8 +170,9 @@ void RobotController::processOrder(const Order& order)
 	}
 	else {
 		//printer->printLog(LOG_ERROR, warehouse->getWarehouseID(), "Invalid Product ID: " + order.productID);
-		return;
+		return false;;
 	}
+	return true;
 }
 
 bool RobotController::inRange(Point p)

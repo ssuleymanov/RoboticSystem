@@ -80,7 +80,7 @@ private:
 	void calculateOptimalPath(const std::vector<Order>& orders);
 	vector<Order> getProductList(vector<Order> orders);
 	void executeOrders(std::vector<Order> orders);		// execute orders in the warehouse
-	void processOrder(const Order& order);						// processes single order, the robot moves to the order location, picks and stores it	
+	bool processOrder(const Order& order);						// processes single order, the robot moves to the order location, picks and stores it	
 	bool inRange(Point p);
 
 };

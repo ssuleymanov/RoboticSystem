@@ -68,11 +68,11 @@ void Mapper::printWarehouseMap()
 	}
 
 	for (int j = 0; j <= rows + 1; j++) {
-		int nlines = (j*2) + 1 + MAP_OFFSET;
+		int nlines = (j*MAPSPACE_HEIGHT) + 1 + MAP_OFFSET;
 		if (j == 0) {	//Print top part of map
 			printer->printMap(warehouse->getWarehouseID(),nlines+1,4, string(1, 201).c_str());
 			for (int i = 1; i <= cols; i++) {
-				int ncols = (i * 4)+1;
+				int ncols = (i * MAPSPACE_WIDTH)+1;
 				printer->printMap(warehouse->getWarehouseID(), nlines+1, ncols, string(3, 205));
 				if (i < cols) {
 					printer->printMap(warehouse->getWarehouseID(), nlines+1, ncols+3, string(1, 203));
@@ -83,7 +83,7 @@ void Mapper::printWarehouseMap()
 		else if (j == rows + 1) { //Print bottom part of map 
 			printer->printMap(warehouse->getWarehouseID(), nlines-1, 4, string(1, 200));
 			for (int i = 1; i <= cols; i++) {
-				int ncols = (i * 4)+1;
+				int ncols = (i * MAPSPACE_WIDTH)+1;
 				printer->printMap(warehouse->getWarehouseID(), nlines-1, ncols, string(3, 205));
 				if (i<cols) {
 					printer->printMap(warehouse->getWarehouseID(), nlines-1, ncols+3, string(1, 202));
@@ -93,7 +93,7 @@ void Mapper::printWarehouseMap()
 		}
 		else {
 			for (int i = 1; i <= cols; i++) { //Print rest of map
-				int ncols = (i * 4);
+				int ncols = (i * MAPSPACE_WIDTH);
 				printer->printMap(warehouse->getWarehouseID(), nlines, ncols, string(1, 186));
 				if (i == currentPosition.getX() && j == rows - currentPosition.getY() + 1) {
 					printer->printMap(warehouse->getWarehouseID(), nlines, ncols+1, " R ");
@@ -116,7 +116,7 @@ void Mapper::printWarehouseMap()
 			if (j < rows) {
 				printer->printMap(warehouse->getWarehouseID(), nlines+1, 4, string(1, 204));
 				for (int i = 1; i <= cols; i++) {
-					int ncols = (i * 4) + 1;
+					int ncols = (i * MAPSPACE_WIDTH) + 1;
 					printer->printMap(warehouse->getWarehouseID(), nlines+1, ncols, string(3, 205));
 					if (i < cols) {
 						printer->printMap(warehouse->getWarehouseID(), nlines+1, ncols+3, string(1, 206));

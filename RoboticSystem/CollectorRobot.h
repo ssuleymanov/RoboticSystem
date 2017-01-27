@@ -19,8 +19,6 @@
 #include "LoadingDock.h"
 #include "Printer.h"
 
-#define S_TIME 1000
-
 class CollectorRobot {
 public:
 	//! A default constructor.
@@ -35,14 +33,15 @@ public:
 	\param[in] ld Reference to a LoadingDock
 	\param[in] filename Path to a file of travel times between warehouses
 	*/
-	CollectorRobot(int basketsize, LoadingDock& ld, string filename);
+	CollectorRobot(LoadingDock& ld, string filename);
 
-	//! A function to set the serial parameters.
+	//! A function to set the basket size and serial parameters.
 	/*!
+	\param[in] baudrate baudrate
 	\param[in] baudrate baudrate
 	\param[in] portnumber port number
 	*/
-	void setupSerial(int baudrate, int portnumber);
+	void InitCollector(int basketsize, int baudrate, int portnumber);
 
 	//! A function to start the CollectorRobot.
 	/*!

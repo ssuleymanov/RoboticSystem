@@ -5,7 +5,6 @@
 #include "Point.h"
 #include "Warehouse.h"
 #include "Printer.h"
-#include <pdcwin.h>
 
 
 class Mapper{

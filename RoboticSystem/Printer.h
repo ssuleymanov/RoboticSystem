@@ -3,7 +3,6 @@
 #include <fstream>
 #include <map>
 #include "../pdcurses/win32/pdcwin.h"
-//#include <pdcwin.h>
 #include <thread>
 #include <string>
 #include <iterator>
@@ -11,6 +10,10 @@
 #include <ctime>
 
 #include "Warehouse.h"
+
+#define MAPSPACE_WIDTH 4
+#define MAPSPACE_HEIGHT 2
+#define MAPSPACE_WIDTH_OFFSET 12
 
 #define PROGRESS_NLINE MAP_OFFSET - 4
 #define PROGRESS_NCOL 3
@@ -23,13 +26,18 @@
 #define BASKET_NLINE MAP_OFFSET
 #define BASKET_NCOL 3
 
-
-
 #define VMAP_OFFSET 1
 #define MAP_OFFSET 7
+#define TEXT_VOFFSET 2
 
-#define MAX_HEIGHT 55
-#define MIN_WIDTH 32 	
+#define MAX_SCREEN_HEIGHT 60
+#define MAX_WINDOW_HEIGHT 55
+#define MIN_WINDOW_WIDTH 32 	
+#define MAX_WINDOW_WIDTH 75
+
+#define COLLECTOR_WINDOW_WIDTH 20
+#define LOG_WINDOW_WIDTH 75
+#define MAX_LOG_LINES 52
 
 #define S_TIME 100
 

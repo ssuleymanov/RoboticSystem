@@ -130,14 +130,16 @@ void RobotController::executeOrders(std::vector<Order> orders)
 	totalOrderNumber = tempOrders.size();
 	mapper.printString("Progress: 0 % (0/" + to_string(totalOrderNumber) + ")", PROGRESS_NLINE, PROGRESS_NCOL);
 	for (auto &order : sortedOrders) {
-		if (robot.getNrItemsInBasket() < robot.getBasketSize()) {
-			processOrder(order);
-		}
-		else {
+		if (robot.getNrItemsInBasket() == robot.getBasketSize()) {
 			robot.moveTo(*currentPoint, unloadingPoint);
 			robot.unload();
-			processOrder(order);
 		}
+		//processOrder(order);
+		if (find_if(InvalidProductIDs.begin(), InvalidProductIDs.end(), [=](Order product) {return(product.productID == order.productID && product.orderID == order.orderID); }) == InvalidProductIDs.end()) {
+			if (!processOrder(order)) {
+				InvalidProductIDs.push_back(order);
+			}
+		}		
 	}
 
 	if (robot.getNrItemsInBasket() != 0) {
@@ -166,7 +168,7 @@ bool RobotController::processOrder(Order order)
 		mapper.printString("Progress: " + to_string(currentOrderNumber * 100 / totalOrderNumber) + " % (" + to_string(currentOrderNumber) + "/" + to_string(totalOrderNumber) + ")" , PROGRESS_NLINE, PROGRESS_NCOL);
 	}
 	else {
-		printer->printLog(LOG_ERROR, warehouse->getWarehouseID(), "Invalid Product ID: " + order.productID);
+		//printer->printLog(LOG_ERROR, warehouse->getWarehouseID(), "Invalid Product ID: " + order.productID);
 		return false;
 	}
 

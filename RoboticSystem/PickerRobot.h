@@ -1,5 +1,4 @@
 #pragma once
-#include <list>
 #include <vector>
 #include <assert.h>
 #include <fstream>
@@ -11,7 +10,6 @@
 #include "Serial.h"
 #include "Point.h"
 #include "Mapper.h"
-//#include "Printer.h"
 
 #define SERIAL true
 

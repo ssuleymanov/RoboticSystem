@@ -30,6 +30,15 @@ public:
 	*/
 	void addOrdersforTruck(Order order);
 
+	//! A function to notify the loading dock of incorrect orders.
+	/*!
+	\param[in] customerID ID of the customer with an invalid order
+	*/
+	void InvalidOrder(string customerID);
+
+	//! A function that removes invalid orders from the unloading area.
+	void RemoveInvalidOrders();
+
 	//! A function to print all orders currently in the loading dock sorted by truck
 	/*!
 	\param[in] printer Pointer to a Printer
@@ -40,6 +49,7 @@ private:
 	std::map <int, std::vector<Order>> unloadedOrdersPerTruck;						// unloaded orders per truck
 	std::multimap <std::string, Order> unloadedOrdersPerCustomer;				// unloaded orders per customer
 	std::multimap <int, Order> customerOrdersbyPriority;							//
+	std::map <string, vector<Order>> IncompleteOrders;
 	void sortOrderbyPriority();
 };
 

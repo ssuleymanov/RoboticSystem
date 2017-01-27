@@ -46,7 +46,7 @@ void Printer::printLog(log_type type,string warehouseID, string message)
 		string m = "[" + warehouseID + "] " + message;
 		cerr << current_time() << " - " << m << "\n";
 		wattron(win, COLOR_PAIR(3) | A_BOLD);
-		printString("log", logLine, 1, m);
+		printString("log", logLine, TEXT_VOFFSET, m);
 		wattroff(win, COLOR_PAIR(3) | A_BOLD);
 	}
 	else if (type == LOG_INFO) {
@@ -57,12 +57,12 @@ void Printer::printLog(log_type type,string warehouseID, string message)
 	}
 	else if (type == LOG_SCREEN) {
 		string m = "[" + warehouseID + "] " + message;
-		printString("log", logLine, 1, m);
+		printString("log", logLine, TEXT_VOFFSET, m);
 	}
 	
-	if (logLine < 48) { logLine++; }
+	if (logLine < MAX_LOG_LINES) { logLine++; }
 	wborder(win, ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ');
-	if (logLine >= 48) { scroll(win); }
+	if (logLine >= MAX_LOG_LINES) { scroll(win); }
 	box(win, 0, 0);
 	wrefresh(win);
 }
@@ -70,17 +70,15 @@ void Printer::printLog(log_type type,string warehouseID, string message)
 
 int Printer::addWindow(Warehouse warehouse, int offset)
 {
-	int height = warehouse.getRows() * 2 + 6 + MAP_OFFSET;
-	if (height > MAX_HEIGHT)
-		height = MAX_HEIGHT;
-	int width = warehouse.getCols() * 4 + 12;
-	if (width < MIN_WIDTH) {
-		width = MIN_WIDTH;	
+	int height = MAX_WINDOW_HEIGHT;
+	int width = warehouse.getCols() * MAPSPACE_WIDTH + MAPSPACE_WIDTH_OFFSET;
+	if (width < MIN_WINDOW_WIDTH) {
+		width = MIN_WINDOW_WIDTH;	
 	}
 	WINDOW* win = newwin(height, width, VMAP_OFFSET, offset);
 	box(win, 0, 0);
 	string m = "Warehouse " + warehouse.getWarehouseID();
-	mvwaddstr(win, 1, 3, m.c_str());
+	mvwaddstr(win, 1, TEXT_VOFFSET, m.c_str());
 	wrefresh(win);
 	windows.insert(pair<string,WINDOW*>(warehouse.getWarehouseID(),win));
 	return width;
@@ -88,12 +86,12 @@ int Printer::addWindow(Warehouse warehouse, int offset)
 
 int Printer::addWindow(string name, int height, int width, int x, int y)
 {
-	WINDOW* win = newwin(height, width, VMAP_OFFSET, x);
+	WINDOW* win = newwin(height, width, y, x);
 	scrollok(win,true);
 	box(win, 0, 0);
 	wrefresh(win);
 	windows.insert(pair<string, WINDOW*>(name, win));
-	return (width+10);
+	return (width);
 }
 
 

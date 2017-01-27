@@ -1,8 +1,7 @@
 #include "Manager.h"
 
-Manager::Manager() : collector(16, loadingDock, "path_times.txt")
+Manager::Manager() : collector(loadingDock, "path_times.txt")
 {
-	//collector = CollectorRobot(16, loadingDock, "path_times.txt");
 	warehouses.empty();
 	printer = Printer::getInstance();
 	menuOn = true;
@@ -16,39 +15,63 @@ void Manager::setup(string fileName)
 {
 	ifstream file(fileName);
 	string value;
+	bool firstline = true;
 	getline(file, value); //Skip Header
 	while (getline(file, value)) {
 		char whID[50];
 		int rows, cols, unload_x, unload_y, start_x, start_y, size;
 		int basket, port, baud;
-		size = sscanf_s(value.c_str(), "%s\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d", &whID, 50, &rows, &cols, &start_x, &start_y, &unload_x, &unload_y, &basket, &port, &baud);
-		if (size == 10)
-		{
-			addWarehouse(Warehouse(whID, rows, cols));
-			PickerRobot pRobot(basket, *this);
-			pRobot.setSerialParameters(port, baud);
-			addRobotController(RobotController(pRobot, getWarehouse(whID)));
-			for (auto& controller : rControllers) { if (whID == controller.getWarehouseID()) {controller.Initialize(Point(start_x, start_y), Point(unload_x, unload_y), printer); } }
+		if (firstline) {
+			firstline = false;
+			size = sscanf_s(value.c_str(), "%d\t%d\t%d", &basket, &port, &baud);
+			if (size == COLLECTOR_CONFIG_SIZE)
+			{
+				collector.InitCollector(basket, baud, port);
+			}
+			else {
+				printer->printLog(LOG_ERROR, "M", "Expecting 3 arguments in the warehouse configuration, recieved " + to_string(size));
+			}
 		}
 		else {
-			printer->printLog(LOG_ERROR,"M","Expecting 10 arguments in the warehouse configuration, recieved " + to_string(size));
+			size = sscanf_s(value.c_str(), "%s\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d", &whID, 50, &rows, &cols, &start_x, &start_y, &unload_x, &unload_y, &basket, &port, &baud);
+			if (size == WAREHOUSE_CONFIG_SIZE)
+			{
+				addWarehouse(Warehouse(whID, rows, cols));
+				PickerRobot pRobot(basket, *this);
+				pRobot.setSerialParameters(port, baud);
+				addRobotController(RobotController(pRobot, getWarehouse(whID)));
+				for (auto& controller : rControllers) { if (whID == controller.getWarehouseID()) { controller.Initialize(Point(start_x, start_y), Point(unload_x, unload_y), printer); } }
+			}
+			else {
+				printer->printLog(LOG_ERROR, "M", "Expecting 10 arguments in the warehouse configuration, recieved " + to_string(size));
+			}
 		}
 	}
-	collector.setupSerial(115200,7);
+	setupDisplay();
+}
+
+void Manager::setupDisplay()
+{
+	initscr();
+	start_color();
+	init_pair(3, COLOR_BLUE, COLOR_BLACK);
+	init_pair(2, COLOR_WHITE, COLOR_BLACK);
+	cbreak();
+	curs_set(0);
 
 	int mapOffset = 0;
 	system("cls");
-	resize_term(60, 50);
+	resize_term(MAX_SCREEN_HEIGHT, MAX_WINDOW_WIDTH);
 	for (RobotController rController : rControllers) {
 		Warehouse wh = getWarehouse(rController.getWarehouseID());
 		collector.addWarehouseID(wh.getWarehouseID());
 		mapOffset += printer->addWindow(wh, mapOffset);
-		resize_term(60, mapOffset + 50);
+		resize_term(MAX_SCREEN_HEIGHT, mapOffset + MAX_WINDOW_WIDTH);
 	}
-	mapOffset += printer->addWindow("collector", 50, 25, mapOffset, 2);
-	resize_term(60, mapOffset + 80);
-	mapOffset += printer->addWindow("log", 50, 75, mapOffset, 2);
-	resize_term(60, mapOffset);
+	mapOffset += printer->addWindow("collector", MAX_WINDOW_HEIGHT, COLLECTOR_WINDOW_WIDTH, mapOffset, VMAP_OFFSET);
+	resize_term(MAX_SCREEN_HEIGHT, mapOffset + MAX_WINDOW_WIDTH);
+	mapOffset += printer->addWindow("log", MAX_WINDOW_HEIGHT, LOG_WINDOW_WIDTH, mapOffset, VMAP_OFFSET);
+	resize_term(MAX_SCREEN_HEIGHT, mapOffset);
 	printer->drawBoxes();
 }
 
@@ -82,10 +105,7 @@ void Manager::execute(string oplFile)
 	}
 	menuOn = false;
 	controlThread.join();
-	getchar();
-	system("cls");
 	loadingDock.printOrders(printer);
-	getchar();
 }
 
 bool Manager::manualControl(string productID, int quantity)
@@ -119,6 +139,11 @@ void Manager::orderIsDone(vector<Order> orders)
 	}
 }
 
+void Manager::orderIsInvalid(string customerID)
+{
+	loadingDock.InvalidOrder(customerID);
+}
+
 void Manager::addWarehouse(Warehouse wh)
 {
 	warehouses.push_back(wh);
@@ -131,11 +156,10 @@ void Manager::addRobotController(RobotController rController)
 
 Warehouse & Manager::getWarehouse(string WarehouseID)
 {
-	for (list<Warehouse>::iterator i = this->warehouses.begin(), end = warehouses.end(); i != end; i++) {
-		if (i->getWarehouseID() == WarehouseID) {
-			return *i;
-		}
-	}
+	list<Warehouse>::iterator it;
+	it = find_if(warehouses.begin(), warehouses.end(), [=](Warehouse wh) {return (wh.getWarehouseID() == WarehouseID); });
+	if (it != warehouses.end()) { return *it; }
+
 	printer->printLog(LOG_ERROR, "M", "Warehouse " + WarehouseID + "does not exist");
 
 	stringstream sstm;
@@ -146,11 +170,10 @@ Warehouse & Manager::getWarehouse(string WarehouseID)
 
 RobotController& Manager::getRobotController(string WarehouseID)
 {
-	for (vector<RobotController>::iterator i = this->rControllers.begin(), end = rControllers.end(); i != end; i++) {
-		if (i->getWarehouseID() == WarehouseID) {
-			return *i;
-		}
-	}
+	vector<RobotController>::iterator it;
+	it = find_if(rControllers.begin(), rControllers.end(), [=](RobotController rC) {return (rC.getWarehouseID() == WarehouseID); });
+	if (it != rControllers.end()) { return *it; }
+
 	printer->printLog(LOG_ERROR, "M", "PickerRobot for Warehouse " + WarehouseID + "does not exist");
 
 	stringstream sstm;
@@ -185,7 +208,6 @@ vector<Order> Manager::readOPL(string oplFile)
 			}
 		}
 		else {
-			//printer->printLog(LOG_ERROR,"M","Order should contain 5 arguments, recieved " + to_string(size));
 			printer->printLog(LOG_ERROR, "M", "Incorrect or missing parameters!!! Check the OPL line: " + to_string(priority + 1));
 		}
 		priority++;
@@ -251,13 +273,13 @@ void Manager::ControlPanel(int offset) {
 		if (!menuOn) { return; }
 		for (auto &rController : rControllers) {
 			if (warehouseID == rController.getWarehouseID().at(0) || warehouseID == (char)tolower(rController.getWarehouseID().at(0))) {
-				if (operation == 'S' || operation == 's') {
+				if (tolower(operation) == 's') {
 					rController.getPickerRobot().emergency_stop(true);
 				}
-				else if (operation == 'P' || operation == 'p') {
+				else if (tolower(operation) == 'p') {
 					rController.getPickerRobot().pauseRobot(true);
 				}
-				else if (operation == 'R' || operation == 'r') {
+				else if (tolower(operation) == 'r') {
 					rController.getPickerRobot().emergency_stop(false);
 					rController.getPickerRobot().pauseRobot(false);
 				}

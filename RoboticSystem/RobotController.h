@@ -4,7 +4,6 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include <list>
 #include <map>
 
 #include "Point.h"
@@ -73,6 +72,7 @@ private:
 	Point startingPoint;
 	Point unloadingPoint;
 	vector<Order> sortedOrders;
+	vector<Order> InvalidProductIDs;
 	Point* currentPoint;
 	int totalOrderNumber;
 	int currentOrderNumber;

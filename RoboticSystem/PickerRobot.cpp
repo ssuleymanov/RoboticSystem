@@ -105,8 +105,9 @@ bool PickerRobot::validate(Order order)
 			return true;
 		}
 	}
-	mapper->printLog(LOG_ERROR,"Validation ERROR - " + order.productID);
-	mapper->printString("Wrong product ID.", ACTION_NLINE, ACTION_NCOL);
+	manager->orderIsInvalid(order.customerID);
+	mapper->printLog(LOG_ERROR,"Validation ERROR. Order: " + to_string(order.orderID) + " ProductID: " +  order.productID);
+	mapper->printString("Wrong product ID found.", ACTION_NLINE, ACTION_NCOL);
 	mapper->printString(" ", MOVE_NLINE, MOVE_NCOL);
 	mapper->printWarehouseMap();
 	return false;

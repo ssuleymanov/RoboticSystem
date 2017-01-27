@@ -8,9 +8,8 @@ CollectorRobot::~CollectorRobot()
 {
 }
 
-CollectorRobot::CollectorRobot(int basketsize, LoadingDock& ld, string filename)
+CollectorRobot::CollectorRobot(LoadingDock& ld, string filename)
 {
-	this->basketSize = basketsize;
 	this->loadingDock = &ld;
 	this->currentPoint = "LD";
 	ready = false;
@@ -31,8 +30,9 @@ CollectorRobot::CollectorRobot(int basketsize, LoadingDock& ld, string filename)
 	}
 }
 
-void CollectorRobot::setupSerial(int baudrate, int portnumber)
+void CollectorRobot::InitCollector(int basketsize, int baudrate, int portnumber)
 {
+	this->basketSize = basketsize;
 	this->baudRate = baudrate;
 	this->portNumber = portnumber;
 }
@@ -64,6 +64,7 @@ void CollectorRobot::startRobot(Printer* printr)
 		Sleep(100);
 		printMap(currentPoint);
 	}
+	loadingDock->RemoveInvalidOrders();
 	printer->printString("collector", MOVE_NLINE, MOVE_NCOL, "Time = " + to_string(totalTime) + " sec");
 }
 

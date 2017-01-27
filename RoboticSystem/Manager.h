@@ -19,6 +19,9 @@
 #include "Printer.h"
 #include "CollectorRobot.h"
 
+#define COLLECTOR_CONFIG_SIZE 3
+#define WAREHOUSE_CONFIG_SIZE 10
+
 using namespace std;
 using namespace rapidxml;
 
@@ -41,6 +44,9 @@ public:
 	\param[in] fileName path to an article list
 	*/
 	void setup(string fileName);
+
+	//! A function to initialize the display.
+	
 
 	//! A function to process an oder picking list.
 	/*!
@@ -75,6 +81,12 @@ public:
 	*/
 	void orderIsDone(vector<Order> orders);
 
+	//! A function to notify that an order was invalid
+	/*!
+	\param[in] customerID ID of the customer with an invalid order
+	*/
+	void orderIsInvalid(string customerID);
+
 private:
 	Printer* printer;
 	vector<RobotController> rControllers;
@@ -82,12 +94,14 @@ private:
 	map<string, Article> articles;
 	CollectorRobot collector;
 	LoadingDock loadingDock;
+	mutex collect_mutex;
+	bool menuOn;
+
 	void addWarehouse(Warehouse wh);
 	void addRobotController(RobotController rController);
 	void ControlPanel(int offset);
-	bool menuOn;
 	Warehouse& getWarehouse(string WarehouseID);
 	RobotController& getRobotController(string WarehouseID);
 	vector<Order> readOPL(string oplFile);
-	mutex collect_mutex;
+	void setupDisplay();
 };

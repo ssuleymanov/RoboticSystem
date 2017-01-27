@@ -1,0 +1,2 @@
+Basket	PortNr	Baudrate
+16	      7	    115200		

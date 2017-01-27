@@ -19,6 +19,10 @@
 #include "LoadingDock.h"
 #include "Printer.h"
 
+//! A class to represent the collector robot. 
+/*!
+*/
+
 class CollectorRobot {
 public:
 	//! A default constructor.

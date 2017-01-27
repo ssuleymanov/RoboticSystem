@@ -6,6 +6,9 @@
 #include "Warehouse.h"
 #include "Printer.h"
 
+//! A class to manage the real-time warehouse map. 
+/*!
+*/
 
 class Mapper{
 

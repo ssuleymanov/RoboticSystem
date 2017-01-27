@@ -11,54 +11,44 @@ Manager::~Manager()
 {
 }
 
-void Manager::setup(string fileName)
+void Manager::setup(string config_file, string article_file)
 {
-	ifstream file(fileName);
+	readArticles(article_file);
+
+	// read collector config file
+	ifstream file1(COLLECTOR_CONFIG_FILE);
+	int basket, port, baud;
+	string cvalue;
+	getline(file1, cvalue);	// skip the header
+	getline(file1, cvalue);
+	stringstream ss(cvalue);
+	ss >> basket >> port >> baud;
+	collector.InitCollector(basket, baud, port);
+
+	ifstream file(config_file);
 	string value;
-	bool firstline = true;
 	getline(file, value); //Skip Header
 	while (getline(file, value)) {
 		char whID[50];
 		int rows, cols, unload_x, unload_y, start_x, start_y, size;
-		int basket, port, baud;
-		if (firstline) {
-			firstline = false;
-			size = sscanf_s(value.c_str(), "%d\t%d\t%d", &basket, &port, &baud);
-			if (size == COLLECTOR_CONFIG_SIZE)
-			{
-				collector.InitCollector(basket, baud, port);
-			}
-			else {
-				printer->printLog(LOG_ERROR, "M", "Expecting 3 arguments in the warehouse configuration, recieved " + to_string(size));
-			}
+		size = sscanf_s(value.c_str(), "%s\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d", &whID, 50, &rows, &cols, &start_x, &start_y, &unload_x, &unload_y, &basket, &port, &baud);
+		if (size == WAREHOUSE_CONFIG_SIZE)
+		{
+			addWarehouse(Warehouse(whID, rows, cols));
+			PickerRobot pRobot(basket, *this);
+			pRobot.setSerialParameters(port, baud);
+			addRobotController(RobotController(pRobot, getWarehouse(whID)));
+			for (auto& controller : rControllers) { if (whID == controller.getWarehouseID()) { controller.Initialize(Point(start_x, start_y), Point(unload_x, unload_y), printer); } }
 		}
 		else {
-			size = sscanf_s(value.c_str(), "%s\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d", &whID, 50, &rows, &cols, &start_x, &start_y, &unload_x, &unload_y, &basket, &port, &baud);
-			if (size == WAREHOUSE_CONFIG_SIZE)
-			{
-				addWarehouse(Warehouse(whID, rows, cols));
-				PickerRobot pRobot(basket, *this);
-				pRobot.setSerialParameters(port, baud);
-				addRobotController(RobotController(pRobot, getWarehouse(whID)));
-				for (auto& controller : rControllers) { if (whID == controller.getWarehouseID()) { controller.Initialize(Point(start_x, start_y), Point(unload_x, unload_y), printer); } }
-			}
-			else {
-				printer->printLog(LOG_ERROR, "M", "Expecting 10 arguments in the warehouse configuration, recieved " + to_string(size));
-			}
+			printer->printLog(LOG_ERROR, "M", "Expecting 10 arguments in the warehouse configuration, recieved " + to_string(size));
 		}
 	}
-	setupDisplay();
+	//setupDisplay();
 }
 
 void Manager::setupDisplay()
 {
-	initscr();
-	start_color();
-	init_pair(3, COLOR_BLUE, COLOR_BLACK);
-	init_pair(2, COLOR_WHITE, COLOR_BLACK);
-	cbreak();
-	curs_set(0);
-
 	int mapOffset = 0;
 	system("cls");
 	resize_term(MAX_SCREEN_HEIGHT, MAX_WINDOW_WIDTH);

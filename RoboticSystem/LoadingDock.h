@@ -11,6 +11,8 @@
 #include "Order.h"
 #include "Printer.h"
 
+//! A class to represent the loading dock. 
+
 
 class LoadingDock {
 public:

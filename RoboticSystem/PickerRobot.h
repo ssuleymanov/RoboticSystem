@@ -1,17 +1,15 @@
 #pragma once
-#include <list>
 #include <vector>
 #include <assert.h>
 #include <fstream>
 #include <string>
-#include <sstream>
 #include <algorithm>
 
 #include "Order.h"
 #include "Serial.h"
 #include "Point.h"
 #include "Mapper.h"
-//#include "Printer.h"
+
 
 #define SERIAL true
 
@@ -96,19 +94,19 @@ public:
 	/*!
 	\return the size of the basket
 	*/
-	int getBasketSize();
+	int getBasketSize() const;
 
 	//! A function to get amount of items in the basket
 	/*!
 	\return number of items in the basket
 	*/
-	int getNrItemsInBasket();
+	int getNrItemsInBasket() const;
 
 	//! A function to get the working time of the PickerRobot
 	/*!
 	\return the number of seconds this robot has worked
 	*/
-	int getTime();
+	int getTime()const;
 
 	//! A function to stop or resume the PickerRobot.
 	/*!

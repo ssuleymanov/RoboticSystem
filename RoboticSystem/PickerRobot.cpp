@@ -142,17 +142,17 @@ void PickerRobot::unload()
 	while (pause == true) {}
 }
 
-int PickerRobot::getBasketSize()
+int PickerRobot::getBasketSize() const
 {
 	return basketSize;
 }
 
-int PickerRobot::getNrItemsInBasket()
+int PickerRobot::getNrItemsInBasket() const
 {
 	return itemsInBasket;
 }
 
-int PickerRobot::getTime()
+int PickerRobot::getTime() const
 {
 	return timer;
 }
@@ -170,12 +170,14 @@ void PickerRobot::pauseRobot(bool pause)
 bool PickerRobot::sendCommand(const char c)
 {
 	char message[5] = "F";
+	// Stop robot in case of emergency
 	while (stop == true) {
 		if (serial.ReadDataWaiting() > 0) {
 			serial.ReadData(message, 1);
 			if (message[0] == 'R') { stop = false; }
 		}
 	}
+
 #if SERIAL
 	if (serial.IsOpened()) {
 		

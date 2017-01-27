@@ -43,6 +43,9 @@
 
 #define PCONNECTOR		string(1,206)
 
+//! A class to represent the collector robot. 
+/*!
+*/
 class CollectorRobot {
 public:
 	//! A default constructor.

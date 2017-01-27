@@ -128,14 +128,15 @@ void RobotController::executeOrders(std::vector<Order> orders)
 	else {
 		sortedOrders = tempOrders;
 	}
+
 	totalOrderNumber = tempOrders.size();
 	mapper.printString("Progress: 0 % (0/" + to_string(totalOrderNumber) + ")", PROGRESS_NLINE, PROGRESS_NCOL);
+
 	for (auto &order : sortedOrders) {
 		if (robot.getNrItemsInBasket() == robot.getBasketSize()) {
 			robot.moveTo(*currentPoint, unloadingPoint);
 			robot.unload();
 		}
-		//processOrder(order);
 		if (find_if(InvalidProductIDs.begin(), InvalidProductIDs.end(), [=](Order product) {return(product.productID == order.productID && product.orderID == order.orderID); }) == InvalidProductIDs.end()) {
 			if (!processOrder(order)) {
 				InvalidProductIDs.push_back(order);
@@ -155,7 +156,6 @@ void RobotController::executeOrders(std::vector<Order> orders)
 
 bool RobotController::processOrder(const Order& order)
 {
-
 	mapper.printString("Processing Order: " + to_string(order.orderID), ORDER_NLINE , ORDER_NCOL);
 	mapper.resetMap();
 	Point orderPosition = warehouse->getCompartmentPosition(order);

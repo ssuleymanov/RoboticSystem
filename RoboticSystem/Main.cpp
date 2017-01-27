@@ -52,22 +52,26 @@ char read_User_Input() {
 }
 
 void init_display() {
-	
+	initscr();
+	start_color();
+	init_pair(3, COLOR_BLUE, COLOR_BLACK);
+	init_pair(2, COLOR_WHITE, COLOR_BLACK);
+	cbreak();
+	curs_set(0);
 }
 
 void handle_Automatic_Mode(string fileParams[3]) {
 	Manager manager;
-	manager.setup(fileParams[0]); //"wh_config.txt"
-	manager.readArticles(fileParams[1]);//"Article_List.xml"
+	manager.setup(fileParams[0],fileParams[1]); //"wh_config.txt", "Article_List.xml"
+	manager.setupDisplay();
 	manager.execute(fileParams[2]);//"Order_Picking_List.csv"
 }
 
 void handle_Manual_Mode(string fileParams[3]) {
 	Manager manager;
-	bool setupDone = false;
 	char productID[20], quantity[5], validate[2];
 
-	manager.readArticles(fileParams[1]);//"Article_List.xml"
+	manager.setup(fileParams[0],fileParams[1]);
 	while (true) {
 		printw("ProductID:  ");
 		while (true) {
@@ -102,7 +106,7 @@ void handle_Manual_Mode(string fileParams[3]) {
 			if (quantity[0] == '\0') { return; }
 		}
 		noecho();
-		if (!setupDone) { manager.setup(fileParams[0]); setupDone = true; }	
+		manager.setupDisplay();
 		manager.manualControl(productID, q);
 		echo();
 		clear();

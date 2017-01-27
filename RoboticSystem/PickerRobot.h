@@ -15,11 +15,13 @@
 
 #define MOVE_TIME 1;
 
+
+class Manager;
+
 //! An abstract robot class representing a picker robot. 
 /*!
-Allows the operation of a picking robot through RS232. 
+Allows the operation of a picking robot through RS232.
 */
-class Manager;
 
 class PickerRobot 
 {

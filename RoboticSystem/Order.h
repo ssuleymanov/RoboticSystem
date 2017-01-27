@@ -4,11 +4,15 @@
 
 #include <string>
 
+//! A data structure to represent a single Article. 
+
 typedef struct {
 	std::string	productID;
 	std::string	warehouseID;
 	int		compartment;
 }Article;
+
+//! A data structure to represent a single Order. 
 
 struct Order {
 	int		compartment;

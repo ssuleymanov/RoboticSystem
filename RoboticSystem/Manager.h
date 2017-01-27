@@ -22,10 +22,12 @@
 #define COLLECTOR_CONFIG_SIZE 3
 #define WAREHOUSE_CONFIG_SIZE 10
 
+#define COLLECTOR_CONFIG_FILE "collector_config.txt"
+
 using namespace std;
 using namespace rapidxml;
 
-//! A class to manage the robots. 
+//! A class to manage the robots and whole logistic process. 
 /*!
 Allows to read the order picking list and create robots for each warehouse. It sends orders to the picking robots
 */
@@ -43,7 +45,7 @@ public:
 	/*!
 	\param[in] fileName path to an article list
 	*/
-	void setup(string fileName);
+	void setup(string config_file, string article_file);
 
 	//! A function to initialize the display.
 	
@@ -87,6 +89,8 @@ public:
 	*/
 	void orderIsInvalid(string customerID);
 
+	void setupDisplay();
+
 private:
 	Printer* printer;
 	vector<RobotController> rControllers;
@@ -103,5 +107,5 @@ private:
 	Warehouse& getWarehouse(string WarehouseID);
 	RobotController& getRobotController(string WarehouseID);
 	vector<Order> readOPL(string oplFile);
-	void setupDisplay();
+
 };

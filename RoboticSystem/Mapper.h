@@ -42,7 +42,9 @@
 
 #define PCONNECTOR		string(1,206)
 
-
+//! A class to manage the real-time warehouse map. 
+/*!
+*/
 class Mapper{
 
 public:

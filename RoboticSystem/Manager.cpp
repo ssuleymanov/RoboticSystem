@@ -29,7 +29,7 @@ void Manager::setup(string fileName)
 				collector.InitCollector(basket, baud, port);
 			}
 			else {
-				printer->printLog(LOG_ERROR, "M", "Expecting 3 arguments in the warehouse configuration, recieved " + to_string(size));
+				printer->printLog(LOG_ERROR, MANAGER_S, "Expecting 3 arguments in the warehouse configuration, recieved " + to_string(size));
 			}
 		}
 		else {
@@ -43,7 +43,7 @@ void Manager::setup(string fileName)
 				for (auto& controller : rControllers) { if (whID == controller.getWarehouseID()) { controller.Initialize(Point(start_x, start_y), Point(unload_x, unload_y), printer); } }
 			}
 			else {
-				printer->printLog(LOG_ERROR, "M", "Expecting 10 arguments in the warehouse configuration, recieved " + to_string(size));
+				printer->printLog(LOG_ERROR, MANAGER_S, "Expecting 10 arguments in the warehouse configuration, recieved " + to_string(size));
 			}
 		}
 	}
@@ -68,9 +68,9 @@ void Manager::setupDisplay()
 		mapOffset += printer->addWindow(wh, mapOffset);
 		resize_term(MAX_SCREEN_HEIGHT, mapOffset + MAX_WINDOW_WIDTH);
 	}
-	mapOffset += printer->addWindow("collector", MAX_WINDOW_HEIGHT, COLLECTOR_WINDOW_WIDTH, mapOffset, VMAP_OFFSET);
+	mapOffset += printer->addWindow(COLLECTOR_WINDOW, MAX_WINDOW_HEIGHT, COLLECTOR_WINDOW_WIDTH, mapOffset, VMAP_OFFSET);
 	resize_term(MAX_SCREEN_HEIGHT, mapOffset + MAX_WINDOW_WIDTH);
-	mapOffset += printer->addWindow("log", MAX_WINDOW_HEIGHT, LOG_WINDOW_WIDTH, mapOffset, VMAP_OFFSET);
+	mapOffset += printer->addWindow(LOG_WINDOW, MAX_WINDOW_HEIGHT, LOG_WINDOW_WIDTH, mapOffset, VMAP_OFFSET);
 	resize_term(MAX_SCREEN_HEIGHT, mapOffset);
 	printer->drawBoxes();
 }
@@ -86,7 +86,7 @@ void Manager::execute(string oplFile)
 		getWarehouse(order.warehouseID).addOrder(order);
 	}
 
-	thread controlThread (&Manager::ControlPanel, this, 30);
+	thread controlThread (&Manager::ControlPanel, this, MAX_WINDOW_WIDTH);
 	for (int i = 0; i < rControllers.size(); i++) {
 		threads.push_back(thread(&RobotController::startAutomaticRobot, &rControllers[i]));
 	}
@@ -160,7 +160,7 @@ Warehouse & Manager::getWarehouse(string WarehouseID)
 	it = find_if(warehouses.begin(), warehouses.end(), [=](Warehouse wh) {return (wh.getWarehouseID() == WarehouseID); });
 	if (it != warehouses.end()) { return *it; }
 
-	printer->printLog(LOG_ERROR, "M", "Warehouse " + WarehouseID + "does not exist");
+	printer->printLog(LOG_ERROR, MANAGER_S, "Warehouse " + WarehouseID + "does not exist");
 
 	stringstream sstm;
 	sstm << "Warehouse " << WarehouseID << " does not exist";
@@ -174,7 +174,7 @@ RobotController& Manager::getRobotController(string WarehouseID)
 	it = find_if(rControllers.begin(), rControllers.end(), [=](RobotController rC) {return (rC.getWarehouseID() == WarehouseID); });
 	if (it != rControllers.end()) { return *it; }
 
-	printer->printLog(LOG_ERROR, "M", "PickerRobot for Warehouse " + WarehouseID + "does not exist");
+	printer->printLog(LOG_ERROR, MANAGER_S, "PickerRobot for Warehouse " + WarehouseID + "does not exist");
 
 	stringstream sstm;
 	sstm << "PickerRobot for Warehouse " << WarehouseID << " does not exist";
@@ -199,16 +199,16 @@ vector<Order> Manager::readOPL(string oplFile)
 			if (articles.find(productID) != articles.end()) {
 				Article article = articles[productID];
 				Order order = { article.compartment, customerID, orderID, priority, productID, quantity, truckNr, article.warehouseID };
-				printer->printLog(LOG_INFO,"M","Added Order: " + to_string(orderID) + " - " + productID);
+				printer->printLog(LOG_INFO, MANAGER_S,"Added Order: " + to_string(orderID) + " - " + productID);
 				orderList.push_back(order);
 			}
 			else {
 				string pID = productID;
-				printer->printLog(LOG_ERROR,"M","Product with ID: " + pID + " does not exist");
+				printer->printLog(LOG_ERROR, MANAGER_S,"Product with ID: " + pID + " does not exist");
 			}
 		}
 		else {
-			printer->printLog(LOG_ERROR, "M", "Incorrect or missing parameters!!! Check the OPL line: " + to_string(priority + 1));
+			printer->printLog(LOG_ERROR, MANAGER_S, "Incorrect or missing parameters!!! Check the OPL line: " + to_string(priority + 1));
 		}
 		priority++;
 	}

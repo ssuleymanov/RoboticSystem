@@ -13,18 +13,6 @@
 
 #define SERIAL true
 
-#define VALIDATE 'V'
-#define PICK 'P'
-#define STORE 'S'
-#define CHECK 'C'
-#define RIGHT 'R'
-#define LEFT 'L'
-#define UP 'U'
-#define DOWN 'D'
-#define MOVE 'M'
-#define STOP 'X'
-#define UNLOAD 'T'
-
 #define MOVE_TIME 1;
 
 //! An abstract robot class representing a picker robot. 

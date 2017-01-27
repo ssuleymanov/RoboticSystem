@@ -11,11 +11,11 @@ CollectorRobot::~CollectorRobot()
 CollectorRobot::CollectorRobot(LoadingDock& ld, string filename)
 {
 	this->loadingDock = &ld;
-	this->currentPoint = "LD";
+	this->currentPoint = LOADINGDOCK;
 	ready = false;
 	nrItemsInBasket = 0;
 	totalTime = 0;
-	warehouseIDs.push_back("LD");
+	warehouseIDs.push_back(LOADINGDOCK);
 
 	ifstream file(filename);
 	string path;
@@ -40,12 +40,14 @@ void CollectorRobot::InitCollector(int basketsize, int baudrate, int portnumber)
 void CollectorRobot::startRobot(Printer* printr)
 {
 	printer = printr;
+	printer->printString(COLLECTOR_WINDOW, 1, TEXT_VOFFSET, "Collector");
+	//mvwaddstr(win, 1, TEXT_VOFFSET, m.c_str());
 	printMap(currentPoint);
 	if (serial.Open(portNumber, baudRate)) {
-		printer->printLog(LOG_INFO,"X", "Port " + to_string(portNumber) + " opened succesfully..");
+		printer->printLog(LOG_INFO, COLLECTOR_S, "Port " + to_string(portNumber) + " opened succesfully..");
 	}
 	else {
-		printer->printLog(LOG_ERROR, "X", "Failed to open port " + to_string(portNumber) + " ..!");
+		printer->printLog(LOG_ERROR, COLLECTOR_S, "Failed to open port " + to_string(portNumber) + " ..!");
 	}
 
 	while (true) {
@@ -65,7 +67,7 @@ void CollectorRobot::startRobot(Printer* printr)
 		printMap(currentPoint);
 	}
 	loadingDock->RemoveInvalidOrders();
-	printer->printString("collector", MOVE_NLINE, MOVE_NCOL, "Time = " + to_string(totalTime) + " sec");
+	printer->printString(COLLECTOR_WINDOW, MOVE_NLINE, MOVE_NCOL, "Time = " + to_string(totalTime) + " sec");
 }
 
 void CollectorRobot::addWarehouseID(string warehouseID)
@@ -96,51 +98,51 @@ int CollectorRobot::moveTo(string dest)
 	}
 	currentPoint = dest;
 	printMap(dest);
-	sendCommand('R');
+	sendCommand(MOVE_COMPLETE);
 	return time;
 
 }
 
 void CollectorRobot::printMap(string dest) {
 	static bool blink = false;
-	string top = string(1, 201) + string(3, 205) + string(1, 203) + string(3, 205) + string(1, 187);
-	string middle1 = string(1, 186) + "   " + string(1, 186) + "   " + string(1, 186);
-	string middle2 = string(1, 204) + string(3, 205) + string(1, 206) + string(3, 205) + string(1, 185);
-	string bottom = string(1, 200) + string(3, 205) + string(1, 202) + string(3, 205) + string(1, 188);
-	int nline = MAP_OFFSET+2;
+	string top = TL_CORNER + H_STRAIGHT + T_TCONNECTOR + H_STRAIGHT + TR_CORNER;
+	string middle1 = V_STRAIGHT + EMPTY + V_STRAIGHT + EMPTY + V_STRAIGHT;
+	string middle2 = L_TCONNECTOR + H_STRAIGHT + PCONNECTOR + H_STRAIGHT + R_TCONNECTOR;
+	string bottom = BL_CORNER + H_STRAIGHT + B_TCONNECTOR + H_STRAIGHT + BR_CORNER;
+	int nline = MAP_OFFSET + 1;
 	
-	printer->printMap("collector", nline, 3, top);
+	printer->printMap(COLLECTOR_WINDOW, nline, MAP_STARTCOL, top);
 	for (int i = 1; i < warehouseIDs.size()+1; i++) {
 		string whIcon = warehouseIDs[i - 1] + ' ';
 		if (whIcon.size() == 2) { whIcon = ' ' + whIcon; }
 		if (currentPoint == warehouseIDs[i - 1] && currentPoint == dest) {
-			middle1 = string(1, 186) + whIcon + string(1, 186) + " X " + string(1, 186);
+			middle1 = V_STRAIGHT + whIcon + V_STRAIGHT + COLLECTOR + V_STRAIGHT;
 		}
 		else if (dest == warehouseIDs[i - 1] && currentPoint != dest) {
-			if (blink) {
+			if (blink) { 
 				blink = false;
-				middle1 = string(1, 186) + whIcon + string(1, 186) + "   " + string(1, 186);
+				middle1 = V_STRAIGHT + whIcon + V_STRAIGHT + EMPTY + V_STRAIGHT;
 			}
 			else {
 				blink = true;
-				middle1 = string(1, 186) + whIcon + string(1, 186) + " X " + string(1, 186);
+				middle1 = V_STRAIGHT + whIcon + V_STRAIGHT + COLLECTOR + V_STRAIGHT;
 			}
 		}
 		else {
-			middle1 = string(1, 186) + whIcon + string(1, 186) + "   " + string(1, 186);
+			middle1 = V_STRAIGHT + whIcon + V_STRAIGHT + EMPTY + V_STRAIGHT;
 		}
 		
-		printer->printMap("collector", nline+(i*2)-1, 3, middle1);
+		printer->printMap(COLLECTOR_WINDOW, nline+(i * MAPSPACE_HEIGHT) - 1, MAP_STARTCOL, middle1);
 		if (i < warehouseIDs.size()) {
-			printer->printMap("collector", nline + (i * 2), 3, middle2);
+			printer->printMap(COLLECTOR_WINDOW, nline + (i * MAPSPACE_HEIGHT), MAP_STARTCOL, middle2);
 		}
 	}
-	printer->printString("collector", MOVE_NLINE, MOVE_NCOL, "Time = " + to_string(totalTime) + " sec");
-	printer->printMap("collector", nline + warehouseIDs.size()*2, 3, bottom);
-	printer->printString("collector", BASKET_NLINE, BASKET_NCOL,"Basket: " + to_string(nrItemsInBasket) + "/" + to_string(basketSize));
+	printer->printMap(COLLECTOR_WINDOW, nline + warehouseIDs.size() * 2, MAP_STARTCOL, bottom);
 
+	printer->printString(COLLECTOR_WINDOW, MOVE_NLINE, MOVE_NCOL, "Time = " + to_string(totalTime) + " sec");
+	printer->printString(COLLECTOR_WINDOW, BASKET_NLINE, BASKET_NCOL,"Basket: " + to_string(nrItemsInBasket) + "/" + to_string(basketSize));
 
-	printer->refreshw("collector");
+	printer->refreshw(COLLECTOR_WINDOW);
 }
 
 Order CollectorRobot::getOrder(string warehouseID)
@@ -180,8 +182,6 @@ bool CollectorRobot::sendCommand(const char c)
 		if (serial.ReadDataWaiting() > 0) {
 			serial.ReadData(message, 1);
 		}
-
-		//Sleep(100);
 	}
 	else {
 		//cout << "Serial port is not open!!! \n";
@@ -191,13 +191,13 @@ bool CollectorRobot::sendCommand(const char c)
 
 int CollectorRobot::unload()
 {
-	totalTime += moveTo("LD");		// move to loading dock
+	totalTime += moveTo(LOADINGDOCK);		// move to loading dock
 	while (nrItemsInBasket > 0) {
 		Order order = ordersInBasket.back();
 		loadingDock->addOrdersforTruck(order);
 		nrItemsInBasket--;
 		ordersInBasket.pop_back();
-		printMap("LD");
+		printMap(LOADINGDOCK);
 		Sleep(S_TIME);
 		totalTime += 1;
 	}

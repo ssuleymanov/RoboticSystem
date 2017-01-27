@@ -19,6 +19,30 @@
 #include "LoadingDock.h"
 #include "Printer.h"
 
+//Commands
+#define LOADINGDOCK "LD"
+#define MOVE_COMPLETE 'R'
+
+//Icons
+#define COLLECTOR		" X "
+#define EMPTY			"   "
+
+//Map parts
+#define TL_CORNER		string(1, 201)
+#define TR_CORNER		string(1, 187)
+#define BL_CORNER		string(1, 200)
+#define BR_CORNER		string(1, 188) 
+
+#define H_STRAIGHT		string(3, 205)
+#define V_STRAIGHT		string(1, 186)
+
+#define T_TCONNECTOR	string(1, 203)
+#define B_TCONNECTOR	string(1, 202)
+#define L_TCONNECTOR	string(1, 204) 
+#define R_TCONNECTOR	string(1, 185)
+
+#define PCONNECTOR		string(1,206)
+
 class CollectorRobot {
 public:
 	//! A default constructor.

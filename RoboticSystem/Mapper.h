@@ -6,6 +6,42 @@
 #include "Warehouse.h"
 #include "Printer.h"
 
+//Commands
+#define VALIDATE		'V'
+#define PICK			'P'
+#define STORE			'S'
+#define CHECK			'C'
+#define RIGHT			'R'
+#define LEFT			'L'
+#define UP				'U'
+#define DOWN			'D'
+#define MOVE			'M'
+#define STOP			'X'
+#define UNLOAD			'T'
+#define NONE			' '
+
+//Icons
+#define ROBOT			" R "
+#define UNLOADING		" U "
+#define PRODUCT			" P "
+#define COMPARTMENT		"   "
+
+//Map parts
+#define TL_CORNER		string(1, 201)
+#define TR_CORNER		string(1, 187)
+#define BL_CORNER		string(1, 200)
+#define BR_CORNER		string(1, 188) 
+
+#define H_STRAIGHT		string(3, 205)
+#define V_STRAIGHT		string(1, 186)
+
+#define T_TCONNECTOR	string(1, 203)
+#define B_TCONNECTOR	string(1, 202)
+#define L_TCONNECTOR	string(1, 204) 
+#define R_TCONNECTOR	string(1, 185)
+
+#define PCONNECTOR		string(1,206)
+
 
 class Mapper{
 

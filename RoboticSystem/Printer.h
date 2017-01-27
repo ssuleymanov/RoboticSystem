@@ -11,35 +11,48 @@
 
 #include "Warehouse.h"
 
-#define MAPSPACE_WIDTH 4
-#define MAPSPACE_HEIGHT 2
-#define MAPSPACE_WIDTH_OFFSET 12
+//Map dimensions
+#define MAPSPACE_WIDTH			4
+#define MAPSPACE_HEIGHT			2
+#define MAPSPACE_WIDTH_OFFSET	12
+#define MAP_STARTCOL			4
 
-#define PROGRESS_NLINE MAP_OFFSET - 4
-#define PROGRESS_NCOL 3
-#define ORDER_NLINE MAP_OFFSET - 3
-#define ORDER_NCOL 3
-#define ACTION_NLINE MAP_OFFSET - 2
-#define ACTION_NCOL 3
-#define MOVE_NLINE MAP_OFFSET - 1
-#define MOVE_NCOL 3
-#define BASKET_NLINE MAP_OFFSET
-#define BASKET_NCOL 3
+//Offsets
+#define PROGRESS_NLINE			MAP_OFFSET - 5
+#define PROGRESS_NCOL			3
+#define ORDER_NLINE				MAP_OFFSET - 4
+#define ORDER_NCOL				3
+#define ACTION_NLINE			MAP_OFFSET - 3
+#define ACTION_NCOL				3
+#define MOVE_NLINE				MAP_OFFSET - 2
+#define MOVE_NCOL				3
+#define BASKET_NLINE			MAP_OFFSET -1
+#define BASKET_NCOL				3
+#define VMAP_OFFSET				1
+#define MAP_OFFSET				8
+#define TEXT_VOFFSET			2
 
-#define VMAP_OFFSET 1
-#define MAP_OFFSET 7
-#define TEXT_VOFFSET 2
+//Screen/Window dimensions
+#define MAX_SCREEN_HEIGHT		60
+#define MAX_WINDOW_HEIGHT		55
+#define MIN_WINDOW_WIDTH		32 	
+#define MAX_WINDOW_WIDTH		75
 
-#define MAX_SCREEN_HEIGHT 60
-#define MAX_WINDOW_HEIGHT 55
-#define MIN_WINDOW_WIDTH 32 	
-#define MAX_WINDOW_WIDTH 75
+//Log defines
+#define COLLECTOR_WINDOW_WIDTH	20
+#define LOG_WINDOW_WIDTH		75
+#define MAX_LOG_LINES			52
 
-#define COLLECTOR_WINDOW_WIDTH 20
-#define LOG_WINDOW_WIDTH 75
-#define MAX_LOG_LINES 52
+//Window Names
+#define COLLECTOR_WINDOW		"collector"
+#define LOG_WINDOW				"log"
 
-#define S_TIME 100
+//Symbols
+#define MANAGER_S				"M"
+#define COLLECTOR_S				"X"
+
+//Misc
+#define S_TIME					100
 
 enum log_type
 {

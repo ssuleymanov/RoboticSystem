@@ -4,7 +4,7 @@ Printer* Printer::instance = 0;
 
 Printer::Printer()
 {
-	logLine = 1;
+	logLine = 3;
 }
 
 string Printer::current_time() {
@@ -33,7 +33,7 @@ Printer * Printer::getInstance()
 void Printer::printLog(log_type type,string warehouseID, string message)
 {
 	lock_guard<mutex> guard(log_mutex);
-	WINDOW* win = windows["log"];
+	WINDOW* win = windows[LOG_WINDOW];
 
 	if (type == LOG_ACTIONS) {
 		string filename = "Logs\\log" + warehouseID + ".txt";
@@ -65,6 +65,8 @@ void Printer::printLog(log_type type,string warehouseID, string message)
 	wborder(win, ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ');
 	if (logLine >= MAX_LOG_LINES) { scroll(win); }
 	box(win, 0, 0);
+	printString(LOG_WINDOW, 1, TEXT_VOFFSET, "Log");
+	printString(LOG_WINDOW, 2, TEXT_VOFFSET, " ");
 	wrefresh(win);
 }
 

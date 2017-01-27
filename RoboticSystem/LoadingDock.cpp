@@ -64,6 +64,7 @@ void LoadingDock::InvalidOrder(string customerID)
 
 void LoadingDock::RemoveInvalidOrders()
 {
+	sortOrderbyPriority();
 	for (int i = 1; i < unloadedOrdersPerTruck.size() + 1; i++) {
 		vector<Order> temp = unloadedOrdersPerTruck[i];
 		for (auto order : temp) {
@@ -76,7 +77,6 @@ void LoadingDock::RemoveInvalidOrders()
 }
 
 void LoadingDock::printOrders(Printer* printer) {
-	sortOrderbyPriority();
 	for (int i = 1; i < unloadedOrdersPerTruck.size()+1; i++) {
 		printer->printLog(LOG_ACTIONS, "LoadingDock", "Truck: " + to_string(i));
 		vector<Order> temp = unloadedOrdersPerTruck[i];

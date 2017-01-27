@@ -149,6 +149,7 @@ void RobotController::executeOrders(std::vector<Order> orders)
 	}
 
 	mapper.printString("Warehouse Done!       ",ACTION_NLINE, ACTION_NCOL);
+	printer->printLog(LOG_SCREEN, MANAGER_S, "Warehouse " + warehouse->getWarehouseID() + " has finished");
 	mapper.printString("Time = " + to_string(robot.getTime()) + " seconds    ", MOVE_NLINE, MOVE_NCOL);
 }
 

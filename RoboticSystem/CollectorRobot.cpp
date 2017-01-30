@@ -44,6 +44,7 @@ void CollectorRobot::startRobot(Printer* printr)
 	//mvwaddstr(win, 1, TEXT_VOFFSET, m.c_str());
 	printMap(currentPoint);
 	if (serial.Open(portNumber, baudRate)) {
+		printer->printLog(LOG_SCREEN, COLLECTOR_S,  "Port " + to_string(portNumber) + " opended succesfully..");
 		printer->printLog(LOG_INFO, COLLECTOR_S, "Port " + to_string(portNumber) + " opened succesfully..");
 	}
 	else {

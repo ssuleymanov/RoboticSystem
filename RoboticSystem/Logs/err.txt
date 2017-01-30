@@ -1,6 +1,5 @@
-Starting: 27-01-2017 03:47:14
+Starting: 30-01-2017 02:01:34
 
-27-01-2017 03:47:15 - [M] Product with ID: 90-XB2400KM00130 does not exist
-27-01-2017 03:47:15 - [M] Product with ID: 90MP0081-B0UA00 does not exist
-27-01-2017 03:47:15 - [B] Failed to open port 9..!
-27-01-2017 03:47:15 - [C] Failed to open port 10..!
+30-01-2017 02:03:48 - [C] Failed to open port 6..!
+30-01-2017 02:03:55 - [C] Failed to open port 6..!
+30-01-2017 02:04:37 - [B] Failed to open port 5..!

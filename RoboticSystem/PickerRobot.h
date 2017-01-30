@@ -59,7 +59,7 @@ public:
 	void setMapper(Mapper *map);
 
 	//! Start serial communication.
-	void startSerial();
+	bool startSerial();
 
 	//! Pick an item.
 	void pick();

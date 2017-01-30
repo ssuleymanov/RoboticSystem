@@ -52,7 +52,7 @@
 #define COLLECTOR_S				"X"
 
 //Misc
-#define S_TIME					100
+#define S_TIME					1000
 
 enum log_type
 {

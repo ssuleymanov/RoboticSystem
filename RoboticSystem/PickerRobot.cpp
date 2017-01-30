@@ -70,15 +70,17 @@ void PickerRobot::setMapper(Mapper *map)
 	mapper = map;
 }
 
-void PickerRobot::startSerial()
+bool PickerRobot::startSerial()
 {
 	if (serial.Open(portNumber, baudRate)) {
 		mapper->printLog(LOG_INFO,"Port " + to_string(portNumber) + " opended succesfully..");
 		mapper->printLog(LOG_SCREEN, "Port " + to_string(portNumber) + " opended succesfully..");
+		return true;
 	}
 	else {
 		mapper->printLog(LOG_INFO, "Failed to open port " + to_string(portNumber) + "..!");
 		mapper->printLog(LOG_ERROR,"Failed to open port " + to_string(portNumber) + "..!");
+		return false;
 	}
 }
 
@@ -199,11 +201,11 @@ bool PickerRobot::sendCommand(const char c)
 			}
 		}
 	}
-	else {
-		mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
-		mapper->updateWarehouseMap(c);
-		Sleep(S_TIME);
-	}
+	//else {
+	//	mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
+	//	mapper->updateWarehouseMap(c);
+	//	Sleep(S_TIME);
+	//}
 #else
 	mapper->printString("Basket: " + to_string(itemsInBasket) + "/" + to_string(basketSize), BASKET_NLINE, BASKET_NCOL);
 	mapper->updateWarehouseMap(c);

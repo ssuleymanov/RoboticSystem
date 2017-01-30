@@ -57,17 +57,20 @@ void RobotController::Initialize(const Point& start, const Point& unload, Printe
 
 void RobotController::startAutomaticRobot()
 {
-	robot.startSerial();
-	executeOrders(warehouse->getOrders());
+	if (robot.startSerial()) {
+		executeOrders(warehouse->getOrders());
+	}
 }
 
 
 void RobotController::startManualRobot(vector<Order> orders)
 {
-	robot.startSerial();
-	mapper.printWarehouseMap();
-	printer->printString(warehouse->getWarehouseID(),1,3, "Warehouse " + warehouse->getWarehouseID());
-	executeOrders(orders);
+	
+	if (robot.startSerial()) {
+		mapper.printWarehouseMap();
+		printer->printString(warehouse->getWarehouseID(), 1, 3, "Warehouse " + warehouse->getWarehouseID());
+		executeOrders(orders);
+	}
 }
 
 string RobotController::getWarehouseID() const
